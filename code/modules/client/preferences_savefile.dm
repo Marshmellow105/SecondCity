@@ -357,10 +357,86 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 		read_preference(preference.type)
 
 	//Character
-	randomise = save_data?["randomise"]
+	READ_FILE(S["real_name"], real_name)
+	READ_FILE(S["gender"], gender)
+	READ_FILE(S["age"], age)
+	READ_FILE(S["hair_color"], hair_color)
+	READ_FILE(S["facial_hair_color"], facial_hair_color)
+	READ_FILE(S["eye_color"], eye_color)
+	READ_FILE(S["skin_tone"], skin_tone)
+	READ_FILE(S["hairstyle_name"], hairstyle)
+	READ_FILE(S["facial_style_name"], facial_hairstyle)
+	READ_FILE(S["feature_grad_style"], features["grad_style"])
+	READ_FILE(S["feature_grad_color"], features["grad_color"])
+	READ_FILE(S["underwear"], underwear)
+	READ_FILE(S["underwear_color"], underwear_color)
+	READ_FILE(S["undershirt"], undershirt)
+	READ_FILE(S["undershirt_color"], undershirt_color)
+	READ_FILE(S["socks"], socks)
+	READ_FILE(S["socks_color"], socks_color)
+	READ_FILE(S["backpack"], backpack)
+	READ_FILE(S["jumpsuit_style"], jumpsuit_style)
+	READ_FILE(S["uplink_loc"], uplink_spawn_loc)
+	READ_FILE(S["phobia"], phobia)
+	READ_FILE(S["randomise"],  randomise)
+	READ_FILE(S["body_size"], features["body_size"])
+	READ_FILE(S["prosthetic_limbs"], prosthetic_limbs)
+	prosthetic_limbs ||= list(BODY_ZONE_L_ARM = PROSTHETIC_NORMAL, BODY_ZONE_R_ARM = PROSTHETIC_NORMAL, BODY_ZONE_L_LEG = PROSTHETIC_NORMAL, BODY_ZONE_R_LEG = PROSTHETIC_NORMAL)
+	READ_FILE(S["feature_mcolor"], features["mcolor"])
+	READ_FILE(S["feature_mcolor2"], features["mcolor2"])
+	READ_FILE(S["feature_ethcolor"], features["ethcolor"])
+	READ_FILE(S["feature_lizard_tail"], features["tail_lizard"])
+	READ_FILE(S["feature_lizard_face_markings"], features["face_markings"])
+	READ_FILE(S["feature_lizard_horns"], features["horns"])
+	READ_FILE(S["feature_lizard_frills"], features["frills"])
+	READ_FILE(S["feature_lizard_spines"], features["spines"])
+	READ_FILE(S["feature_lizard_body_markings"], features["body_markings"])
+	READ_FILE(S["feature_lizard_legs"], features["legs"])
+	READ_FILE(S["feature_moth_wings"], features["moth_wings"])
+	READ_FILE(S["feature_moth_markings"], features["moth_markings"])
 
-	//Load prefs
-	job_preferences = save_data?["job_preferences"]
+	READ_FILE(S["jumpsuit_style"], jumpsuit_style)
+	READ_FILE(S["exowear"], exowear)
+	READ_FILE(S["feature_moth_fluff"], features["moth_fluff"])
+	READ_FILE(S["feature_spider_legs"], features["spider_legs"])
+	READ_FILE(S["feature_spider_spinneret"], features["spider_spinneret"])
+	READ_FILE(S["feature_spider_mandibles"], features["spider_mandibles"])
+	READ_FILE(S["feature_squid_face"], features["squid_face"])
+	READ_FILE(S["feature_ipc_screen"], features["ipc_screen"])
+	READ_FILE(S["feature_ipc_antenna"], features["ipc_antenna"])
+	READ_FILE(S["feature_ipc_tail"], features["ipc_tail"])
+	READ_FILE(S["feature_ipc_chassis"], features["ipc_chassis"])
+	READ_FILE(S["feature_ipc_brain"], features["ipc_brain"])
+	READ_FILE(S["feature_kepori_feathers"], features["kepori_feathers"])
+	READ_FILE(S["feature_kepori_body_feathers"], features["kepori_body_feathers"])
+	READ_FILE(S["feature_kepori_tail_feathers"], features["kepori_tail_feathers"])
+	READ_FILE(S["feature_vox_head_quills"], features["vox_head_quills"])
+	READ_FILE(S["feature_vox_neck_quills"], features["vox_neck_quills"])
+	READ_FILE(S["feature_elzu_horns"], features["elzu_horns"])
+	READ_FILE(S["feature_tail_elzu"], features["tail_elzu"])
+
+	READ_FILE(S["equipped_gear"], equipped_gear)
+	if(config) //This should *probably* always be there, but just in case.
+		if(length(equipped_gear) > CONFIG_GET(number/max_loadout_items))
+			to_chat(parent, "<span class='userdanger'>Loadout maximum items exceeded in loaded slot, Your loadout has been cleared! You had [length(equipped_gear)]/[CONFIG_GET(number/max_loadout_items)] equipped items!</span>")
+			equipped_gear = list()
+			WRITE_FILE(S["equipped_gear"]				, equipped_gear)
+
+	READ_FILE(S["feature_human_tail"], features["tail_human"])
+	READ_FILE(S["feature_human_ears"], features["ears"])
+
+	READ_FILE(S["fbp"], fbp)
+
+	//Custom names
+	for(var/custom_name_id in GLOB.preferences_custom_names)
+		var/savefile_slot_name = custom_name_id + "_name" //TODO remove this
+		READ_FILE(S[savefile_slot_name], custom_names[custom_name_id])
+
+	READ_FILE(S["preferred_ai_core_display"], preferred_ai_core_display)
+	READ_FILE(S["prefered_security_department"], prefered_security_department)
+
+	//Preview outfit selection
+	READ_FILE(S["selected_outfit"], selected_outfit)
 
 	//Quirks
 	all_quirks = save_data?["all_quirks"]
@@ -415,11 +491,78 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	#endif
 
 	//Character
-	save_data["randomise"] = randomise
+	WRITE_FILE(S["real_name"]					, real_name)
+	WRITE_FILE(S["gender"]						, gender)
+	WRITE_FILE(S["age"]							, age)
+	WRITE_FILE(S["hair_color"]					, hair_color)
+	WRITE_FILE(S["facial_hair_color"]			, facial_hair_color)
+	WRITE_FILE(S["feature_grad_color"]			, features["grad_color"])
+	WRITE_FILE(S["eye_color"]					, eye_color)
+	WRITE_FILE(S["skin_tone"]					, skin_tone)
+	WRITE_FILE(S["hairstyle_name"]				, hairstyle)
+	WRITE_FILE(S["facial_style_name"]			, facial_hairstyle)
+	WRITE_FILE(S["feature_grad_style"]			, features["grad_style"])
+	WRITE_FILE(S["underwear"]					, underwear)
+	WRITE_FILE(S["underwear_color"]				, underwear_color)
+	WRITE_FILE(S["undershirt"]					, undershirt)
+	WRITE_FILE(S["undershirt_color"]			, undershirt_color)
+	WRITE_FILE(S["socks"]						, socks)
+	WRITE_FILE(S["socks_color"]					, socks_color)
+	WRITE_FILE(S["backpack"]					, backpack)
+	WRITE_FILE(S["uplink_loc"]					, uplink_spawn_loc)
+	WRITE_FILE(S["randomise"]					, randomise)
+	WRITE_FILE(S["species"]						, pref_species.id)
+	WRITE_FILE(S["phobia"]						, phobia)
+	WRITE_FILE(S["body_size"]					, features["body_size"])
+	WRITE_FILE(S["prosthetic_limbs"]			, prosthetic_limbs)
+	WRITE_FILE(S["feature_mcolor"]				, features["mcolor"])
+	WRITE_FILE(S["feature_mcolor2"]				, features["mcolor2"])
+	WRITE_FILE(S["feature_ethcolor"]			, features["ethcolor"])
+	WRITE_FILE(S["feature_lizard_tail"]			, features["tail_lizard"])
+	WRITE_FILE(S["feature_human_tail"]			, features["tail_human"])
+	WRITE_FILE(S["feature_lizard_face_markings"], features["face_markings"])
+	WRITE_FILE(S["feature_lizard_horns"]		, features["horns"])
+	WRITE_FILE(S["feature_human_ears"]			, features["ears"])
+	WRITE_FILE(S["feature_lizard_frills"]		, features["frills"])
+	WRITE_FILE(S["feature_lizard_spines"]		, features["spines"])
+	WRITE_FILE(S["feature_lizard_body_markings"], features["body_markings"])
+	WRITE_FILE(S["feature_lizard_legs"]			, features["legs"])
+	WRITE_FILE(S["feature_moth_wings"]			, features["moth_wings"])
+	WRITE_FILE(S["feature_moth_markings"]		, features["moth_markings"])
+	WRITE_FILE(S["jumpsuit_style"]				, jumpsuit_style)
+	WRITE_FILE(S["exowear"]						, exowear)
+	WRITE_FILE(S["equipped_gear"]				, equipped_gear)
+	WRITE_FILE(S["feature_moth_fluff"]			, features["moth_fluff"])
+	WRITE_FILE(S["feature_spider_legs"]			, features["spider_legs"])
+	WRITE_FILE(S["feature_spider_spinneret"]	, features["spider_spinneret"])
+	WRITE_FILE(S["feature_spider_mandibles"]	, features["spider_mandibles"])
+	WRITE_FILE(S["feature_squid_face"]			, features["squid_face"])
+	WRITE_FILE(S["feature_ipc_screen"]			, features["ipc_screen"])
+	WRITE_FILE(S["feature_ipc_antenna"]			, features["ipc_antenna"])
+	WRITE_FILE(S["feature_ipc_tail"] 			, features["ipc_tail"])
+	WRITE_FILE(S["feature_ipc_chassis"]			, features["ipc_chassis"])
+	WRITE_FILE(S["feature_ipc_brain"]			, features["ipc_brain"])
+	WRITE_FILE(S["feature_kepori_feathers"]		, features["kepori_feathers"])
+	WRITE_FILE(S["feature_kepori_body_feathers"], features["kepori_body_feathers"])
+	WRITE_FILE(S["feature_kepori_tail_feathers"], features["kepori_tail_feathers"])
+	WRITE_FILE(S["feature_vox_head_quills"]		, features["vox_head_quills"])
+	WRITE_FILE(S["feature_vox_neck_quills"]		, features["vox_neck_quills"])
+	WRITE_FILE(S["feature_elzu_horns"]			, features["elzu_horns"])
+	WRITE_FILE(S["feature_tail_elzu"]			, features["tail_elzu"])
+	WRITE_FILE(S["fbp"]							, fbp)
 
-	//Write prefs
-	save_data["job_preferences"] = job_preferences
-
+	//Flavor text
+	WRITE_FILE(S["feature_flavor_text"]			, features["flavor_text"])
+	//Custom names
+	for(var/custom_name_id in GLOB.preferences_custom_names)
+		var/savefile_slot_name = custom_name_id + "_name" //TODO remove this
+		WRITE_FILE(S[savefile_slot_name]		,custom_names[custom_name_id])
+	//AI cores
+	WRITE_FILE(S["preferred_ai_core_display"]	, preferred_ai_core_display)
+	//Deprecated department security stuff
+	WRITE_FILE(S["prefered_security_department"], prefered_security_department)
+	//Preview outfit selection
+	WRITE_FILE(S["selected_outfit"]				, selected_outfit)
 	//Quirks
 	save_data["all_quirks"] = all_quirks
 

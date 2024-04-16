@@ -34,59 +34,19 @@
 		return pda.saved_identification
 	return if_no_id
 
-/// Used to update our name based on whether our face is obscured/disfigured
-/mob/living/carbon/human/proc/update_visible_name()
-	SIGNAL_HANDLER
-	name = get_visible_name()
+/mob/living/carbon/human/get_visible_name()
+	if(name_override)
+		return name_override
+	return get_generic_name(lowercase = TRUE)
 
-/// Combines get_id_name() and get_face_name() to determine a mob's name variable. Made into a separate proc as it'll be useful elsewhere
-/mob/living/carbon/human/get_visible_name(add_id_name = TRUE, force_real_name = FALSE)
-	var/list/identity = list(null, null, null)
-	SEND_SIGNAL(src, COMSIG_HUMAN_GET_VISIBLE_NAME, identity)
-	var/signal_face = LAZYACCESS(identity, VISIBLE_NAME_FACE)
-	var/signal_id = LAZYACCESS(identity, VISIBLE_NAME_ID)
-	var/force_set = LAZYACCESS(identity, VISIBLE_NAME_FORCED)
-	if(force_set) // our name is overriden by something
-		return signal_face // no need to null-check, because force_set will always set a signal_face
-
-	var/face_name = isnull(signal_face) ? get_face_name("") : signal_face
-	var/id_name = isnull(signal_id) ? get_id_name("",  honorifics = TRUE) : signal_id
-
-	// We need to account for real name
-	if(force_real_name)
-		var/disguse_name = get_visible_name(add_id_name = TRUE, force_real_name = FALSE)
-		return "[real_name][disguse_name == real_name ? "" : " (as [disguse_name])"]"
-
-	// We're just some unknown guy
-	if(HAS_TRAIT(src, TRAIT_UNKNOWN_APPEARANCE) || HAS_TRAIT(src, TRAIT_INVISIBLE_MAN))
-		return "Unknown"
-
-	// We have a face and an ID
-	if(face_name && id_name)
-		var/normal_id_name = get_id_name("") // need to check base ID name to avoid "John (as Captain John)"
-		if(normal_id_name == face_name)
-			return id_name // (this turns "John" into "Captain John")
-		if(add_id_name)
-			return "[face_name] (as [id_name])"
-
-	// Just go down the list of stuff we recorded
-	return face_name || id_name || "Unknown"
-
-/**
- * Gets what the face of this mob looks like
- *
- * * if_no_face - What to return if we have no face or our face is obscured/disfigured
- */
-/mob/living/carbon/proc/get_face_name(if_no_face = "Unknown")
-	return real_name
-
-/mob/living/carbon/human/get_face_name(if_no_face = "Unknown")
-	if(HAS_TRAIT(src, TRAIT_UNKNOWN_APPEARANCE))
-		return if_no_face //We're Unknown, no face information for you
-	if(obscured_slots & HIDEFACE)
+//Returns "Unknown" if facially disfigured and real_name if not. Useful for setting name when Fluacided or when updating a human's name variable
+/mob/living/carbon/human/proc/get_face_name(if_no_face = get_generic_name(lowercase = TRUE))
+	if(wear_mask && (wear_mask.flags_inv & HIDEFACE)) //Wearing a mask which hides our face, use id-name if possible
 		return if_no_face
-	var/obj/item/bodypart/head = get_bodypart(BODY_ZONE_HEAD)
-	if(isnull(head) || !real_name || HAS_TRAIT(src, TRAIT_DISFIGURED) || HAS_TRAIT(src, TRAIT_INVISIBLE_MAN)) //disfigured. use id-name if possible
+	if(head && (head.flags_inv & HIDEFACE))
+		return if_no_face //Likewise for hats
+	var/obj/item/bodypart/O = get_bodypart(BODY_ZONE_HEAD)
+	if(!O || (HAS_TRAIT(src, TRAIT_DISFIGURED)) || (O.brutestate+O.burnstate)>2 || cloneloss>50 || !real_name) //disfigured. use id-name if possible
 		return if_no_face
 	return real_name
 
@@ -243,143 +203,55 @@
 	destination.socks = socks
 	destination.jumpsuit_style = jumpsuit_style
 
+/mob/living/carbon/human/proc/get_age()
+	var/obscured = check_obscured_slots()
+	var/skipface = (wear_mask && (wear_mask.flags_inv & HIDEFACE)) || (head && (head.flags_inv & HIDEFACE))
+	if((obscured & ITEM_SLOT_ICLOTHING) && skipface || isipc(src))
+		return ""
+	switch(age)
+		if(70 to INFINITY)
+			return "Geriatric"
+		if(60 to 70)
+			return "Elderly"
+		if(50 to 60)
+			return "Old"
+		if(40 to 50)
+			return "Middle-Aged"
+		if(24 to 40)
+			return "" //not necessary because this is basically the most common age range
+		if(18 to 24)
+			return "Young"
+		else
+			return "Puzzling"
 
-/// Fully randomizes everything according to the given flags.
-/mob/living/carbon/human/proc/randomize_human_appearance(randomize_flags = ALL)
-	var/datum/preferences/preferences = new(new /datum/client_interface)
+/mob/living/carbon/human/proc/get_generic_name(prefixed = FALSE, lowercase = FALSE)
+	var/obscured = check_obscured_slots()
+	var/skipface = (wear_mask && (wear_mask.flags_inv & HIDEFACE)) || (head && (head.flags_inv & HIDEFACE))
+	var/hide_features = (obscured & ITEM_SLOT_ICLOTHING) && skipface
+	var/visible_adjective
+	if(generic_adjective && !hide_features)
+		visible_adjective = "[generic_adjective] "
+	var/visible_age = get_age()
+	if(visible_age)
+		visible_age = "[visible_age] "
+	var/visible_gender = get_gender()
+	var/final_string = "[visible_adjective][visible_age][dna.species.name] [visible_gender]"
+	if(prefixed)
+		final_string = "\A [final_string]"
+	return lowercase ? lowertext(final_string) : final_string
 
-	for (var/datum/preference/preference as anything in get_preferences_in_priority_order())
-		if (!preference.included_in_randomization_flags(randomize_flags))
-			continue
-
-		if (preference.is_randomizable())
-			preference.apply_to_human(src, preference.create_random_value(preferences))
-
-	fully_replace_character_name(real_name, generate_random_mob_name())
-
-/**
- * Setter for mob height - updates the base height of the mob (which is then adjusted by traits or species)
- *
- * Exists so that the update is done immediately
- *
- * Returns TRUE if changed, FALSE otherwise
- */
-/mob/living/carbon/human/proc/set_mob_height(new_height)
-	base_mob_height = new_height
-	update_mob_height()
-
-/**
- * Updates the mob's height
- *
- * Mainly so that dwarfism can adjust height without needing to override existing height
- *
- * Returns a mob height num
- */
-/mob/living/carbon/human/proc/update_mob_height()
-	var/old_height = mob_height
-	mob_height = dna?.species?.update_species_heights(src) || base_mob_height
-	if(old_height != mob_height)
-		regenerate_icons()
-
-/**
- * Makes a full copy of src and returns it.
- * Attempts to copy as much as possible to be a close to the original.
- * This includes job outfit (which handles skillchips), quirks, and mutations.
- * We do not set a mind here, so this is purely the body.
- * Args:
- * location - The turf the human will be spawned on.
- */
-/mob/living/carbon/human/proc/make_full_human_copy(turf/location, client/quirk_client)
-	RETURN_TYPE(/mob/living/carbon/human)
-
-	var/mob/living/carbon/human/clone = new(location)
-
-	clone.fully_replace_character_name(null, dna.real_name)
-	copy_clothing_prefs(clone)
-	clone.age = age
-	clone.voice = voice
-	clone.pitch = pitch
-	dna.copy_dna(clone.dna, COPY_DNA_SE|COPY_DNA_SPECIES|COPY_DNA_MUTATIONS)
-
-	clone.dress_up_as_job(SSjob.get_job(job))
-
-	for(var/datum/quirk/original_quircks as anything in quirks)
-		clone.add_quirk(original_quircks.type, override_client = client, announce = FALSE)
-
-	for(var/personality_type in personalities)
-		clone.add_personality(personality_type)
-
-	clone.updateappearance(mutcolor_update = TRUE, mutations_overlay_update = TRUE)
-
-	return clone
-
-/mob/living/carbon/human/calculate_fitness()
-	var/fitness_modifier = 1
-	if (HAS_TRAIT(src, TRAIT_HULK))
-		fitness_modifier *= 2
-	if (HAS_TRAIT(src, TRAIT_STRENGTH))
-		fitness_modifier *= 1.5
-	if (HAS_TRAIT(src, TRAIT_ROD_SUPLEX))
-		fitness_modifier *= 2 // To be able to suplex a rod, you must possess an incredible amount of power
-	if (HAS_TRAIT(src, TRAIT_EASILY_WOUNDED))
-		fitness_modifier /= 2
-	if (HAS_TRAIT(src, TRAIT_GAMER))
-		fitness_modifier /= 1.5
-	if (HAS_TRAIT(src, TRAIT_GRABWEAKNESS))
-		fitness_modifier /= 1.5
-
-	var/athletics_level = st_get_stat(STAT_STRENGTH) || 1 // DARKPACK EDIT CHANGE - STORYTELLER_STATS
-
-	var/min_damage = 0
-	var/max_damage = 0
-	for (var/body_zone in GLOB.limb_zones)
-		var/obj/item/bodypart/part = get_bodypart(body_zone)
-		if (isnull(part) || part.unarmed_damage_high <= 0 || HAS_TRAIT(part, TRAIT_PARALYSIS))
-			continue
-		min_damage += part.unarmed_damage_low
-		max_damage += part.unarmed_damage_high
-
-	var/damage = ((min_damage / 4) + (max_damage / 4)) / 2 // We expect you to have 4 functional limbs- if you have fewer you're probably not going to be so good at lifting
-
-	return ceil(damage * (ceil(athletics_level / 2)) * fitness_modifier * maxHealth)
-
-/mob/living/carbon/human/proc/item_heal(mob/user, brute_heal, burn_heal, heal_message_brute, heal_message_burn, required_bodytype)
-	var/obj/item/bodypart/affecting = src.get_bodypart(check_zone(user.zone_selected))
-	if (!affecting || !(affecting.bodytype & required_bodytype))
-		to_chat(user, span_warning("[affecting] is already in good condition!"))
-		return FALSE
-
-	var/brute_damaged = affecting.brute_dam > 0
-	var/burn_damaged = affecting.burn_dam > 0
-
-	var/nothing_to_heal = ((brute_heal <= 0 || !brute_damaged) && (burn_heal <= 0 || !burn_damaged))
-	if (nothing_to_heal)
-		to_chat(user, span_notice("[affecting] is already in good condition!"))
-		return FALSE
-
-	src.update_damage_overlays()
-	var/message
-	if ((brute_damaged && brute_heal > 0) && (burn_damaged && burn_heal > 0))
-		message = "[heal_message_brute] and [heal_message_burn] on"
-	else if (brute_damaged && brute_heal > 0)
-		message = "[heal_message_brute] on"
-	else
-		message = "[heal_message_burn] on"
-	affecting.heal_damage(brute_heal, burn_heal, required_bodytype)
-	user.visible_message(span_notice("[user] fixes some of the [message] [src]'s [affecting.name]."), \
-		span_notice("You fix some of the [message] [src == user ? "your" : "[src]'s"] [affecting.name]."))
-	return TRUE
-
-/// Sets both mob's and eye organ's eye color values
-/// If color_right is not passed, its assumed to be the same as color_left
-/mob/living/carbon/human/proc/set_eye_color(color_left, color_right)
-	if (!color_right)
-		color_right = color_left
-	eye_color_left = color_left
-	eye_color_right = color_right
-	// Doesn't assign eye color if they already have one from their type
-	var/obj/item/organ/eyes/eyes = get_organ_by_type(/obj/item/organ/eyes)
-	if (istype(eyes) && !initial(eyes.eye_color_left) && !initial(eyes.eye_color_right))
-		eyes.eye_color_left = color_left
-		eyes.eye_color_right = color_right
-		eyes.refresh(src, FALSE)
+/mob/living/carbon/human/proc/get_gender()
+	var/visible_gender = p_they()
+	switch(visible_gender)
+		if("he")
+			visible_gender = "Man"
+		if("she")
+			visible_gender = "Woman"
+		if("they")
+			if(ishuman(src))
+				visible_gender = "Person"
+			else
+				visible_gender = "Creature"
+		else
+			visible_gender = "Thing"
+	return visible_gender

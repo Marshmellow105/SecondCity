@@ -1,6 +1,5 @@
 /datum/species/plasmaman
-	name = "\improper Plasmaman"
-	plural_form = "Plasmamen"
+	name = "\improper Phorid"
 	id = SPECIES_PLASMAMAN
 	sexes = FALSE
 	meat = /obj/item/stack/sheet/mineral/plasma

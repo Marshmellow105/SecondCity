@@ -50,12 +50,12 @@
 	glob_lists_deregister()
 	return ..()
 
-/obj/machinery/navbeacon/on_changed_z_level(turf/old_turf, turf/new_turf, same_z_layer, notify_contents)
-	if (GLOB.navbeacons["[old_turf?.z]"])
-		GLOB.navbeacons["[old_turf?.z]"] -= src
-	if (GLOB.navbeacons["[new_turf?.z]"])
-		GLOB.navbeacons["[new_turf?.z]"] += src
-	return ..()
+/obj/machinery/navbeacon/on_virtual_z_change(new_virtual_z, previous_virtual_z)
+	if(previous_virtual_z)
+		LAZYREMOVEASSOC(GLOB.navbeacons, "[previous_virtual_z]", src)
+	if(new_virtual_z)
+		LAZYADDASSOCLIST(GLOB.navbeacons, "[new_virtual_z]", src)
+	..()
 
 /obj/machinery/navbeacon/on_construction(mob/user)
 	var/turf/our_turf = loc

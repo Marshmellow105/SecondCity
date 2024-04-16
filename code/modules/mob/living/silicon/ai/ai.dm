@@ -1109,6 +1109,19 @@
 	SEND_SIGNAL(src, COMSIG_SILICON_AI_SET_CONTROL_DISABLED, control_disabled)
 	src.control_disabled = control_disabled
 
-#undef HOLOGRAM_CHOICE_CHARACTER
-#undef CHARACTER_TYPE_SELF
-#undef CHARACTER_TYPE_CREWMEMBER
+	if(GLOB.announcement_systems.len)
+		var/obj/machinery/announcement_system/announcer = pick(GLOB.announcement_systems)
+		announcer.announce("AIWIPE", real_name, mind.assigned_role, list())
+
+	if(mind.objectives.len)
+		mind.objectives.Cut()
+		mind.special_role = null
+
+	if(!get_ghost(1))
+		if(world.time < 30 * 600)//before the 30 minute mark
+			ghostize(0) // Players despawned too early may not re-enter the game
+	else
+		ghostize(1)
+
+	QDEL_NULL(src)
+

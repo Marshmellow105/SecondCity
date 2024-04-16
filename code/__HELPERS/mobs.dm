@@ -136,24 +136,13 @@ GLOBAL_LIST_INIT(skin_tones, sort_list(list(
 	"african2"
 	)))
 
-GLOBAL_LIST_INIT(skin_tone_names, list(
-	"african1" = "Medium brown",
-	"african2" = "Dark brown",
-	"albino" = "Albino",
-	"arab" = "Light brown",
-	"asian1" = "Ivory",
-	"asian2" = "Beige",
-	"caucasian1" = "Porcelain",
-	"caucasian2" = "Light peach",
-	"caucasian3" = "Peach",
-	"indian" = "Brown",
-	"latino" = "Light beige",
-	"mediterranean" = "Olive",
-	"mixed1" = "Chestnut",
-	"mixed2" = "Walnut",
-	"mixed3" = "Coffee",
-	"mixed4" = "Macadamia",
-))
+/proc/pick_species_adjective(mob/living/carbon/human/H)
+	if(isipc(H))
+		return pick(GLOB.ipc_preference_adjectives)
+	else
+		return pick(GLOB.preference_adjectives)
+
+GLOBAL_LIST_EMPTY(species_list)
 
 /proc/age2agedescription(age)
 	switch(age)

@@ -105,6 +105,12 @@ INITIALIZE_IMMEDIATE(/mob/dead)
 	update_z(null)
 	return ..()
 
-/mob/dead/on_changed_z_level(turf/old_turf, turf/new_turf, same_z_layer, notify_contents)
-	..()
-	update_z(new_turf?.z)
+/mob/dead/Login()
+	. = ..()
+	if(!client)
+		return
+	LAZYADDASSOCLIST(SSmobs.dead_players_by_virtual_z, "[virtual_z()]", src)
+
+/mob/dead/Logout()
+	. = ..()
+	LAZYREMOVEASSOC(SSmobs.dead_players_by_virtual_z, "[virtual_z()]", src)

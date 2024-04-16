@@ -392,9 +392,62 @@
 		return
 	if(user.client)
 		user.examinate(src)
+	return
 
-/mob/proc/TurfAdjacent(turf/tile)
-	return tile.Adjacent(src)
+/**
+ * Ctrl click
+ * For most objects, pull
+ */
+/mob/proc/CtrlClickOn(atom/A)
+	A.CtrlClick(src)
+	return
+
+/atom/proc/CtrlClick(mob/user)
+	SEND_SIGNAL(src, COMSIG_CLICK_CTRL, user)
+	var/mob/living/ML = user
+	if(istype(ML))
+		ML.pulled(src)
+
+/mob/living/carbon/human/CtrlClick(mob/user)
+	if(ishuman(user) && Adjacent(user) && !user.incapacitated())
+		if(world.time < user.next_move)
+			return FALSE
+		var/mob/living/carbon/human/H = user
+		H.dna.species.grab(H, src, H.mind.martial_art)
+		H.changeNext_move(CLICK_CD_MELEE)
+	else
+		..()
+/**
+ * Alt click
+ * Unused except for AI
+ */
+/mob/proc/AltClickOn(atom/A)
+	. = SEND_SIGNAL(src, COMSIG_MOB_ALTCLICKON, A)
+	if(. & COMSIG_MOB_CANCEL_CLICKON)
+		return
+	A.AltClick(src)
+
+/atom/proc/AltClick(mob/user)
+	SEND_SIGNAL(src, COMSIG_CLICK_ALT, user)
+	var/turf/T = get_turf(src)
+	if(T && (isturf(loc) || isturf(src)) && user.TurfAdjacent(T))
+		user.set_listed_turf(T)
+
+/// Use this instead of [/mob/proc/AltClickOn] where you only want turf content listing without additional atom alt-click interaction
+/atom/proc/AltClickNoInteract(mob/user, atom/A)
+	var/turf/T = get_turf(A)
+	if(T && user.TurfAdjacent(T))
+		user.set_listed_turf(T)
+
+/mob/proc/TurfAdjacent(turf/T)
+	return T.Adjacent(src)
+
+/**
+ * Control+Shift click
+ */
+/mob/proc/CtrlShiftClickOn(atom/A)
+	A.CtrlShiftClick(src)
+	return
 
 /mob/proc/ShiftMiddleClickOn(atom/A)
 	src.pointed(A)

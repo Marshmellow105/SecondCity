@@ -79,32 +79,58 @@ SUBSYSTEM_DEF(pai)
 			return TRUE
 	return FALSE
 
-/**
- * This is the primary window proc when the pAI candidate
- * hud menu is pressed by observers.
- *
- * @params {mob} user The ghost doing the pressing.
- */
-/datum/controller/subsystem/pai/proc/recruit_window(mob/user)
-	/// Searches for a previous candidate upon opening the menu
-	var/datum/pai_candidate/candidate = candidates[user.ckey]
-	if(isnull(candidate))
-		candidate = new(user.ckey)
-		candidates[user.ckey] = candidate
-	ui_interact(user)
+/datum/controller/subsystem/pai/proc/findPAI(obj/item/paicard/p, mob/user)
+	if(!ghost_spam)
+		ghost_spam = TRUE
+		for(var/mob/dead/observer/G in GLOB.player_list)
+			if(!G.key)
+				continue
+			if(!(ROLE_PAI in G.client.prefs.be_special))
+				continue
+			to_chat(G, "<span class='ghostalert'>[user.real_name] is requesting a pAI personality! Use the pAI button to submit yourself as one.</span>")
+		addtimer(CALLBACK(src, PROC_REF(spam_again)), spam_delay)
+	var/list/available = list()
+	for(var/datum/paiCandidate/c in SSpai.candidates)
+		available.Add(check_ready(c))
+	var/dat = ""
 
+	dat += {"
+			<style type="text/css">
 
-/**
- * Pings all pAI cards on the station that new candidates are available.
- */
-/datum/controller/subsystem/pai/proc/submit_alert(mob/user)
-	if(submit_spam)
-		to_chat(user, span_warning("Your candidacy has been submitted, but pAI cards have been alerted too recently."))
-		return FALSE
-	submit_spam = TRUE
-	for(var/obj/item/pai_card/pai_card as anything in pai_card_list)
-		if(!pai_card.pai)
-			pai_card.alert_update()
-	to_chat(user, span_notice("Your pAI candidacy has been submitted!"))
-	addtimer(VARSET_CALLBACK(src, submit_spam, FALSE), PAI_SPAM_TIME, TIMER_UNIQUE|TIMER_DELETE_ME)
-	return TRUE
+			p.top {
+				background-color: #AAAAAA; color: black;
+			}
+
+			tr.d0 td {
+				background-color: #CC9999; color: black;
+			}
+			tr.d1 td {
+				background-color: #9999CC; color: black;
+			}
+			tr.d2 td {
+				background-color: #99CC99; color: black;
+			}
+			</style>
+			"}
+	dat += "<p class=\"top\">Requesting AI personalities from central database... If there are no entries, or if a suitable entry is not listed, check again later as more personalities may be added.</p>"
+
+	dat += "<table>"
+
+	for(var/datum/paiCandidate/c in available)
+		dat += "<tr class=\"d0\"><td>Name:</td><td>[c.name]</td></tr>"
+		dat += "<tr class=\"d1\"><td>Description:</td><td>[c.description]</td></tr>"
+		dat += "<tr class=\"d0\"><td>Preferred Role:</td><td>[c.role]</td></tr>"
+		dat += "<tr class=\"d1\"><td>OOC Comments:</td><td>[c.comments]</td></tr>"
+		dat += "<tr class=\"d2\"><td><a href='byond://?src=[REF(src)];download=1;candidate=[REF(c)];device=[REF(p)]'>\[Download [c.name]\]</a></td><td></td></tr>"
+
+	dat += "</table>"
+
+	user << browse(dat, "window=findPai")
+
+/datum/paiCandidate
+	var/name
+	var/key
+	var/description
+	var/role
+	var/comments
+	var/ready = 0

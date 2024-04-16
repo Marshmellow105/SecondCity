@@ -71,8 +71,15 @@
 	var/obj/item/l_store = null
 	var/obj/item/s_store = null
 
-	/// Allows for special overrides of voice
-	var/override_voice = ""
+	var/special_voice = "" // For changing our voice. Used by a symptom.
+
+	/// Adjective used in get_generic_name(), if any
+	var/generic_adjective
+
+	var/bleed_rate = 0 //how much are we bleeding
+	var/bleedsuppress = 0 //for stopping bloodloss, eventually this will be limb-based like bleeding
+
+	var/name_override //For temporary visible name changes
 
 	var/datum/physiology/physiology
 

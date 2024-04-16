@@ -38,6 +38,8 @@ GLOBAL_LIST_INIT(syndicate_monkey_names, world.file2list("strings/names/syndicat
 GLOBAL_LIST_INIT(vampire_house_names, world.file2list("strings/names/vampire_house_names.txt"))
 GLOBAL_LIST_INIT(voidwalker_names, world.file2list("strings/names/voidwalker.txt"))
 GLOBAL_LIST_INIT(wizard_first, world.file2list("strings/names/wizardfirst.txt"))
+GLOBAL_LIST_INIT(preference_adjectives, world.file2list("strings/preference_adjectives.txt"))
+GLOBAL_LIST_INIT(ipc_preference_adjectives, world.file2list("strings/ipc_preference_adjectives.txt"))
 GLOBAL_LIST_INIT(wizard_second, world.file2list("strings/names/wizardsecond.txt"))
 
 //loaded on startup because of "

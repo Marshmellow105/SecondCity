@@ -1,44 +1,32 @@
 
-
-/mob/living/carbon/human/say(
-	message,
-	bubble_type,
-	list/spans = list(),
-	sanitize = TRUE,
-	datum/language/language,
-	ignore_spam = FALSE,
-	forced,
-	filterproof = FALSE,
-	message_range = 7,
-	datum/saymode/saymode,
-	list/message_mods = list(),
-)
-	if(!HAS_TRAIT(src, TRAIT_SPEAKS_CLEARLY))
-		var/static/regex/tongueless_lower = new("\[gdntke]+", "g")
-		var/static/regex/tongueless_upper = new("\[GDNTKE]+", "g")
-		if(message[1] != "*")
-			message = tongueless_lower.Replace(message, pick("aa","oo","'"))
-			message = tongueless_upper.Replace(message, pick("AA","OO","'"))
-	return ..()
-
-/mob/living/carbon/human/get_default_say_verb()
-	var/obj/item/organ/tongue/tongue = get_organ_slot(ORGAN_SLOT_TONGUE)
-	if(isnull(tongue))
-		if(HAS_TRAIT(src, TRAIT_SIGN_LANG))
-			return "signs"
-		return "gurgles"
-	return  tongue.temp_say_mod || tongue.say_mod || ..()
-
-/mob/living/carbon/human/get_voice(add_id_name = FALSE)
-	if(HAS_TRAIT(src, TRAIT_UNKNOWN_VOICE))
-		return "Unknown"
-	var/id_name = get_id_name("")
-	if(HAS_TRAIT(src, TRAIT_VOICE_MATCHES_ID) && id_name)
-		return id_name
-	if(override_voice)
-		return override_voice
-	if(add_id_name && real_name == id_name) // Allows for "Captain John" to have the voice "Captain Join" and not "John"
-		return get_id_name("", honorifics = TRUE)
+/mob/living/carbon/human/GetVoice(if_no_voice = get_generic_name())
+	if(istype(wear_mask, /obj/item/clothing/mask/chameleon))
+		var/obj/item/clothing/mask/chameleon/chameleon_mask = wear_mask
+		if(chameleon_mask.voice_change && wear_id)
+			var/obj/item/card/id/idcard = wear_id.GetID()
+			if(istype(idcard))
+				return idcard.registered_name
+	else if(istype(wear_mask, /obj/item/clothing/mask/gas/syndicate/voicechanger))
+		var/obj/item/clothing/mask/gas/syndicate/voicechanger/V = wear_mask
+		if(V.voice_change && wear_id)
+			var/obj/item/card/id/idcard = wear_id.GetID()
+			if(istype(idcard))
+				return idcard.registered_name
+			else
+				return real_name
+		else
+			return real_name
+	else if(istype(wear_mask, /obj/item/clothing/mask/infiltrator))
+		var/obj/item/clothing/mask/infiltrator/infiltrator_mask = wear_mask
+		if(infiltrator_mask.voice_unknown)
+			return if_no_voice
+	if(mind)
+		var/datum/antagonist/changeling/changeling = mind.has_antag_datum(/datum/antagonist/changeling)
+		if(changeling && changeling.mimicing)
+			return changeling.mimicing
+	var/special_voice = GetSpecialVoice()
+	if(special_voice)
+		return special_voice
 	return real_name
 
 /mob/living/carbon/human/get_message_voice(visible_name)

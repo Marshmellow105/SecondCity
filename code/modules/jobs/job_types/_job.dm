@@ -70,7 +70,6 @@
 	var/list/liver_traits = null
 
 	var/display_order = JOB_DISPLAY_ORDER_DEFAULT
-
 	///What types of bounty tasks can this job receive past the default?
 	var/bounty_types = CIV_JOB_BASIC
 

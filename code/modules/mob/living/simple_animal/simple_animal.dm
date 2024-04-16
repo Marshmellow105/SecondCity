@@ -513,11 +513,21 @@
 		return
 	if(!can_have_ai && (togglestatus != AI_OFF))
 		return
-	if (AIStatus != togglestatus)
-		if (togglestatus > 0 && togglestatus < 5)
-			GLOB.simple_animals[AIStatus] -= src
-			GLOB.simple_animals[togglestatus] += src
-			AIStatus = togglestatus
+	if(AIStatus == togglestatus)
+		return
+
+	GLOB.simple_animals[AIStatus] -= src
+	GLOB.simple_animals[togglestatus] += list(src)
+	AIStatus = togglestatus
+
+	var/virt_z = "[virtual_z()]"
+	if(!virt_z)
+		return
+
+	switch(togglestatus)
+		if(AI_Z_OFF)
+			LAZYADDASSOCLIST(SSidlenpcpool.idle_mobs_by_virtual_level, virt_z, src)
+
 		else
 			stack_trace("Something attempted to set simple animals AI to an invalid state: [togglestatus]")
 

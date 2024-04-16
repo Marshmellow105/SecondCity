@@ -289,23 +289,17 @@
 	var/list/hearers = mob_only_listeners(get_hearers_in_view(vision_distance, src)) //caches the hearers and then removes ignored mobs.
 	hearers -= ignored_mobs
 
-	var/raw_msg = message
-	if(visible_message_flags & WITH_EMPHASIS_MESSAGE)
-		message = apply_message_emphasis(message)
-	if(visible_message_flags & EMOTE_MESSAGE)
-		message = span_emote("<b>[src]</b> [message]")
+	if(self_message)
+		hearers -= src
 
-	for(var/mob/hearing_mob as anything in hearers)
-		if(!hearing_mob?.client)
+	for(var/mob/M in hearers)
+		if(!M.client)
 			continue
-		if(self_message && hearing_mob == src)
-			continue
+
+		var/msg = message
 
 		//This entire if/else chain could be in two lines but isn't for readibilties sake.
-		var/msg = message
-		var/msg_type = MSG_VISUAL
-
-		if(hearing_mob.see_invisible < invisibility)//if src is invisible to M
+		if(M.see_invisible < invisibility)//if src is invisible to M
 			msg = blind_message
 			msg_type = MSG_AUDIBLE
 		else if(T != loc && T != src) //if src is inside something and not a turf.
@@ -314,12 +308,21 @@
 				msg_type = MSG_AUDIBLE
 		else if(!HAS_TRAIT(hearing_mob, TRAIT_HEAR_THROUGH_DARKNESS) && hearing_mob.lighting_cutoff < LIGHTING_CUTOFF_HIGH && T.is_softly_lit() && !in_range(T,hearing_mob)) //if it is too dark, unless we're right next to them.
 			msg = blind_message
-			msg_type = MSG_AUDIBLE
+		else if(visible_message_flags & EMOTE_MESSAGE)
+			var/shown_name = name
+			if(M.mind?.guestbook && ishuman(src))
+				var/mob/living/carbon/human/human_source = src
+				var/known_name = M.mind.guestbook.get_known_name(M, src, human_source.get_face_name())
+				if(known_name)
+					shown_name = known_name
+
+			msg = "<span class='emote'><b>[shown_name]</b>[separation][message]</span>"
+
 		if(!msg)
 			continue
 
-		if(visible_message_flags & EMOTE_MESSAGE && runechat_prefs_check(hearing_mob, visible_message_flags) && !hearing_mob.is_blind())
-			hearing_mob.create_chat_message(src, raw_message = raw_msg, runechat_flags = visible_message_flags)
+		if(visible_message_flags & EMOTE_MESSAGE && runechat_prefs_check(M, visible_message_flags))
+			M.create_chat_message(src, raw_message = message, runechat_flags = visible_message_flags)
 
 		hearing_mob.show_message(msg, msg_type, blind_message, MSG_AUDIBLE)
 
@@ -360,18 +363,24 @@
 /atom/proc/audible_message(message, deaf_message, hearing_distance = DEFAULT_MESSAGE_RANGE, self_message, audible_message_flags = NONE)
 	var/list/hearers = mob_only_listeners(get_hearers_in_view(hearing_distance, src))
 	var/raw_msg = message
-	if(audible_message_flags & WITH_EMPHASIS_MESSAGE)
-		message = apply_message_emphasis(message)
-	if(audible_message_flags & EMOTE_MESSAGE)
-		message = span_emote("<b>[src]</b> [message]")
-	for(var/mob/hearing_mob as anything in hearers)
-		if(!hearing_mob?.client)
-			continue
-		if(self_message && hearing_mob == src)
-			continue
-		if(audible_message_flags & EMOTE_MESSAGE && runechat_prefs_check(hearing_mob, audible_message_flags) && hearing_mob.can_hear())
-			hearing_mob.create_chat_message(src, raw_message = raw_msg, runechat_flags = audible_message_flags)
-		hearing_mob.show_message(message, MSG_AUDIBLE, deaf_message, MSG_VISUAL)
+	for(var/mob/M in hearers)
+		var/msg = raw_msg
+
+		//emote handling
+		if(audible_message_flags & EMOTE_MESSAGE)
+			var/shown_name = name
+			if(M.mind?.guestbook && ishuman(src))
+				var/mob/living/carbon/human/human_source = src
+				var/known_name = M.mind.guestbook.get_known_name(M, src, human_source.GetVoice())
+				if(known_name)
+					shown_name = known_name
+
+			msg = "<span class='emote'><b>[shown_name]</b>[separation][message]</span>"
+
+			if(runechat_prefs_check(M, audible_message_flags) && M.can_hear())
+				M.create_chat_message(src, raw_message = raw_msg, runechat_flags = audible_message_flags)
+
+		M.show_message(msg, MSG_AUDIBLE, deaf_message, MSG_VISUAL)
 
 /**
  * Show a message to all mobs in earshot of this one
@@ -790,6 +799,71 @@
 		return
 
 	limb_attack_self()
+
+/mob/verb/do_unique_action()
+	set name = "Do Unique Action"
+	set category = "Object"
+	set src = usr
+
+	if(ismecha(loc))
+		return
+
+	if(incapacitated())
+		return
+
+	var/obj/item/I = get_active_held_item()
+	if(I)
+		I.unique_action(src)
+		update_inv_hands()
+
+/**
+ * Get the notes of this mob
+ *
+ * This actually gets the mind datums notes
+ */
+/mob/verb/memory()
+	set name = "Notes"
+	set category = "IC"
+	set desc = "View your character's notes memory."
+	if(mind)
+		mind.show_memory(src)
+	else
+		to_chat(src, "You don't have a mind datum for some reason, so you can't look at your notes, if you had any.")
+
+/**
+ * Add a note to the mind datum
+ */
+/mob/verb/add_memory(msg as message)
+	set name = "Add Note"
+	set category = "IC"
+	if(mind)
+		if (world.time < memory_throttle_time)
+			return
+		memory_throttle_time = world.time + 5 SECONDS
+		msg = copytext_char(msg, 1, MAX_MESSAGE_LEN)
+		msg = sanitize(msg)
+
+		mind.store_memory(msg)
+	else
+		to_chat(src, "You don't have a mind datum for some reason, so you can't add a note to it.")
+
+///Shows guestbook tgui window
+/mob/verb/guestbook()
+	set name = "Guestbook"
+	set category = "IC"
+	set desc = "View your character's Guestbook."
+	// the reason why there are two observer checks in here is because the mind datum sometimes carries over to ghosts.
+	// this is something i should probably fix instead of adding a fallback check, but...
+	if(isobserver(src))
+		to_chat(src, span_warning("You have to be in the current round to do that!"))
+		return
+	if(!mind)
+		var/fail_message = "You have no mind!"
+		if(isobserver(src))
+			fail_message += " You have to be in the current round at some point to have one."
+		to_chat(src, span_warning(fail_message))
+		return
+	mind.guestbook.ui_interact(usr)
 
 /**
  * Allows you to respawn, abandoning your current mob

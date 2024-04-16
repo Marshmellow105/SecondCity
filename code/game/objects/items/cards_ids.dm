@@ -58,86 +58,112 @@
 /*
  * ID CARDS
  */
+/obj/item/card/emag
+	desc = "It's a card with a magnetic strip attached to some circuitry."
+	name = "cryptographic sequencer"
+	icon_state = "emag"
+	item_state = "card-id"
+	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
+	item_flags = NO_MAT_REDEMPTION | NOBLUDGEON
+	var/prox_check = TRUE //If the emag requires you to be in range
+	var/emag_on = TRUE //added to suppport multi-function tools with a deployable emag - hams
+	var/uses_left = -1 //how many uses does the emag have left before it's toast? If set to -1 then it never runs out
 
-/// "Retro" ID card that renders itself as the icon state with no overlays.
-/obj/item/card/id
-	name = "retro identification card"
-	desc = "A card used to provide ID and determine access across the station."
-	icon_state = "card_grey"
-	worn_icon_state = "nothing"
-	slot_flags = ITEM_SLOT_ID
-	interaction_flags_click = FORBID_TELEKINESIS_REACH
-	armor_type = /datum/armor/card_id
-	resistance_flags = FIRE_PROOF | ACID_PROOF
+//multi-purpose emag tool example- used in syndicate borgs.
+/obj/item/card/emag/borg
+	name = "/INFILTRATE/ module"
+	desc = "A cyborg subsystem of debatable legality, designed to defeat security systems and unlock backdoor functionality."
+	icon_state = "inf_emag"
+	icon = 'icons/obj/items_cyborg.dmi'
 
-	/// The name registered on the card (for example: Dr Bryan See)
-	var/registered_name = null
-	/// Linked bank account.
-	var/datum/bank_account/registered_account
-
-	/// Linked holopay.
-	var/obj/structure/holopay/my_store
-	/// Cooldown between projecting holopays
-	COOLDOWN_DECLARE(last_holopay_projection)
-	/// List of logos available for holopay customization - via font awesome 5
-	var/static/list/available_logos = list("angry", "ankh", "bacon", "band-aid", "cannabis", "cat", "cocktail", "coins", "comments-dollar",
-	"cross", "cut", "dog", "donate", "dna", "fist-raised", "flask", "glass-cheers", "glass-martini-alt", "hamburger", "hand-holding-usd",
-	"hat-wizard", "head-side-cough-slash", "heart", "heart-broken",  "laugh-beam", "leaf", "money-check-alt", "music", "piggy-bank",
-	"pizza-slice", "prescription-bottle-alt", "radiation", "robot", "smile", "skull-crossbones", "smoking", "space-shuttle", "tram",
-	"trash", "user-ninja", "utensils", "wrench")
-	/// Replaces the "pay whatever" functionality with a set amount when non-zero.
-	var/holopay_fee = 0
-	/// The holopay icon chosen by the user
-	var/holopay_logo = "donate"
-	/// Maximum forced fee. It's unlikely for a user to encounter this type of money, much less pay it willingly.
-	var/holopay_max_fee = 5000
-	/// Minimum forced fee for holopay stations. Registers as "pay what you want."
-	var/holopay_min_fee = 0
-	/// The holopay name chosen by the user
-	var/holopay_name = "holographic pay stand"
-
-	/// Registered owner's age.
-	var/registered_age = 30
-
-	/// The job name registered on the card (for example: Assistant).
-	var/assignment
-
-	/// Trim datum associated with the card. Controls which job icon is displayed on the card and which accesses do not require wildcards.
-	var/datum/id_trim/trim
-	/// Whether the trim on this card can be changed.
-	var/trim_changeable = FALSE
-
-	/// Access levels held by this card.
-	var/list/access = list()
-
-	/// List of wildcard slot names as keys with lists of wildcard data as values.
-	var/list/wildcard_slots = list()
-
-	/// Boolean value. If TRUE, the [Intern] tag gets prepended to this ID card when the label is updated.
-	var/is_intern = FALSE
-
-	///If true, the wearer will have bigger arrow when pointing at things. Passed down by trims.
-	var/big_pointer = FALSE
-	///If set, the arrow will have a different color.
-	var/pointer_color
-	/// Will this ID card use the first or last name as the name displayed with the honorific?
-	var/honorific_position = HONORIFIC_POSITION_NONE
-	/// What is our selected honorific?
-	var/chosen_honorific
-
-
-/datum/armor/card_id
-	fire = 100
-	acid = 100
-
-/obj/item/card/id/apply_fantasy_bonuses(bonus)
+/obj/item/card/emag/borg/examine()
 	. = ..()
-	if(bonus >= 15)
-		add_access(SSid_access.get_region_access_list(list(REGION_ALL_GLOBAL)), mode = FORCE_ADD_ALL)
-	else if(bonus >= 10)
-		add_access(SSid_access.get_region_access_list(list(REGION_ALL_STATION)), mode = FORCE_ADD_ALL)
-	else if(bonus <= -10)
-		clear_access()
+	. += "<span class='notice'> Capable of interchanging between electromagnetic, electrical, & screw turning functionality.</span>"
+	if(uses_left > -1)
+		. += "<span class='notice'> It has [uses_left] charge\s left.</span>"
+
+/obj/item/card/emag/limited
+	name = "limited cryptographic sequencer"
+	desc = "It's a card with a magnetic strip attached to some circuitry. It has limited charges."
+	uses_left = 1
+
+/obj/item/card/emag/borg/attack_self(mob/user)
+	playsound(get_turf(user), 'sound/items/change_drill.ogg', 50, TRUE)
+	if(tool_behaviour == NONE)
+		tool_behaviour = TOOL_SCREWDRIVER
+		to_chat(user, "<span class='notice'>You extend the screwdriver within the [src].</span>")
+		icon_state = "inf_screwdriver"
+		emag_on = FALSE
+	else if(tool_behaviour == TOOL_SCREWDRIVER)
+		tool_behaviour = TOOL_MULTITOOL
+		to_chat(user, "<span class='notice'>You prime the multitool attachment of the [src].</span>")
+		icon_state = "inf_multi"
+		emag_on = FALSE
+	else
+		tool_behaviour = NONE
+		to_chat(user, "<span class='notice'>You enable the electromagnetic hacking system of the [src].</span>")
+		icon_state = "inf_emag"
+		emag_on = TRUE
+
+/obj/item/card/emag/bluespace
+	name = "bluespace cryptographic sequencer"
+	desc = "It's a blue card with a magnetic strip attached to some circuitry. It appears to have some sort of transmitter attached to it."
+	color = rgb(40, 130, 255)
+	prox_check = FALSE
+
+/obj/item/card/emag/attack()
+	if(emag_on == TRUE)
+		return
+
+/obj/item/card/emag/afterattack(atom/target, mob/user, proximity)
+	. = ..()
+	if(emag_on == TRUE)
+		var/atom/A = target
+		if(!proximity && prox_check)
+			return
+		log_combat(user, A, "attempted to emag")
+		A.emag_act(user)
+		if(!(uses_left == -1))
+			uses_left--
+			if(uses_left == 0)
+				emag_on = FALSE
+
+/obj/item/card/emagfake
+	desc = "It's a card with a magnetic strip attached to some circuitry. Closer inspection shows that this card is a poorly made replica, with a \"DonkCo\" logo stamped on the back."
+	name = "cryptographic sequencer"
+	icon_state = "emag"
+	item_state = "card-id"
+	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
+
+/obj/item/card/emagfake/afterattack()
+	. = ..()
+	playsound(src, 'sound/items/bikehorn.ogg', 50, TRUE)
+
+/obj/item/card/id
+	name = "identification card"
+	desc = "A card used to provide ID and determine access across the station."
+	icon_state = "id"
+	item_state = "card-id"
+	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
+	slot_flags = ITEM_SLOT_ID
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 100, "acid" = 100)
+	resistance_flags = FIRE_PROOF | ACID_PROOF
+	var/mining_points = 0 //For redeeming at mining equipment vendors
+	var/list/access = list()
+	var/list/ship_access = list()
+	var/registered_name = null // The name registered_name on the card
+	var/assignment = null
+	var/access_txt // mapping aid
+	var/datum/bank_account/registered_account
+	var/obj/machinery/paystand/my_store
+	var/uses_overlays = TRUE
+	var/icon/cached_flat_icon
+	var/registered_age = 13 // default age for ss13 players
+	var/job_icon
+	var/faction_icon
 
 /obj/item/card/id/Initialize(mapload)
 	. = ..()
@@ -522,7 +548,7 @@
 		var/minor
 		if(registered_name && registered_age && registered_age < AGE_MINOR)
 			minor = " <b>(MINOR)</b>"
-		user.visible_message(span_notice("[user] shows you: [icon2html(src, viewers(user))] [src.name][minor]."), span_notice("You show \the [src.name][minor]."))
+		user.visible_message("<span class='notice'>[user] shows you: [icon2html(src, viewers(user))] [src.name][minor].</span>", "<span class='notice'>You show \the [src.name][minor].</span>")
 	add_fingerprint(user)
 
 /obj/item/card/id/interact_with_atom_secondary(atom/interacting_with, mob/living/user, list/modifiers)
@@ -840,42 +866,9 @@
 
 /obj/item/card/id/examine(mob/user)
 	. = ..()
-	if(!user.can_read(src))
-		return
-
-	/* DARKPACK EDIT REMOVAL - ECONOMY
-	if(registered_account && !isnull(registered_account.account_id))
+	if(registered_account)
 		. += "The account linked to the ID belongs to '[registered_account.account_holder]' and reports a balance of [registered_account.account_balance] cr."
-		if(ACCESS_COMMAND in access)
-			var/datum/bank_account/linked_dept = SSeconomy.get_dep_account(registered_account.account_job.paycheck_department)
-			. += "The [linked_dept.account_holder] linked to the ID reports a balance of [linked_dept.account_balance] cr."
-	else
-		. += span_notice("Alt-Right-Click the ID to set the linked bank account.")
-	*/
-
-	if(HAS_TRAIT(user, TRAIT_ID_APPRAISER))
-		. += HAS_TRAIT(src, TRAIT_JOB_FIRST_ID_CARD) ? span_boldnotice("Hmm... yes, this ID was issued from Central Command!") : span_boldnotice("This ID was created in this sector, not by Central Command.")
-		if(HAS_TRAIT(src, TRAIT_TASTEFULLY_THICK_ID_CARD) && (user.is_holding(src) || (IsReachableBy(user) && user.put_in_hands(src, ignore_animation = FALSE))))
-			ADD_TRAIT(src, TRAIT_NODROP, "psycho")
-			. += span_hypnophrase("Look at that subtle coloring... The tasteful thickness of it. Oh my God, it even has a watermark...")
-			var/sound/slowbeat = sound('sound/effects/health/slowbeat.ogg', repeat = TRUE)
-			user.playsound_local(get_turf(src), slowbeat, 40, 0, channel = CHANNEL_HEARTBEAT, use_reverb = FALSE)
-			if(isliving(user))
-				var/mob/living/living_user = user
-				living_user.adjust_jitter(10 SECONDS)
-			addtimer(CALLBACK(src, PROC_REF(drop_card), user), 10 SECONDS)
-	. += span_notice("<i>There's more information below, you can look again to take a closer look...</i>")
-
-/obj/item/card/id/proc/drop_card(mob/user)
-	user.stop_sound_channel(CHANNEL_HEARTBEAT)
-	REMOVE_TRAIT(src, TRAIT_NODROP, "psycho")
-	if(user.is_holding(src))
-		user.dropItemToGround(src)
-	for(var/mob/living/carbon/human/viewing_mob in viewers(user, 2))
-		if(viewing_mob.stat || viewing_mob == user)
-			continue
-		viewing_mob.say("Is something wrong? [first_name(user.name)]... you're sweating.", forced = "psycho")
-		break
+	. += "<span class='notice'><i>There's more information below, you can look again to take a closer look...</i></span>"
 
 /obj/item/card/id/examine_more(mob/user)
 	. = ..()
@@ -884,6 +877,8 @@
 
 	. += span_notice("<i>You examine [src] closer, and note the following...</i>")
 
+	if(registered_name)
+		msg += "This access card is assigned to <B>[registered_name]</B>."
 	if(registered_age)
 		. += "The card indicates that the holder is [registered_age] years old. [(registered_age < AGE_MINOR) ? "There's a holographic stripe that reads <b>[span_danger("'MINOR: DO NOT SERVE ALCOHOL OR TOBACCO'")]</b> along the bottom of the card." : ""]"
 	/* DARKPACK EDIT REMOVAL - ECONOMY
@@ -940,169 +935,70 @@
 			powergaming.update_label()
 			powergaming.update_appearance()
 
-/// Updates the name based on the card's vars and state.
+/obj/item/card/id/proc/get_cached_flat_icon()
+	if(!cached_flat_icon)
+		cached_flat_icon = getFlatIcon(src)
+	return cached_flat_icon
+
+
+/obj/item/card/id/get_examine_string(mob/user, thats = FALSE)
+	if(uses_overlays)
+		return "[icon2html(get_cached_flat_icon(), user)] [thats? "That's ":""][get_examine_name(user)]" //displays all overlays in chat
+	return ..()
+
+// Adds the referenced ship directly to the card
+/obj/item/card/id/proc/add_ship_access(datum/overmap/ship/controlled/ship)
+	if (ship)
+		ship_access += ship
+
+// Removes the referenced ship from the card
+/obj/item/card/id/proc/remove_ship_access(datum/overmap/ship/controlled/ship)
+	if (ship)
+		ship_access -= ship
+
+// Finds the referenced ship in the list
+/obj/item/card/id/proc/has_ship_access(datum/overmap/ship/controlled/ship)
+	if (ship)
+		return ship_access.Find(ship)
+
+/*
+Usage:
+update_label()
+	Sets the id name to whatever registered_name and assignment is
+*/
+
 /obj/item/card/id/proc/update_label()
-	var/name_string
-	if(registered_name)
-		if(trim && (honorific_position & ~HONORIFIC_POSITION_NONE))
-			name_string = "[update_honorific()]'s ID Card"
-		else
-			name_string = "[registered_name]'s ID Card"
-	else
-		name_string = initial(name)
+	var/blank = !registered_name
+	name = "[blank ? initial(name) : "[registered_name]'s ID Card"][(!assignment) ? "" : " ([assignment])"]"
 
-	var/assignment_string
+/obj/item/card/id/silver
+	name = "silver identification card"
+	desc = "A silver card which shows honour and dedication."
+	icon_state = "silver"
+	item_state = "silver_id"
+	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
 
-	if(is_intern)
-		if(assignment)
-			assignment_string = trim?.intern_alt_name || "Intern [assignment]"
-		else
-			assignment_string = "Intern"
-	else
-		assignment_string = assignment
+/obj/item/card/id/silver/hologram
+	assignment = "Head of Personnel"
+	registered_name = "Emergency Command Hologram"
+	access = list(ACCESS_CHANGE_IDS)
 
-	name = "[name_string] ([assignment_string])"
+/obj/item/card/id/gold
+	name = "gold identification card"
+	desc = "A golden card which shows power and might."
+	icon_state = "gold"
+	item_state = "gold_id"
+	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
 
-	if(ishuman(loc))
-		var/mob/living/carbon/human/human = loc
-		human.update_visible_name()
+/obj/item/card/id/syndicate
+	name = "agent card"
+	access = list(ACCESS_MAINT_TUNNELS, ACCESS_SYNDICATE)
+	var/anyone = FALSE //Can anyone forge the ID or just syndicate?
+	var/forged = FALSE //have we set a custom name and job assignment, or will we use what we're given when we chameleon change?
 
-/// Re-generates the honorific title. Returns the compiled honorific_title value
-/obj/item/card/id/proc/update_honorific()
-	switch(honorific_position)
-		if(HONORIFIC_POSITION_FIRST)
-			honorific_title = "[chosen_honorific] [first_name(registered_name)]"
-		if(HONORIFIC_POSITION_LAST)
-			honorific_title = "[chosen_honorific] [last_name(registered_name)]"
-		if(HONORIFIC_POSITION_FIRST_FULL)
-			honorific_title = "[chosen_honorific] [registered_name]"
-		if(HONORIFIC_POSITION_LAST_FULL)
-			honorific_title = "[registered_name][chosen_honorific]"
-	return honorific_title
-
-/// Returns the trim assignment name.
-/obj/item/card/id/proc/get_trim_assignment()
-	return trim?.assignment || assignment
-
-/// Returns the trim sechud icon state.
-/obj/item/card/id/proc/get_trim_sechud_icon_state()
-	return trim?.sechud_icon_state || SECHUD_UNKNOWN
-
-/obj/item/card/id/interact_with_atom(atom/interacting_with, mob/living/user, list/modifiers)
-	if(iscash(interacting_with))
-		return insert_money(interacting_with, user) ? ITEM_INTERACT_SUCCESS : ITEM_INTERACT_BLOCKING
-	return NONE
-
-/obj/item/card/id/item_ctrl_click(mob/user)
-	if(!in_contents_of(user) || user.incapacitated) //Check if the ID is in the ID slot, so it can be changed from there too.
-		return
-
-	if(!trim)
-		balloon_alert(user, "card has no trim!")
-		return
-
-	if(!length(trim.honorifics))
-		balloon_alert(user, "card has no honorific to use!")
-		return
-
-	var/list/choices = list()
-	var/list/readable_names = HONORIFIC_POSITION_BITFIELDS()
-	for(var/i in readable_names) //Filter out the options you don't have on your ID.
-		if(trim.honorific_positions & readable_names[i]) //If the positions list has the same bit value as the readable list.
-			choices += i
-
-	var/chosen_position = tgui_input_list(user, "What position do you want your honorific in?", "Flair!", choices)
-	if(user.incapacitated || !in_contents_of(user))
-		return
-	var/honorific_position_to_use = readable_names[chosen_position]
-
-	honorific_position = initial(honorific_position) //In case you want to force an honorific on an ID, set a default that won't always be NONE.
-	honorific_title = null //We reset this regardless so that we don't stack titles on accident.
-
-	if(honorific_position_to_use & HONORIFIC_POSITION_NONE)
-		balloon_alert(user, "honorific disabled")
-	else
-		var/new_honorific = tgui_input_list(user, "What honorific do you want to use?", "Flair!!!", trim.honorifics)
-		if(!new_honorific || user.incapacitated || !in_contents_of(user))
-			return
-		chosen_honorific = new_honorific
-		switch(honorific_position_to_use)
-			if(HONORIFIC_POSITION_FIRST)
-				honorific_position = HONORIFIC_POSITION_FIRST
-				balloon_alert(user, "honorific set: display first name")
-			if(HONORIFIC_POSITION_LAST)
-				honorific_position = HONORIFIC_POSITION_LAST
-				balloon_alert(user, "honorific set: display last name")
-			if(HONORIFIC_POSITION_FIRST_FULL)
-				honorific_position = HONORIFIC_POSITION_FIRST_FULL
-				balloon_alert(user, "honorific set: start of full name")
-			if(HONORIFIC_POSITION_LAST_FULL)
-				honorific_position = HONORIFIC_POSITION_LAST_FULL
-				balloon_alert(user, "honorific set: end of full name")
-
-	update_label()
-
-/obj/item/card/id/away
-	name = "\proper a perfectly generic identification card"
-	desc = "A perfectly generic identification card. Looks like it could use some flavor."
-	trim = /datum/id_trim/away
-	icon_state = "retro"
-	registered_age = null
-
-/obj/item/card/id/away/hotel
-	name = "Staff ID"
-	desc = "A staff ID used to access the hotel's doors."
-	trim = /datum/id_trim/away/hotel
-
-/obj/item/card/id/away/hotel/security
-	name = "Officer ID"
-	trim = /datum/id_trim/away/hotel/security
-
-/obj/item/card/id/away/old
-	name = "\proper a perfectly generic identification card"
-	desc = "A perfectly generic identification card. Looks like it could use some flavor."
-
-/obj/item/card/id/away/old/sec
-	name = "Charlie Station Security Officer's ID card"
-	desc = "A faded Charlie Station ID card. You can make out the rank \"Security Officer\"."
-	trim = /datum/id_trim/away/old/sec
-
-/obj/item/card/id/away/old/sci
-	name = "Charlie Station Scientist's ID card"
-	desc = "A faded Charlie Station ID card. You can make out the rank \"Scientist\"."
-	trim = /datum/id_trim/away/old/sci
-
-/obj/item/card/id/away/old/eng
-	name = "Charlie Station Engineer's ID card"
-	desc = "A faded Charlie Station ID card. You can make out the rank \"Station Engineer\"."
-	trim = /datum/id_trim/away/old/eng
-
-/obj/item/card/id/away/old/equipment
-	name = "Engineering Equipment Access"
-	desc = "A special ID card that allows access to engineering equipment."
-	trim = /datum/id_trim/away/old/equipment
-
-/obj/item/card/id/away/old/robo
-	name = "Delta Station Roboticist's ID card"
-	desc = "An ID card that allows access to bots maintenance protocols."
-	trim = /datum/id_trim/away/old/robo
-
-/obj/item/card/id/away/deep_storage //deepstorage.dmm space ruin
-	name = "bunker access ID"
-
-/obj/item/card/id/away/filmstudio
-	name = "Film Studio ID"
-	desc = "An ID card that allows access to the variety of airlocks present in the film studio"
-
-/obj/item/card/id/departmental_budget
-	name = "departmental card (ERROR)"
-	desc = "Provides access to the departmental budget."
-	icon_state = "budgetcard"
-	var/department_ID = ACCOUNT_CIV
-	var/department_name = ACCOUNT_CIV_NAME
-	registered_age = null
-
-/obj/item/card/id/departmental_budget/Initialize(mapload)
+/obj/item/card/id/syndicate/Initialize()
 	. = ..()
 	var/datum/bank_account/B = SSeconomy.get_dep_account(department_ID)
 	if(B)
@@ -1295,70 +1191,61 @@
 
 	return ..()
 
-/// Returns the trim sechud icon state.
-/obj/item/card/id/advanced/get_trim_sechud_icon_state()
-	return sechud_icon_state_override || ..()
+/obj/item/card/id/syndicate/anyone
+	anyone = TRUE
 
-/obj/item/card/id/advanced/rainbow
-	name = "rainbow identification card"
-	desc = "A rainbow card, promoting fun in a 'business proper' sense!"
-	icon_state = "card_rainbow"
+/obj/item/card/id/syndicate/nuke_leader
+	name = "lead agent card"
+	access = list(ACCESS_MAINT_TUNNELS, ACCESS_SYNDICATE, ACCESS_SYNDICATE_LEADER)
 
-/obj/item/card/id/advanced/silver
-	name = "silver identification card"
-	desc = "A silver card which shows honour and dedication."
-	icon_state = "card_silver"
-	inhand_icon_state = "silver_id"
-	assigned_icon_state = "assigned_silver"
-	wildcard_slots = WILDCARD_LIMIT_SILVER
+/obj/item/card/id/syndicate_command
+	name = "syndicate ID card"
+	desc = "An ID straight from the Syndicate."
+	registered_name = "Syndicate"
+	assignment = "Syndicate Overlord"
+	icon_state = "syndie"
+	access = list(ACCESS_SYNDICATE)
+	uses_overlays = FALSE
+	registered_age = null
 
-/obj/item/card/id/advanced/robotic
-	name = "magnetic identification card"
-	desc = "An integrated card which shows the work poured into opening doors."
-	icon_state = "card_carp" //im not a spriter
-	inhand_icon_state = "silver_id"
-	assigned_icon_state = "assigned_silver"
-	wildcard_slots = WILDCARD_LIMIT_GREY
+/obj/item/card/id/syndicate_command/crew_id
+	assignment = "Operative"
+	access = list(ACCESS_SYNDICATE)
+	uses_overlays = FALSE
 
-/datum/id_trim/maint_reaper
-	access = list(ACCESS_MAINT_TUNNELS)
-	trim_state = "trim_janitor"
-	assignment = "Reaper"
+/obj/item/card/id/syndicate_command/crew_id/engi // twinkleshine specific IDs
+	assignment = "Engineer"
+	access = list(ACCESS_SYNDICATE, ACCESS_ENGINE, ACCESS_CONSTRUCTION)
+	uses_overlays = FALSE
 
-/obj/item/card/id/advanced/silver/reaper
-	name = "Thirteen's ID Card (Reaper)"
-	trim = /datum/id_trim/maint_reaper
-	registered_name = "Thirteen"
+/obj/item/card/id/syndicate_command/crew_id/med
+	assignment = "Medic"
+	access = list(ACCESS_SYNDICATE, ACCESS_MEDICAL)
+	uses_overlays = FALSE
 
-/obj/item/card/id/advanced/platinum
-	name = "platinum identification card"
-	desc = "A platinum card which shows the highest level of dedication."
-	icon_state = "card_platinum"
-	inhand_icon_state = "platinum_id"
-	assigned_icon_state = "assigned_silver"
-	wildcard_slots = WILDCARD_LIMIT_PLATINUM
+/obj/item/card/id/syndicate_command/lieutenant
+	assignment = "Lieutenant"
+	access = list(ACCESS_SYNDICATE, ACCESS_ARMORY)
+	uses_overlays = FALSE
 
-/obj/item/card/id/advanced/platinum/Initialize(mapload)
-	. = ..()
-	ADD_TRAIT(src, TRAIT_TASTEFULLY_THICK_ID_CARD, INNATE_TRAIT)
+/obj/item/card/id/syndicate_command/captain_id
+	assignment = "Captain"
+	access = list(ACCESS_SYNDICATE, ACCESS_ROBOTICS, ACCESS_ARMORY, ACCESS_SYNDICATE_LEADER)
+	uses_overlays = FALSE
 
-/obj/item/card/id/advanced/gold
-	name = "gold identification card"
-	desc = "A golden card which shows power and might."
-	icon_state = "card_gold"
-	inhand_icon_state = "gold_id"
-	assigned_icon_state = "assigned_silver"
-	wildcard_slots = WILDCARD_LIMIT_GOLD
+/obj/item/card/id/patient //Aegis ID
+	assignment = "Long Term Patient"
+	uses_overlays = FALSE
+	access = list(ACCESS_SYNDICATE)
 
-/obj/item/card/id/advanced/gold/Initialize(mapload)
-	. = ..()
-	ADD_TRAIT(src, TRAIT_TASTEFULLY_THICK_ID_CARD, INNATE_TRAIT)
-
-/obj/item/card/id/advanced/gold/captains_spare
-	name = "captain's spare ID"
+/obj/item/card/id/captains_spare
 	desc = "The spare ID of the High Lord himself."
+	icon_state = "gold"
+	item_state = "gold_id"
+	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
 	registered_name = "Captain"
-	trim = /datum/id_trim/job/captain
+	assignment = "Captain"
 	registered_age = null
 
 /obj/item/card/id/advanced/gold/captains_spare/update_label() //so it doesn't change to Captain's ID card (Captain) on a sneeze
@@ -1368,12 +1255,13 @@
 	else
 		..()
 
-/obj/item/card/id/advanced/centcom
+/obj/item/card/id/centcom
 	name = "\improper CentCom ID"
 	desc = "An ID straight from Central Command."
-	icon_state = "card_centcom"
-	assigned_icon_state = "assigned_centcom"
-	registered_name = JOB_CENTCOM
+	icon_state = "centcom"
+	registered_name = "Central Command"
+	assignment = "Central Command"
+	uses_overlays = FALSE
 	registered_age = null
 	trim = /datum/id_trim/centcom
 	wildcard_slots = WILDCARD_LIMIT_CENTCOM
@@ -1381,96 +1269,79 @@
 /obj/item/card/id/advanced/centcom/ert
 	name = "\improper CentCom ID"
 	desc = "An ERT ID card."
+	icon_state = "ert_commander"
+	registered_name = "Emergency Response Team Commander"
+	assignment = "Emergency Response Team Commander"
+	uses_overlays = FALSE
 	registered_age = null
-	registered_name = "Emergency Response Intern"
-	trim = /datum/id_trim/centcom/ert
 
-/obj/item/card/id/advanced/centcom/ert
-	registered_name = JOB_ERT_COMMANDER
-	trim = /datum/id_trim/centcom/ert/commander
+/obj/item/card/id/ert/Initialize()
+	access = get_all_accesses()+get_ert_access("commander")-ACCESS_CHANGE_IDS
+	. = ..()
 
-/obj/item/card/id/advanced/centcom/ert/security
-	registered_name = JOB_ERT_OFFICER
-	trim = /datum/id_trim/centcom/ert/security
+/obj/item/card/id/ert/security
+	registered_name = "Security Response Officer"
+	assignment = "Security Response Officer"
+	icon_state = "ert_security"
 
-/obj/item/card/id/advanced/centcom/ert/engineer
-	registered_name = JOB_ERT_ENGINEER
-	trim = /datum/id_trim/centcom/ert/engineer
+/obj/item/card/id/ert/security/Initialize()
+	access = get_all_accesses()+get_ert_access("sec")-ACCESS_CHANGE_IDS
+	. = ..()
 
-/obj/item/card/id/advanced/centcom/ert/medical
-	registered_name = JOB_ERT_MEDICAL_DOCTOR
-	trim = /datum/id_trim/centcom/ert/medical
+/obj/item/card/id/ert/engineer
+	registered_name = "Engineering Response Officer"
+	assignment = "Engineering Response Officer"
+	icon_state = "ert_engineer"
 
-/obj/item/card/id/advanced/centcom/ert/chaplain
-	registered_name = JOB_ERT_CHAPLAIN
-	trim = /datum/id_trim/centcom/ert/chaplain
+/obj/item/card/id/ert/engineer/Initialize()
+	access = get_all_accesses()+get_ert_access("eng")-ACCESS_CHANGE_IDS
+	. = ..()
 
-/obj/item/card/id/advanced/centcom/ert/janitor
-	registered_name = JOB_ERT_JANITOR
-	trim = /datum/id_trim/centcom/ert/janitor
+/obj/item/card/id/ert/medical
+	registered_name = "Medical Response Officer"
+	assignment = "Medical Response Officer"
+	icon_state = "ert_medic"
 
-/obj/item/card/id/advanced/centcom/ert/clown
-	registered_name = JOB_ERT_CLOWN
-	trim = /datum/id_trim/centcom/ert/clown
+/obj/item/card/id/ert/medical/Initialize()
+	access = get_all_accesses()+get_ert_access("med")-ACCESS_CHANGE_IDS
+	. = ..()
 
-/obj/item/card/id/advanced/centcom/ert/militia
-	registered_name = "Frontier Militia"
-	trim = /datum/id_trim/centcom/ert/militia
+/obj/item/card/id/ert/chaplain
+	registered_name = "Religious Response Officer"
+	assignment = "Religious Response Officer"
+	icon_state = "ert_chaplain"
 
-/obj/item/card/id/advanced/centcom/ert/militia/general
-	registered_name = "Frontier Militia General"
-	trim = /datum/id_trim/centcom/ert/militia/general
+/obj/item/card/id/ert/chaplain/Initialize()
+	access = get_all_accesses()+get_ert_access("sec")-ACCESS_CHANGE_IDS
+	. = ..()
 
-/obj/item/card/id/advanced/black
-	name = "black identification card"
-	desc = "This card is telling you one thing and one thing alone. The person holding this card is an utter badass."
-	icon_state = "card_black"
-	assigned_icon_state = "assigned_syndicate"
-	wildcard_slots = WILDCARD_LIMIT_GOLD
+/obj/item/card/id/ert/janitor
+	registered_name = "Janitorial Response Officer"
+	assignment = "Janitorial Response Officer"
+	icon_state = "ert_janitor"
 
-/obj/item/card/id/advanced/black/deathsquad
+/obj/item/card/id/ert/janitor/Initialize()
+	access = get_all_accesses()
+	. = ..()
+
+/obj/item/card/id/ert/clown
+	registered_name = "Entertainment Response Officer"
+	assignment = "Entertainment Response Officer"
+	icon_state = "ert_clown"
+
+/obj/item/card/id/ert/clown/Initialize()
+	access = get_all_accesses()
+	. = ..()
+
+/obj/item/card/id/ert/deathsquad
 	name = "\improper Death Squad ID"
 	desc = "A Death Squad ID card."
-	registered_name = JOB_ERT_DEATHSQUAD
-	trim = /datum/id_trim/centcom/deathsquad
-	wildcard_slots = WILDCARD_LIMIT_DEATHSQUAD
+	icon_state = "deathsquad" //NO NO SIR DEATH SQUADS ARENT A PART OF NANOTRASEN AT ALL
+	registered_name = "Death Commando"
+	assignment = "Death Commando"
+	uses_overlays = FALSE
 
-/obj/item/card/id/advanced/black/syndicate_command
-	name = "syndicate ID card"
-	desc = "An ID straight from the Syndicate."
-	registered_name = "Syndicate"
-	registered_age = null
-	trim = /datum/id_trim/syndicom
-	wildcard_slots = WILDCARD_LIMIT_SYNDICATE
-
-/obj/item/card/id/advanced/black/syndicate_command/crew_id
-	name = "syndicate ID card"
-	desc = "An ID straight from the Syndicate."
-	registered_name = "Syndicate"
-	trim = /datum/id_trim/syndicom/crew
-
-/obj/item/card/id/advanced/black/syndicate_command/captain_id
-	name = "syndicate captain ID card"
-	desc = "An ID straight from the Syndicate."
-	registered_name = "Syndicate"
-	trim = /datum/id_trim/syndicom/captain
-
-
-/obj/item/card/id/advanced/black/syndicate_command/captain_id/syndie_spare
-	name = "syndicate captain's spare ID"
-	desc = "The spare ID of the Dark Lord himself."
-	registered_name = "Captain"
-	registered_age = null
-
-/obj/item/card/id/advanced/black/syndicate_command/captain_id/syndie_spare/update_label()
-	if(registered_name == "Captain")
-		name = "[initial(name)][(!assignment || assignment == "Captain") ? "" : " ([assignment])"]"
-		update_appearance(UPDATE_ICON)
-		return
-
-	return ..()
-
-/obj/item/card/id/advanced/debug
+/obj/item/card/id/debug
 	name = "\improper Debug ID"
 	desc = "A debug ID card. Has ALL the all access and a boatload of money, you really shouldn't have this."
 	icon_state = "card_centcom"
