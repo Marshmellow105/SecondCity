@@ -471,8 +471,8 @@
 	)
 	var/origin = pick(
 		"Local",
-		"Italian", // DARKPACK EDIT CHANGE
-		"French", // DARKPACK EDIT CHANGE
+		"Winehaven", // DARKPACK EDIT CHANGE
+		"Beaulieu", // DARKPACK EDIT CHANGE
 	)
 	return "[year] [origin] [type]"
 
