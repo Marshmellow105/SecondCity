@@ -3,7 +3,7 @@
 /obj/item/food/donut
 	name = "donut"
 	desc = "Goes great with robust coffee."
-	icon = 'icons/obj/food/donuts.dmi'
+	icon = 'modular_darkpack/master_files/icons/obj/food/donuts.dmi' // DARKPACK EDIT CHANGE
 	abstract_type = /obj/item/food/donut
 	inhand_icon_state = "donut1"
 	bite_consumption = 5
