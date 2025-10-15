@@ -90,7 +90,7 @@
 /obj/item/storage/fancy/donut_box
 	name = "donut box"
 	desc = "Mmm. Donuts."
-	icon = 'icons/obj/food/donuts.dmi'
+	icon = 'modular_darkpack/master_files/icons/obj/food/donuts.dmi' // DARKPACK EDIT CHANGE
 	icon_state = "donutbox_open" //composite image used for mapping
 	base_icon_state = "donutbox"
 	spawn_type = /obj/item/food/donut/plain
