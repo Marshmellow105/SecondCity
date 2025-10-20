@@ -80,8 +80,14 @@
 	var/color_blue = FALSE
 	COOLDOWN_DECLARE(last_color_change)
 
+/obj/darkpack_car/police/ranger
+	icon_state = "ranger"
+	access = "nps"
+	light_color = "#ffa500"
+	var/color_yellow = FALSE
+
 /obj/darkpack_car/police/unmarked
-	icon_state = "4"
+	icon_state = "unmarked"
 
 /obj/darkpack_car/police/process()
 	if(!light_on)
