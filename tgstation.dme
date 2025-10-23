@@ -6876,6 +6876,7 @@
 #include "modular_darkpack\modules\economy\code\selling\lombard.dm"
 #include "modular_darkpack\modules\economy\code\selling\selling.dm"
 #include "modular_darkpack\modules\electricity\code\electricity_globals.dm"
+#include "modular_darkpack\modules\elevators\code\elevator.dm"
 #include "modular_darkpack\modules\fire\code\fire_globals.dm"
 #include "modular_darkpack\modules\flags\code\flags.dm"
 #include "modular_darkpack\modules\flags\code\loadout.dm"
