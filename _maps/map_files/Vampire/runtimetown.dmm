@@ -452,9 +452,9 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
 "kY" = (
-/obj/machinery/door/airlock/elevator/left{
-	elevator_mode = 1;
-	transport_linked_id = "DebugElevator"
+/obj/machinery/door/elevator/left{
+	id = "DebugElevator";
+	elevator_mode = 1
 	},
 /turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
@@ -757,9 +757,9 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
 "sz" = (
-/obj/machinery/door/airlock/elevator/right{
+/obj/machinery/door/elevator/right{
 	elevator_mode = 1;
-	transport_linked_id = "DebugElevator2"
+	id = "DebugElevator2"
 	},
 /turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
@@ -915,9 +915,9 @@
 /turf/open/floor/plating/rough,
 /area/vtm/clinic)
 "wc" = (
-/obj/machinery/door/airlock/elevator/right{
+/obj/machinery/door/elevator/right{
 	elevator_mode = 1;
-	transport_linked_id = "DebugElevator"
+	id = "DebugElevator"
 	},
 /turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
@@ -1131,6 +1131,13 @@
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
+"BT" = (
+/obj/machinery/door/elevator/left{
+	id = "DebugElevator2";
+	elevator_mode = 1
+	},
+/turf/open/floor/iron/smooth_large,
+/area/vtm/outside/pacificheights)
 "BX" = (
 /obj/structure/table,
 /turf/closed/wall/vampwall/market/low,
@@ -1355,10 +1362,6 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/supply)
 "FU" = (
-/obj/machinery/door/airlock/elevator/left{
-	elevator_mode = 1;
-	transport_linked_id = "DebugElevator2"
-	},
 /turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
 "Gm" = (
@@ -1887,9 +1890,9 @@
 /turf/closed/wall/vampwall/brick/low,
 /area/vtm/interior/shop)
 "Qx" = (
-/obj/machinery/door/airlock/elevator/left{
+/obj/machinery/door/elevator/left{
+	id = "DebugElevator3";
 	elevator_mode = 1;
-	transport_linked_id = "DebugElevator3";
 	dir = 4
 	},
 /turf/open/floor/iron/smooth_large,
@@ -2284,9 +2287,9 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights)
 "YQ" = (
-/obj/machinery/door/airlock/elevator/right{
+/obj/machinery/door/elevator/right{
 	elevator_mode = 1;
-	transport_linked_id = "DebugElevator3";
+	id = "DebugElevator3";
 	dir = 4;
 	pixel_y = -1
 	},
@@ -6409,7 +6412,7 @@ sb
 RV
 Og
 Og
-FU
+BT
 NR
 NR
 NR
@@ -10357,8 +10360,8 @@ eQ
 eQ
 eQ
 sb
-YQ
-Qx
+FU
+FU
 sb
 Hd
 XJ
@@ -10626,7 +10629,7 @@ MS
 Ys
 Ys
 Ys
-kY
+FU
 eQ
 eQ
 eQ
@@ -10694,7 +10697,7 @@ MS
 Ys
 Ys
 Ys
-wc
+FU
 eQ
 eQ
 eQ
@@ -10966,7 +10969,7 @@ MS
 Ys
 Ys
 Ys
-sz
+FU
 eQ
 eQ
 eQ
