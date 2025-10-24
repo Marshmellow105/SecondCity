@@ -275,14 +275,6 @@
 /obj/structure/lamppost/four,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
-"gZ" = (
-/obj/structure/transport/linear/public,
-/obj/machinery/elevator_control_panel/directional/north{
-	linked_elevator_id = "DebugElevator2";
-	preset_destination_names = list("2" = "Lower", "3" = "Upper")
-	},
-/turf/open/floor/plating/elevatorshaft,
-/area/vtm/outside/pacificheights)
 "hg" = (
 /obj/structure/transport/linear/public,
 /obj/machinery/elevator_control_panel/directional/north{
@@ -452,9 +444,8 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
 "kY" = (
-/obj/machinery/door/elevator/left{
-	id = "DebugElevator";
-	elevator_mode = 1
+/obj/machinery/door/airlock/elevator/left{
+	id = "DebugElevator1"
 	},
 /turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
@@ -757,7 +748,7 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
 "sz" = (
-/obj/machinery/door/elevator/right{
+/obj/machinery/door/morgue{
 	elevator_mode = 1;
 	id = "DebugElevator2"
 	},
@@ -915,9 +906,8 @@
 /turf/open/floor/plating/rough,
 /area/vtm/clinic)
 "wc" = (
-/obj/machinery/door/elevator/right{
-	elevator_mode = 1;
-	id = "DebugElevator"
+/obj/machinery/door/airlock/elevator/right{
+	id = "DebugElevator1"
 	},
 /turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
@@ -1132,10 +1122,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
 "BT" = (
-/obj/machinery/door/elevator/left{
-	id = "DebugElevator2";
-	elevator_mode = 1
-	},
+/obj/machinery/door/morgue,
 /turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
 "BX" = (
@@ -1361,9 +1348,6 @@
 /obj/structure/table,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/supply)
-"FU" = (
-/turf/open/floor/iron/smooth_large,
-/area/vtm/outside/pacificheights)
 "Gm" = (
 /obj/structure/vampdoor/prison,
 /turf/open/floor/plating/rough,
@@ -1890,10 +1874,10 @@
 /turf/closed/wall/vampwall/brick/low,
 /area/vtm/interior/shop)
 "Qx" = (
-/obj/machinery/door/elevator/left{
+/obj/machinery/door/airlock/elevator/left{
 	id = "DebugElevator3";
-	elevator_mode = 1;
-	dir = 4
+	dir = 4;
+	pixel_y = -7
 	},
 /turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
@@ -1956,7 +1940,10 @@
 	pixel_y = 5;
 	pixel_x = -5
 	},
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/elevator_control_panel/directional/north{
+	linked_elevator_id = "DebugElevator2";
+	preset_destination_names = list("2" = "Lower", "3" = "Upper")
+	},
 /turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
 "Sg" = (
@@ -2287,11 +2274,10 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights)
 "YQ" = (
-/obj/machinery/door/elevator/right{
-	elevator_mode = 1;
+/obj/machinery/door/airlock/elevator/right{
 	id = "DebugElevator3";
 	dir = 4;
-	pixel_y = -1
+	pixel_y = 0
 	},
 /turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
@@ -6410,7 +6396,7 @@ GF
 GF
 sb
 RV
-Og
+Ej
 Og
 BT
 NR
@@ -6477,11 +6463,11 @@ GF
 (62,1,1) = {"
 GF
 sb
-gZ
-Ej
-Og
-sz
-NR
+sb
+sb
+sb
+sb
+Fl
 NR
 NR
 NR
@@ -6545,11 +6531,11 @@ GF
 (63,1,1) = {"
 GF
 sb
-sb
-sb
-sb
-sb
-Fl
+NR
+NR
+NR
+NR
+NR
 NR
 NR
 NR
@@ -10360,8 +10346,8 @@ eQ
 eQ
 eQ
 sb
-FU
-FU
+YQ
+Qx
 sb
 Hd
 XJ
@@ -10629,7 +10615,7 @@ MS
 Ys
 Ys
 Ys
-FU
+kY
 eQ
 eQ
 eQ
@@ -10697,7 +10683,7 @@ MS
 Ys
 Ys
 Ys
-FU
+wc
 eQ
 eQ
 eQ
@@ -10901,7 +10887,7 @@ MS
 Ys
 Ys
 Ys
-FU
+sz
 eQ
 eQ
 eQ
@@ -10966,11 +10952,11 @@ GJ
 (62,1,2) = {"
 GJ
 MS
-Ys
-Ys
-Ys
-FU
-eQ
+MS
+MS
+MS
+MS
+cE
 eQ
 eQ
 eQ
@@ -11034,11 +11020,11 @@ GJ
 (63,1,2) = {"
 GJ
 MS
-MS
-MS
-MS
-MS
-cE
+eQ
+eQ
+eQ
+eQ
+eQ
 eQ
 eQ
 eQ
