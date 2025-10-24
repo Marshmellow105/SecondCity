@@ -848,6 +848,10 @@
 /obj/structure/sign/city/police_department,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"tW" = (
+/obj/darkpack_car/police/ranger,
+/turf/open/floor/plating/asphalt,
+/area/vtm/outside/pacificheights)
 "uC" = (
 /obj/structure/table,
 /obj/item/ammo_box/magazine/glock45acp,
@@ -2136,6 +2140,13 @@
 /obj/machinery/griddle,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"VD" = (
+/obj/effect/turf_decal/bordur{
+	dir = 1
+	},
+/obj/item/vamp/keys/nps,
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/outside/pacificheights)
 "VJ" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade{
@@ -3552,8 +3563,8 @@ NR
 cj
 ik
 VQ
-ik
-Fs
+tW
+VD
 NR
 FD
 NR
