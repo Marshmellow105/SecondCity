@@ -45,6 +45,17 @@
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/outside/pacificheights)
+"bm" = (
+/obj/machinery/button/elevator/directional/north{
+	id = "DebugElevator3"
+	},
+/obj/machinery/lift_indicator/directional/north{
+	pixel_x = -1;
+	pixel_y = 27;
+	linked_elevator_id = "DebugElevator3"
+	},
+/turf/open/misc/beach/vamp,
+/area/vtm/outside/pacificheights)
 "bo" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -228,6 +239,17 @@
 "fn" = (
 /obj/effect/decal/cleanable/cardboard,
 /turf/open/misc/beach/vamp,
+/area/vtm/outside/pacificheights)
+"fQ" = (
+/obj/structure/transport/linear/public,
+/obj/machinery/elevator_control_panel/directional/north{
+	linked_elevator_id = "DebugElevator4";
+	preset_destination_names = list("2" = "Lower", "3" = "Upper")
+	},
+/obj/effect/landmark/transport/transport_id{
+	specific_transport_id = "DebugElevator4"
+	},
+/turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
 "fS" = (
 /obj/structure/ladder/manhole/down,
@@ -423,6 +445,17 @@
 "kS" = (
 /turf/closed/wall/vampwall/market,
 /area/vtm/interior/shop)
+"kU" = (
+/obj/machinery/button/elevator/directional/north{
+	id = "DebugElevator3"
+	},
+/obj/machinery/lift_indicator/directional/north{
+	pixel_x = -1;
+	pixel_y = 27;
+	linked_elevator_id = "DebugElevator3"
+	},
+/turf/open/floor/plating/sidewalk,
+/area/vtm/outside/pacificheights)
 "kX" = (
 /obj/effect/turf_decal/crosswalk{
 	dir = 4
@@ -430,8 +463,7 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
 "kY" = (
-/obj/machinery/door/airlock/elevator/left{
-	elevator_mode = 1;
+/obj/machinery/door/airlock/elevator/multi_tile{
 	transport_linked_id = "DebugElevator"
 	},
 /turf/open/floor/iron/smooth_large,
@@ -525,6 +557,13 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"nN" = (
+/obj/structure/transport/linear/public,
+/obj/effect/landmark/transport/transport_id{
+	specific_transport_id = "DebugElevator3"
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
 "nY" = (
 /turf/open/floor/plating/vampcanal,
 /area/vtm/outside/pacificheights)
@@ -544,6 +583,13 @@
 	dir = 8
 	},
 /turf/open/floor/plating/asphalt,
+/area/vtm/outside/pacificheights)
+"oB" = (
+/obj/machinery/door/poddoor/shutters{
+	elevator_mode = 1;
+	transport_linked_id = "DebugElevator3"
+	},
+/turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
 "oJ" = (
 /turf/open/floor/plating/sidewalk/poor,
@@ -601,6 +647,12 @@
 /obj/effect/spawner/random/occult/artifact,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/sewer)
+"pJ" = (
+/obj/structure/transport/linear/public,
+/obj/structure/closet/crate/freezer/food,
+/obj/item/storage/cans/sixbeer,
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
 "pN" = (
 /turf/open/floor/plating/rough,
 /area/vtm/clinic)
@@ -882,10 +934,6 @@
 /turf/open/floor/plating/rough,
 /area/vtm/clinic)
 "wc" = (
-/obj/machinery/door/airlock/elevator/right{
-	elevator_mode = 1;
-	transport_linked_id = "DebugElevator"
-	},
 /turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
 "wm" = (
@@ -936,6 +984,13 @@
 /obj/item/gun/ballistic/automatic/darkpack/thompson,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
+"xY" = (
+/obj/structure/vampfence/rich{
+	dir = 4;
+	pixel_y = 15
+	},
+/turf/closed/wall/vampwall/low,
+/area/vtm/outside/pacificheights)
 "xZ" = (
 /obj/machinery/light/floor,
 /turf/open/floor/plating/rough,
@@ -979,6 +1034,17 @@
 	},
 /turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
+"yT" = (
+/obj/machinery/button/elevator/directional/north{
+	id = "DebugElevator4"
+	},
+/obj/machinery/lift_indicator/directional/north{
+	pixel_x = -1;
+	pixel_y = 27;
+	linked_elevator_id = "DebugElevator4"
+	},
+/turf/open/floor/plating/sidewalk,
+/area/vtm/outside/pacificheights)
 "zc" = (
 /obj/structure/vampdoor,
 /turf/open/floor/plating/parquetry/old,
@@ -989,6 +1055,17 @@
 	locked = 0
 	},
 /turf/open/floor/plating/asphalt,
+/area/vtm/outside/pacificheights)
+"zr" = (
+/obj/machinery/button/elevator/directional/north{
+	id = "DebugElevator4"
+	},
+/obj/machinery/lift_indicator/directional/north{
+	pixel_x = -1;
+	pixel_y = 27;
+	linked_elevator_id = "DebugElevator4"
+	},
+/turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
 "zv" = (
 /mob/living/carbon/human/npc/shop,
@@ -2117,6 +2194,14 @@
 /obj/structure/sink/directional/east,
 /turf/open/floor/plating/rough,
 /area/vtm/clinic)
+"WP" = (
+/obj/structure/transport/linear/public,
+/obj/machinery/elevator_control_panel/directional/north{
+	linked_elevator_id = "DebugElevator3";
+	preset_destination_names = list("2" = "Lower", "3" = "Upper")
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
 "WR" = (
 /obj/structure/lamppost/one,
 /turf/open/misc/beach/vamp,
@@ -2180,6 +2265,14 @@
 /mob/living/carbon/human/npc/incel,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"Ye" = (
+/obj/machinery/door/airlock/elevator/right{
+	dir = 4;
+	pixel_y = 22;
+	transport_linked_id = "DebugElevator4"
+	},
+/turf/open/floor/iron/smooth_large,
+/area/vtm/outside/pacificheights)
 "Yr" = (
 /obj/effect/decal/cleanable/trash,
 /obj/effect/spawner/random/occult/artifact,
@@ -2226,6 +2319,13 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
+"YS" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	transport_linked_id = "DebugElevator3";
+	elevator_mode = 1
+	},
+/turf/open/floor/iron/smooth_large,
+/area/vtm/outside/pacificheights)
 "YW" = (
 /obj/structure/table/wood,
 /obj/item/vtm_artifact/odious_chalice,
@@ -2245,6 +2345,21 @@
 /obj/structure/table,
 /obj/item/vampire_flamethrower,
 /turf/open/floor/plating/sidewalk,
+/area/vtm/outside/pacificheights)
+"ZE" = (
+/obj/structure/vampfence/rich{
+	dir = 4;
+	pixel_y = 15
+	},
+/turf/closed/wall/vampwall/rich/old/low,
+/area/vtm/outside/pacificheights)
+"ZR" = (
+/obj/machinery/door/airlock/elevator/left{
+	dir = 8;
+	pixel_y = 15;
+	transport_linked_id = "DebugElevator4"
+	},
+/turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
 "ZT" = (
 /obj/structure/vampdoor/graveyard{
@@ -5932,11 +6047,11 @@ GF
 (55,1,1) = {"
 GF
 sb
-NR
-NR
-NR
-NR
-NR
+xY
+xY
+xY
+sb
+bm
 NR
 NR
 NR
@@ -6000,10 +6115,10 @@ GF
 (56,1,1) = {"
 GF
 sb
-NR
-NR
-NR
-NR
+WP
+nN
+Og
+YS
 NR
 NR
 NR
@@ -6068,10 +6183,10 @@ GF
 (57,1,1) = {"
 GF
 sb
-NR
-NR
-NR
-NR
+pJ
+Og
+Og
+YS
 NR
 NR
 NR
@@ -6414,8 +6529,8 @@ fU
 sb
 NR
 NR
-NR
-NR
+sb
+zr
 NR
 NR
 NR
@@ -6482,10 +6597,10 @@ sb
 sb
 Fl
 NR
-NR
-NR
-NR
-NR
+sb
+Ye
+ZR
+sb
 NR
 NR
 NR
@@ -6550,10 +6665,10 @@ Og
 YQ
 NR
 NR
-NR
-NR
-NR
-NR
+sb
+fQ
+Og
+sb
 NR
 NR
 NR
@@ -10421,11 +10536,11 @@ GJ
 (55,1,2) = {"
 GJ
 MS
-eQ
-eQ
-eQ
-eQ
-eQ
+ZE
+ZE
+ZE
+MS
+kU
 eQ
 eQ
 eQ
@@ -10489,10 +10604,10 @@ GJ
 (56,1,2) = {"
 GJ
 MS
-eQ
-eQ
-eQ
-eQ
+Ys
+Ys
+Ys
+oB
 eQ
 eQ
 eQ
@@ -10557,10 +10672,10 @@ GJ
 (57,1,2) = {"
 GJ
 MS
-eQ
-eQ
-eQ
-eQ
+Ys
+Ys
+Ys
+oB
 eQ
 eQ
 eQ
@@ -10903,9 +11018,9 @@ Ys
 MS
 eQ
 eQ
+MS
+yT
 eQ
-eQ
-Hd
 Hd
 XJ
 ik
@@ -10971,10 +11086,10 @@ MS
 MS
 cE
 eQ
-eQ
-eQ
-Hd
-Hd
+MS
+Ye
+ZR
+MS
 LX
 Zc
 Zc
@@ -11039,10 +11154,10 @@ Ys
 YQ
 eQ
 eQ
-eQ
-eQ
-Hd
-Hd
+MS
+Ys
+Ys
+MS
 eQ
 WZ
 eQ

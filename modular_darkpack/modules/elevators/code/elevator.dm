@@ -2,10 +2,13 @@
 	name = "Elevator Door"
 	icon = 'modular_darkpack/modules/elevators/icons/doorleft.dmi'
 	icon_state = "closed"
-	pixel_x = -16
-	pixel_y = -8
+	doorOpen = 'modular_darkpack/modules/elevators/sounds/elevatoropen.ogg'
+	doorClose = 'modular_darkpack/modules/elevators/sounds/elevatorclose.ogg'
+	doorDeni = null
+	boltUp = null
+	boltDown = null
 
-	can_open_with_hands = FALSE
+
 	elevator_mode = TRUE
 	overlays_file = null
 
@@ -14,3 +17,34 @@
 
 /obj/machinery/door/airlock/elevator/right
 	icon = 'modular_darkpack/modules/elevators/icons/doorright.dmi'
+
+/obj/machinery/door/airlock/elevator/multi_tile
+	icon = 'modular_darkpack/modules/elevators/icons/doordouble.dmi'
+	assemblytype = /obj/structure/door_assembly/elevator/multi_tile
+	multi_tile = TRUE
+
+/obj/machinery/door/airlock/elevator/multi_tile/setDir(newdir)
+	. = ..()
+	set_bounds()
+
+/obj/structure/door_assembly/elevator/
+	name = "door assembly"
+	base_name = "Elevator Door"
+	icon = 'modular_darkpack/modules/elevators/icons/doorleft.dmi'
+	icon_state = "construction"
+	overlays_file = null
+	anchored = FALSE
+	density = TRUE
+
+/obj/structure/door_assembly/elevator/left
+	icon = 'modular_darkpack/modules/elevators/icons/doorleft.dmi'
+
+/obj/structure/door_assembly/elevator/left
+	icon = 'modular_darkpack/modules/elevators/icons/doorright.dmi'
+
+/obj/structure/door_assembly/elevator/multi_tile
+	name = "door assembly"
+	icon = 'modular_darkpack/modules/elevators/icons/doordouble.dmi'
+	airlock_type = /obj/machinery/door/airlock/elevator/multi_tile
+	dir = EAST
+	multi_tile = TRUE
