@@ -14,9 +14,11 @@
 
 /obj/machinery/door/airlock/elevator/left
 	icon = 'modular_darkpack/modules/elevators/icons/doorleft.dmi'
+	assemblytype = /obj/structure/door_assembly/elevator/left
 
 /obj/machinery/door/airlock/elevator/right
 	icon = 'modular_darkpack/modules/elevators/icons/doorright.dmi'
+	assemblytype = /obj/structure/door_assembly/elevator/right
 
 /obj/machinery/door/airlock/elevator/multi_tile
 	icon = 'modular_darkpack/modules/elevators/icons/doordouble.dmi'
