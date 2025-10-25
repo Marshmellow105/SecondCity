@@ -41,7 +41,7 @@
 /obj/structure/door_assembly/elevator/left
 	icon = 'modular_darkpack/modules/elevators/icons/doorleft.dmi'
 
-/obj/structure/door_assembly/elevator/left
+/obj/structure/door_assembly/elevator/right
 	icon = 'modular_darkpack/modules/elevators/icons/doorright.dmi'
 
 /obj/structure/door_assembly/elevator/multi_tile
