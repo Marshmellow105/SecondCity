@@ -47,11 +47,13 @@
 /area/vtm/outside/pacificheights)
 "bm" = (
 /obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator3"
+	id = "DebugElevator3";
+	pixel_y = 35;
+	pixel_x = 9
 	},
 /obj/machinery/lift_indicator/directional/north{
-	pixel_x = -1;
-	pixel_y = 27;
+	pixel_x = -5;
+	pixel_y = 20;
 	linked_elevator_id = "DebugElevator3"
 	},
 /turf/open/misc/beach/vamp,
@@ -142,11 +144,13 @@
 /area/vtm/outside/pacificheights)
 "cE" = (
 /obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator2"
+	id = "DebugElevator2";
+	pixel_x = 9;
+	pixel_y = 35
 	},
 /obj/machinery/lift_indicator/directional/north{
-	pixel_x = -1;
-	pixel_y = 27;
+	pixel_x = -5;
+	pixel_y = 20;
 	linked_elevator_id = "DebugElevator2"
 	},
 /turf/open/floor/plating/sidewalk,
@@ -447,11 +451,13 @@
 /area/vtm/interior/shop)
 "kU" = (
 /obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator3"
+	id = "DebugElevator3";
+	pixel_y = 35;
+	pixel_x = 9
 	},
 /obj/machinery/lift_indicator/directional/north{
-	pixel_x = -1;
-	pixel_y = 27;
+	pixel_x = -5;
+	pixel_y = 20;
 	linked_elevator_id = "DebugElevator3"
 	},
 /turf/open/floor/plating/sidewalk,
@@ -1040,11 +1046,13 @@
 /area/vtm/outside/pacificheights)
 "yT" = (
 /obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator4"
+	id = "DebugElevator4";
+	pixel_x = 9;
+	pixel_y = 35
 	},
 /obj/machinery/lift_indicator/directional/north{
-	pixel_x = -1;
-	pixel_y = 27;
+	pixel_x = -5;
+	pixel_y = 20;
 	linked_elevator_id = "DebugElevator4"
 	},
 /turf/open/floor/plating/sidewalk,
@@ -1062,11 +1070,13 @@
 /area/vtm/outside/pacificheights)
 "zr" = (
 /obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator4"
+	id = "DebugElevator4";
+	pixel_x = 9;
+	pixel_y = 35
 	},
 /obj/machinery/lift_indicator/directional/north{
-	pixel_x = -1;
-	pixel_y = 27;
+	pixel_x = -5;
+	pixel_y = 20;
 	linked_elevator_id = "DebugElevator4"
 	},
 /turf/open/misc/beach/vamp,
@@ -1081,11 +1091,13 @@
 /area/vtm/interior/shop)
 "zC" = (
 /obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator"
+	id = "DebugElevator";
+	pixel_y = 35;
+	pixel_x = 9
 	},
 /obj/machinery/lift_indicator/directional/north{
-	pixel_x = -1;
-	pixel_y = 27;
+	pixel_x = -5;
+	pixel_y = 20;
 	linked_elevator_id = "DebugElevator"
 	},
 /turf/open/floor/plating/sidewalk,
@@ -1348,11 +1360,13 @@
 /area/vtm/interior/shop)
 "Fl" = (
 /obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator2"
+	id = "DebugElevator2";
+	pixel_x = 9;
+	pixel_y = 35
 	},
 /obj/machinery/lift_indicator/directional/north{
-	pixel_x = -1;
-	pixel_y = 27;
+	pixel_x = -5;
+	pixel_y = 20;
 	linked_elevator_id = "DebugElevator2"
 	},
 /turf/open/misc/beach/vamp,
@@ -1552,11 +1566,13 @@
 /area/vtm/supply)
 "It" = (
 /obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator"
+	id = "DebugElevator";
+	pixel_y = 35;
+	pixel_x = 9
 	},
 /obj/machinery/lift_indicator/directional/north{
-	pixel_x = -1;
-	pixel_y = 27;
+	pixel_x = -5;
+	pixel_y = 20;
 	linked_elevator_id = "DebugElevator"
 	},
 /turf/open/misc/beach/vamp,
