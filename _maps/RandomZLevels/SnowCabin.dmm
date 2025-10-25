@@ -39,7 +39,7 @@
 /area/awaymission/cabin/lumbermill)
 "al" = (
 /obj/structure/table/wood,
-/obj/structure/showcase/machinery/tv{
+/obj/structure/fluff/tv{
 	desc = "A slightly battered looking TV. Various infomercials play on a loop, accompanied by a jaunty tune.";
 	name = "Television Screen"
 	},
@@ -2743,7 +2743,9 @@
 	desc = "Finally.";
 	height = 1;
 	icon_state = "";
-	id = "whyisitcalledladder10andnotladder1";
+	id = ";whyisitcalledladder10andnotladder1";
+	 = None;
+	;
 	mouse_opacity = 0;
 	name = ""
 	},

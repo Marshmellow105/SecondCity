@@ -130,9 +130,8 @@
 /turf/open/floor/carpet/black,
 /area/misc/survivalpod)
 "w" = (
-/obj/structure/window/reinforced/survival_pod{
-	density = 0;
-	dir = 9
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south{
+	density = 0
 	},
 /turf/open/floor/carpet/black,
 /area/misc/survivalpod)

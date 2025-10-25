@@ -31,7 +31,7 @@
 /turf/open/floor/iron,
 /area/ruin/outpost31/crewquarters)
 "aM" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/girder,
 /turf/open/indestructible/plating,
 /area/ruin/outpost31/lootroom)
@@ -40,7 +40,7 @@
 	onstation = 0
 	},
 /obj/effect/mapping_helpers/broken_machine,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/outpost31/recroom)
 "aV" = (
@@ -55,7 +55,7 @@
 /obj/structure/table/wood,
 /obj/item/storage/box/drinkingglasses,
 /obj/machinery/light/small/directional/east,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/outpost31/recroom)
 "bp" = (
@@ -96,7 +96,7 @@
 /area/ruin/outpost31/lab)
 "bX" = (
 /obj/structure/sink/kitchen/directional/west,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
 "cd" = (
@@ -109,7 +109,7 @@
 /turf/open/floor/iron/white/smooth_half,
 /area/ruin/outpost31/medical)
 "ce" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/reagent_dispensers/watertank/high,
 /turf/open/indestructible,
 /area/ruin/outpost31/lootroom)
@@ -135,7 +135,7 @@
 /obj/machinery/power/rtg/advanced{
 	power_gen = 25000
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/dim/directional/west,
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -147,7 +147,7 @@
 /turf/open/floor/iron,
 /area/ruin/outpost31)
 "cu" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
@@ -155,7 +155,7 @@
 /area/ruin/outpost31/recroom)
 "cw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/outpost31/kennel)
 "cy" = (
@@ -169,7 +169,7 @@
 /turf/open/floor/iron,
 /area/ruin/outpost31/radiomap)
 "db" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/broken/directional/east,
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron,
@@ -212,7 +212,7 @@
 /turf/open/floor/iron/textured_half,
 /area/ruin/outpost31)
 "dV" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/rglass/fifty,
 /obj/item/stack/sheet/glass/fifty,
@@ -262,7 +262,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/outpost31/recroom)
 "ep" = (
@@ -296,7 +296,7 @@
 	dir = 8
 	},
 /obj/machinery/door/window/left/directional/west,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/outpost31/recroom)
 "eS" = (
@@ -304,7 +304,7 @@
 /turf/open/floor/iron/white/smooth_half,
 /area/ruin/outpost31/medical)
 "eT" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/white{
 	dir = 9
 	},
@@ -318,22 +318,22 @@
 /turf/open/floor/iron/freezer,
 /area/ruin/outpost31/crewquarters)
 "fd" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/broken_flooring/corner/always_floorplane/directional/west,
 /turf/open/indestructible/plating,
 /area/ruin/outpost31/lootroom)
 "fC" = (
 /obj/structure/chair/stool/directional/south,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/cafeteria,
 /area/ruin/outpost31/recroom)
 "fH" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/dim/directional/north,
 /turf/open/floor/iron/freezer,
 /area/ruin/outpost31/recroom)
 "fI" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/extinguisher_cabinet/directional/south,
 /turf/open/floor/iron/cafeteria,
 /area/ruin/outpost31/kitchendiningroom)
@@ -359,7 +359,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/catwalk_floor/iron,
 /area/ruin/outpost31)
 "gi" = (
@@ -370,11 +370,11 @@
 /turf/open/floor/iron/white,
 /area/ruin/outpost31/medical)
 "gu" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/cafeteria,
 /area/ruin/outpost31/kitchendiningroom)
 "gC" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
 /obj/item/organ/brain/cybernetic/ai,
 /obj/item/cautery/advanced{
@@ -395,7 +395,7 @@
 	},
 /area/ruin/outpost31/lab)
 "gZ" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/outpost31/kennel)
 "he" = (
@@ -414,12 +414,12 @@
 "hs" = (
 /obj/structure/table,
 /obj/machinery/processor,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light_switch/directional/north,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
 "ht" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate,
 /obj/item/storage/toolbox/electrical,
 /turf/open/indestructible/plating,
@@ -441,7 +441,7 @@
 	},
 /area/ruin/outpost31/lab)
 "hN" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
 /area/ruin/outpost31)
 "hT" = (
@@ -479,7 +479,7 @@
 /turf/open/floor/iron/freezer,
 /area/ruin/outpost31/crewquarters)
 "jl" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
 /obj/item/retractor/advanced,
 /obj/item/scalpel/advanced{
@@ -490,13 +490,13 @@
 /turf/open/indestructible/plating,
 /area/ruin/outpost31/lootroom)
 "jv" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/chair,
 /turf/open/floor/plating,
 /area/ruin/outpost31)
 "jL" = (
 /obj/effect/decal/cleanable/blood/old,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
 "jM" = (
@@ -511,7 +511,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
 /area/ruin/outpost31)
 "jP" = (
@@ -531,8 +531,8 @@
 "ko" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/ammo_casing/spent,
 /turf/open/floor/plating,
 /area/ruin/outpost31/kennel)
@@ -545,7 +545,7 @@
 /obj/structure/toilet{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/freezer,
 /area/ruin/outpost31/recroom)
 "kF" = (
@@ -589,13 +589,13 @@
 "lz" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/outpost31/kennel)
 "lF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/catwalk_floor/iron,
 /area/ruin/outpost31)
@@ -604,7 +604,7 @@
 /turf/open/floor/pod/dark,
 /area/ruin/outpost31)
 "lO" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -633,12 +633,12 @@
 /turf/open/misc/asteroid/snow/icemoon/do_not_chasm,
 /area/icemoon/underground/explored)
 "me" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/snack,
 /turf/open/floor/iron/cafeteria,
 /area/ruin/outpost31/kitchendiningroom)
 "mq" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/girder,
 /turf/open/floor/plating,
 /area/ruin/outpost31)
@@ -696,14 +696,14 @@
 /turf/open/floor/carpet/green,
 /area/ruin/outpost31/commander_room)
 "nH" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/storage/toolbox/mechanical,
 /turf/open/indestructible/plating,
 /area/ruin/outpost31/lootroom)
 "nJ" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light_switch/directional/north,
 /turf/open/floor/iron/cafeteria,
 /area/ruin/outpost31/kitchendiningroom)
@@ -764,12 +764,8 @@
 "oF" = (
 /turf/open/floor/pod/dark,
 /area/ruin/outpost31)
-"oJ" = (
-/obj/structure/chair/stool/directional/east,
-/turf/open/floor/iron/cafeteria,
-/area/ruin/outpost31/recroom)
 "oN" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron,
 /area/ruin/outpost31)
@@ -788,7 +784,7 @@
 /turf/open/floor/wood,
 /area/ruin/outpost31/commander_room)
 "pd" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
 /obj/machinery/coffeemaker,
 /turf/open/floor/iron/cafeteria,
@@ -803,7 +799,7 @@
 /turf/open/floor/iron,
 /area/ruin/outpost31)
 "pj" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/food_or_drink/any_snack_or_beverage,
 /obj/structure/table,
 /obj/machinery/light/warm/dim/directional/south,
@@ -815,7 +811,7 @@
 /turf/open/floor/wood,
 /area/ruin/outpost31/crewquarters)
 "py" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
@@ -824,7 +820,7 @@
 "pQ" = (
 /obj/item/knife,
 /obj/effect/decal/cleanable/blood/old,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
 "qa" = (
@@ -848,7 +844,7 @@
 /obj/structure/closet/preopen{
 	name = "winter gear closet"
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/dim/directional/north,
 /turf/open/floor/pod/light,
 /area/ruin/outpost31)
@@ -891,7 +887,7 @@
 /area/ruin/outpost31/lab)
 "rx" = (
 /obj/effect/decal/cleanable/blood/old,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/outpost31)
 "rB" = (
@@ -905,7 +901,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/cafeteria,
 /area/ruin/outpost31/kitchendiningroom)
@@ -915,7 +911,7 @@
 	dir = 8
 	},
 /obj/effect/mapping_helpers/broken_machine,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/outpost31/recroom)
 "sg" = (
@@ -923,22 +919,22 @@
 /turf/open/floor/iron/cafeteria,
 /area/ruin/outpost31/recroom)
 "si" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/broken/directional/east,
 /turf/open/floor/plating,
 /area/ruin/outpost31)
 "sj" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/broken_flooring/pile/always_floorplane,
 /turf/open/indestructible/plating,
 /area/ruin/outpost31/lootroom)
 "sk" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/storage/toolbox/mechanical,
 /turf/open/floor/plating,
 /area/ruin/outpost31/kennel)
 "sm" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/emcloset,
 /turf/open/floor/iron/textured_half,
 /area/ruin/outpost31)
@@ -976,7 +972,7 @@
 /turf/open/floor/wood,
 /area/ruin/outpost31/crewquarters)
 "tj" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/chair{
 	dir = 8
 	},
@@ -985,7 +981,7 @@
 "to" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/outpost31/kennel)
 "tx" = (
@@ -995,20 +991,20 @@
 /area/ruin/outpost31/commander_room)
 "tC" = (
 /obj/structure/closet/secure_closet/freezer/fridge/preopen,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
 "tG" = (
 /turf/open/floor/iron/textured_half,
 /area/ruin/outpost31)
 "tJ" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/ammo_casing/spent,
 /turf/open/floor/plating,
 /area/ruin/outpost31/kennel)
 "tS" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/ammo_casing/spent,
 /obj/structure/extinguisher_cabinet/directional/south,
 /turf/open/floor/plating,
@@ -1042,14 +1038,14 @@
 "ub" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/catwalk_floor/iron,
 /area/ruin/outpost31)
 "uj" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
 /area/ruin/outpost31)
 "uA" = (
@@ -1085,7 +1081,7 @@
 /obj/structure/closet/preopen{
 	name = "winter gear closet"
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/light,
 /area/ruin/outpost31)
 "vU" = (
@@ -1160,7 +1156,7 @@
 /turf/open/floor/iron/textured_half,
 /area/ruin/outpost31)
 "wy" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/girder,
 /turf/open/indestructible,
 /area/ruin/outpost31/lootroom)
@@ -1206,7 +1202,7 @@
 /turf/open/floor/wood,
 /area/ruin/outpost31/kennel)
 "xN" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible,
 /area/ruin/outpost31/lootroom)
 "xP" = (
@@ -1228,7 +1224,7 @@
 /turf/open/floor/iron/cafeteria,
 /area/ruin/outpost31/recroom)
 "yx" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/footprints,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
@@ -1350,7 +1346,7 @@
 /turf/open/floor/pod/dark,
 /area/ruin/outpost31)
 "Ae" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/cigarette{
 	onstation = 0
 	},
@@ -1435,7 +1431,7 @@
 /turf/open/floor/pod/light,
 /area/ruin/outpost31)
 "BI" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/outpost31/recroom)
 "BM" = (
@@ -1446,7 +1442,7 @@
 /area/ruin/outpost31/medical)
 "BP" = (
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/decal/cleanable/blood/footprints,
 /turf/open/floor/iron,
@@ -1465,7 +1461,7 @@
 /obj/structure/closet/preopen{
 	name = "winter gear closet"
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/dim/directional/south,
 /turf/open/floor/pod/light,
 /area/ruin/outpost31)
@@ -1480,7 +1476,7 @@
 /area/ruin/outpost31/recroom)
 "Cc" = (
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/crowbar,
 /turf/open/floor/pod,
 /area/ruin/outpost31)
@@ -1503,7 +1499,7 @@
 /turf/open/floor/iron/cafeteria,
 /area/ruin/outpost31/recroom)
 "CM" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
 /obj/effect/spawner/random/maintenance/no_decals/two,
 /turf/open/floor/plating,
@@ -1537,7 +1533,7 @@
 /turf/open/floor/iron,
 /area/ruin/outpost31/radiomap)
 "DF" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/warm/directional/west,
 /obj/structure/table,
 /obj/item/mod/module/flamethrower,
@@ -1628,13 +1624,13 @@
 /turf/open/floor/iron,
 /area/ruin/outpost31)
 "Fu" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/food_or_drink/any_snack_or_beverage,
 /obj/structure/table,
 /turf/open/floor/iron/cafeteria,
 /area/ruin/outpost31/kitchendiningroom)
 "FH" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -1648,7 +1644,7 @@
 /turf/open/floor/iron,
 /area/ruin/outpost31)
 "FP" = (
-/obj/structure/chair/stool/directional/north,
+/obj/structure/chair/stool/directional/south,
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/iron/cafeteria,
 /area/ruin/outpost31/recroom)
@@ -1665,7 +1661,7 @@
 	},
 /area/ruin/outpost31/lab)
 "FY" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
@@ -1694,7 +1690,7 @@
 	can_become_message_in_bottle = 0;
 	default_raw_text = "Research was promising. We managed to stream an artificial intelligence into an organic host via this brain. Too bad it needs all robotic organs because apparently the human biology hates not having a properly functional nervous system."
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/outpost31)
 "Hk" = (
@@ -1729,7 +1725,7 @@
 	},
 /area/ruin/outpost31/lab)
 "Ht" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -1746,7 +1742,7 @@
 /turf/open/floor/iron/freezer,
 /area/ruin/outpost31/crewquarters)
 "HL" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
 "HP" = (
@@ -1775,7 +1771,7 @@
 /turf/open/floor/iron,
 /area/ruin/outpost31)
 "Ij" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
 /obj/item/food/waffles,
 /obj/machinery/microwave,
@@ -1787,11 +1783,11 @@
 	},
 /obj/structure/table/reinforced,
 /obj/item/plate/large,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
 "Io" = (
-/obj/structure/chair/stool/bar/directional/east,
+/obj/structure/chair/stool/bar/directional/west,
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
@@ -1819,7 +1815,7 @@
 /area/icemoon/underground/explored)
 "IT" = (
 /obj/structure/sign/poster/random/directional/west,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
@@ -1872,7 +1868,7 @@
 "KW" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron,
 /area/ruin/outpost31)
@@ -1898,7 +1894,7 @@
 /obj/structure/closet/preopen{
 	name = "winter gear closet"
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/broken/directional/south,
 /turf/open/floor/pod/light,
 /area/ruin/outpost31)
@@ -1939,23 +1935,19 @@
 /obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/cafeteria,
 /area/ruin/outpost31/recroom)
-"Mn" = (
-/obj/structure/chair/stool/directional/north,
-/turf/open/floor/iron/cafeteria,
-/area/ruin/outpost31/recroom)
 "Ms" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/broken/directional/south,
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron,
 /area/ruin/outpost31)
 "Mw" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/ammo_casing/spent,
 /turf/open/floor/plating,
 /area/ruin/outpost31/kennel)
 "ME" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate/freezer,
 /obj/item/organ/heart/cybernetic/tier2,
 /obj/item/organ/liver/cybernetic/tier2,
@@ -1991,7 +1983,7 @@
 /obj/structure/tank_dispenser/oxygen{
 	oxygentanks = 5
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/dim/directional/north,
 /turf/open/floor/pod/dark,
 /area/ruin/outpost31)
@@ -2042,7 +2034,7 @@
 /area/ruin/outpost31)
 "Ob" = (
 /obj/structure/table,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/extinguisher_cabinet/directional/south,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
@@ -2071,11 +2063,11 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/outpost31/recroom)
 "Ov" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/outpost31)
 "Oz" = (
@@ -2088,12 +2080,12 @@
 /area/ruin/outpost31/medical)
 "OW" = (
 /obj/machinery/griddle,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
 "Pb" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/ammo_casing/spent,
 /obj/item/ammo_casing/spent,
 /obj/item/ammo_casing/spent,
@@ -2118,7 +2110,7 @@
 /area/ruin/outpost31/radiomap)
 "PG" = (
 /obj/structure/table,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
 "PR" = (
@@ -2135,7 +2127,7 @@
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/table,
 /obj/item/storage/fancy/egg_box,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
 "PT" = (
@@ -2150,7 +2142,7 @@
 	},
 /area/ruin/outpost31/lab)
 "PW" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral,
 /obj/structure/girder,
 /obj/structure/barricade/wooden,
@@ -2174,7 +2166,7 @@
 "QU" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -2184,7 +2176,7 @@
 /turf/closed/wall,
 /area/ruin/outpost31/radiomap)
 "Rf" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
 /obj/effect/spawner/random/food_or_drink/any_snack_or_beverage,
 /turf/open/floor/iron/cafeteria,
@@ -2204,7 +2196,7 @@
 	},
 /area/ruin/outpost31/lab)
 "RK" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral,
 /obj/item/crowbar,
 /turf/open/floor/iron,
@@ -2257,7 +2249,7 @@
 /turf/open/floor/wood,
 /area/ruin/outpost31/commander_room)
 "Sy" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -2265,7 +2257,7 @@
 /turf/open/floor/iron,
 /area/ruin/outpost31)
 "SB" = (
-/obj/item/surgery_tray/deployed,
+/obj/item/surgery_tray/full/deployed,
 /obj/effect/decal/cleanable/blood/old,
 /obj/machinery/defibrillator_mount/loaded{
 	pixel_y = -32
@@ -2287,7 +2279,7 @@
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/underground/explored)
 "SW" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/plating,
 /area/ruin/outpost31/lootroom)
 "Td" = (
@@ -2295,7 +2287,7 @@
 /turf/open/floor/carpet/green,
 /area/ruin/outpost31/commander_room)
 "Tm" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral,
 /obj/structure/extinguisher_cabinet/directional/east,
 /turf/open/floor/iron,
@@ -2304,7 +2296,7 @@
 /obj/machinery/power/rtg/advanced{
 	power_gen = 25000
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/outpost31/kennel)
@@ -2325,7 +2317,7 @@
 	},
 /area/ruin/outpost31)
 "Tv" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/chair{
 	dir = 4
 	},
@@ -2350,11 +2342,11 @@
 	},
 /obj/structure/table/reinforced,
 /obj/item/food/waffles,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
 "Ui" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/gibspawner/generic/animal{
 	virusProb = 0
 	},
@@ -2388,7 +2380,7 @@
 /turf/open/floor/iron/cafeteria,
 /area/ruin/outpost31/recroom)
 "UI" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/outpost31/kennel)
 "Vc" = (
@@ -2419,7 +2411,7 @@
 /area/ruin/outpost31)
 "Vz" = (
 /obj/structure/table,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/broken/directional/south,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
@@ -2440,7 +2432,7 @@
 /turf/open/floor/iron,
 /area/ruin/outpost31)
 "VK" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate,
 /obj/item/vending_refill/cola,
 /obj/item/vending_refill/cigarette,
@@ -2471,12 +2463,12 @@
 "VV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/outpost31/kennel)
 "Wc" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/broken/directional/south,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
@@ -2492,7 +2484,7 @@
 /turf/open/floor/pod/dark,
 /area/ruin/outpost31)
 "Wu" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate/bin,
 /turf/open/floor/iron/cafeteria,
 /area/ruin/outpost31/kitchendiningroom)
@@ -2514,7 +2506,7 @@
 /area/template_noop)
 "Xa" = (
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/footprints,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
@@ -2522,7 +2514,7 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
 /obj/machinery/oven/range,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/outpost31/kitchendiningroom)
 "Xk" = (
@@ -2540,7 +2532,7 @@
 /area/ruin/outpost31/lab)
 "XI" = (
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron,
 /area/ruin/outpost31)
@@ -2568,7 +2560,7 @@
 /turf/open/floor/iron/freezer,
 /area/ruin/outpost31/crewquarters)
 "Yh" = (
-/obj/structure/chair/stool/bar/directional/east,
+/obj/structure/chair/stool/bar/directional/west,
 /obj/effect/turf_decal/siding/white{
 	dir = 5
 	},
@@ -3136,8 +3128,8 @@ uB
 oa
 Jq
 CC
-oJ
-oJ
+sg
+sg
 kh
 UH
 Ml
@@ -3222,7 +3214,7 @@ cu
 Oo
 DM
 qa
-Mn
+Oo
 Nl
 aq
 Ht
@@ -3264,7 +3256,7 @@ mV
 Oo
 lR
 lR
-Mn
+Oo
 Cb
 aq
 cp
@@ -3306,7 +3298,7 @@ uR
 fC
 og
 qa
-Mn
+Oo
 zO
 aq
 cp

@@ -1326,7 +1326,7 @@
 /turf/closed/wall/rust,
 /area/shuttle/pirate)
 "Tq" = (
-/obj/structure/chair/stool/directional/north,
+/obj/structure/chair/stool/directional/south,
 /turf/open/floor/wood,
 /area/shuttle/pirate)
 "Ts" = (

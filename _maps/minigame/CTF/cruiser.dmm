@@ -101,7 +101,7 @@
 /turf/template_noop,
 /area/centcom/ctf)
 "fj" = (
-/obj/structure/table/abductor,
+/obj/structure/table/modern,
 /obj/effect/light_emitter{
 	set_cap = 1;
 	set_luminosity = 4
@@ -109,7 +109,7 @@
 /turf/open/floor/plating/abductor2,
 /area/centcom/ctf)
 "fl" = (
-/obj/structure/table/abductor,
+/obj/structure/table/modern,
 /obj/effect/light_emitter{
 	set_cap = 1;
 	set_luminosity = 4

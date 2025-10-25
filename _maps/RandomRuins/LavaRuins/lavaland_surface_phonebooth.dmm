@@ -12,7 +12,7 @@
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/ruin/powered/lavaland_phone_booth)
 "k" = (
-/obj/machinery/vending/snack/green{
+/obj/machinery/vending/snack{
 	all_products_free = 0
 	},
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -47,9 +47,7 @@
 /obj/item/gps/spaceruin{
 	gpstag = "Public Holophone"
 	},
-/obj/machinery/light/small{
-	dir = 1
-	},
+/obj/machinery/light/small/directional/south,
 /obj/structure/window/reinforced/spawner/directional/west,
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/powered/lavaland_phone_booth)

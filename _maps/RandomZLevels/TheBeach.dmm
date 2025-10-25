@@ -264,7 +264,7 @@
 /turf/open/floor/wood/large,
 /area/awaymission/beach)
 "dh" = (
-/obj/machinery/vending/cola/pwr_game,
+/obj/machinery/vending/cola,
 /turf/open/floor/eighties,
 /area/awaymission/beach)
 "di" = (
@@ -388,7 +388,7 @@
 /area/awaymission/beach)
 "fi" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/broken_floor,
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plating,
@@ -659,7 +659,7 @@
 /area/awaymission/beach)
 "iJ" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/effect/spawner/random/maintenance/three,
 /obj/effect/decal/cleanable/cobweb,
@@ -773,7 +773,7 @@
 "jU" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
@@ -930,7 +930,7 @@
 /area/awaymission/beach)
 "lY" = (
 /obj/structure/reagent_dispensers/fueltank,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plating,
 /area/awaymission/beach)
@@ -1338,7 +1338,7 @@
 /turf/open/floor/wood,
 /area/awaymission/beach)
 "qX" = (
-/obj/structure/chair/stool/bar/directional/east,
+/obj/structure/chair/stool/bar/directional/west,
 /obj/machinery/light/directional/west,
 /turf/open/floor/wood/large,
 /area/awaymission/beach)
@@ -2163,7 +2163,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
 	},
-/obj/machinery/vending/cola/red,
+/obj/machinery/vending/cola,
 /turf/open/floor/wood/large,
 /area/awaymission/beach)
 "BQ" = (
@@ -2629,7 +2629,7 @@
 /area/awaymission/beach)
 "Ge" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/awaymission/beach)
 "Gf" = (
@@ -2979,7 +2979,7 @@
 /area/awaymission/beach)
 "KV" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/structure/crate,
 /turf/open/floor/plating,
 /area/awaymission/beach)
@@ -2989,7 +2989,7 @@
 /area/awaymission/beach)
 "La" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/structure/closet_empty/crate,
 /obj/effect/spawner/random/maintenance/two,
 /obj/item/storage/toolbox/fishing{
@@ -3060,7 +3060,7 @@
 /area/awaymission/beach)
 "LQ" = (
 /obj/effect/turf_decal/tile/dark_red/full,
-/obj/machinery/vending/cola/red,
+/obj/machinery/vending/cola,
 /turf/open/floor/iron/smooth_large,
 /area/awaymission/beach)
 "LS" = (
@@ -3595,9 +3595,7 @@
 /turf/open/floor/iron/stairs/old,
 /area/awaymission/beach)
 "Sw" = (
-/obj/structure/chair/stool/directional/south{
-	dir = 8
-	},
+/obj/structure/chair/stool/directional/south,
 /turf/open/floor/wood,
 /area/awaymission/beach)
 "SB" = (
@@ -3944,7 +3942,10 @@
 	specialfunctions = 4
 	},
 /obj/item/claymore/cutlass{
-	desc = "A piratey, foam sword used by kids to train themselves in the business of \"negotiating\" the transfer of treasure.";
+	desc = "A piratey, foam sword used by kids to train themselves in the business of \";
+	negotiating\" the transfer of treasure.";
+	 = None;
+	;
 	force = 0;
 	name = "foam cutlass";
 	throwforce = 0

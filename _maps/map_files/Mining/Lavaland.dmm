@@ -3412,7 +3412,7 @@
 /turf/open/floor/plating,
 /area/mine/maintenance/service)
 "rB" = (
-/obj/structure/chair/sofa/corner{
+/obj/structure/chair/sofa/corner/brown{
 	dir = 1;
 	color = "#AA4A44"
 	},
@@ -3544,7 +3544,7 @@
 	},
 /area/mine/medical)
 "st" = (
-/obj/structure/chair/stool/directional/north,
+/obj/structure/chair/stool/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wideplating_new,
 /obj/effect/spawner/random/trash/mess,
@@ -3666,7 +3666,7 @@
 	},
 /area/mine/cafeteria)
 "tf" = (
-/obj/structure/chair/sofa/corner{
+/obj/structure/chair/sofa/corner/brown{
 	dir = 8;
 	color = "#AA4A44"
 	},
@@ -4155,7 +4155,7 @@
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "vZ" = (
-/obj/structure/chair/stool/directional/north,
+/obj/structure/chair/stool/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wideplating_new,
 /turf/open/floor/iron/checker,
@@ -4535,7 +4535,7 @@
 /turf/open/floor/iron,
 /area/mine/lounge)
 "yn" = (
-/obj/structure/chair/stool/directional/north,
+/obj/structure/chair/stool/directional/south,
 /obj/effect/turf_decal/siding/wideplating_new,
 /turf/open/floor/iron/checker,
 /area/mine/laborcamp)
@@ -5950,9 +5950,7 @@
 	},
 /area/mine/laborcamp)
 "HT" = (
-/obj/structure/chair/stool{
-	dir = 8
-	},
+/obj/structure/chair/stool/directional/west,
 /turf/open/floor/carpet/neon/simple/red/nodots,
 /area/mine/cafeteria)
 "HX" = (
@@ -7968,9 +7966,7 @@
 /turf/open/floor/iron/smooth_large,
 /area/mine/laborcamp)
 "SO" = (
-/obj/structure/chair/stool{
-	dir = 8
-	},
+/obj/structure/chair/stool/directional/west,
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/carpet/neon/simple/red/nodots,
 /area/mine/cafeteria)

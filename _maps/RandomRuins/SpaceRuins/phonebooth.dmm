@@ -12,7 +12,7 @@
 /turf/template_noop,
 /area/ruin/space/has_grav/powered/space_phone_booth)
 "k" = (
-/obj/machinery/vending/snack/green{
+/obj/machinery/vending/snack{
 	all_products_free = 1
 	},
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -47,9 +47,7 @@
 /obj/item/gps/spaceruin{
 	gpstag = "Public Holophone"
 	},
-/obj/machinery/light/small{
-	dir = 1
-	},
+/obj/machinery/light/small/directional/south,
 /obj/structure/window/reinforced/spawner/directional/west,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/powered/space_phone_booth)

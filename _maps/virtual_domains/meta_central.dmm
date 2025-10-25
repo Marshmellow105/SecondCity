@@ -195,7 +195,7 @@
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/railing{
 	dir = 4
 	},
@@ -669,7 +669,7 @@
 	pixel_x = 9;
 	pixel_y = 4
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/virtual_domain)
 "fr" = (
@@ -1220,7 +1220,7 @@
 /area/virtual_domain)
 "kt" = (
 /obj/effect/turf_decal/tile/blue/half/contrasted,
-/obj/structure/chair/stool/directional/north,
+/obj/structure/chair/stool/directional/south,
 /turf/open/floor/iron/dark,
 /area/virtual_domain)
 "kv" = (
@@ -1337,7 +1337,7 @@
 /turf/open/floor/iron,
 /area/virtual_domain)
 "lu" = (
-/obj/structure/chair/stool/directional/east,
+/obj/structure/chair/stool/directional/west,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
@@ -1481,10 +1481,6 @@
 	},
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/carpet,
-/area/virtual_domain)
-"mc" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron,
 /area/virtual_domain)
 "mf" = (
 /obj/effect/turf_decal/plaque{
@@ -2369,7 +2365,7 @@
 /obj/structure/fluff/paper/stack{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/virtual_domain)
 "tI" = (
@@ -2671,7 +2667,7 @@
 /area/virtual_domain)
 "wi" = (
 /obj/machinery/holopad,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/virtual_domain)
 "wj" = (
@@ -2910,7 +2906,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
-/obj/structure/chair/stool/directional/east,
+/obj/structure/chair/stool/directional/west,
 /turf/open/floor/iron/dark,
 /area/virtual_domain)
 "yz" = (
@@ -3174,7 +3170,7 @@
 /obj/structure/fluff/paper/stack{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/virtual_domain)
 "AN" = (
@@ -3593,13 +3589,6 @@
 /obj/structure/meateor_fluff/flesh_pod_open,
 /turf/open/indestructible/meat,
 /area/virtual_domain)
-"En" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron,
-/area/virtual_domain)
 "Er" = (
 /obj/structure/rack,
 /obj/item/tank/jetpack/carbondioxide{
@@ -3740,7 +3729,7 @@
 /turf/open/floor/iron,
 /area/virtual_domain)
 "Fp" = (
-/obj/structure/showcase/machinery/tv{
+/obj/structure/fluff/tv{
 	dir = 1;
 	pixel_x = 2;
 	pixel_y = 3
@@ -3842,11 +3831,6 @@
 /obj/effect/decal/cleanable/vomit/toxic,
 /turf/open/indestructible/meat,
 /area/virtual_domain)
-"FV" = (
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron,
-/area/virtual_domain)
 "FZ" = (
 /obj/effect/mapping_helpers/broken_floor,
 /obj/structure/marker_beacon/bronze,
@@ -3932,7 +3916,7 @@
 /area/virtual_domain)
 "GQ" = (
 /obj/effect/turf_decal/weather/dirt,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/virtual_domain)
 "GS" = (
@@ -4308,7 +4292,7 @@
 /area/virtual_domain)
 "Kr" = (
 /obj/item/clothing/head/utility/hardhat,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/railing{
 	dir = 1
 	},
@@ -4787,7 +4771,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/bar,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/virtual_domain)
 "Oe" = (
@@ -5144,7 +5128,7 @@
 	pixel_x = 1;
 	pixel_y = 3
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/storage/toolbox/electrical{
 	pixel_x = -2;
 	pixel_y = -5
@@ -5224,7 +5208,7 @@
 "RR" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/item/ammo_casing/spent,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/virtual_domain)
 "RT" = (
@@ -5322,13 +5306,13 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/iron,
 /area/virtual_domain)
 "Sz" = (
 /obj/item/seeds/eggplant,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/misc/dirt/jungle,
 /area/virtual_domain)
 "SC" = (
@@ -5425,7 +5409,7 @@
 /obj/effect/turf_decal/plaque{
 	icon_state = "L14"
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/virtual_domain)
 "TC" = (
@@ -5562,13 +5546,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/virtual_domain)
-"Uz" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron,
-/area/virtual_domain)
 "UF" = (
 /obj/structure/flora/bush/jungle/a/style_random,
 /obj/item/banner/science,
@@ -5622,7 +5599,7 @@
 /area/virtual_domain)
 "Vt" = (
 /obj/effect/decal/cleanable/blood/gibs/robot_debris/old,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/fluff/paper/stack{
 	dir = 4
 	},
@@ -5722,7 +5699,7 @@
 /area/virtual_domain)
 "Wt" = (
 /obj/structure/flora/grass/jungle/b/style_random,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/bitrunning/mob_segment,
 /turf/open/misc/dirt/jungle,
 /area/virtual_domain)
@@ -5774,7 +5751,7 @@
 	pixel_x = -6;
 	pixel_y = 10
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/virtual_domain)
 "WL" = (
@@ -6034,7 +6011,7 @@
 /obj/structure/mirror/directional/north,
 /obj/structure/sink/directional/south,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/weather/dirt,
 /obj/structure/fluff/paper/stack{
 	dir = 8
@@ -6427,7 +6404,7 @@ Vs
 yH
 Hd
 KT
-mc
+dD
 Hd
 fj
 dD
@@ -6472,13 +6449,13 @@ HM
 HM
 pD
 yD
-mc
+dD
 Lu
 PU
 Ol
 Ol
 Ol
-FV
+Lu
 Nm
 lY
 Lu
@@ -6615,7 +6592,7 @@ uz
 HM
 Hl
 eB
-Uz
+sB
 kv
 SP
 ps
@@ -7143,7 +7120,7 @@ HM
 HM
 Hl
 Es
-mc
+dD
 Hd
 Ux
 Ux
@@ -8056,7 +8033,7 @@ uz
 HM
 yz
 fh
-mc
+dD
 yE
 Oi
 SN
@@ -8216,7 +8193,7 @@ IJ
 Ys
 EK
 Zq
-En
+ro
 tq
 bf
 tq
@@ -8249,14 +8226,14 @@ HM
 ps
 dd
 mR
-mc
+dD
 Hd
 KT
 Ay
 fh
 Hd
 vw
-mc
+dD
 KT
 Lh
 nz

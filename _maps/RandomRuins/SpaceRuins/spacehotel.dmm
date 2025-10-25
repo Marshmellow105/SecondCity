@@ -772,7 +772,7 @@
 /turf/open/floor/stone,
 /area/ruin/space/has_grav/hotel/bar)
 "id" = (
-/obj/structure/chair/stool/directional/east,
+/obj/structure/chair/stool/directional/west,
 /turf/open/floor/stone,
 /area/ruin/space/has_grav/hotel/bar)
 "if" = (

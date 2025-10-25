@@ -129,7 +129,7 @@
 /turf/closed/wall,
 /area/ruin/space/has_grav/powered/ancient_shuttle)
 "o" = (
-/obj/machinery/vending/snack/teal,
+/obj/machinery/vending/snack,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/airless,
 /area/ruin/space/has_grav/powered/ancient_shuttle)

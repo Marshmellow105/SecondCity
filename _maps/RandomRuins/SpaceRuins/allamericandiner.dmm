@@ -370,7 +370,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/allamericandiner)
 "rG" = (
-/obj/structure/chair/stool/bar/directional/north,
+/obj/structure/chair/stool/bar/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen,
 /area/ruin/space/has_grav/allamericandiner)
@@ -670,7 +670,7 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/allamericandiner)
 "FB" = (
-/obj/structure/chair/stool/bar/directional/north,
+/obj/structure/chair/stool/bar/directional/south,
 /turf/open/floor/iron/kitchen,
 /area/ruin/space/has_grav/allamericandiner)
 "FP" = (
@@ -692,7 +692,7 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/allamericandiner)
 "GE" = (
-/obj/structure/chair/stool/bar/directional/east,
+/obj/structure/chair/stool/bar/directional/west,
 /turf/open/floor/iron/kitchen,
 /area/ruin/space/has_grav/allamericandiner)
 "GU" = (
@@ -835,7 +835,7 @@
 /turf/open/misc/asteroid/airless,
 /area/ruin/space)
 "Ka" = (
-/obj/structure/chair/stool/bar/directional/north,
+/obj/structure/chair/stool/bar/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen,

@@ -643,7 +643,7 @@
 /obj/effect/turf_decal{
 	icon_state = "warningline_white"
 	},
-/obj/structure/showcase/machinery/tv{
+/obj/structure/fluff/tv{
 	icon_state = "computer_broken";
 	desc = "It would have been locked anyway.";
 	name = "syndicate navigation console"
@@ -2119,7 +2119,7 @@
 	icon_state = "warningline_white";
 	dir = 1
 	},
-/obj/machinery/vending/cola/black{
+/obj/machinery/vending/cola{
 	icon_state = "cola_black-broken"
 	},
 /turf/open/floor/pod/dark,

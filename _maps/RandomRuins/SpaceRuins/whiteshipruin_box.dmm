@@ -1377,7 +1377,7 @@
 /turf/open/floor/mineral/titanium/white/airless,
 /area/ruin/space/has_grav/whiteship/box)
 "RQ" = (
-/obj/machinery/vending/cola/black,
+/obj/machinery/vending/cola,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/ruin/space/has_grav/whiteship/box)
 "Sp" = (

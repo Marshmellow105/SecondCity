@@ -159,7 +159,7 @@
 	pixel_x = 11;
 	pixel_y = -3
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/tile,
 /area/shuttle/escape)
 "E" = (
@@ -211,7 +211,7 @@
 /obj/structure/sign/painting/library{
 	pixel_y = 32
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/tile,
 /area/shuttle/escape)
 "M" = (

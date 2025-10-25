@@ -1440,10 +1440,9 @@
 /turf/open/floor/iron,
 /area/awaymission/moonoutpost19/research)
 "ki" = (
-/obj/structure/sign/warning/vacuum{
+/obj/structure/sign/warning/vacuum/directional/west{
 	desc = "A warning sign which reads 'HOSTILE ATMOSPHERE AHEAD'";
-	name = "\improper HOSTILE ATMOSPHERE AHEAD";
-	pixel_x = -32
+	name = "\improper HOSTILE ATMOSPHERE AHEAD"
 	},
 /obj/effect/turf_decal/lunar_sand/plating,
 /turf/open/floor/plating,
@@ -1512,10 +1511,7 @@
 /turf/open/floor/iron,
 /area/awaymission/moonoutpost19/syndicate)
 "kC" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = 11
-	},
+/obj/structure/sink/directional/west,
 /obj/structure/urinal/directional/north,
 /obj/structure/mirror/directional/east,
 /obj/effect/decal/cleanable/dirt,
@@ -2488,9 +2484,7 @@
 /turf/open/floor/iron,
 /area/awaymission/moonoutpost19/arrivals)
 "qi" = (
-/obj/machinery/shower{
-	pixel_y = 16
-	},
+/obj/machinery/shower/directional/south,
 /turf/open/floor/iron/freezer,
 /area/awaymission/moonoutpost19/arrivals)
 "qj" = (
@@ -2841,10 +2835,9 @@
 	},
 /area/awaymission/moonoutpost19/research)
 "rP" = (
-/obj/structure/sink/kitchen{
+/obj/structure/sink/kitchen/directional/south{
 	desc = "A sink used for washing one's hands and face. It looks rusty and home-made";
-	name = "old sink";
-	pixel_y = 28
+	name = "old sink"
 	},
 /turf/open/floor/iron/showroomfloor{
 	temperature = 273.15
@@ -2885,9 +2878,7 @@
 	},
 /area/awaymission/moonoutpost19/mines)
 "si" = (
-/obj/structure/sign/warning/biohazard{
-	pixel_x = 32
-	},
+/obj/structure/sign/warning/biohazard/directional/east,
 /obj/structure/alien/weeds,
 /obj/effect/turf_decal/tile/purple,
 /obj/structure/cable,
@@ -3983,18 +3974,15 @@
 	},
 /area/awaymission/moonoutpost19/research)
 "zK" = (
-/obj/structure/sign/warning/vacuum{
+/obj/structure/sign/warning/vacuum/directional/north{
 	desc = "A warning sign which reads 'HOSTILE ATMOSPHERE AHEAD'";
-	name = "\improper HOSTILE ATMOSPHERE AHEAD";
-	pixel_y = 32
+	name = "\improper HOSTILE ATMOSPHERE AHEAD"
 	},
 /obj/effect/turf_decal/lunar_sand/plating,
 /turf/open/floor/plating,
 /area/awaymission/moonoutpost19/arrivals)
 "zN" = (
-/obj/structure/sink{
-	pixel_y = 28
-	},
+/obj/structure/sink/directional/south,
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/iron/freezer,
 /area/awaymission/moonoutpost19/research)
@@ -4606,9 +4594,7 @@
 /turf/open/floor/iron,
 /area/awaymission/moonoutpost19/arrivals)
 "DN" = (
-/obj/machinery/shower{
-	dir = 8
-	},
+/obj/machinery/shower/directional/west,
 /obj/item/bikehorn/rubberducky,
 /turf/open/floor/iron/freezer,
 /area/awaymission/moonoutpost19/arrivals)
@@ -4630,9 +4616,7 @@
 	},
 /area/awaymission/moonoutpost19/main)
 "DW" = (
-/obj/machinery/shower{
-	dir = 1
-	},
+/obj/machinery/shower/directional/north,
 /turf/open/floor/iron/freezer,
 /area/awaymission/moonoutpost19/arrivals)
 "DZ" = (
@@ -5146,7 +5130,7 @@
 	},
 /area/awaymission/moonoutpost19/main)
 "HS" = (
-/obj/structure/chair/stool/directional/east{
+/obj/structure/chair/stool/directional/west{
 	pixel_x = 9
 	},
 /obj/effect/turf_decal/siding/wood/corner{
@@ -5162,9 +5146,7 @@
 /turf/open/floor/iron,
 /area/awaymission/moonoutpost19/research)
 "HY" = (
-/obj/structure/sign/departments/science{
-	pixel_y = 32
-	},
+/obj/structure/sign/departments/science/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/purple/anticorner{
 	dir = 1
@@ -5295,7 +5277,7 @@
 	},
 /area/awaymission/moonoutpost19/main)
 "ID" = (
-/obj/structure/chair/stool/directional/east{
+/obj/structure/chair/stool/directional/west{
 	pixel_y = 9
 	},
 /obj/effect/turf_decal/siding/wood/corner{
@@ -5484,11 +5466,7 @@
 	},
 /area/awaymission/moonoutpost19/syndicate)
 "JV" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = -12;
-	pixel_y = 2
-	},
+/obj/structure/sink/directional/east,
 /turf/open/floor/iron/white,
 /area/awaymission/moonoutpost19/research)
 "JZ" = (
@@ -5971,11 +5949,7 @@
 	},
 /area/awaymission/moonoutpost19/research)
 "Oa" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = -12;
-	pixel_y = 2
-	},
+/obj/structure/sink/directional/east,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -6363,9 +6337,7 @@
 /turf/open/floor/plating,
 /area/awaymission/moonoutpost19/arrivals/shed)
 "Qm" = (
-/obj/machinery/shower{
-	dir = 8
-	},
+/obj/machinery/shower/directional/west,
 /turf/open/floor/iron/freezer,
 /area/awaymission/moonoutpost19/arrivals)
 "Qn" = (
@@ -6956,10 +6928,7 @@
 /turf/open/floor/iron/dark,
 /area/awaymission/moonoutpost19/research)
 "Ur" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = 11
-	},
+/obj/structure/sink/directional/west,
 /obj/structure/mirror/broken/directional/east,
 /turf/open/floor/iron/freezer,
 /area/awaymission/moonoutpost19/arrivals)
@@ -7018,8 +6987,7 @@
 /turf/open/floor/carpet/orange,
 /area/awaymission/moonoutpost19/arrivals)
 "UZ" = (
-/obj/machinery/shower{
-	dir = 4;
+/obj/machinery/shower/directional/east{
 	name = "emergency shower"
 	},
 /obj/effect/turf_decal/stripes/line{
@@ -7472,9 +7440,7 @@
 /turf/open/misc/asteroid/basalt,
 /area/awaymission/moonoutpost19/main)
 "Yc" = (
-/obj/structure/sink{
-	pixel_y = 28
-	},
+/obj/structure/sink/directional/south,
 /obj/machinery/light/small/directional/west,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/freezer,
@@ -7605,9 +7571,7 @@
 	},
 /area/awaymission/moonoutpost19/main)
 "YS" = (
-/obj/machinery/shower{
-	pixel_y = 16
-	},
+/obj/machinery/shower/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/freezer,
 /area/awaymission/moonoutpost19/arrivals)

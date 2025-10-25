@@ -20,7 +20,7 @@
 /area/misc/hilbertshotel)
 "f" = (
 /obj/structure/table/wood,
-/obj/structure/showcase/machinery/tv,
+/obj/structure/fluff/tv,
 /obj/machinery/light/small/directional/north,
 /turf/open/indestructible/hotelwood,
 /area/misc/hilbertshotel)

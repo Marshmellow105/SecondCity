@@ -530,7 +530,7 @@
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 1
 	},
-/obj/machinery/vending/cola/space_up,
+/obj/machinery/vending/cola,
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
 "tL" = (
@@ -1301,7 +1301,7 @@
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 1
 	},
-/obj/machinery/vending/snack/green,
+/obj/machinery/vending/snack,
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
 "Zt" = (

@@ -6,7 +6,7 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/film_studio/stage)
 "au" = (
-/obj/structure/chair/stool/bar/directional/east{
+/obj/structure/chair/stool/bar/directional/west{
 	pixel_x = 8
 	},
 /obj/machinery/light/directional/north,
@@ -22,7 +22,7 @@
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 8
 	},
-/obj/structure/chair/stool/directional/north,
+/obj/structure/chair/stool/directional/south,
 /obj/machinery/door/poddoor/shutters/preopen/deconstructed{
 	id = "stage_one"
 	},
@@ -219,7 +219,7 @@
 "dL" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "dR" = (
@@ -233,8 +233,8 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/stage)
 "ef" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/film_studio/solars)
 "em" = (
@@ -244,7 +244,7 @@
 /area/ruin/space/has_grav/film_studio)
 "ep" = (
 /obj/structure/broken_flooring/singular,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "eu" = (
@@ -479,7 +479,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "iR" = (
-/obj/machinery/vending/cola/sodie,
+/obj/machinery/vending/cola,
 /obj/machinery/newscaster/directional/south,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/stage)
@@ -633,7 +633,7 @@
 "lt" = (
 /obj/effect/spawner/random/trash,
 /obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/film_studio/solars)
 "lJ" = (
@@ -685,7 +685,7 @@
 /obj/effect/turf_decal/board_number/three{
 	pixel_y = 11
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "nf" = (
@@ -707,7 +707,7 @@
 /area/ruin/space/has_grav/film_studio)
 "nQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "nS" = (
@@ -747,7 +747,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio)
 "oM" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/film_studio/solars)
 "oR" = (
@@ -957,7 +957,7 @@
 /turf/open/floor/iron/freezer,
 /area/ruin/space/has_grav/film_studio/dorms)
 "sp" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "sq" = (
@@ -1005,8 +1005,8 @@
 /obj/structure/broken_flooring/singular{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "sZ" = (
@@ -1017,7 +1017,7 @@
 "ta" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/plating,
@@ -1089,14 +1089,14 @@
 /area/ruin/space/has_grav/film_studio/dorms)
 "tY" = (
 /obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/film_studio/solars)
 "uc" = (
 /obj/machinery/power/terminal,
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "uo" = (
@@ -1134,7 +1134,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "vh" = (
@@ -1214,7 +1214,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/starboard)
 "wv" = (
-/obj/structure/chair/stool/directional/north,
+/obj/structure/chair/stool/directional/south,
 /obj/machinery/door/poddoor/shutters/preopen/deconstructed{
 	id = "stage_one"
 	},
@@ -1262,7 +1262,7 @@
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 4
 	},
-/obj/structure/chair/stool/directional/north,
+/obj/structure/chair/stool/directional/south,
 /turf/open/floor/iron/large,
 /area/ruin/space/has_grav/film_studio/stage)
 "xw" = (
@@ -1299,7 +1299,7 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/film_studio/backstage)
 "yb" = (
-/obj/structure/chair/stool/bar/directional/north{
+/obj/structure/chair/stool/bar/directional/south{
 	pixel_y = 12
 	},
 /turf/open/floor/iron/smooth,
@@ -1352,7 +1352,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "zB" = (
@@ -1510,7 +1510,7 @@
 /area/ruin/space/has_grav/film_studio/dorms)
 "Cd" = (
 /obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/film_studio/solars)
 "Ce" = (
@@ -1676,7 +1676,7 @@
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 8
 	},
-/obj/structure/chair/stool/directional/north,
+/obj/structure/chair/stool/directional/south,
 /turf/open/floor/iron/large,
 /area/ruin/space/has_grav/film_studio/stage)
 "Ea" = (
@@ -1760,7 +1760,7 @@
 /obj/structure/broken_flooring/side/directional/east{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "Fg" = (
@@ -1849,7 +1849,7 @@
 "FU" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
@@ -1868,7 +1868,7 @@
 /area/ruin/space/has_grav/film_studio/starboard)
 "Gk" = (
 /obj/effect/spawner/random/trash,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/film_studio/solars)
 "Gm" = (
@@ -1896,7 +1896,7 @@
 /area/ruin/space/has_grav/film_studio/dorms)
 "GX" = (
 /obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/poddoor/shutters/preopen/deconstructed{
 	id = "stage_three"
 	},
@@ -2014,8 +2014,8 @@
 /obj/structure/broken_flooring/singular{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "JG" = (
@@ -2096,7 +2096,7 @@
 "KY" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/poddoor/shutters/preopen/deconstructed{
 	id = "stage_three"
 	},
@@ -2196,7 +2196,7 @@
 "Mh" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/floodlight_frame/completed,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/film_studio/solars)
@@ -2250,13 +2250,13 @@
 	dir = 1
 	},
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "MZ" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/film_studio/solars)
 "No" = (
@@ -2320,7 +2320,7 @@
 /area/ruin/space/has_grav/film_studio/backstage)
 "Oj" = (
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "On" = (
@@ -2345,7 +2345,7 @@
 /area/ruin/space/has_grav/film_studio/starboard)
 "OF" = (
 /obj/effect/spawner/random/trash,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "OI" = (
@@ -2401,7 +2401,7 @@
 	},
 /area/ruin/space/has_grav/film_studio/starboard)
 "Pa" = (
-/obj/structure/chair/stool/directional/east,
+/obj/structure/chair/stool/directional/west,
 /obj/machinery/light/dim/directional/south,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
@@ -2440,7 +2440,7 @@
 /area/ruin/space/has_grav/film_studio/backstage)
 "PF" = (
 /obj/structure/broken_flooring/side/directional/east,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "PS" = (
@@ -2553,7 +2553,7 @@
 /area/ruin/space/has_grav/film_studio/director)
 "Sb" = (
 /obj/machinery/light/floor,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/film_studio/solars)
 "Sd" = (
@@ -2725,7 +2725,7 @@
 /turf/open/floor/catwalk_floor/iron,
 /area/ruin/space/has_grav/film_studio)
 "Uz" = (
-/obj/structure/chair/stool/directional/north,
+/obj/structure/chair/stool/directional/south,
 /turf/open/floor/iron/large,
 /area/ruin/space/has_grav/film_studio/stage)
 "UH" = (
@@ -2737,7 +2737,7 @@
 /turf/open/floor/iron/freezer,
 /area/ruin/space/has_grav/film_studio/dorms)
 "US" = (
-/obj/structure/chair/stool/bar/directional/east{
+/obj/structure/chair/stool/bar/directional/west{
 	pixel_x = 8
 	},
 /turf/open/floor/iron/smooth,
@@ -2929,7 +2929,7 @@
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 4
 	},
-/obj/structure/chair/stool/directional/north,
+/obj/structure/chair/stool/directional/south,
 /obj/machinery/door/poddoor/shutters/preopen/deconstructed{
 	id = "stage_one"
 	},

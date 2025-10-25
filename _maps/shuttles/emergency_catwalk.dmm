@@ -45,7 +45,7 @@
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "dw" = (
-/obj/structure/chair/stool/bar/directional/north,
+/obj/structure/chair/stool/bar/directional/south,
 /turf/open/floor/light/colour_cycle/dancefloor_b,
 /area/shuttle/escape)
 "ej" = (
@@ -322,7 +322,7 @@
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/escape)
 "wU" = (
-/obj/structure/chair/stool/bar/directional/north,
+/obj/structure/chair/stool/bar/directional/south,
 /turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/shuttle/escape)
 "xP" = (
@@ -737,7 +737,7 @@
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/escape)
 "MM" = (
-/obj/machinery/vending/cola/red,
+/obj/machinery/vending/cola,
 /turf/open/floor/iron/herringbone,
 /area/shuttle/escape)
 "Nq" = (

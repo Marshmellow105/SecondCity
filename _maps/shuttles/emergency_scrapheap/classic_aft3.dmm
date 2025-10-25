@@ -199,7 +199,7 @@
 /obj/effect/decal/cleanable/blood/trail_holder{
 	dir = 5
 	},
-/obj/item/stack/tile/iron,
+/obj/item/stack/tile/iron/base,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/escape)
@@ -222,7 +222,7 @@
 "W" = (
 /obj/structure/girder,
 /obj/effect/mapping_helpers/burnt_floor,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/airless,
 /area/shuttle/escape)
 "Y" = (

@@ -34,7 +34,7 @@
 /turf/open/floor/plating,
 /area/centcom/basketball)
 "cz" = (
-/obj/structure/chair/stool/directional/east,
+/obj/structure/chair/stool/directional/west,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/centcom/basketball)

@@ -11084,7 +11084,7 @@
 /turf/open/floor/plating,
 /area/awaymission/snowdin/post/minipost)
 "WK" = (
-/obj/vehicle/sealed/mecha/ripley/mining,
+/obj/vehicle/sealed/mecha/medical/combat/ripley/mining,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/recharge_floor,
 /area/awaymission/snowdin/post/mining_main/mechbay)

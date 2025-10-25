@@ -104,7 +104,7 @@
 /area/station/maintenance/starboard/lesser)
 "y" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/vehicle/sealed/mecha/ripley,
+/obj/vehicle/sealed/mecha/medical/combat/ripley,
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/lesser)

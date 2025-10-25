@@ -110,7 +110,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
 /obj/item/reagent_containers/cup/glass/coffee{
 	pixel_x = 6;
@@ -127,14 +127,14 @@
 	dir = 5
 	},
 /obj/machinery/light/floor,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/large,
 /area/ruin/huntinglodge)
 "dt" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/structure/chair/stool/directional/north,
+/obj/structure/chair/stool/directional/south,
 /obj/effect/decal/cleanable/blood/trail_holder{
 	dir = 4
 	},
@@ -178,7 +178,7 @@
 /area/ruin/huntinglodge)
 "dQ" = (
 /obj/effect/decal/cleanable/wrapping,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/mob_spawn/corpse/human/assistant,
 /turf/open/floor/wood,
 /area/ruin/huntinglodge)
@@ -218,7 +218,7 @@
 	dir = 9
 	},
 /obj/item/kirbyplants/random,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/large,
 /area/ruin/huntinglodge)
 "eB" = (
@@ -236,7 +236,7 @@
 	color = "#beada5"
 	},
 /obj/effect/decal/cleanable/blood/drip,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/large,
 /area/ruin/huntinglodge)
 "eE" = (
@@ -520,7 +520,7 @@
 	pixel_y = 3
 	},
 /obj/effect/decal/cleanable/blood/gibs/body,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/huntinglodge)
 "if" = (
@@ -530,7 +530,7 @@
 /area/ruin/huntinglodge)
 "iq" = (
 /obj/effect/decal/cleanable/vomit,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/huntinglodge)
 "iV" = (
@@ -578,7 +578,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/tile,
 /area/ruin/huntinglodge)
 "jN" = (
@@ -640,7 +640,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood,
 /area/ruin/huntinglodge)
@@ -649,7 +649,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/blood/gibs/core,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/chair/stool{
 	pixel_x = -10;
 	pixel_y = -14
@@ -668,7 +668,7 @@
 "kP" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/decal/cleanable/blood/drip,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/herringbone,
 /area/ruin/huntinglodge)
 "lc" = (
@@ -773,7 +773,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood/drip,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/herringbone,
 /area/ruin/huntinglodge)
 "mq" = (
@@ -823,7 +823,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/structure/chair/stool/directional/north,
+/obj/structure/chair/stool/directional/south,
 /obj/item/gun/ballistic/shotgun/riot,
 /turf/open/floor/wood/tile,
 /area/ruin/huntinglodge)
@@ -1007,7 +1007,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/tile,
 /area/ruin/huntinglodge)
 "pN" = (
@@ -1015,7 +1015,7 @@
 	dir = 10
 	},
 /obj/machinery/light/small/dim/directional/west,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/confetti,
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood/tile,
@@ -1088,7 +1088,7 @@
 	pixel_x = -4;
 	pixel_y = -13
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/tile,
 /area/ruin/huntinglodge)
 "qU" = (
@@ -1186,7 +1186,7 @@
 	pixel_x = 5;
 	pixel_y = -4
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/herringbone,
 /area/ruin/huntinglodge)
 "tq" = (
@@ -1196,7 +1196,7 @@
 "tT" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/huntinglodge)
 "tY" = (
@@ -1305,7 +1305,7 @@
 	pixel_x = -12;
 	pixel_y = 11
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/herringbone,
 /area/ruin/huntinglodge)
 "wd" = (
@@ -1323,7 +1323,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/large,
 /area/ruin/huntinglodge)
 "ww" = (
@@ -1367,7 +1367,7 @@
 /area/icemoon/surface/outdoors/nospawn)
 "wP" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
 	},
@@ -1450,7 +1450,7 @@
 	pixel_x = 2;
 	pixel_y = 1
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/herringbone,
 /area/ruin/huntinglodge)
 "xG" = (
@@ -1464,7 +1464,7 @@
 	color = "#beada5"
 	},
 /obj/effect/decal/cleanable/blood/drip,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/large,
 /area/ruin/huntinglodge)
 "xH" = (
@@ -1528,7 +1528,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood/large,
 /area/ruin/huntinglodge)
@@ -1562,7 +1562,7 @@
 "yG" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/mob_spawn/corpse/human/miner/explorer,
 /turf/open/floor/wood/tile,
 /area/ruin/huntinglodge)
@@ -1602,7 +1602,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/large,
 /area/ruin/huntinglodge)
 "zm" = (
@@ -1621,7 +1621,7 @@
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/chair/stool/directional/south,
 /obj/effect/decal/cleanable/plastic,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/trail_holder{
 	dir = 4
 	},
@@ -1666,7 +1666,7 @@
 /area/ruin/huntinglodge)
 "Ar" = (
 /obj/effect/turf_decal/siding/wood/corner,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/floor/wood/large,
 /area/ruin/huntinglodge)
@@ -1795,7 +1795,7 @@
 	},
 /obj/structure/chair/stool/directional/west,
 /obj/effect/mob_spawn/corpse/human/skeleton/cultist,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/warm/dim/directional/east,
 /turf/open/floor/wood/large,
 /area/ruin/huntinglodge)
@@ -1818,7 +1818,7 @@
 	pixel_x = -18;
 	pixel_y = 10
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/flashlight/lamp/green{
 	pixel_x = -1;
 	pixel_y = 4
@@ -1944,13 +1944,6 @@
 	},
 /turf/open/floor/wood/large,
 /area/ruin/huntinglodge)
-"Ej" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 9
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood,
-/area/ruin/huntinglodge)
 "Eq" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -2002,7 +1995,7 @@
 	},
 /obj/effect/decal/cleanable/blood/gibs/torso,
 /obj/effect/decal/cleanable/chem_pile,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/huntinglodge)
 "EG" = (
@@ -2139,7 +2132,7 @@
 	pixel_y = 11
 	},
 /obj/effect/decal/cleanable/blood/footprints,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/huntinglodge)
 "GF" = (
@@ -2232,7 +2225,7 @@
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /mob/living/basic/viscerator,
 /turf/open/floor/wood,
 /area/ruin/huntinglodge)
@@ -2305,7 +2298,7 @@
 /area/ruin/huntinglodge)
 "Ia" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/brimdust,
 /turf/open/floor/wood,
 /area/ruin/huntinglodge)
@@ -2369,7 +2362,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
 /obj/item/storage/cans/sixbeer,
 /turf/open/floor/wood/tile,
@@ -2456,7 +2449,7 @@
 /obj/effect/turf_decal/siding/wood/end{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/herringbone,
 /area/ruin/huntinglodge)
 "Lt" = (
@@ -2523,7 +2516,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/huntinglodge)
 "Mf" = (
@@ -2545,7 +2538,7 @@
 /area/ruin/huntinglodge)
 "Nj" = (
 /obj/effect/decal/cleanable/blood/old,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /mob/living/basic/viscerator,
 /obj/effect/decal/cleanable/brimdust,
 /turf/open/floor/wood,
@@ -2568,7 +2561,7 @@
 /obj/effect/turf_decal/siding/wood/end{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/herringbone,
 /area/ruin/huntinglodge)
 "NL" = (
@@ -2597,7 +2590,7 @@
 "Oa" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/machinery/light/warm/directional/south,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/brimdust,
 /turf/open/floor/wood/large,
 /area/ruin/huntinglodge)
@@ -2651,7 +2644,7 @@
 	pixel_x = 3;
 	pixel_y = 2
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/large,
 /area/ruin/huntinglodge)
 "OA" = (
@@ -2805,7 +2798,7 @@
 /obj/structure/railing{
 	color = "#beada5"
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/large,
 /area/ruin/huntinglodge)
 "Sf" = (
@@ -2876,7 +2869,7 @@
 /obj/effect/decal/cleanable/vomit,
 /obj/effect/decal/cleanable/garbage,
 /obj/effect/decal/cleanable/blood/footprints,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/huntinglodge)
 "SS" = (
@@ -2900,7 +2893,7 @@
 /area/icemoon/surface/outdoors/nospawn)
 "Tp" = (
 /obj/effect/turf_decal/siding/wood,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/wood/large,
 /area/ruin/huntinglodge)
@@ -2923,7 +2916,7 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/gun/ballistic/shotgun/doublebarrel,
 /turf/open/floor/iron/dark/herringbone,
 /area/ruin/huntinglodge)
@@ -2994,7 +2987,7 @@
 /obj/effect/turf_decal/siding/thinplating{
 	color = "#beada5"
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/large,
 /area/ruin/huntinglodge)
 "Vb" = (
@@ -3018,7 +3011,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood/drip,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/dim/directional/north,
 /turf/open/floor/iron/dark/herringbone,
 /area/ruin/huntinglodge)
@@ -3063,7 +3056,7 @@
 	dir = 10
 	},
 /obj/item/gun/ballistic/automatic/pistol/m1911/no_mag,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/huntinglodge)
 "VO" = (
@@ -3088,7 +3081,7 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/decal/cleanable/blood/innards,
 /obj/effect/decal/cleanable/blood/footprints,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /mob/living/basic/viscerator,
 /turf/open/floor/wood,
 /area/ruin/huntinglodge)
@@ -3123,7 +3116,7 @@
 /area/ruin/huntinglodge)
 "Xa" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/checker,
 /area/ruin/huntinglodge)
 "Xf" = (
@@ -3186,7 +3179,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/floor,
 /obj/effect/decal/cleanable/chem_pile,
 /turf/open/floor/wood/tile,
@@ -3249,7 +3242,7 @@
 	dir = 9
 	},
 /obj/item/ammo_casing/shotgun/buckshot/spent,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/dim/directional/west,
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood/tile,
@@ -3263,7 +3256,7 @@
 	dir = 4
 	},
 /obj/item/bodypart/head/ethereal,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate/bin,
 /turf/open/floor/wood,
 /area/ruin/huntinglodge)
@@ -3336,7 +3329,7 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/herringbone,
 /area/ruin/huntinglodge)
 
@@ -4253,7 +4246,7 @@ Jb
 Fw
 UB
 Ea
-Ej
+og
 mr
 Jb
 Jb
