@@ -1,0 +1,4 @@
+/obj/elevator_door{SUBTYPES} : @DELETE
+/obj/elevator_button : @DELETE
+/obj/elevator_button_down : @DELETE
+/obj/elevator_button_up : @DELETE
