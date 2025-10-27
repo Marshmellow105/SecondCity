@@ -35,6 +35,7 @@
 	base_name = "Elevator Door"
 	icon = 'modular_darkpack/modules/elevators/icons/doorleft.dmi'
 	icon_state = "construction"
+	abstract_type = /obj/structure/door_assembly/elevator
 	overlays_file = null
 	anchored = FALSE
 	density = TRUE
