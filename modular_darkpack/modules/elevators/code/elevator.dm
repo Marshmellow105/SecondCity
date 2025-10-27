@@ -30,7 +30,7 @@
 	. = ..()
 	set_bounds()
 
-/obj/structure/door_assembly/elevator/
+/obj/structure/door_assembly/elevator
 	name = "door assembly"
 	base_name = "Elevator Door"
 	icon = 'modular_darkpack/modules/elevators/icons/doorleft.dmi'
