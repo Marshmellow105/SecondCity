@@ -2,6 +2,7 @@
 	name = "Elevator Door"
 	icon = 'modular_darkpack/modules/elevators/icons/doorleft.dmi'
 	icon_state = "closed"
+	abstract_type = /obj/machinery/door/airlock/elevator
 	doorOpen = 'modular_darkpack/modules/elevators/sounds/elevatoropen.ogg'
 	doorClose = 'modular_darkpack/modules/elevators/sounds/elevatorclose.ogg'
 	doorDeni = null
