@@ -1,17 +1,17 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"ad" = (
-/obj/structure/railing/corner/end{
-	dir = 4
-	},
-/obj/structure/transport/linear/public,
-/turf/open/floor/plating/elevatorshaft,
-/area/vtm/outside/pacificheights)
 "ap" = (
 /obj/item/vamp/phone/street{
 	pixel_z = 24
 	},
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"aq" = (
+/obj/structure/table,
+/obj/item/storage/medkit/darkpack/tox,
+/obj/item/storage/medkit/darkpack/tox,
+/obj/item/storage/medkit/darkpack/tox,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "av" = (
 /obj/structure/table,
 /obj/item/ammo_box/magazine/darkpack45acp,
@@ -39,25 +39,21 @@
 /obj/structure/table,
 /turf/closed/wall/vampwall/brick/low,
 /area/vtm/interior/shop)
+"be" = (
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "bh" = (
 /obj/structure/chair/greyscale{
 	dir = 8
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/outside/pacificheights)
-"bm" = (
-/obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator3";
-	pixel_y = 35;
-	pixel_x = 9
+"bk" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
 	},
-/obj/machinery/lift_indicator/directional/north{
-	pixel_x = -5;
-	pixel_y = 20;
-	linked_elevator_id = "DebugElevator3"
-	},
-/turf/open/misc/beach/vamp,
-/area/vtm/outside/pacificheights)
+/turf/open/misc/dirt/vamp,
+/area/vtm/outside/supply)
 "bo" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -78,23 +74,6 @@
 /obj/item/clothing/head/collectable/pirate,
 /turf/open/floor/plating/woodrough,
 /area/vtm/outside/pacificheights)
-"bC" = (
-/obj/item/reagent_containers/cup/bottle/morphine,
-/obj/item/reagent_containers/cup/bottle/morphine,
-/obj/item/reagent_containers/cup/bottle/morphine,
-/obj/item/reagent_containers/cup/bottle/morphine,
-/obj/item/reagent_containers/cup/bottle/morphine,
-/obj/item/reagent_containers/cup/bottle/morphine,
-/obj/item/storage/box/syringes,
-/obj/structure/closet/secure_closet/medical2,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
-"bD" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 10
-	},
-/turf/open/misc/dirt/vamp,
-/area/vtm/supply)
 "bE" = (
 /obj/structure/table/wood,
 /obj/item/vtm_artifact/mummywrap_fetish,
@@ -111,18 +90,13 @@
 /obj/structure/rack,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
-"bU" = (
-/obj/structure/table,
-/obj/machinery/cell_charger{
-	pixel_y = 10
+"ca" = (
+/obj/structure/railing/corner/end/flip{
+	dir = 4
 	},
-/obj/item/screwdriver{
-	pixel_y = 9
-	},
-/obj/item/stock_parts/power_store/cell/high,
-/obj/item/defibrillator/compact,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
+/obj/structure/transport/linear/public,
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
 "cf" = (
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/pacificheights)
@@ -142,26 +116,6 @@
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights)
-"cE" = (
-/obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator2";
-	pixel_x = 9;
-	pixel_y = 35
-	},
-/obj/machinery/lift_indicator/directional/north{
-	pixel_x = -5;
-	pixel_y = 20;
-	linked_elevator_id = "DebugElevator2"
-	},
-/turf/open/floor/plating/sidewalk,
-/area/vtm/outside/pacificheights)
-"cQ" = (
-/obj/structure/table,
-/obj/item/storage/medkit/darkpack/ifak,
-/obj/item/storage/medkit/darkpack/ifak,
-/obj/item/storage/medkit/darkpack/ifak,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
 "cT" = (
 /obj/effect/turf_decal/bordur,
 /obj/darkpack_car/rand/camarilla{
@@ -177,12 +131,45 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
+"dn" = (
+/obj/structure/table,
+/obj/item/storage/medkit/darkpack/ifak,
+/obj/item/storage/medkit/darkpack/ifak,
+/obj/item/storage/medkit/darkpack/ifak,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
+"ds" = (
+/obj/machinery/elevator_control_panel/directional/north{
+	linked_elevator_id = "DebugElevator";
+	preset_destination_names = list("2" = "Lower", "3" = "Upper")
+	},
+/obj/structure/railing/corner/end{
+	dir = 8
+	},
+/obj/structure/transport/linear/public,
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
 "dA" = (
 /obj/structure/table,
 /obj/item/storage/medkit/darkpack/doctor,
 /obj/machinery/light/directional/north,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"dJ" = (
+/obj/item/storage/medkit/darkpack/standard,
+/obj/item/storage/medkit/darkpack/standard,
+/obj/item/storage/medkit/darkpack/standard,
+/obj/structure/table,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
+"dU" = (
+/obj/machinery/door/airlock/elevator/left{
+	dir = 8;
+	pixel_y = 15;
+	transport_linked_id = "DebugElevator4"
+	},
+/turf/open/floor/iron/smooth_large,
+/area/vtm/outside/pacificheights)
 "ee" = (
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/shop)
@@ -205,16 +192,15 @@
 /obj/item/vamp/keys/camarilla,
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
-"eG" = (
-/obj/machinery/light/directional/north,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
 "eJ" = (
 /obj/effect/decal/cleanable/trash{
 	icon_state = "trash5"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"eN" = (
+/turf/open/floor/iron/smooth_large,
+/area/vtm/outside/pacificheights)
 "eQ" = (
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
@@ -228,45 +214,22 @@
 /obj/item/vamp/keys/clinic,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights)
-"ff" = (
-/obj/cargocrate,
-/turf/open/misc/dirt/vamp/rails,
-/area/vtm/supply)
 "fh" = (
 /obj/structure/chair/stool/bar/directional/west,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"fi" = (
-/obj/effect/decal/pallet,
-/turf/open/misc/dirt/vamp,
-/area/vtm/supply)
 "fn" = (
 /obj/effect/decal/cleanable/cardboard,
 /turf/open/misc/beach/vamp,
-/area/vtm/outside/pacificheights)
-"fQ" = (
-/obj/structure/transport/linear/public,
-/obj/machinery/elevator_control_panel/directional/north{
-	linked_elevator_id = "DebugElevator4";
-	preset_destination_names = list("2" = "Lower", "3" = "Upper")
-	},
-/obj/effect/landmark/transport/transport_id{
-	specific_transport_id = "DebugElevator4"
-	},
-/turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
 "fS" = (
 /obj/structure/ladder/manhole/down,
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/plating/vampcanal,
 /area/vtm/outside/pacificheights)
-"fU" = (
-/obj/structure/railing{
-	dir = 6
-	},
-/obj/structure/transport/linear/public,
-/turf/open/floor/plating/elevatorshaft,
-/area/vtm/outside/pacificheights)
+"fX" = (
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/supply)
 "gb" = (
 /obj/effect/decal/cleanable/cardboard,
 /obj/structure/closet/cardboard,
@@ -291,9 +254,36 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/pacificheights)
+"gt" = (
+/obj/structure/table,
+/obj/item/storage/medkit/darkpack/brute,
+/obj/item/storage/medkit/darkpack/brute,
+/obj/item/storage/medkit/darkpack/brute,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
+"gw" = (
+/obj/machinery/door/airlock/elevator/right{
+	dir = 4;
+	pixel_y = 22;
+	transport_linked_id = "DebugElevator4"
+	},
+/turf/open/floor/iron/smooth_large,
+/area/vtm/outside/pacificheights)
+"gE" = (
+/obj/structure/table,
+/obj/item/storage/medkit/darkpack/advanced,
+/obj/item/storage/medkit/darkpack/advanced,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "gF" = (
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop)
+"gM" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/outside/supply)
 "gS" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -301,6 +291,9 @@
 /obj/structure/lamppost/four,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
+"gT" = (
+/turf/closed/wall/vampwall/brick/low,
+/area/vtm/interior/supply)
 "hi" = (
 /obj/effect/turf_decal/asphaltline,
 /turf/open/floor/plating/asphalt,
@@ -341,8 +334,23 @@
 /obj/item/kirbyplants/random,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"ih" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/obj/structure/transport/linear/public,
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
 "ik" = (
 /turf/open/floor/plating/asphalt,
+/area/vtm/outside/pacificheights)
+"ir" = (
+/obj/structure/transport/linear/public,
+/obj/machinery/elevator_control_panel/directional/north{
+	linked_elevator_id = "DebugElevator3";
+	preset_destination_names = list("2" = "Lower", "3" = "Upper")
+	},
+/turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
 "iA" = (
 /obj/effect/decal/cleanable/garbage,
@@ -387,23 +395,11 @@
 	},
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"jf" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/misc/dirt/vamp,
-/area/vtm/supply)
 "ji" = (
-/obj/machinery/elevator_control_panel/directional/north{
-	linked_elevator_id = "DebugElevator";
-	preset_destination_names = list("2" = "Lower", "3" = "Upper")
-	},
-/obj/structure/railing/corner/end{
-	dir = 8
-	},
-/obj/structure/transport/linear/public,
-/turf/open/floor/plating/elevatorshaft,
-/area/vtm/outside/pacificheights)
+/obj/effect/decal/pallet,
+/obj/machinery/light/directional/west,
+/turf/open/misc/dirt/vamp,
+/area/vtm/outside/supply)
 "jt" = (
 /obj/effect/decal/cleanable/litter,
 /obj/effect/spawner/random/occult/artifact,
@@ -413,6 +409,16 @@
 /obj/effect/decal/wallpaper/paper/stripe,
 /turf/closed/wall/vampwall/market,
 /area/vtm/interior/shop)
+"jX" = (
+/obj/cargocrate,
+/turf/open/misc/dirt/vamp/rails,
+/area/vtm/outside/supply)
+"jY" = (
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/outside/supply)
+"kb" = (
+/turf/closed/wall/vampwall/rich/old/low/window,
+/area/vtm/interior/clinic)
 "kc" = (
 /obj/structure/roadblock{
 	dir = 8
@@ -433,6 +439,9 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"kl" = (
+/turf/closed/wall/vampwall/brick,
+/area/vtm/interior/supply)
 "kn" = (
 /obj/structure/table,
 /obj/item/molotov,
@@ -449,30 +458,11 @@
 "kS" = (
 /turf/closed/wall/vampwall/market,
 /area/vtm/interior/shop)
-"kU" = (
-/obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator3";
-	pixel_y = 35;
-	pixel_x = 9
-	},
-/obj/machinery/lift_indicator/directional/north{
-	pixel_x = -5;
-	pixel_y = 20;
-	linked_elevator_id = "DebugElevator3"
-	},
-/turf/open/floor/plating/sidewalk,
-/area/vtm/outside/pacificheights)
 "kX" = (
 /obj/effect/turf_decal/crosswalk{
 	dir = 4
 	},
 /turf/open/floor/plating/asphalt,
-/area/vtm/outside/pacificheights)
-"kY" = (
-/obj/machinery/door/airlock/elevator/multi_tile{
-	transport_linked_id = "DebugElevator"
-	},
-/turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
 "lk" = (
 /obj/effect/turf_decal/stripes/line{
@@ -480,9 +470,27 @@
 	},
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"lN" = (
-/turf/open/floor/plating/sidewalk/poor,
-/area/vtm/supply)
+"lt" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/obj/structure/transport/linear/public,
+/obj/item/kirbyplants/random,
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
+"lA" = (
+/obj/machinery/button/elevator/directional/north{
+	id = "DebugElevator";
+	pixel_y = 35;
+	pixel_x = 9
+	},
+/obj/machinery/lift_indicator/directional/north{
+	pixel_x = -5;
+	pixel_y = 20;
+	linked_elevator_id = "DebugElevator"
+	},
+/turf/open/misc/beach/vamp,
+/area/vtm/outside/pacificheights)
 "lP" = (
 /obj/effect/decal/cleanable/trash{
 	icon_state = "trash5"
@@ -490,11 +498,12 @@
 /obj/effect/spawner/random/occult/artifact,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/sewer)
-"lU" = (
-/obj/effect/decal/pallet,
-/obj/machinery/light/directional/west,
-/turf/open/misc/dirt/vamp,
-/area/vtm/supply)
+"lQ" = (
+/obj/structure/table,
+/obj/item/stack/medical/bone_gel,
+/obj/item/clothing/gloves/vampire/latex,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "mb" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -515,19 +524,34 @@
 /obj/machinery/computer/order_console/mining/restricted/police,
 /turf/closed/wall/vampwall/brick/low,
 /area/vtm/interior/shop)
+"mr" = (
+/obj/machinery/button/elevator/directional/north{
+	id = "DebugElevator";
+	pixel_y = 35;
+	pixel_x = 9
+	},
+/obj/machinery/lift_indicator/directional/north{
+	pixel_x = -5;
+	pixel_y = 20;
+	linked_elevator_id = "DebugElevator"
+	},
+/turf/open/floor/plating/sidewalk,
+/area/vtm/outside/pacificheights)
 "mw" = (
 /obj/structure/ladder/manhole/up,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"mW" = (
-/obj/item/storage/box/syringes,
-/obj/item/storage/box/masks,
-/obj/item/storage/box/bodybags,
-/obj/item/storage/box/medipens,
-/obj/structure/closet,
-/obj/machinery/light/directional/north,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
+"mT" = (
+/obj/structure/table,
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/outside/supply)
+"mU" = (
+/obj/machinery/door/airlock/elevator/right{
+	elevator_mode = 1;
+	transport_linked_id = "DebugElevator2"
+	},
+/turf/open/floor/iron/smooth_large,
+/area/vtm/outside/pacificheights)
 "nh" = (
 /obj/weapon_showcase,
 /turf/open/floor/plating/parquetry/old,
@@ -547,6 +571,12 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
+"nv" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/misc/dirt/vamp,
+/area/vtm/outside/supply)
 "nA" = (
 /obj/effect/decal/cleanable/garbage,
 /obj/effect/decal/cleanable/cardboard,
@@ -563,39 +593,27 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
-"nN" = (
-/obj/structure/transport/linear/public,
-/obj/effect/landmark/transport/transport_id{
-	specific_transport_id = "DebugElevator3"
-	},
-/turf/open/floor/plating/elevatorshaft,
-/area/vtm/outside/pacificheights)
 "nY" = (
 /turf/open/floor/plating/vampcanal,
 /area/vtm/outside/pacificheights)
-"of" = (
-/obj/item/storage/medkit/darkpack/standard,
-/obj/item/storage/medkit/darkpack/standard,
-/obj/item/storage/medkit/darkpack/standard,
-/obj/structure/table,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
 "ok" = (
 /obj/effect/decal/cleanable/litter,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"os" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/item/supplypod_beacon{
+	anchored = 1
+	},
+/turf/open/misc/dirt/vamp/rails,
+/area/vtm/outside/supply)
 "ov" = (
 /obj/effect/turf_decal/crosswalk{
 	dir = 8
 	},
 /turf/open/floor/plating/asphalt,
-/area/vtm/outside/pacificheights)
-"oB" = (
-/obj/machinery/door/poddoor/shutters{
-	elevator_mode = 1;
-	transport_linked_id = "DebugElevator3"
-	},
-/turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
 "oJ" = (
 /turf/open/floor/plating/sidewalk/poor,
@@ -603,9 +621,6 @@
 "oK" = (
 /turf/open/misc/beach/vamp,
 /area/shuttle/arrival)
-"oM" = (
-/turf/open/floor/plating/sidewalk,
-/area/vtm/supply)
 "oU" = (
 /obj/weapon_showcase,
 /obj/structure/sign/flag/usa{
@@ -622,12 +637,6 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
-"pf" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 6
-	},
-/turf/open/misc/dirt/vamp,
-/area/vtm/supply)
 "pt" = (
 /mob/living/carbon/human/npc/shop,
 /turf/open/floor/plating/toilet,
@@ -653,15 +662,15 @@
 /obj/effect/spawner/random/occult/artifact,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/sewer)
-"pJ" = (
-/obj/structure/transport/linear/public,
-/obj/structure/closet/crate/freezer/food,
-/obj/item/storage/cans/sixbeer,
-/turf/open/floor/plating/elevatorshaft,
-/area/vtm/outside/pacificheights)
-"pN" = (
+"qb" = (
+/obj/item/storage/box/syringes,
+/obj/item/storage/box/masks,
+/obj/item/storage/box/bodybags,
+/obj/item/storage/box/medipens,
+/obj/structure/closet,
+/obj/machinery/light/directional/north,
 /turf/open/floor/plating/rough,
-/area/vtm/clinic)
+/area/vtm/interior/clinic)
 "qn" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -674,35 +683,42 @@
 	},
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"qt" = (
-/obj/machinery/computer/cargo/express{
-	dir = 4
-	},
-/turf/open/floor/plating/sidewalk/poor,
-/area/vtm/supply)
 "qz" = (
 /obj/structure/lamppost/one,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
-"qN" = (
-/obj/structure/chair/comfy/shuttle,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
 "qR" = (
 /obj/structure/closet/secure_closet/freezer,
 /obj/machinery/light/directional/west,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
-"qT" = (
-/turf/open/misc/dirt/vamp,
-/area/vtm/supply)
 "qV" = (
 /turf/closed/wall/vampwall/brick,
+/area/vtm/outside/pacificheights)
+"qY" = (
+/obj/machinery/button/elevator/directional/north{
+	id = "DebugElevator3";
+	pixel_y = 35;
+	pixel_x = 9
+	},
+/obj/machinery/lift_indicator/directional/north{
+	pixel_x = -5;
+	pixel_y = 20;
+	linked_elevator_id = "DebugElevator3"
+	},
+/turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
 "ri" = (
 /obj/structure/table/wood,
 /turf/closed/wall/vampwall/painted/low,
 /area/vtm/interior/shop)
+"rv" = (
+/obj/structure/transport/linear/public,
+/obj/effect/landmark/transport/transport_id{
+	specific_transport_id = "DebugElevator3"
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
 "rB" = (
 /turf/closed/indestructible/the_matrix,
 /area/vtm)
@@ -717,20 +733,6 @@
 /obj/item/vtm_artifact/saulocept,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/sewer)
-"rK" = (
-/obj/item/storage/pill_bottle/ephedrine,
-/obj/item/storage/pill_bottle/ephedrine,
-/obj/item/storage/pill_bottle/ephedrine,
-/obj/structure/closet/crate/medical,
-/obj/item/storage/pill_bottle/epinephrine,
-/obj/item/storage/pill_bottle/epinephrine,
-/obj/item/storage/pill_bottle/iron,
-/obj/item/storage/pill_bottle/iron,
-/obj/item/storage/pill_bottle/iron,
-/obj/item/storage/pill_bottle/epinephrine,
-/obj/item/storage/pill_bottle/mutadone,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
 "rL" = (
 /obj/structure/vampfence{
 	dir = 8
@@ -810,12 +812,10 @@
 /obj/structure/lamppost/four,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
-"tj" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 5
-	},
+"to" = (
+/obj/effect/turf_decal/stripes/line,
 /turf/open/misc/dirt/vamp,
-/area/vtm/supply)
+/area/vtm/outside/supply)
 "tr" = (
 /obj/structure/sign/city/police_department{
 	dir = 1
@@ -843,21 +843,53 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
-"tJ" = (
-/obj/structure/railing/corner/end/flip{
-	dir = 4
-	},
-/obj/structure/transport/linear/public,
-/turf/open/floor/plating/elevatorshaft,
-/area/vtm/outside/pacificheights)
 "tO" = (
 /obj/structure/sign/city/police_department,
+/turf/open/misc/beach/vamp,
+/area/vtm/outside/pacificheights)
+"tS" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/misc/dirt/vamp,
+/area/vtm/outside/supply)
+"tT" = (
+/obj/machinery/button/elevator/directional/north{
+	id = "DebugElevator2";
+	pixel_x = 9;
+	pixel_y = 35
+	},
+/obj/machinery/lift_indicator/directional/north{
+	pixel_x = -5;
+	pixel_y = 20;
+	linked_elevator_id = "DebugElevator2"
+	},
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
 "tW" = (
 /obj/darkpack_car/police/ranger,
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
+"ue" = (
+/obj/structure/transport/linear/public,
+/obj/structure/table,
+/obj/item/gun/ballistic/rocketlauncher/unrestricted{
+	pixel_y = 5;
+	pixel_x = -5
+	},
+/obj/machinery/elevator_control_panel/directional/north{
+	linked_elevator_id = "DebugElevator2";
+	preset_destination_names = list("2" = "Lower", "3" = "Upper")
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
+"uo" = (
+/obj/structure/table/optable,
+/obj/machinery/defibrillator_mount/loaded{
+	pixel_y = 30
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "uC" = (
 /obj/structure/table,
 /obj/item/ammo_box/magazine/glock45acp,
@@ -894,6 +926,14 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"uM" = (
+/obj/structure/transport/linear/public,
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
+"uR" = (
+/obj/structure/cargo_put,
+/turf/open/misc/dirt/vamp,
+/area/vtm/outside/supply)
 "vl" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -928,24 +968,22 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/plating/vampcanal,
 /area/vtm/outside/pacificheights)
-"vV" = (
-/obj/structure/railing{
-	dir = 9
-	},
-/obj/structure/transport/linear/public,
-/obj/item/kirbyplants/random,
-/turf/open/floor/plating/elevatorshaft,
-/area/vtm/outside/pacificheights)
-"wb" = (
+"vX" = (
 /obj/structure/table,
-/obj/item/storage/medkit/darkpack/brute,
-/obj/item/storage/medkit/darkpack/brute,
-/obj/item/storage/medkit/darkpack/brute,
+/obj/machinery/cell_charger{
+	pixel_y = 10
+	},
+/obj/item/screwdriver{
+	pixel_y = 9
+	},
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/defibrillator/compact,
 /turf/open/floor/plating/rough,
-/area/vtm/clinic)
-"wc" = (
-/turf/open/floor/iron/smooth_large,
-/area/vtm/outside/pacificheights)
+/area/vtm/interior/clinic)
+"wf" = (
+/obj/effect/decal/pallet,
+/turf/open/misc/dirt/vamp,
+/area/vtm/outside/supply)
 "wm" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/plating/parquetry/old,
@@ -957,6 +995,10 @@
 	},
 /turf/open/misc/beach/vamp,
 /area/shuttle/arrival)
+"wM" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/supply)
 "wO" = (
 /obj/effect/decal/cleanable/trash,
 /turf/open/misc/beach/vamp,
@@ -971,16 +1013,21 @@
 	},
 /turf/closed/wall/vampwall/junk/alt,
 /area/vtm/outside/pacificheights)
+"xt" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	transport_linked_id = "DebugElevator3";
+	elevator_mode = 1
+	},
+/turf/open/floor/iron/smooth_large,
+/area/vtm/outside/pacificheights)
+"xv" = (
+/obj/structure/vampdoor/supply,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/supply)
 "xC" = (
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
-"xE" = (
-/obj/structure/table,
-/obj/item/storage/medkit/darkpack/advanced,
-/obj/item/storage/medkit/darkpack/advanced,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
 "xH" = (
 /obj/structure/table,
 /obj/lombard,
@@ -994,13 +1041,6 @@
 /obj/item/gun/ballistic/automatic/darkpack/thompson,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
-"xY" = (
-/obj/structure/vampfence/rich{
-	dir = 4;
-	pixel_y = 15
-	},
-/turf/closed/wall/vampwall/low,
-/area/vtm/outside/pacificheights)
 "xZ" = (
 /obj/machinery/light/floor,
 /turf/open/floor/plating/rough,
@@ -1009,25 +1049,13 @@
 /obj/structure/roofstuff/vent/south,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"yk" = (
-/turf/closed/wall/vampwall/brick,
-/area/vtm/supply)
-"yr" = (
-/obj/structure/table,
-/obj/item/storage/medkit/darkpack/doctor,
-/obj/item/storage/medkit/darkpack/doctor,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
+"yh" = (
+/obj/structure/cargo_take,
+/turf/open/misc/dirt/vamp,
+/area/vtm/outside/supply)
 "yt" = (
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/shop)
-"yD" = (
-/obj/structure/table,
-/obj/item/storage/medkit/darkpack/burn,
-/obj/item/storage/medkit/darkpack/burn,
-/obj/item/storage/medkit/darkpack/burn,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
 "yE" = (
 /obj/effect/gibspawner/human,
 /obj/machinery/light/directional/west,
@@ -1036,26 +1064,6 @@
 "yK" = (
 /obj/structure/vampdoor,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/outside/pacificheights)
-"yS" = (
-/obj/structure/transport/linear/public,
-/obj/structure/railing/corner/end/flip{
-	dir = 8
-	},
-/turf/open/floor/plating/elevatorshaft,
-/area/vtm/outside/pacificheights)
-"yT" = (
-/obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator4";
-	pixel_x = 9;
-	pixel_y = 35
-	},
-/obj/machinery/lift_indicator/directional/north{
-	pixel_x = -5;
-	pixel_y = 20;
-	linked_elevator_id = "DebugElevator4"
-	},
-/turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
 "zc" = (
 /obj/structure/vampdoor,
@@ -1068,19 +1076,6 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
-"zr" = (
-/obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator4";
-	pixel_x = 9;
-	pixel_y = 35
-	},
-/obj/machinery/lift_indicator/directional/north{
-	pixel_x = -5;
-	pixel_y = 20;
-	linked_elevator_id = "DebugElevator4"
-	},
-/turf/open/misc/beach/vamp,
-/area/vtm/outside/pacificheights)
 "zv" = (
 /mob/living/carbon/human/npc/shop,
 /obj/machinery/light/directional/north,
@@ -1089,19 +1084,12 @@
 "zx" = (
 /turf/closed/wall/vampwall/market/low/window,
 /area/vtm/interior/shop)
-"zC" = (
-/obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator";
-	pixel_y = 35;
-	pixel_x = 9
-	},
-/obj/machinery/lift_indicator/directional/north{
-	pixel_x = -5;
-	pixel_y = 20;
-	linked_elevator_id = "DebugElevator"
-	},
-/turf/open/floor/plating/sidewalk,
-/area/vtm/outside/pacificheights)
+"zD" = (
+/obj/structure/table,
+/obj/item/storage/medkit/darkpack/doctor,
+/obj/item/storage/medkit/darkpack/doctor,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "zT" = (
 /obj/structure/chair/greyscale,
 /turf/open/floor/plating/rough,
@@ -1154,6 +1142,20 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/sewer)
+"Bb" = (
+/obj/machinery/computer/operating,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
+"Bc" = (
+/obj/structure/closet/crate/freezer/blood,
+/obj/item/reagent_containers/blood,
+/obj/item/reagent_containers/blood,
+/obj/item/reagent_containers/blood,
+/obj/item/reagent_containers/blood,
+/obj/item/reagent_containers/blood,
+/obj/item/reagent_containers/blood,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "Bf" = (
 /obj/effect/decal/cleanable/garbage,
 /obj/effect/decal/cleanable/trash{
@@ -1175,10 +1177,18 @@
 /obj/item/vtm_artifact/key_of_alamut,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/sewer)
+"BJ" = (
+/obj/item/clothing/head/cone,
+/turf/open/misc/dirt/vamp,
+/area/vtm/outside/supply)
 "BL" = (
 /mob/living/carbon/human/npc/shop,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"BN" = (
+/obj/machinery/light/directional/west,
+/turf/open/misc/dirt/vamp,
+/area/vtm/outside/supply)
 "BQ" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plating/rough,
@@ -1220,22 +1230,30 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
-"Db" = (
-/obj/machinery/light/directional/west,
-/turf/open/misc/dirt/vamp,
-/area/vtm/supply)
-"Df" = (
-/obj/structure/closet/crate/freezer/blood{
-	name = "vampire blood freezer"
-	},
-/obj/item/reagent_containers/blood/vitae,
-/obj/item/reagent_containers/blood/vitae,
-/obj/item/reagent_containers/blood/vitae,
-/obj/item/reagent_containers/blood/vitae,
-/obj/item/reagent_containers/blood/vitae,
-/obj/item/reagent_containers/blood/vitae,
+"CE" = (
+/obj/item/reagent_containers/cup/bottle/morphine,
+/obj/item/reagent_containers/cup/bottle/morphine,
+/obj/item/reagent_containers/cup/bottle/morphine,
+/obj/item/reagent_containers/cup/bottle/morphine,
+/obj/item/reagent_containers/cup/bottle/morphine,
+/obj/item/reagent_containers/cup/bottle/morphine,
+/obj/item/storage/box/syringes,
+/obj/structure/closet/secure_closet/medical2,
 /turf/open/floor/plating/rough,
-/area/vtm/clinic)
+/area/vtm/interior/clinic)
+"CP" = (
+/obj/machinery/button/elevator/directional/north{
+	id = "DebugElevator3";
+	pixel_y = 35;
+	pixel_x = 9
+	},
+/obj/machinery/lift_indicator/directional/north{
+	pixel_x = -5;
+	pixel_y = 20;
+	linked_elevator_id = "DebugElevator3"
+	},
+/turf/open/floor/plating/sidewalk,
+/area/vtm/outside/pacificheights)
 "Dh" = (
 /obj/effect/turf_decal/bordur,
 /obj/darkpack_car/rand/anarch{
@@ -1244,13 +1262,6 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights)
-"Dp" = (
-/obj/structure/table,
-/obj/item/storage/medkit/darkpack/oxy,
-/obj/item/storage/medkit/darkpack/oxy,
-/obj/item/storage/medkit/darkpack/oxy,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
 "Dr" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 1
@@ -1278,9 +1289,6 @@
 /obj/item/vamp/keys/anarch,
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
-"DM" = (
-/turf/open/misc/dirt/vamp/rails,
-/area/vtm/supply)
 "DN" = (
 /obj/structure/rack/clothing/rand{
 	dir = 8
@@ -1295,38 +1303,25 @@
 /obj/structure/lamppost/one,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/pacificheights)
-"Ej" = (
-/obj/structure/transport/linear/public,
-/obj/effect/landmark/transport/transport_id{
-	specific_transport_id = "DebugElevator2"
-	},
-/obj/effect/abstract/elevator_music_zone{
-	linked_elevator_id = "DebugElevator2"
-	},
-/turf/open/floor/plating/elevatorshaft,
-/area/vtm/outside/pacificheights)
-"Et" = (
-/obj/structure/table/optable,
-/obj/machinery/defibrillator_mount/loaded{
-	pixel_y = 30
-	},
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
 "Ev" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "debughouse"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
-"EF" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
+"EC" = (
+/obj/machinery/button/elevator/directional/north{
+	id = "DebugElevator4";
+	pixel_x = 9;
+	pixel_y = 35
 	},
-/turf/open/misc/dirt/vamp,
-/area/vtm/supply)
-"EL" = (
-/turf/closed/wall/vampwall/rich/old/low/window,
-/area/vtm/clinic)
+/obj/machinery/lift_indicator/directional/north{
+	pixel_x = -5;
+	pixel_y = 20;
+	linked_elevator_id = "DebugElevator4"
+	},
+/turf/open/floor/plating/sidewalk,
+/area/vtm/outside/pacificheights)
 "EN" = (
 /obj/effect/landmark/error,
 /turf/open/floor/plating/rough/cave,
@@ -1358,19 +1353,6 @@
 "Fg" = (
 /turf/closed/wall/vampwall/brick,
 /area/vtm/interior/shop)
-"Fl" = (
-/obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator2";
-	pixel_x = 9;
-	pixel_y = 35
-	},
-/obj/machinery/lift_indicator/directional/north{
-	pixel_x = -5;
-	pixel_y = 20;
-	linked_elevator_id = "DebugElevator2"
-	},
-/turf/open/misc/beach/vamp,
-/area/vtm/outside/pacificheights)
 "Fs" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -1404,21 +1386,14 @@
 	},
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"FO" = (
-/obj/structure/table,
-/turf/open/floor/plating/sidewalk/poor,
-/area/vtm/supply)
+"Gh" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "Gm" = (
 /obj/structure/vampdoor/prison,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop)
-"Gt" = (
-/obj/structure/table,
-/obj/item/storage/medkit/darkpack/tox,
-/obj/item/storage/medkit/darkpack/tox,
-/obj/item/storage/medkit/darkpack/tox,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
 "Gu" = (
 /turf/closed/wall/vampwall/brick/low/window,
 /area/vtm/interior/shop)
@@ -1430,10 +1405,6 @@
 /mob/living/carbon/human/npc/shop,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/shop)
-"GB" = (
-/obj/structure/barrels/rand,
-/turf/open/misc/dirt/vamp,
-/area/vtm/supply)
 "GE" = (
 /obj/structure/retail/flower_shop,
 /obj/structure/table/wood,
@@ -1478,6 +1449,10 @@
 /obj/structure/vampdoor/police,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"GU" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "GX" = (
 /obj/structure/barrels/rand,
 /obj/machinery/light/directional/north,
@@ -1525,6 +1500,13 @@
 	},
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"HF" = (
+/obj/machinery/door/poddoor/shutters{
+	elevator_mode = 1;
+	transport_linked_id = "DebugElevator3"
+	},
+/turf/open/floor/iron/smooth_large,
+/area/vtm/outside/pacificheights)
 "HJ" = (
 /obj/effect/turf_decal/stock,
 /turf/open/floor/plating/asphalt,
@@ -1550,33 +1532,23 @@
 /obj/structure/roadblock,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights)
+"Ij" = (
+/obj/structure/vampdoor{
+	dir = 8
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "Ip" = (
 /obj/structure/table,
 /obj/structure/retail/black_market,
 /turf/closed/wall/vampwall/brick/low,
 /area/vtm/interior/shop)
-"Is" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
+"Ir" = (
+/obj/machinery/computer/cargo/express{
+	dir = 4
 	},
-/obj/item/supplypod_beacon{
-	anchored = 1
-	},
-/turf/open/misc/dirt/vamp/rails,
-/area/vtm/supply)
-"It" = (
-/obj/machinery/button/elevator/directional/north{
-	id = "DebugElevator";
-	pixel_y = 35;
-	pixel_x = 9
-	},
-/obj/machinery/lift_indicator/directional/north{
-	pixel_x = -5;
-	pixel_y = 20;
-	linked_elevator_id = "DebugElevator"
-	},
-/turf/open/misc/beach/vamp,
-/area/vtm/outside/pacificheights)
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/outside/supply)
 "ID" = (
 /turf/closed/wall/vampwall/market,
 /area/vtm/outside/pacificheights)
@@ -1584,41 +1556,38 @@
 /obj/structure/ladder/manhole/up,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
-"IO" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/misc/dirt/vamp/rails,
-/area/vtm/supply)
+"IT" = (
+/turf/closed/wall/vampwall/rich/old,
+/area/vtm/interior/clinic)
 "IX" = (
 /obj/machinery/fax/admin/aasimites,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"Jo" = (
-/obj/structure/closet/crate/freezer/blood,
-/obj/item/reagent_containers/blood,
-/obj/item/reagent_containers/blood,
-/obj/item/reagent_containers/blood,
-/obj/item/reagent_containers/blood,
-/obj/item/reagent_containers/blood,
-/obj/item/reagent_containers/blood,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
+"Ji" = (
+/obj/structure/vampfence/rich{
+	dir = 4;
+	pixel_y = 15
+	},
+/turf/closed/wall/vampwall/rich/old/low,
+/area/vtm/outside/pacificheights)
 "Jv" = (
 /obj/effect/spawner/random/occult/artifact,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/sewer)
-"Jw" = (
-/obj/structure/transport/linear/public,
-/obj/effect/landmark/transport/transport_id{
-	specific_transport_id = "DebugElevator"
-	},
-/obj/effect/abstract/elevator_music_zone{
-	linked_elevator_id = "DebugElevator"
-	},
-/obj/machinery/light/floor,
-/turf/open/floor/plating/elevatorshaft,
-/area/vtm/outside/pacificheights)
+"JB" = (
+/obj/item/storage/pill_bottle/ephedrine,
+/obj/item/storage/pill_bottle/ephedrine,
+/obj/item/storage/pill_bottle/ephedrine,
+/obj/structure/closet/crate/medical,
+/obj/item/storage/pill_bottle/epinephrine,
+/obj/item/storage/pill_bottle/epinephrine,
+/obj/item/storage/pill_bottle/iron,
+/obj/item/storage/pill_bottle/iron,
+/obj/item/storage/pill_bottle/iron,
+/obj/item/storage/pill_bottle/epinephrine,
+/obj/item/storage/pill_bottle/mutadone,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "JE" = (
 /obj/machinery/fax/tremere,
 /turf/open/misc/beach/vamp,
@@ -1638,12 +1607,6 @@
 /obj/structure/vampdoor,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
-"JK" = (
-/obj/structure/vampdoor{
-	dir = 8
-	},
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
 "JP" = (
 /obj/effect/decal/cleanable/garbage,
 /turf/open/misc/beach/vamp,
@@ -1680,12 +1643,33 @@
 /obj/item/gun/ballistic/automatic/darkpack/ak74,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
+"KM" = (
+/obj/structure/transport/linear/public,
+/obj/effect/landmark/transport/transport_id{
+	specific_transport_id = "DebugElevator2"
+	},
+/obj/effect/abstract/elevator_music_zone{
+	linked_elevator_id = "DebugElevator2"
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
 "KU" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
+"KV" = (
+/obj/structure/table,
+/obj/item/storage/medkit/darkpack/oxy,
+/obj/item/storage/medkit/darkpack/oxy,
+/obj/item/storage/medkit/darkpack/oxy,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
+"Li" = (
+/obj/machinery/iv_drip,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "Lk" = (
 /obj/effect/decal/cleanable/trash{
 	icon_state = "trash7"
@@ -1712,10 +1696,6 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
-"LR" = (
-/obj/structure/cargo_put,
-/turf/open/misc/dirt/vamp,
-/area/vtm/supply)
 "LW" = (
 /obj/structure/table,
 /obj/item/restraints/handcuffs,
@@ -1759,10 +1739,19 @@
 "MS" = (
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm/outside/pacificheights)
+"MV" = (
+/obj/structure/transport/linear/public,
+/obj/structure/closet/crate/freezer/food,
+/obj/item/storage/cans/sixbeer,
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
 "Nd" = (
 /obj/structure/table/wood,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"Ng" = (
+/turf/open/misc/dirt/vamp,
+/area/vtm/outside/supply)
 "Nu" = (
 /obj/structure/roofstuff/vent_end{
 	dir = 8
@@ -1776,6 +1765,29 @@
 "Nx" = (
 /obj/structure/railing,
 /turf/open/floor/plating/vampcanal,
+/area/vtm/outside/pacificheights)
+"NA" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/obj/structure/transport/linear/public,
+/obj/structure/chair/sofa/bench/solo{
+	dir = 8
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
+"NB" = (
+/obj/machinery/button/elevator/directional/north{
+	id = "DebugElevator2";
+	pixel_x = 9;
+	pixel_y = 35
+	},
+/obj/machinery/lift_indicator/directional/north{
+	pixel_x = -5;
+	pixel_y = 20;
+	linked_elevator_id = "DebugElevator2"
+	},
+/turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
 "NI" = (
 /obj/structure/table/bacotell,
@@ -1794,23 +1806,15 @@
 "NR" = (
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"Od" = (
-/obj/structure/closet/crate/freezer/blood{
-	name = "blue blood freezer"
-	},
-/obj/item/reagent_containers/blood/vitae,
-/obj/item/reagent_containers/blood/vitae,
-/obj/item/reagent_containers/blood/vitae,
-/obj/item/reagent_containers/blood/vitae,
-/obj/item/reagent_containers/blood/vitae,
-/obj/item/reagent_containers/blood/vitae,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
-"Oe" = (
-/obj/structure/railing{
-	dir = 10
-	},
+"NT" = (
 /obj/structure/transport/linear/public,
+/obj/effect/landmark/transport/transport_id{
+	specific_transport_id = "DebugElevator"
+	},
+/obj/effect/abstract/elevator_music_zone{
+	linked_elevator_id = "DebugElevator"
+	},
+/obj/machinery/light/floor,
 /turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
 "Of" = (
@@ -1818,10 +1822,6 @@
 /obj/item/gun/ballistic/shotgun/toy/crossbow/vampire,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
-"Og" = (
-/obj/structure/transport/linear/public,
-/turf/open/floor/plating/elevatorshaft,
-/area/vtm/outside/pacificheights)
 "On" = (
 /mob/living/carbon/human/npc/shop,
 /turf/open/floor/plating/rough,
@@ -1886,6 +1886,18 @@
 /obj/structure/table,
 /turf/closed/wall/vampwall/market/low,
 /area/vtm/interior/shop)
+"Pn" = (
+/obj/structure/closet/crate/freezer/blood{
+	name = "blue blood freezer"
+	},
+/obj/item/reagent_containers/blood/vitae,
+/obj/item/reagent_containers/blood/vitae,
+/obj/item/reagent_containers/blood/vitae,
+/obj/item/reagent_containers/blood/vitae,
+/obj/item/reagent_containers/blood/vitae,
+/obj/item/reagent_containers/blood/vitae,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "Po" = (
 /obj/item/paper_bin,
 /obj/item/pen/fourcolor,
@@ -1895,14 +1907,16 @@
 /obj/structure/table/wood,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/sewer)
-"Pu" = (
-/obj/machinery/computer/operating,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
 "Py" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/outside/pacificheights)
+"PA" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/misc/dirt/vamp/rails,
+/area/vtm/outside/supply)
 "PO" = (
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
@@ -1915,6 +1929,12 @@
 /obj/item/arcane_tome,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/sewer)
+"Qf" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/misc/dirt/vamp,
+/area/vtm/outside/supply)
 "Qi" = (
 /obj/effect/turf_decal/asphaltline/alt,
 /turf/open/floor/plating/asphalt,
@@ -1924,6 +1944,13 @@
 /obj/structure/table,
 /turf/closed/wall/vampwall/brick/low,
 /area/vtm/interior/shop)
+"Qz" = (
+/obj/structure/table,
+/obj/item/storage/medkit/darkpack/burn,
+/obj/item/storage/medkit/darkpack/burn,
+/obj/item/storage/medkit/darkpack/burn,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "QK" = (
 /obj/effect/turf_decal/bordur,
 /obj/effect/turf_decal/bordur{
@@ -1952,15 +1979,6 @@
 /obj/machinery/fax/police,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"Re" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/misc/dirt/vamp,
-/area/vtm/supply)
-"Ri" = (
-/obj/structure/table,
-/obj/item/surgery_tray/full,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
 "Rj" = (
 /turf/open/genturf,
 /area/vtm/planetgeneration)
@@ -1976,31 +1994,18 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/pacificheights)
-"RV" = (
-/obj/structure/transport/linear/public,
-/obj/structure/table,
-/obj/item/gun/ballistic/rocketlauncher/unrestricted{
-	pixel_y = 5;
-	pixel_x = -5
+"RU" = (
+/obj/structure/roadblock{
+	dir = 4
 	},
-/obj/machinery/elevator_control_panel/directional/north{
-	linked_elevator_id = "DebugElevator2";
-	preset_destination_names = list("2" = "Lower", "3" = "Upper")
-	},
-/turf/open/floor/plating/elevatorshaft,
-/area/vtm/outside/pacificheights)
+/turf/open/misc/dirt/vamp,
+/area/vtm/outside/supply)
 "Sg" = (
 /obj/structure/chair/office{
 	dir = 8
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
-"Sp" = (
-/obj/structure/table,
-/obj/item/stack/medical/bone_gel,
-/obj/item/clothing/gloves/vampire/latex,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
 "Sv" = (
 /obj/effect/turf_decal/bordur,
 /obj/structure/barrels/rand,
@@ -2011,27 +2016,64 @@
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/sewer)
+"SE" = (
+/obj/structure/chair/comfy/shuttle,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "SF" = (
 /obj/structure/table/wood,
 /obj/item/vtm_artifact/bloodstar,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/sewer)
-"SG" = (
-/obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
-"SK" = (
-/turf/closed/wall/vampwall/rich/old,
-/area/vtm/clinic)
+"SN" = (
+/obj/structure/table,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/obj/item/stack/dollar/hundred,
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/outside/supply)
+"SU" = (
+/obj/structure/barrels/rand,
+/turf/open/misc/dirt/vamp,
+/area/vtm/outside/supply)
 "SY" = (
 /obj/structure/table,
 /obj/vampire_computer/prince,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
-"Tb" = (
-/obj/machinery/iv_drip,
+"Tm" = (
+/obj/structure/closet/crate/freezer/blood{
+	name = "vampire blood freezer"
+	},
+/obj/item/reagent_containers/blood/vitae,
+/obj/item/reagent_containers/blood/vitae,
+/obj/item/reagent_containers/blood/vitae,
+/obj/item/reagent_containers/blood/vitae,
+/obj/item/reagent_containers/blood/vitae,
+/obj/item/reagent_containers/blood/vitae,
 /turf/open/floor/plating/rough,
-/area/vtm/clinic)
+/area/vtm/interior/clinic)
 "Tp" = (
 /obj/effect/landmark/npcbeacon,
 /obj/effect/turf_decal/bordur/corner,
@@ -2041,10 +2083,23 @@
 /obj/effect/gibspawner/human,
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/shop)
+"Tv" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/structure/transport/linear/public,
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
 "Tw" = (
 /obj/machinery/fax/anarch,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"TJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/misc/dirt/vamp,
+/area/vtm/outside/supply)
 "TL" = (
 /obj/structure/table,
 /obj/item/ammo_box/magazine/m44,
@@ -2080,34 +2135,6 @@
 /obj/item/gun/ballistic/automatic/darkpack/mp5,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
-"Uw" = (
-/obj/structure/table,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/obj/item/stack/dollar/hundred,
-/turf/open/floor/plating/sidewalk/poor,
-/area/vtm/supply)
 "UG" = (
 /obj/structure/table/wood,
 /obj/structure/retail/hardware_store,
@@ -2121,9 +2148,6 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/shop)
-"UL" = (
-/turf/closed/wall/vampwall,
-/area/vtm/supply)
 "UQ" = (
 /obj/structure/vampdoor/wood/old/salubri{
 	dir = 4
@@ -2148,6 +2172,17 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/pacificheights)
+"Vn" = (
+/obj/structure/sink/directional/east,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
+"Vr" = (
+/obj/structure/railing/corner/end{
+	dir = 4
+	},
+/obj/structure/transport/linear/public,
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
 "Vu" = (
 /obj/structure/closet/cardboard,
 /turf/open/misc/beach/vamp,
@@ -2156,6 +2191,17 @@
 /obj/machinery/griddle,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"Vw" = (
+/obj/structure/transport/linear/public,
+/obj/machinery/elevator_control_panel/directional/north{
+	linked_elevator_id = "DebugElevator4";
+	preset_destination_names = list("2" = "Lower", "3" = "Upper")
+	},
+/obj/effect/landmark/transport/transport_id{
+	specific_transport_id = "DebugElevator4"
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/vtm/outside/pacificheights)
 "VD" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -2172,10 +2218,6 @@
 	},
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"VK" = (
-/obj/structure/cargo_take,
-/turf/open/misc/dirt/vamp,
-/area/vtm/supply)
 "VP" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/plating/concrete,
@@ -2186,11 +2228,25 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
+"VX" = (
+/obj/structure/vampfence/rich{
+	dir = 4;
+	pixel_y = 15
+	},
+/turf/closed/wall/vampwall/low,
+/area/vtm/outside/pacificheights)
 "We" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
 	},
 /turf/open/floor/plating/sidewalk/rich,
+/area/vtm/outside/pacificheights)
+"Wf" = (
+/obj/structure/transport/linear/public,
+/obj/structure/railing/corner/end/flip{
+	dir = 8
+	},
+/turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
 "Wl" = (
 /obj/structure/table,
@@ -2201,12 +2257,6 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
-"Wn" = (
-/obj/structure/roadblock{
-	dir = 4
-	},
-/turf/open/misc/dirt/vamp,
-/area/vtm/supply)
 "Ws" = (
 /obj/structure/table,
 /obj/vampire_computer,
@@ -2217,18 +2267,9 @@
 /obj/structure/retail/grocery_store,
 /turf/closed/wall/vampwall/brick/low,
 /area/vtm/interior/shop)
-"Wz" = (
-/obj/structure/sink/directional/east,
-/turf/open/floor/plating/rough,
-/area/vtm/clinic)
-"WP" = (
-/obj/structure/transport/linear/public,
-/obj/machinery/elevator_control_panel/directional/north{
-	linked_elevator_id = "DebugElevator3";
-	preset_destination_names = list("2" = "Lower", "3" = "Upper")
-	},
-/turf/open/floor/plating/elevatorshaft,
-/area/vtm/outside/pacificheights)
+"WN" = (
+/turf/open/misc/dirt/vamp/rails,
+/area/vtm/outside/supply)
 "WR" = (
 /obj/structure/lamppost/one,
 /turf/open/misc/beach/vamp,
@@ -2270,6 +2311,19 @@
 "XM" = (
 /turf/closed/wall/vampwall/junk/alt,
 /area/vtm/outside/pacificheights)
+"XQ" = (
+/obj/machinery/button/elevator/directional/north{
+	id = "DebugElevator4";
+	pixel_x = 9;
+	pixel_y = 35
+	},
+/obj/machinery/lift_indicator/directional/north{
+	pixel_x = -5;
+	pixel_y = 20;
+	linked_elevator_id = "DebugElevator4"
+	},
+/turf/open/misc/beach/vamp,
+/area/vtm/outside/pacificheights)
 "XU" = (
 /obj/structure/railing,
 /obj/structure/ladder/manhole/up{
@@ -2292,14 +2346,6 @@
 /mob/living/carbon/human/npc/incel,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"Ye" = (
-/obj/machinery/door/airlock/elevator/right{
-	dir = 4;
-	pixel_y = 22;
-	transport_linked_id = "DebugElevator4"
-	},
-/turf/open/floor/iron/smooth_large,
-/area/vtm/outside/pacificheights)
 "Yr" = (
 /obj/effect/decal/cleanable/trash,
 /obj/effect/spawner/random/occult/artifact,
@@ -2308,26 +2354,6 @@
 "Ys" = (
 /turf/open/openspace,
 /area/vtm/outside/pacificheights)
-"Yz" = (
-/obj/structure/chair/office{
-	dir = 8
-	},
-/turf/open/floor/plating/sidewalk/poor,
-/area/vtm/supply)
-"YC" = (
-/obj/structure/railing{
-	dir = 5
-	},
-/obj/structure/transport/linear/public,
-/obj/structure/chair/sofa/bench/solo{
-	dir = 8
-	},
-/turf/open/floor/plating/elevatorshaft,
-/area/vtm/outside/pacificheights)
-"YF" = (
-/obj/item/clothing/head/cone,
-/turf/open/misc/dirt/vamp,
-/area/vtm/supply)
 "YJ" = (
 /obj/structure/table,
 /turf/closed/wall/vampwall/brick/low,
@@ -2338,20 +2364,6 @@
 	},
 /obj/structure/roadsign/speedlimit,
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/outside/pacificheights)
-"YQ" = (
-/obj/machinery/door/airlock/elevator/right{
-	elevator_mode = 1;
-	transport_linked_id = "DebugElevator2"
-	},
-/turf/open/floor/iron/smooth_large,
-/area/vtm/outside/pacificheights)
-"YS" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	transport_linked_id = "DebugElevator3";
-	elevator_mode = 1
-	},
-/turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
 "YW" = (
 /obj/structure/table/wood,
@@ -2373,18 +2385,14 @@
 /obj/item/vampire_flamethrower,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
-"ZE" = (
-/obj/structure/vampfence/rich{
-	dir = 4;
-	pixel_y = 15
-	},
-/turf/closed/wall/vampwall/rich/old/low,
-/area/vtm/outside/pacificheights)
-"ZR" = (
-/obj/machinery/door/airlock/elevator/left{
-	dir = 8;
-	pixel_y = 15;
-	transport_linked_id = "DebugElevator4"
+"Zz" = (
+/obj/structure/table,
+/obj/item/surgery_tray/full,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
+"ZI" = (
+/obj/machinery/door/airlock/elevator/multi_tile{
+	transport_linked_id = "DebugElevator"
 	},
 /turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
@@ -3081,12 +3089,12 @@ GF
 "}
 (11,1,1) = {"
 GF
-SK
-Sp
-Ri
-Wz
-bU
-EL
+IT
+lQ
+Zz
+Vn
+vX
+kb
 Id
 Id
 Id
@@ -3149,12 +3157,12 @@ GF
 "}
 (12,1,1) = {"
 GF
-SK
-Et
-pN
-pN
-Jo
-EL
+IT
+uo
+be
+be
+Bc
+kb
 Id
 Id
 Id
@@ -3217,12 +3225,12 @@ GF
 "}
 (13,1,1) = {"
 GF
-SK
-Pu
-Tb
-pN
-Od
-EL
+IT
+Bb
+Li
+be
+Pn
+kb
 Id
 Id
 Id
@@ -3285,12 +3293,12 @@ GF
 "}
 (14,1,1) = {"
 GF
-SK
-mW
-pN
-pN
-Df
-SK
+IT
+qb
+be
+be
+Tm
+IT
 eg
 Id
 Id
@@ -3353,12 +3361,12 @@ GF
 "}
 (15,1,1) = {"
 GF
-SK
-pN
-pN
-pN
-pN
-pN
+IT
+be
+be
+be
+be
+be
 Id
 Id
 Id
@@ -3421,12 +3429,12 @@ GF
 "}
 (16,1,1) = {"
 GF
-SK
-Dp
-pN
-pN
-pN
-pN
+IT
+KV
+be
+be
+be
+be
 Id
 Id
 Id
@@ -3489,12 +3497,12 @@ GF
 "}
 (17,1,1) = {"
 GF
-SK
-wb
-pN
-pN
-rK
-bC
+IT
+gt
+be
+be
+JB
+CE
 Id
 Id
 Id
@@ -3557,12 +3565,12 @@ GF
 "}
 (18,1,1) = {"
 GF
-SK
-yD
-pN
-pN
-of
-SK
+IT
+Qz
+be
+be
+dJ
+IT
 Id
 IL
 Id
@@ -3625,12 +3633,12 @@ GF
 "}
 (19,1,1) = {"
 GF
-SK
-Gt
-cQ
-pN
-yr
-xE
+IT
+aq
+dn
+be
+zD
+gE
 Id
 Id
 Id
@@ -3693,12 +3701,12 @@ GF
 "}
 (20,1,1) = {"
 GF
-SK
-eG
-pN
-pN
-pN
-pN
+IT
+Gh
+be
+be
+be
+be
 Id
 Id
 Id
@@ -3761,12 +3769,12 @@ GF
 "}
 (21,1,1) = {"
 GF
-SK
-Tb
-pN
-pN
-pN
-pN
+IT
+Li
+be
+be
+be
+be
 Id
 sw
 Id
@@ -3829,12 +3837,12 @@ GF
 "}
 (22,1,1) = {"
 GF
-SK
-qN
-SG
-pN
-pN
-SK
+IT
+SE
+GU
+be
+be
+IT
 ZU
 ZU
 rN
@@ -3897,12 +3905,12 @@ GF
 "}
 (23,1,1) = {"
 GF
-SK
-Tb
-Tb
-pN
-pN
-SK
+IT
+Li
+Li
+be
+be
+IT
 Id
 ZU
 rN
@@ -3965,12 +3973,12 @@ GF
 "}
 (24,1,1) = {"
 GF
-SK
-SK
-SK
-SK
-JK
-SK
+IT
+IT
+IT
+IT
+Ij
+IT
 ZU
 ZU
 ZU
@@ -4601,15 +4609,15 @@ ik
 VQ
 ik
 Fs
-yk
-yk
-yk
-yk
-yk
-yk
-yk
-yk
-qT
+kl
+kl
+kl
+kl
+kl
+kl
+kl
+kl
+Ng
 Rj
 Rj
 Rj
@@ -4669,15 +4677,15 @@ DJ
 VQ
 ik
 Fs
-yk
-oM
-oM
-oM
-oM
-oM
-oM
-oM
-qT
+kl
+fX
+fX
+wM
+fX
+fX
+fX
+xv
+Ng
 Rj
 Rj
 Rj
@@ -4737,15 +4745,15 @@ ik
 VQ
 ik
 Fs
-yk
-oM
-oM
-oM
-oM
-oM
-oM
-oM
-qT
+xv
+fX
+fX
+fX
+fX
+fX
+fX
+kl
+Ng
 Rj
 Rj
 Rj
@@ -4805,15 +4813,15 @@ en
 VQ
 ik
 Fs
-yk
-yk
-yk
-yk
-yk
-yk
-yk
-yk
-qT
+kl
+kl
+kl
+gT
+gT
+kl
+kl
+kl
+Ng
 Rj
 Rj
 Rj
@@ -4873,15 +4881,15 @@ ik
 VQ
 ik
 Fs
-LR
-LR
-lU
-DM
-qT
-Db
-DM
-qT
-qT
+uR
+uR
+ji
+WN
+Ng
+BN
+WN
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -4941,15 +4949,15 @@ ik
 VQ
 ik
 Fs
-qT
-qT
-qT
-DM
-fi
-qT
-DM
-GB
-qT
+Ng
+Ng
+Ng
+WN
+wf
+Ng
+WN
+SU
+Ng
 Rj
 Rj
 Rj
@@ -5009,15 +5017,15 @@ FB
 VQ
 ik
 Fs
-VK
-VK
-qT
-DM
-GB
-qT
-ff
-fi
-qT
+yh
+yh
+Ng
+WN
+SU
+Ng
+jX
+wf
+Ng
 Rj
 Rj
 Rj
@@ -5077,15 +5085,15 @@ ik
 VQ
 ik
 Fs
-qt
-FO
-qT
-ff
-qT
-qT
-DM
-fi
-qT
+Ir
+mT
+Ng
+jX
+Ng
+Ng
+WN
+wf
+Ng
 Rj
 Rj
 Rj
@@ -5145,15 +5153,15 @@ ik
 VQ
 ik
 Fs
-Yz
-Uw
-qT
-DM
-GB
-qT
-DM
-GB
-qT
+gM
+SN
+Ng
+WN
+SU
+Ng
+WN
+SU
+Ng
 Rj
 Rj
 Rj
@@ -5213,15 +5221,15 @@ ik
 VQ
 ik
 Fs
-lN
-Uw
-qT
-DM
-GB
-qT
-DM
-fi
-qT
+jY
+SN
+Ng
+WN
+SU
+Ng
+WN
+wf
+Ng
 Rj
 Rj
 Rj
@@ -5281,16 +5289,16 @@ ik
 VQ
 ik
 Fs
-lN
-lN
-qT
-DM
-qT
-qT
-ff
-qT
-qT
-qT
+jY
+jY
+Ng
+WN
+Ng
+Ng
+jX
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -5349,16 +5357,16 @@ ik
 VQ
 ik
 Fs
-qT
-qT
-qT
-DM
-qT
-qT
-DM
-qT
-qT
-qT
+Ng
+Ng
+Ng
+WN
+Ng
+Ng
+WN
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -5417,16 +5425,16 @@ ik
 VQ
 ik
 Fs
-qT
-qT
-qT
-DM
-qT
-qT
-DM
-qT
-qT
-qT
+Ng
+Ng
+Ng
+WN
+Ng
+Ng
+WN
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -5485,16 +5493,16 @@ ik
 VQ
 ik
 Fs
-qT
-YF
-Wn
-DM
-Wn
-qT
-DM
-qT
-qT
-qT
+Ng
+BJ
+RU
+WN
+RU
+Ng
+WN
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -5553,16 +5561,16 @@ ik
 VQ
 ik
 Fs
-qT
-qT
-EF
-Is
-bD
-qT
-ff
-GB
-qT
-qT
+Ng
+Ng
+Qf
+os
+tS
+Ng
+jX
+SU
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -5621,16 +5629,16 @@ ik
 VQ
 HJ
 Fs
-qT
-qT
-jf
-DM
-Re
-qT
-DM
-qT
-qT
-qT
+Ng
+Ng
+nv
+WN
+to
+Ng
+WN
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -5689,16 +5697,16 @@ ik
 VQ
 ik
 Fs
-qT
-qT
-jf
-DM
-Re
-qT
-DM
-GB
-qT
-qT
+Ng
+Ng
+nv
+WN
+to
+Ng
+WN
+SU
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -5757,17 +5765,17 @@ ik
 VQ
 ik
 Fs
-qT
-qT
-jf
-DM
-Re
-qT
-DM
-qT
-qT
-qT
-qT
+Ng
+Ng
+nv
+WN
+to
+Ng
+WN
+Ng
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -5825,17 +5833,17 @@ ik
 VQ
 ik
 Fs
-qT
-qT
-jf
-DM
-Re
-qT
-DM
-fi
-qT
-qT
-qT
+Ng
+Ng
+nv
+WN
+to
+Ng
+WN
+wf
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -5893,17 +5901,17 @@ ik
 VQ
 ik
 Fs
-qT
-qT
-tj
-IO
-pf
-qT
-DM
-qT
-qT
-qT
-qT
+Ng
+Ng
+bk
+PA
+TJ
+Ng
+WN
+Ng
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -5961,17 +5969,17 @@ ik
 VQ
 ik
 Fs
-qT
-YF
-qT
-DM
-qT
-qT
-DM
-qT
-qT
-qT
-qT
+Ng
+BJ
+Ng
+WN
+Ng
+Ng
+WN
+Ng
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -6029,17 +6037,17 @@ rW
 rW
 rW
 Fs
-qT
-qT
-qT
-DM
-qT
-qT
-DM
-qT
-qT
-qT
-qT
+Ng
+Ng
+Ng
+WN
+Ng
+Ng
+WN
+Ng
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -6074,11 +6082,11 @@ GF
 (55,1,1) = {"
 GF
 sb
-xY
-xY
-xY
+VX
+VX
+VX
 sb
-bm
+qY
 NR
 NR
 NR
@@ -6097,17 +6105,17 @@ ik
 VQ
 ik
 Fs
-qT
-qT
-qT
-DM
-qT
-fi
-DM
-qT
-qT
-qT
-qT
+Ng
+Ng
+Ng
+WN
+Ng
+wf
+WN
+Ng
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -6142,10 +6150,10 @@ GF
 (56,1,1) = {"
 GF
 sb
-WP
-nN
-Og
-YS
+ir
+rv
+uM
+xt
 NR
 NR
 NR
@@ -6165,17 +6173,17 @@ ik
 VQ
 ik
 Fs
-qT
-qT
-qT
-DM
-qT
-fi
-DM
-qT
-qT
-qT
-qT
+Ng
+Ng
+Ng
+WN
+Ng
+wf
+WN
+Ng
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -6210,10 +6218,10 @@ GF
 (57,1,1) = {"
 GF
 sb
-pJ
-Og
-Og
-YS
+MV
+uM
+uM
+xt
 NR
 NR
 NR
@@ -6233,17 +6241,17 @@ FB
 VQ
 ik
 Fs
-qT
-qT
-qT
-DM
-qT
-qT
-ff
-qT
-qT
-qT
-qT
+Ng
+Ng
+Ng
+WN
+Ng
+Ng
+jX
+Ng
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -6301,16 +6309,16 @@ ik
 VQ
 ik
 Fs
-qT
-qT
-qT
-DM
-qT
-qT
-DM
-qT
-qT
-qT
+Ng
+Ng
+Ng
+WN
+Ng
+Ng
+WN
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -6346,11 +6354,11 @@ GF
 (59,1,1) = {"
 GF
 sb
-vV
-Og
-Oe
+lt
+uM
+ih
 sb
-It
+lA
 NR
 NR
 NR
@@ -6369,16 +6377,16 @@ ik
 VQ
 ik
 Fs
-qT
-qT
-qT
-DM
-qT
-qT
-DM
-fi
-qT
-qT
+Ng
+Ng
+Ng
+WN
+Ng
+Ng
+WN
+wf
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -6414,10 +6422,10 @@ GF
 (60,1,1) = {"
 GF
 sb
-ji
-Jw
-yS
-kY
+ds
+NT
+Wf
+ZI
 NR
 NR
 NR
@@ -6437,16 +6445,16 @@ ik
 VQ
 ik
 Fs
-qT
-qT
-qT
-DM
-qT
-qT
-DM
-GB
-qT
-qT
+Ng
+Ng
+Ng
+WN
+Ng
+Ng
+WN
+SU
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -6482,10 +6490,10 @@ GF
 (61,1,1) = {"
 GF
 sb
-tJ
-Og
-ad
-wc
+ca
+uM
+Vr
+eN
 NR
 NR
 NR
@@ -6505,16 +6513,16 @@ ik
 VQ
 ik
 Fs
-qT
-qT
-qT
-DM
-qT
-qT
-ff
-GB
-qT
-qT
+Ng
+Ng
+Ng
+WN
+Ng
+Ng
+jX
+SU
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -6550,14 +6558,14 @@ GF
 (62,1,1) = {"
 GF
 sb
-YC
-Og
-fU
+NA
+uM
+Tv
 sb
 NR
 NR
 sb
-zr
+XQ
 NR
 NR
 NR
@@ -6573,16 +6581,16 @@ kc
 Cz
 kc
 sm
-qT
-qT
-qT
-DM
-qT
-qT
-DM
-GB
-qT
-qT
+Ng
+Ng
+Ng
+WN
+Ng
+Ng
+WN
+SU
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -6622,11 +6630,11 @@ sb
 sb
 sb
 sb
-Fl
+tT
 NR
 sb
-Ye
-ZR
+gw
+dU
 sb
 NR
 NR
@@ -6641,16 +6649,16 @@ ik
 VQ
 ik
 Fs
-qT
-qT
-qT
-DM
-qT
-qT
-DM
-qT
-qT
-qT
+Ng
+Ng
+Ng
+WN
+Ng
+Ng
+WN
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -6686,15 +6694,15 @@ GF
 (64,1,1) = {"
 GF
 sb
-RV
-Ej
-Og
-YQ
+ue
+KM
+uM
+mU
 NR
 NR
 sb
-fQ
-Og
+Vw
+uM
 sb
 NR
 NR
@@ -6709,16 +6717,16 @@ rB
 rB
 rB
 se
-UL
-UL
-qT
-DM
-qT
-qT
-DM
-qT
-qT
-qT
+se
+se
+Ng
+WN
+Ng
+Ng
+WN
+Ng
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -6773,20 +6781,20 @@ se
 se
 GF
 se
-se
-se
-se
+rB
+rB
+rB
 se
 GF
-UL
-UL
-UL
-UL
-UL
-UL
-UL
-qT
-qT
+se
+rB
+rB
+rB
+se
+se
+se
+Ng
+Ng
 Rj
 Rj
 Rj
@@ -10563,11 +10571,11 @@ GJ
 (55,1,2) = {"
 GJ
 MS
-ZE
-ZE
-ZE
+Ji
+Ji
+Ji
 MS
-kU
+CP
 eQ
 eQ
 eQ
@@ -10634,7 +10642,7 @@ MS
 Ys
 Ys
 Ys
-oB
+HF
 eQ
 eQ
 eQ
@@ -10702,7 +10710,7 @@ MS
 Ys
 Ys
 Ys
-oB
+HF
 eQ
 eQ
 eQ
@@ -10839,7 +10847,7 @@ Ys
 Ys
 Ys
 MS
-zC
+mr
 eQ
 eQ
 eQ
@@ -10906,7 +10914,7 @@ MS
 Ys
 Ys
 Ys
-kY
+ZI
 eQ
 eQ
 eQ
@@ -10974,7 +10982,7 @@ MS
 Ys
 Ys
 Ys
-wc
+eN
 eQ
 eQ
 eQ
@@ -11046,7 +11054,7 @@ MS
 eQ
 eQ
 MS
-yT
+EC
 eQ
 Hd
 XJ
@@ -11111,11 +11119,11 @@ MS
 MS
 MS
 MS
-cE
+NB
 eQ
 MS
-Ye
-ZR
+gw
+dU
 MS
 LX
 Zc
@@ -11178,7 +11186,7 @@ MS
 Ys
 Ys
 Ys
-YQ
+mU
 eQ
 eQ
 MS
