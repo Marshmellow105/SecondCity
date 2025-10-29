@@ -1,4 +1,4 @@
-/obj/machinery/door/airlock/elevator //I know this is fucked up but I think this is the only door/airlock without overlays/panels
+/obj/machinery/door/airlock/elevator
 	name = "Elevator Door"
 	icon = 'modular_darkpack/modules/elevators/icons/doorleft.dmi'
 	icon_state = "closed"
@@ -9,9 +9,12 @@
 	boltUp = null
 	boltDown = null
 
-
-	elevator_mode = TRUE
 	overlays_file = null
+
+/obj/machinery/door/airlock/elevator/Initialize(mapload) // I took this from transport_module.dm and the comment there says 'linter and stuff' so I hope this fixes my checks
+	if(!isnull(transport_linked_id))
+		elevator_mode = TRUE
+	return ..()
 
 /obj/machinery/door/airlock/elevator/left
 	icon = 'modular_darkpack/modules/elevators/icons/doorleft.dmi'
