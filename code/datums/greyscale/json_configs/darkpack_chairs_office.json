@@ -1,0 +1,15 @@
+{
+	"office": [
+		{
+			"type": "icon_state",
+			"icon_state": "office_base",
+			"blend_mode": "overlay"
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "office_top",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		}
+	]
+}

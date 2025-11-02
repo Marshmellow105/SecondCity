@@ -1,0 +1,15 @@
+{
+	"chair": [
+		{
+			"type": "icon_state",
+			"icon_state": "chair_base",
+			"blend_mode": "overlay"
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "chair_top",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"bar": [
+		{
+			"type": "icon_state",
+			"icon_state": "bar_base",
+			"blend_mode": "overlay"
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "bar_top",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		}
+	]
+}
