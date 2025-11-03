@@ -1,13 +1,13 @@
 {
-	"bar": [
+	"bar_toppled": [
 		{
 			"type": "icon_state",
-			"icon_state": "bar_base",
+			"icon_state": "bar_toppled_base",
 			"blend_mode": "overlay"
 		},
 		{
 			"type": "icon_state",
-			"icon_state": "bar_top",
+			"icon_state": "bar_toppled_top",
 			"blend_mode": "overlay",
 			"color_ids": [1]
 		}
