@@ -72,7 +72,6 @@
 
 /**
  * Control+Shift click
- * Unused except for AI
  */
 /mob/proc/CtrlShiftClickOn(atom/A)
 	base_click_ctrl_shift(A)

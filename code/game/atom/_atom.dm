@@ -943,14 +943,13 @@
 		new_maptext = ""
 	else
 		//We inline a MAPTEXT() here, because there's no good way to statically add to a string like this
-		new_maptext = "<span class='context' style='text-align: center; color: [active_hud.screentip_color]'>[used_name][extra_context]</span>"
-
-	if (length(used_name) * 10 > active_hud.screentip_text.maptext_width)
-		INVOKE_ASYNC(src, PROC_REF(set_hover_maptext), client, active_hud, new_maptext)
-		return
+		new_maptext = "<span class='context' style='text-align: center; color: [active_hud.screentip_color]'>[get_screentip_name(client)][extra_context]</span>"
 
 	active_hud.screentip_text.maptext = new_maptext
 	active_hud.screentip_text.maptext_y = 10 - (extra_lines > 0 ? 11 + 9 * (extra_lines - 1): 0)
+
+/atom/proc/get_screentip_name(client/hovering_client)
+	return name
 
 /atom/proc/set_hover_maptext(client/client, datum/hud/active_hud, new_maptext)
 	var/map_height

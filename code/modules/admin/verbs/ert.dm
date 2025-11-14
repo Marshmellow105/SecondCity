@@ -259,6 +259,16 @@
 			door.open()
 			CHECK_TICK
 
+	//Guestbook
+	for(var/datum/mind/member in ert_team.members)
+		var/member_mob = member.current
+		for(var/datum/mind/other_member in ert_team.members)
+			//Skip yourself
+			if(other_member.name == member.name)
+				continue
+			var/mob/living/carbon/human/other_member_mob = other_member.current
+			member.guestbook.add_guest(member_mob, other_member_mob, other_member_mob.real_name, other_member_mob.real_name, TRUE)
+
 	message_admins("[key_name_admin(owner)] created a CentCom response team.")
 	message_admins("[capitalize(ertemplate.polldesc)] has spawned with the mission: [ertemplate.mission]")
 	return TRUE

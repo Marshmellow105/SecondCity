@@ -11,6 +11,7 @@
 	human.set_haircolor("#[random_color()]", update = FALSE)
 	human.set_facial_haircolor(human.hair_color, update = FALSE)
 	human.set_eye_color(random_eye_color())
+	human.generic_adjective = pick_species_adjective(H)
 	human.skin_tone = pick(GLOB.skin_tones)
 	human.dna.species.randomize_active_underwear_only(human)
 	// Needs to be called towards the end to update all the UIs just set above
@@ -31,6 +32,7 @@
 	human.real_name = human.generate_random_mob_name()
 	human.name = human.get_visible_name()
 	human.set_eye_color(random_eye_color())
+	human.generic_adjective = pick_species_adjective(H)
 	human.skin_tone = pick(GLOB.skin_tones)
 	// No underwear generation handled here
 	var/picked_color = random_hair_color()

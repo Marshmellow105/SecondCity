@@ -519,10 +519,7 @@
 
 /obj/item/card/id/attack_self(mob/user)
 	if(Adjacent(user))
-		var/minor
-		if(registered_name && registered_age && registered_age < AGE_MINOR)
-			minor = " <b>(MINOR)</b>"
-		user.visible_message(span_notice("[user] shows you: [icon2html(src, viewers(user))] [src.name][minor]."), span_notice("You show \the [src.name][minor]."))
+	user.visible_message("<span class='notice'>[user] shows you: [icon2html(src, viewers(user))] \the [initial(name)] [(!registered_name) ? "(" : "([registered_name]"][(!assignment) ? ")" : ", [assignment])"].</span>", "<span class='notice'>You show \the [initial(name)] [(!registered_name) ? "(" : "([registered_name],"] [(!assignment) ? ")" : "[assignment])"].</span>")
 	add_fingerprint(user)
 
 /obj/item/card/id/interact_with_atom_secondary(atom/interacting_with, mob/living/user, list/modifiers)
@@ -884,6 +881,8 @@
 
 	. += span_notice("<i>You examine [src] closer, and note the following...</i>")
 
+	if(registered_name)
+		msg += "This access card is assigned to <B>[registered_name]</B>."
 	if(registered_age)
 		. += "The card indicates that the holder is [registered_age] years old. [(registered_age < AGE_MINOR) ? "There's a holographic stripe that reads <b>[span_danger("'MINOR: DO NOT SERVE ALCOHOL OR TOBACCO'")]</b> along the bottom of the card." : ""]"
 	/* DARKPACK EDIT REMOVAL - ECONOMY

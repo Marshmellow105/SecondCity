@@ -30,6 +30,8 @@ GLOBAL_LIST_INIT(operative_aliases, world.file2list("strings/names/operative_ali
 GLOBAL_LIST_INIT(plasmaman_names, world.file2list("strings/names/plasmaman.txt"))
 GLOBAL_LIST_INIT(posibrain_names, world.file2list("strings/names/posibrain.txt"))
 GLOBAL_LIST_INIT(religion_names, world.file2list("strings/names/religion.txt"))
+GLOBAL_LIST_INIT(preference_adjectives, world.file2list("strings/preference_adjectives.txt"))
+GLOBAL_LIST_INIT(ipc_preference_adjectives, world.file2list("strings/ipc_preference_adjectives.txt"))
 GLOBAL_LIST_INIT(station_names, world.file2list("strings/station_names.txt"))
 GLOBAL_LIST_INIT(station_numerals, greek_letters + phonetic_alphabet + numbers_as_words + generate_number_strings())
 GLOBAL_LIST_INIT(station_prefixes, world.file2list("strings/station_prefixes.txt"))

@@ -877,6 +877,7 @@
 #include "code\datums\embedding.dm"
 #include "code\datums\emotes.dm"
 #include "code\datums\ert.dm"
+#include "code\datums\guestbook.dm"
 #include "code\datums\hailer_phrase.dm"
 #include "code\datums\holocall.dm"
 #include "code\datums\hotkeys_help.dm"

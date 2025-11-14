@@ -155,6 +155,12 @@ GLOBAL_LIST_INIT(skin_tone_names, list(
 	"mixed4" = "Macadamia",
 ))
 
+/proc/pick_species_adjective(mob/living/carbon/human/H)
+	if(isipc(H))
+		return pick(GLOB.ipc_preference_adjectives)
+	else
+		return pick(GLOB.preference_adjectives)
+
 /proc/age2agedescription(age)
 	switch(age)
 		if(0 to 1)

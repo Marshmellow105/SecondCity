@@ -42,6 +42,8 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 	var/list/randomise = list()
 
+	var/generic_adjective = "Unremarkable"
+
 	//Quirk list
 	var/list/all_quirks = list()
 

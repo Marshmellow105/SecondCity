@@ -149,7 +149,26 @@ GLOBAL_LIST_INIT(freqtospan, list(
 	//Radio freq/name display
 	var/freqpart = radio_freq ? "\[[get_radio_name(radio_freq, radio_freq_name)]\] " : ""
 	//Speaker name
-	var/namepart = speaker.get_message_voice(visible_name)
+	var/namepart = speaker.GetVoice()
+	var/atom/movable/reliable_narrator = speaker
+	if(istype(speaker, /atom/movable/virtualspeaker)) //ugh
+		var/atom/movable/virtualspeaker/fakespeaker = speaker
+		reliable_narrator = fakespeaker.source
+	if(ishuman(reliable_narrator))
+		//So "fake" speaking like in hallucinations does not give the speaker away if disguised
+		if(face_name)
+			var/mob/living/carbon/human/human_narrator = reliable_narrator
+			namepart = human_narrator.name
+		//otherwise, do guestbook handling
+		else if(ismob(src))
+			var/mob/mob_source = src
+			if(mob_source.mind?.guestbook)
+				var/known_name = mob_source.mind.guestbook.get_known_name(src, reliable_narrator, namepart)
+				if(known_name)
+					namepart = "[known_name]"
+				else
+					var/mob/living/carbon/human/human_narrator = reliable_narrator
+					namepart = "[human_narrator.get_generic_name(prefixed = TRUE, lowercase = FALSE)]"
 
 	//End name span.
 	var/endspanpart = "</span>"
@@ -324,7 +343,7 @@ GLOBAL_LIST_INIT(freqtospan, list(
  *
  * * add_id_name - If TRUE, ID information such as honorifics are added into the voice
  */
-/atom/proc/get_voice(add_id_name = FALSE)
+/atom/proc/get_voice(if_no_voice = "Unknown")
 	return "[src]" //Returns the atom's name, prepended with 'The' if it's not a proper noun
 
 /**
