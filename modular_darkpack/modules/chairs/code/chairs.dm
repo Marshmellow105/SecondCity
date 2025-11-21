@@ -120,6 +120,7 @@
 // COMFY CHAIRS / OBJECTS
 
 /obj/structure/chair/comfy/vampire
+	icon = 'modular_darkpack/modules/chairs/icons/chairs.dmi'
 	icon_state = "comfy"
 
 /obj/structure/chair/comfy/vampire/dark
