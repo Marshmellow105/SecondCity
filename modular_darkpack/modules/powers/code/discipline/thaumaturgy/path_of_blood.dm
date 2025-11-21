@@ -12,7 +12,6 @@
 	thaumaturgy.Grant(owner)
 	thaumaturgy.level = level
 	ADD_TRAIT(owner, TRAIT_THAUMATURGY_KNOWLEDGE, DISCIPLINE_TRAIT)
-	owner.mind.teach_crafting_recipe(/datum/crafting_recipe/arctome)
 
 /datum/discipline_power/thaumaturgy
 	name = "Thaumaturgy power name"
@@ -264,7 +263,7 @@
 		owner.bloodpool = min(owner.bloodpool + blood_gained, owner.maxbloodpool)
 	else
 		var/blood_coefficient = (5 / target.bloodpool)
-		//TODO: [Rebase] -- reimplement quirks -- potent blood
+		// DARKPACK TODO - reimplement quirks -- potent blood
 		/*
 		if(HAS_TRAIT(target, TRAIT_POTENT_BLOOD))
 			blood_coefficient *= 0.5

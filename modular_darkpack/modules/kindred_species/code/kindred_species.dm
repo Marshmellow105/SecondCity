@@ -50,7 +50,7 @@
 	human.set_eye_color("#ff0000")
 	human.undershirt = "T-Shirt (Red)"
 	human.update_body()
-	human.equipOutfit(/datum/outfit/job/prince)
+	human.equipOutfit(/datum/outfit/job/vampire/prince, TRUE)
 
 /datum/species/human/kindred/on_species_gain(mob/living/carbon/human/new_kindred, datum/species/old_species, pref_load, regenerate_icons = TRUE)
 	. = ..()
@@ -64,7 +64,7 @@
 	var/datum/action/cooldown/blood_power/bloodpower = new()
 	bloodpower.Grant(new_kindred)
 
-	// TODO: [Rebase] reimplement these vars and the actions
+	// DARKPACK TODO - reimplement these vars and the actions
 	/*
 	var/datum/action/vampireinfo/infor = new()
 	infor.host = new_kindred
@@ -105,7 +105,7 @@
 	UnregisterSignal(human, COMSIG_MOB_APPLY_DAMAGE_MODIFIERS)
 	UnregisterSignal(human, COMSIG_HUMAN_ON_HANDLE_BLOOD)
 
-	// TODO: [Rebase] reimplement vampire actions
+	// DARKPACK TODO - reimplement vampire actions
 	/*
 	for (var/datum/action/vampireinfo/VI in human.actions)
 		VI.Remove(human)
