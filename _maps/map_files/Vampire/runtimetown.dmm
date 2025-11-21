@@ -12,7 +12,7 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
 "aG" = (
-/obj/structure/chair/comfy/vampire{
+/obj/structure/chair/comfy/darkpack{
 	dir = 4
 	},
 /turf/open/floor/plating/rough,
@@ -97,7 +97,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
 "bW" = (
-/obj/structure/chair/vampire/red,
+/obj/structure/chair/darkpack/blue,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
 "ca" = (
@@ -293,7 +293,7 @@
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
 "gB" = (
-/obj/structure/chair/comfy/vampire/red{
+/obj/structure/chair/comfy/darkpack/red{
 	dir = 4
 	},
 /turf/open/floor/plating/rough,
@@ -513,7 +513,7 @@
 /turf/closed/wall/vampwall/market,
 /area/vtm/interior/shop)
 "kU" = (
-/obj/structure/chair/office/vampire/red{
+/obj/structure/chair/office/darkpack/blue{
 	dir = 1
 	},
 /turf/open/floor/plating/rough,
@@ -547,10 +547,6 @@
 	},
 /turf/open/misc/dirt,
 /area/vtm/outside/supply)
-"md" = (
-/obj/structure/chair/stool/bar/vampire/red,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/techshop)
 "mm" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/order_console/mining/restricted/police,
@@ -870,7 +866,7 @@
 /turf/open/misc/dirt,
 /area/vtm/outside/supply)
 "sU" = (
-/obj/structure/chair/office/vampire/green{
+/obj/structure/chair/office/darkpack/green{
 	dir = 1
 	},
 /turf/open/floor/plating/rough,
@@ -1092,13 +1088,13 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
 "xn" = (
-/obj/structure/chair/comfy/vampire/blue{
+/obj/structure/chair/comfy/darkpack/blue{
 	dir = 4
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
 "xB" = (
-/obj/structure/chair/wood/vampire,
+/obj/structure/chair/wood/darkpack,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
 "xC" = (
@@ -1201,7 +1197,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/sewer)
 "zT" = (
-/obj/structure/chair/vampire/blue,
+/obj/structure/chair/darkpack/red,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
 "zU" = (
@@ -1301,7 +1297,7 @@
 /area/vtm/interior/techshop)
 "BW" = (
 /obj/machinery/sprinkler,
-/obj/structure/chair/office/vampire{
+/obj/structure/chair/office/darkpack{
 	dir = 1
 	},
 /turf/open/floor/plating/rough,
@@ -1532,7 +1528,7 @@
 /turf/open/misc/dirt/rails,
 /area/vtm/outside/supply)
 "Gc" = (
-/obj/structure/chair/vampire/green,
+/obj/structure/chair/darkpack/green,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
 "Gj" = (
@@ -1659,7 +1655,7 @@
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
 "HI" = (
-/obj/structure/chair/comfy/vampire/dark{
+/obj/structure/chair/comfy/darkpack/dark{
 	dir = 4
 	},
 /turf/open/floor/plating/rough,
@@ -1717,7 +1713,7 @@
 /turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
 "IC" = (
-/obj/structure/chair/comfy/vampire/green{
+/obj/structure/chair/comfy/darkpack/green{
 	dir = 4
 	},
 /turf/open/floor/plating/rough,
@@ -2046,7 +2042,7 @@
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
 "NT" = (
-/obj/structure/chair/wood/vampire/red,
+/obj/structure/chair/wood/darkpack/red,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
 "NX" = (
@@ -2278,7 +2274,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/sewer)
 "Sg" = (
-/obj/structure/chair/office/vampire/blue{
+/obj/structure/chair/office/darkpack/red{
 	dir = 1
 	},
 /turf/open/floor/plating/rough,
@@ -2606,10 +2602,6 @@
 /obj/structure/table/wood,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"XT" = (
-/obj/structure/chair/stool/bar/vampire,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/techshop)
 "XW" = (
 /obj/effect/turf_decal/bordur,
 /mob/living/carbon/human/npc/hobo,
@@ -2663,7 +2655,7 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights)
 "YZ" = (
-/obj/structure/chair/vampire,
+/obj/structure/chair/darkpack,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
 "Zc" = (
@@ -3877,7 +3869,7 @@ IL
 Id
 Id
 Id
-md
+Id
 Id
 Id
 ZU
@@ -4217,7 +4209,7 @@ ZU
 rN
 Id
 Id
-XT
+Id
 sw
 BQ
 ZU
