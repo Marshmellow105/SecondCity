@@ -3,15 +3,19 @@
 /obj/structure/chair/vampire
 	icon = 'modular_darkpack/modules/chairs/icons/chairs.dmi'
 	icon_state = "chair"
+	item_chair = /obj/item/chair/vampire
 
 /obj/structure/chair/vampire/blue
 	icon_state = "chair_blue"
+	item_chair = /obj/item/chair/vampire/blue
 
 /obj/structure/chair/vampire/green
 	icon_state = "chair_green"
+	item_chair = /obj/item/chair/vampire/green
 
 /obj/structure/chair/vampire/red
 	icon_state = "chair_red"
+	item_chair = /obj/item/chair/vampire/red
 
 // FOUR LEGGED CHAIRS / ITEMS
 
@@ -19,15 +23,19 @@
 	icon = 'modular_darkpack/modules/chairs/icons/chairs.dmi'
 	icon_state = "chair_toppled"
 	inhand_icon_state = "chair"
+	origin_type = /obj/structure/chair/vampire
 
 /obj/item/chair/vampire/blue
 	icon_state = "chair_blue_toppled"
+	origin_type = /obj/structure/chair/vampire/blue
 
 /obj/item/chair/vampire/green
 	icon_state = "chair_green_toppled"
+	origin_type = /obj/structure/chair/vampire/green
 
 /obj/item/chair/vampire/red
 	icon_state = "chair_red_toppled"
+	origin_type = /obj/structure/chair/vampire/red
 
 // PLASTIC CHAIR / OBJECTS
 
@@ -35,6 +43,7 @@
 	icon = 'modular_darkpack/modules/chairs/icons/chairs.dmi'
 	icon_state = "plastic_chair"
 	name = "plastic chair"
+	item_chair = /obj/item/chair/plastic/vampire
 
 // PLASTIC CHAIR / ITEMS
 
@@ -42,6 +51,7 @@
 	name = "plastic chair"
 	icon = 'modular_darkpack/modules/chairs/icons/chairs.dmi'
 	icon_state = "folded_chair"
+	origin_type = /obj/structure/chair/plastic/vampire
 
 // OFFICE CHAIRS / OBJECTS
 
@@ -106,3 +116,20 @@
 	icon_state = "wooden_chair_red_toppled"
 	inhand_icon_state = "woodenchair"
 	origin_type = /obj/structure/chair/wood/vampire/red
+
+// COMFY CHAIRS / OBJECTS
+
+/obj/structure/chair/comfy/vampire
+	icon_state = "comfy"
+
+/obj/structure/chair/comfy/vampire/dark
+	icon_state = "comfy_dark"
+
+/obj/structure/chair/comfy/vampire/blue
+	icon_state = "comfy_blue"
+
+/obj/structure/chair/comfy/vampire/green
+	icon_state = "comfy_green"
+
+/obj/structure/chair/comfy/vampire/red
+	icon_state = "comfy_red"
