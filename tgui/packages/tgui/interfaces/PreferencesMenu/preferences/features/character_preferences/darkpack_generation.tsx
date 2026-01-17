@@ -1,4 +1,5 @@
-import { FeatureNumberInput, FeatureNumeric } from '../base';
+// THIS IS A DARKPACK UI FILE
+import { FeatureNumberInput, type FeatureNumeric } from '../base';
 
 export const generation: FeatureNumeric = {
   name: 'Generation',

@@ -58,9 +58,12 @@ ADMIN_VERB(cmd_admin_check_player_exp, R_ADMIN, "Player Playtime", "View player 
 	if(!message)
 		return
 
+	if(!SSshuttle.centcom_recall(usr, SSshuttle.emergency.timer, message)) // feedback handled within
+		return
+
 	message_admins("[key_name_admin(usr)] triggered a CentCom recall, with the admiral message of: [message]")
 	usr.log_message("triggered a CentCom recall, with the message of: [message]", LOG_GAME)
-	SSshuttle.centcom_recall(SSshuttle.emergency.timer, message)
+
 
 /datum/admins/proc/cmd_show_exp_panel(client/client_to_check)
 	if(!check_rights(R_ADMIN))
@@ -183,6 +186,11 @@ ADMIN_VERB(drop_everything, R_ADMIN, "Drop Everything", ADMIN_VERB_NO_DESCRIPTIO
 		if(MUTE_DEADCHAT)
 			mute_string = "deadchat and DSAY"
 			feedback_string = "Deadchat"
+		// DARKPACK EDIT ADD START
+		if(MUTE_LOOC)
+			mute_string = "LOOC"
+			feedback_string = "LOOC"
+		// DARKPACK EDIT ADD END
 		if(MUTE_INTERNET_REQUEST)
 			mute_string = "internet sound requests"
 			feedback_string = "Internet Sound Requests"
