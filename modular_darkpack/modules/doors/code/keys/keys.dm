@@ -331,7 +331,7 @@
 /obj/item/vamp/keys/police/federal
 	name = "federal agent keys"
 	accesslocks = list(
-		LOCKACCESS_POLICE
+		LOCKACCESS_POLICE,
 		LOCKACCESS_FEDERAL
 	)
 
