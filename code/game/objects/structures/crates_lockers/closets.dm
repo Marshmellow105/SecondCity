@@ -52,6 +52,7 @@ GLOBAL_LIST_EMPTY(roundstart_station_closets)
 	var/allow_objects = FALSE
 	var/allow_dense = FALSE
 	var/dense_when_open = FALSE //if it's dense when open or not
+	var/dense_when_closed = TRUE //if it's dense when closed or not // DARKPACK EDIT ADD
 	var/max_mob_size = MOB_SIZE_HUMAN //Biggest mob_size accepted by the container
 	var/mob_storage_capacity = 3 // how many human sized mob/living can fit together inside a closet.
 	var/storage_capacity = 30 //This is so that someone can't pack hundreds of items in a locker/crate then open it in a populated area to crash clients.
@@ -176,8 +177,20 @@ GLOBAL_LIST_EMPTY(roundstart_station_closets)
 	update_appearance()
 
 /obj/structure/closet/LateInitialize()
-	if(!opened && is_maploaded)
-		take_contents()
+	if(is_maploaded)
+		// very rare chance that a maintenance closet gets linked to another closet at roundstart
+		// 0.1% chance -> metastation has ~36 maintenance closets -> P(links>=1) = 3.54% per round -> about once every 30 rounds
+		if(prob(0.1) && istype(get_area(src), /area/station/maintenance))
+			var/list/targets = GLOB.roundstart_station_closets.Copy() - src
+			var/list/picked = list(src)
+			for(var/i in 1 to pick(1, 2))
+				picked += pick_n_take(targets)
+			GLOB.closet_teleport_controller.create_new_link(picked, subtle = TRUE)
+			if(!opened)
+				open(force = TRUE, special_effects = FALSE)
+
+		if(!opened)
+			take_contents()
 
 	if(sealed)
 		var/datum/gas_mixture/external_air = loc.return_air()
@@ -606,7 +619,8 @@ GLOBAL_LIST_EMPTY(roundstart_station_closets)
 	take_contents()
 	playsound(loc, close_sound, close_sound_volume, TRUE, -3)
 	opened = FALSE
-	set_density(TRUE)
+	if(dense_when_closed) // DARKPACK EDIT ADD
+		set_density(TRUE) // DARKPACK EDIT CHANGE
 	animate_door(TRUE)
 	update_appearance()
 	after_close(user)
@@ -688,6 +702,11 @@ GLOBAL_LIST_EMPTY(roundstart_station_closets)
 		return 1 // No afterattack
 	else
 		return ..()
+
+/obj/structure/closet/item_interaction_secondary(mob/living/user, obj/item/tool, list/modifiers)
+	if (attack_hand(user, modifiers))
+		return ITEM_INTERACT_SUCCESS
+	return NONE
 
 /// check if we can install airlock electronics in this closet
 /obj/structure/closet/proc/can_install_airlock_electronics(mob/user)
@@ -980,14 +999,15 @@ GLOBAL_LIST_EMPTY(roundstart_station_closets)
 	. = ..()
 	if(.)
 		return
+
 	if(user.body_position == LYING_DOWN && get_dist(src, user) > 0)
 		return
 
 	if(toggle(user))
-		return
+		return TRUE
 
 	if(!opened)
-		togglelock(user)
+		return togglelock(user)
 
 /obj/structure/closet/attack_paw(mob/user, list/modifiers)
 	return attack_hand(user, modifiers)

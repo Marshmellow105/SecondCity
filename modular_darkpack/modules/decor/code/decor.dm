@@ -276,6 +276,27 @@
 /obj/effect/decal/painting/third
 	icon_state = "painting3"
 
+/obj/structure/painting/trad
+	name = "chinese traditional ink painting"
+	icon_state = "trad-art1"
+	icon = 'modular_darkpack/modules/decor/icons/chinatown.dmi'
+	desc = "Seems to be ink on a pleasant yellow canvas."
+	layer = SIGN_LAYER
+
+/obj/structure/painting/trad/second
+	icon_state = "trad-art2"
+
+/obj/structure/painting/trad/three
+	icon_state = "trad-art3"
+
+/obj/structure/fluff/shrine
+	name = "altar shrine"
+	desc = "An old rustic buddhist shrine, with a red cermaic roof."
+	icon = 'modular_darkpack/modules/decor/icons/chinatown.dmi'
+	icon_state = "budshrine"
+	anchored = TRUE
+	density = TRUE
+
 /obj/structure/jesuscross
 	name = "Jesus Christ on a cross"
 	desc = "Jesus said, “Father, forgive them, for they do not know what they are doing.” And they divided up his clothes by casting lots (Luke 23:34)."
@@ -345,7 +366,7 @@
 			if(starter)
 				if(ishuman(starter))
 					var/mob/living/carbon/human/H = starter
-					H.AdjustHumanity(-1, 0)
+					SEND_SIGNAL(H, COMSIG_PATH_HIT, -1, 0, FALSE)
 		L.gib()
 	. = ..()
 
@@ -519,6 +540,9 @@
 	anchored = TRUE
 	var/large = FALSE
 
+/obj/effect/decal/graffiti/NeverShouldHaveComeHere(turf/here_turf)
+	return isclosedturf(here_turf)
+
 /obj/effect/decal/graffiti/large
 	pixel_w = -16
 	icon = 'modular_darkpack/modules/deprecated/icons/64x64.dmi'
@@ -649,6 +673,7 @@
 	icon = 'modular_darkpack/modules/decor/icons/bury_pit.dmi'
 	icon_state = "pit0"
 	layer = ABOVE_OPEN_TURF_LAYER
+	plane = FLOOR_PLANE
 	anchored = TRUE
 	density = FALSE
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
