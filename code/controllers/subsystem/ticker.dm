@@ -38,8 +38,8 @@ SUBSYSTEM_DEF(ticker)
 	var/timeLeft //pregame timer
 	var/start_at
 
-	var/gametime_offset = 21 HOURS //Deciseconds to add to world.time for station time. // DARKPACK EDIT CHANGE, ORIGINAL: var/gametime_offset = 432000
-	var/station_time_rate_multiplier = 2 //factor of station time progressal vs real time. // DARKPACK EDIT CHANGE, ORIGINAL: var/station_time_rate_multiplier = 12
+	var/gametime_offset = 21 HOURS //Deciseconds to add to world.time for station time. // DARKPACK EDIT CHANGE - ORIGINAL: var/gametime_offset = 432000
+	var/station_time_rate_multiplier = 2 //factor of station time progressal vs real time. // DARKPACK EDIT CHANGE - ORIGINAL: var/station_time_rate_multiplier = 12
 
 	/// Num of players, used for pregame stats on statpanel
 	var/totalPlayers = 0
@@ -309,7 +309,7 @@ SUBSYSTEM_DEF(ticker)
 	// Spawn traitors and stuff
 	for(var/datum/dynamic_ruleset/roundstart/ruleset in SSdynamic.queued_rulesets)
 		ruleset.execute()
-		SSdynamic.queued_rulesets -= ruleset
+		SSdynamic.unqueue_ruleset(ruleset)
 		SSdynamic.executed_rulesets += ruleset
 	// Queue roundstart intercept report
 	if(!CONFIG_GET(flag/no_intercept_report))
