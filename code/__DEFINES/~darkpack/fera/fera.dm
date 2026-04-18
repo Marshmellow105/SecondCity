@@ -11,7 +11,7 @@
 
 #define BREED_HOMID "Homid"
 #define BREED_LUPUS "Lupus"
-#define BREED_CRINOS "Metis" //Its called metis because anything player facing should only show "Metis" instead of "Crinos", despite it being a crinos form. Blame gadabout.
+#define BREED_CRINOS "Crinos"
 
 #define FEATURE_FUR_COLOR "fera_fur"
 
@@ -25,4 +25,4 @@ GLOBAL_LIST_INIT(garou_fur_colors, list(
 	"brown" = "brown"
 ))
 
-#define STATUS_EFFECT_SILVER_BULLLET_STACKS /datum/status_effect/stacking/silver_bullets
+#define STATUS_EFFECT_SILVER_BULLET_STACKS /datum/status_effect/stacking/silver_bullets

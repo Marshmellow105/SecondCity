@@ -11,9 +11,9 @@
 	var/list/alt_titles = null // ALTERNATIVE_JOB_TITLES
 
 	///List of splats that are allowed to do this job.
-	var/list/allowed_splats = list(SPLAT_NONE, SPLAT_GHOUL, SPLAT_KINDRED)
-	///List of species that are limited to a certain amount of that species doing this job.
-	var/list/splat_slots = list(SPLAT_NONE = -1, SPLAT_GHOUL = -1, SPLAT_KINDRED = -1)
+	var/list/allowed_splats
+	///List of species that are limited to a certain amount of that species doing this job. e.g: list(SPLAT_NONE = -1, SPLAT_GHOUL = -1, SPLAT_KINDRED = -1)
+	var/list/splat_slots
 	///List of Clans that are allowed to do this job.
 	var/list/allowed_clans
 	///List of Clans that are disallowed to do this job.
@@ -42,7 +42,7 @@
 /datum/outfit/job/vampire/pre_equip(mob/living/carbon/human/H, visuals_only)
 	. = ..()
 	if(uses_default_clan_clothes == TRUE)
-		var/datum/splat/vampire/kindred/kindred = iskindred(H)
+		var/datum/splat/vampire/kindred/kindred = get_kindred_splat(H)
 		if(kindred)
 			if(H.jumpsuit_style == PREF_SUIT)
 				shoes = /obj/item/clothing/shoes/vampire

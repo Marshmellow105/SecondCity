@@ -1,5 +1,5 @@
 /obj/ritual_rune/thaumaturgy/gargoyle
-	name = "gargoyle transformation"
+	name = "at our command it breathes"
 	desc = "Create a Gargoyle from vampire bodies. One body creates a normal Gargoyle, two bodies create a perfect Gargoyle."
 	icon_state = "rune9"
 	word = "FORMA-GARGONEM"
@@ -11,7 +11,7 @@
 	var/list/valid_bodies = list()
 
 	for(var/mob/living/carbon/human/H in loc)
-		if(iskindred(H))
+		if(get_kindred_splat(H))
 			if(H == usr)
 				to_chat(usr, span_warning("You may not turn yourself into a Gargoyle!"))
 				return

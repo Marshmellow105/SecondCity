@@ -60,7 +60,7 @@
 /obj/item/ammo_box/magazine/internal/cylinder/rev9mm
 	name = "revolver cylinder"
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm
-	caliber = CALIBER_9MM
+	caliber = CALIBER_9MMPARA
 	max_ammo = 6
 
 //PISTOLS
@@ -119,7 +119,7 @@
 	ONFLOOR_ICON_HELPER('modular_darkpack/modules/weapons/icons/ammo_onfloor.dmi')
 	icon_state = "m1911"
 	ammo_type = /obj/item/ammo_casing/vampire/c45acp
-	caliber = CALIBER_45
+	caliber = CALIBER_45ACP
 	max_ammo = 8
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
@@ -140,7 +140,7 @@
 	ONFLOOR_ICON_HELPER('modular_darkpack/modules/weapons/icons/ammo_onfloor.dmi')
 	icon_state = "glock19"
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm
-	caliber = CALIBER_9MM
+	caliber = CALIBER_9MMPARA
 	max_ammo = 15
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
@@ -165,7 +165,7 @@
 	ONFLOOR_ICON_HELPER('modular_darkpack/modules/weapons/icons/ammo_onfloor.dmi')
 	icon_state = "glock21"
 	ammo_type = /obj/item/ammo_casing/vampire/c45acp
-	caliber = CALIBER_45
+	caliber = CALIBER_45ACP
 	max_ammo = 12
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
@@ -290,7 +290,7 @@
 	ONFLOOR_ICON_HELPER('modular_darkpack/modules/weapons/icons/ammo_onfloor.dmi')
 	icon_state = "mac10" //uzi sprite placeholder
 	ammo_type = /obj/item/ammo_casing/vampire/c45acp
-	caliber = CALIBER_45
+	caliber = CALIBER_45ACP
 	max_ammo = 30
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
@@ -521,7 +521,7 @@
 	icon = 'modular_darkpack/modules/weapons/icons/ammo.dmi'
 	ONFLOOR_ICON_HELPER('modular_darkpack/modules/weapons/icons/ammo_onfloor.dmi')
 	ammo_type = /obj/item/ammo_casing/vampire/c45acp
-	caliber = CALIBER_45
+	caliber = CALIBER_45ACP
 	max_ammo = 50
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
@@ -581,7 +581,6 @@
 	recoil = 2
 	fire_delay = 1					//It's bolt-action. Fast as you can go really; which is still pretty slow.
 	burst_size = 1
-	w_class = WEIGHT_CLASS_NORMAL
 	slot_flags = ITEM_SLOT_BACK
 	projectile_damage_multiplier = 1.5 //~52 damage vs 35 base .44 damage. It's ok, on par with 5.56 but lower pen and slower to fire due to bolt action.
 	masquerade_violating = FALSE
@@ -618,7 +617,6 @@
 	fire_delay = 40
 	recoil = 7
 	burst_size = 1
-	w_class = WEIGHT_CLASS_NORMAL
 	//zoomable = TRUE
 	//zoom_amt = 10 //Long range, enough to see in front of you, but no tiles behind you.
 	//zoom_out_amt = 5
@@ -653,7 +651,6 @@
 	fire_delay = 5
 	spread = 2
 	recoil = 6
-	w_class = WEIGHT_CLASS_NORMAL
 	slot_flags = ITEM_SLOT_BACK
 	projectile_damage_multiplier = 1.5
 	actions_types = list()
@@ -676,7 +673,7 @@
 /obj/item/ammo_box/magazine/internal/vampshotgun
 	name = "shotgun internal magazine"
 	ammo_type = /obj/item/ammo_casing/vampire/c12g
-	caliber = CALIBER_SHOTGUN
+	caliber = CALIBER_12G
 	//multiload = FALSE
 	max_ammo = 6
 	masquerade_violating = FALSE
@@ -707,7 +704,7 @@
 /obj/item/ammo_box/magazine/internal/darkpack_dbarrel
 	name = "double barrel internal magazine"
 	ammo_type = /obj/item/ammo_casing/vampire/c12g
-	caliber = CALIBER_SHOTGUN
+	caliber = CALIBER_12G
 	max_ammo = 2
 	masquerade_violating = FALSE
 
@@ -752,7 +749,7 @@
 	ONFLOOR_ICON_HELPER('modular_darkpack/modules/weapons/icons/ammo_onfloor.dmi')
 	icon_state = "spas15"
 	ammo_type = /obj/item/ammo_casing/vampire/c12g/buck
-	caliber = CALIBER_SHOTGUN
+	caliber = CALIBER_12G
 	max_ammo = 6
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 

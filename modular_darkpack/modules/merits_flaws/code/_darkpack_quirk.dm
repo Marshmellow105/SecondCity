@@ -26,17 +26,19 @@
 			if(splat.id in allowed_splats)
 				has_allowed_splat = TRUE
 				break
+		if(!new_holder.splats && (SPLAT_NONE in allowed_splats))
+			has_allowed_splat = TRUE
 		if(!has_allowed_splat)
 			return FALSE
 
-	if(excluded_clans && iskindred(new_holder))
-		var/datum/splat/vampire/kindred/kindred_splat = iskindred(new_holder)
+	if(excluded_clans && get_kindred_splat(new_holder))
+		var/datum/splat/vampire/kindred/kindred_splat = get_kindred_splat(new_holder)
 		if(kindred_splat.clan && (kindred_splat.clan.id in excluded_clans))
 			to_chat(new_holder, span_warning("[failure_message]"))
 			return FALSE
 
 	if(minimum_generation)
-		var/datum/splat/vampire/kindred/kindred_splat = iskindred(new_holder)
+		var/datum/splat/vampire/kindred/kindred_splat = get_kindred_splat(new_holder)
 		if(kindred_splat.generation < minimum_generation)
 			to_chat(new_holder, span_warning("[failure_message]"))
 			return FALSE
@@ -50,7 +52,8 @@
 		return TRUE
 
 	var/datum/splat/splat_path = GLOB.splat_prototypes[mob_splat]
-	var/splat_id = splat_path?.id
+	// If splat is null, just assume we have no splat.
+	var/splat_id = splat_path?.id ? splat_path.id : SPLAT_NONE
 
 	if(forbidden_splats && (splat_id in forbidden_splats))
 		return FALSE

@@ -85,6 +85,7 @@
 
 	LAZYADDASSOC(mobs_last_rolled, WEAKREF(roller), list(world.time, output))
 
+	SEND_SIGNAL(roller, COMSIG_LIVING_DICE_ROLLED, src, output)
 	return output
 
 
@@ -104,7 +105,7 @@
 		if(ROLL_ADMIN)
 			return GLOB.admins
 		if(ROLL_NONE)
-			return // Not even important enough to be admin visable.
+			return // Not even important enough to be admin visible.
 
 /datum/storyteller_roll/proc/calculate_used_dice(mob/living/roller, bonus = 0)
 	var/dice_amount = 0

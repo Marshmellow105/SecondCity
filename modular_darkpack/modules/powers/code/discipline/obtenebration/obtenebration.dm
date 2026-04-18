@@ -4,6 +4,7 @@
 	icon_state = "obtenebration"
 	clan_restricted = TRUE
 	power_type = /datum/discipline_power/obtenebration
+	signature_clan = VAMPIRE_CLAN_LASOMBRA
 
 /datum/discipline/obtenebration/post_gain()
 	. = ..()
@@ -81,6 +82,7 @@
 	check_flags = DISC_CHECK_CONSCIOUS | DISC_CHECK_CAPABLE | DISC_CHECK_LYING | DISC_CHECK_IMMOBILE
 	target_type = TARGET_MOB
 	range = 7
+	vitae_cost = 0
 
 	aggravating = TRUE
 	violates_masquerade = TRUE
@@ -339,7 +341,7 @@
 	tentacle_owner.tentacle_aggro_mode = select
 
 	// need to access the discipline_power so we can grab the list
-	var/datum/splat/vampire/vampire = does_use_disciplines(tentacle_owner)
+	var/datum/splat/vampire/vampire = get_splat_with_discipline(tentacle_owner)
 	var/datum/discipline_power/obtenebration/arms_of_the_abyss/abyss_power = vampire?.get_discipline_power(/datum/discipline_power/obtenebration/arms_of_the_abyss)
 
 	var/tentacles = 0

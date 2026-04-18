@@ -49,6 +49,7 @@
 /datum/discipline_power/dominate
 	name = "Dominate power name"
 	desc = "Dominate power description"
+	vitae_cost = 0 //No Dominate 1-5 abilities cost blood.
 
 	activate_sound = 'modular_darkpack/modules/powers/sounds/dominate.ogg'
 
@@ -107,12 +108,15 @@
 	var/mypower = SSroll.storyteller_roll(owner_stat, difficulty = theirpower, roller = owner, numerical = TRUE)
 
 	//tremere have built-in safeguards to easily dominate their stone servitors
-	var/mob/living/carbon/human/human_target = target
 	if(HAS_TRAIT(target, TRAIT_WEAK_TO_DOMINATE))
+		theirpower -= 2
+
+	if(HAS_TRAIT(target, TRAIT_WEAK_WILLED))
 		theirpower -= 2
 
 	//wearing dark sunglasses makes it harder for the Dominator to capture the victim's gaze and raises difficulty -- V20 'Dominate' section titled 'Eye Contact'
 	var/total_tint = 0
+	var/mob/living/carbon/human/human_target = target
 	for(var/obj/item/clothing/worn_item in human_target.get_equipped_items(INCLUDE_ABSTRACT))
 		total_tint += worn_item.tint
 
@@ -132,12 +136,16 @@
 		to_chat(owner, span_warning("Your Dominate attempt has botched! [target] is now resistant to your Dominate for the rest of the night."))
 		return FALSE
 
-	var/datum/splat/vampire/kindred/owner_splat = iskindred(owner)
-	var/datum/splat/vampire/kindred/target_splat = iskindred(target)
+	var/datum/splat/vampire/kindred/owner_splat = get_kindred_splat(owner)
+	var/datum/splat/vampire/kindred/target_splat = get_kindred_splat(target)
 	if(target_splat)
 		if(owner_splat.generation > target_splat.generation)
-			to_chat(owner, span_warning("Your fail to dominate [target], as their blood is more potent than yours!"))
+			to_chat(owner, span_warning("You fail to dominate [target], as their blood is more potent than yours!"))
 			return FALSE
+
+	if(HAS_TRAIT(target, TRAIT_MERIT_UNTAMABLE))
+		to_chat(owner, span_warning("You fail to dominate [target], they are an untamable beast!"))
+		return FALSE
 
 	if(numerical == TRUE)
 		return mypower
@@ -459,8 +467,8 @@
 
 /datum/discipline_power/dominate/possession/pre_activation_checks(mob/living/carbon/human/target)
 
-	if(iskindred(target) || isgarou(target)) //DARKPACK TODO: reimplement Kuei-Jin
-		to_chat(owner, span_warning("You cannot possess [iskindred(target) ? "another kindred" : "this creature - the beast within resists"]!"))
+	if(get_kindred_splat(target) || get_garou_splat(target)) //DARKPACK TODO: reimplement Kuei-Jin
+		to_chat(owner, span_warning("You cannot possess [get_kindred_splat(target) ? "another kindred" : "this creature - the beast within resists"]!"))
 		return FALSE
 
 	if(target.possessed)

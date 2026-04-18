@@ -39,6 +39,9 @@
 	/// If this Clan needs a whitelist to select and play
 	var/whitelisted = FALSE
 
+	/// daimoinon 1 text
+	var/sense_the_sin_text = "has been abandoned by the cold ocean of the night with nobody to keep them afloat."
+
 /**
  * Applies Clan-specific effects to the mob
  * gaining this Clan. Will alter the mob's
@@ -111,6 +114,12 @@
 		var/obj/item/clothing/mask/vampire/venetian_mask/fancy/new_mask = new(joining.loc)
 		joining.equip_to_appropriate_slot(new_mask, FALSE)
 
+/// effect from daimonion psychomania
+/datum/subsplat/vampire_clan/proc/psychomania_effect(mob/living/target, mob/living/owner)
+	to_chat(target, span_cult("THE BEAST SCREAMS IN MY MIND TO RUN"))
+	new /obj/effect/client_image_holder/baali_demon(get_turf(target), list(target))
+
+
 /**
  * Gives the human a vampiric Clan, applying
  * on_gain effects and post_gain effects if the
@@ -132,7 +141,7 @@
 	// Handle losing Clan
 	previous_clan?.on_lose(src)
 
-	var/datum/splat/vampire/kindred/kindred = iskindred(src)
+	var/datum/splat/vampire/kindred/kindred = get_kindred_splat(src)
 	if (!kindred)
 		return
 
@@ -148,7 +157,8 @@
 /mob/living/proc/get_clan()
 	RETURN_TYPE(/datum/subsplat/vampire_clan)
 
-	return iskindred(src)?.clan
+	return get_kindred_splat(src)?.clan
 
 /mob/living/proc/is_clan(clan_type)
 	return istype(get_clan(), clan_type)
+
