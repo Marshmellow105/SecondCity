@@ -170,7 +170,7 @@
 	max_ammo = 12
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
-/obj/item/ammo_box/magazine/glock45acp/HP
+/obj/item/ammo_box/magazine/glock45acp/hp
 	ammo_type = /obj/item/ammo_casing/vampire/c45acp/HP
 
 /obj/item/gun/ballistic/automatic/pistol/darkpack/glock21
