@@ -8,8 +8,8 @@
 	suit_store = /obj/item/flashlight/seclite
 	shoes = /obj/item/clothing/shoes/vampire/jackboots
 	belt = /obj/item/storage/belt/police/swat/full
-	suit = /obj/item/clothing/suit/vampire/darkpack_ert/fbi_armor
-	head = /obj/item/clothing/head/vampire/darkpack_ert/fbi_helmet
+	suit = /obj/item/clothing/suit/vampire/darkpack_ert/swat_armor/fbi
+	head = /obj/item/clothing/head/vampire/darkpack_ert/swat_helmet/fbi
 	id = /obj/item/card/swat
 	r_hand = /obj/item/gun/ballistic/automatic/darkpack/mp7
 	backpack_contents = list(
@@ -32,8 +32,8 @@
 	suit_store = /obj/item/flashlight/seclite
 	shoes = /obj/item/clothing/shoes/vampire/jackboots
 	belt = /obj/item/storage/belt/police/swat/full
-	suit = /obj/item/clothing/suit/vampire/darkpack_ert/fbi_armor
-	head = /obj/item/clothing/head/vampire/darkpack_ert/fbi_helmet
+	suit = /obj/item/clothing/suit/vampire/darkpack_ert/swat_armor/fbi
+	head = /obj/item/clothing/head/vampire/darkpack_ert/swat_helmet/fbi
 	id = /obj/item/card/lieutenant
 	r_hand = /obj/item/gun/ballistic/automatic/darkpack/mp7
 	backpack_contents = list(
@@ -56,8 +56,8 @@
 	suit_store = /obj/item/flashlight/seclite
 	shoes = /obj/item/clothing/shoes/vampire/jackboots
 	belt = /obj/item/defibrillator/compact/loaded
-	suit = /obj/item/clothing/suit/vampire/darkpack_ert/fbi_armor
-	head = /obj/item/clothing/head/vampire/darkpack_ert/fbi_helmet
+	suit = /obj/item/clothing/suit/vampire/darkpack_ert/swat_armor/fbi
+	head = /obj/item/clothing/head/vampire/darkpack_ert/swat_helmet/fbi
 	id = /obj/item/card/first_aid
 	r_hand = /obj/item/gun/ballistic/automatic/darkpack/mp7
 	backpack_contents = list(
@@ -75,8 +75,8 @@
 	mask = /obj/item/clothing/mask/vampire/balaclava
 	glasses = /obj/item/clothing/glasses/vampire/sun
 	uniform = /obj/item/clothing/under/vampire/police/fbi/utility
-	suit = /obj/item/clothing/suit/vampire/darkpack_ert/fbi_armor
-	head = /obj/item/clothing/head/vampire/darkpack_ert/fbi_helmet
+	suit = /obj/item/clothing/suit/vampire/darkpack_ert/swat_armor/fbi
+	head = /obj/item/clothing/head/vampire/darkpack_ert/swat_helmet/fbi
 	suit_store = /obj/item/flashlight/seclite
 	belt = /obj/item/storage/belt/police/swat/full
 	l_pocket = /obj/item/vamp/keys/police/federal
