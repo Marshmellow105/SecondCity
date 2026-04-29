@@ -53,6 +53,8 @@
 	/// Whether or not the legionnaire is currently charging, used to deny movement input if he is
 	var/charging = FALSE
 
+	var/bonfire_type = /obj/structure/legionnaire_bonfire // APOC EDIT ADD - (Gray masses)
+
 /datum/action/innate/elite_attack/legionnaire_charge
 	name = "Legionnaire Charge"
 	button_icon_state = "legionnaire_charge"
@@ -198,7 +200,7 @@
 /mob/living/simple_animal/hostile/asteroid/elite/legionnaire/proc/bonfire_teleport()
 	ranged_cooldown = world.time + 5
 	if(mypile == null)
-		var/obj/structure/legionnaire_bonfire/newpile = new /obj/structure/legionnaire_bonfire(loc)
+		var/obj/structure/legionnaire_bonfire/newpile = new bonfire_type(loc)
 		mypile = newpile
 		mypile.myowner = src
 		playsound(get_turf(src),'sound/items/fulton/fultext_deploy.ogg', 200, 1)
