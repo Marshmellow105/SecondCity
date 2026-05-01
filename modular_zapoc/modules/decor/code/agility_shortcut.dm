@@ -95,7 +95,7 @@ GLOBAL_LIST_EMPTY(unallocated_agility_shortcuts)
 /obj/agility_shortcut/cave/gaia
 	name = "tunnel"
 	desc = "A small hole in the cavern wall. You're not thinking about going in there, right?"
-	allowed_tribes = TRIBE_GAIA
+	allowed_tribes = TRIBE_LIST_GAIA
 
 /obj/agility_shortcut/urban
 	icon_state = "shortcut_urban"
@@ -103,7 +103,7 @@ GLOBAL_LIST_EMPTY(unallocated_agility_shortcuts)
 /obj/agility_shortcut/urban/spiral
 	name = "hole"
 	desc = "There are a bunch of bricks missing. Not enough for you to crawl in. Unless you were insane."
-	allowed_tribes = TRIBE_WYRM
+	allowed_tribes = TRIBE_LIST_WYRM
 
 /obj/agility_shortcut/anyone
 	desc = "You could probably fit in there. Want to find out?"
