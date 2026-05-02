@@ -9175,15 +9175,8 @@
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/museum)
 "fqn" = (
-/obj/effect/turf_decal/bordur/inverse{
-	dir = 4
-	},
-/obj/structure/gargoyle{
-	pixel_x = 2;
-	pixel_y = 16
-	},
-/turf/open/floor/plating/sidewalk/rich,
-/area/vtm/outside/park)
+/turf/closed/wall/vampwall/rock,
+/area/misc/cordon)
 "fqu" = (
 /obj/item/kirbyplants/darkpack/random,
 /obj/structure/extinguisher_cabinet/directional/north,
@@ -23208,9 +23201,6 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm)
-"nxT" = (
-/turf/closed/wall/vampwall/rock,
-/area/misc/cordon)
 "nyf" = (
 /obj/structure/chair/sofa/corp/left{
 	dir = 8
@@ -27876,16 +27866,6 @@
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/restricted)
-"qgu" = (
-/obj/effect/turf_decal/bordur/inverse{
-	dir = 8
-	},
-/obj/structure/gargoyle{
-	pixel_x = -2;
-	pixel_y = 16
-	},
-/turf/open/floor/plating/sidewalk/rich,
-/area/vtm/outside/park)
 "qgK" = (
 /obj/structure/vampdoor/wood,
 /obj/effect/turf_decal/siding/white,
@@ -35045,10 +35025,6 @@
 	},
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/ghetto)
-"ubu" = (
-/obj/structure/vampgate,
-/turf/open/floor/plating/sidewalk/rich,
-/area/vtm/outside/park)
 "ubA" = (
 /obj/structure/chair/plastic/darkpack{
 	dir = 8;
@@ -47177,7 +47153,7 @@ smE
 tWb
 nbL
 wSZ
-nxT
+fqn
 uHD
 swG
 kzb
@@ -47284,7 +47260,7 @@ smE
 tWb
 fhq
 wSZ
-nxT
+fqn
 uHD
 vuL
 kzb
@@ -47391,7 +47367,7 @@ smE
 tWb
 nbL
 wSZ
-nxT
+fqn
 uHD
 ogG
 kzb
@@ -57550,7 +57526,7 @@ vao
 vao
 vao
 upz
-fqn
+sqw
 sqw
 sqw
 rHA
@@ -57568,7 +57544,7 @@ sqw
 sqw
 sqw
 sqw
-fqn
+sqw
 wdp
 wdp
 fLi
@@ -57657,7 +57633,7 @@ vao
 esU
 esU
 upz
-ubu
+pKn
 pKn
 pKn
 pKn
@@ -57675,7 +57651,7 @@ pKn
 pKn
 pKn
 pKn
-ubu
+pKn
 wdp
 wdp
 fLi
@@ -57764,7 +57740,7 @@ eNb
 eNb
 eNb
 upz
-qgu
+ikU
 ikU
 ikU
 ikU
@@ -57782,7 +57758,7 @@ ikU
 ikU
 ikU
 ikU
-qgu
+ikU
 fuf
 wdp
 fLi
