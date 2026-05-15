@@ -280,16 +280,16 @@
 	icon_state = "policeutil"
 
 /obj/item/clothing/under/vampire/police/fbi
-	name = "FBI turtleneck"
+	name = "\improper FBI turtleneck"
 	desc = "The uniform of the Bureau's finest. Features durable and stretchy pants for door-kicking."
 	icon_state = "fbiturtleneck"
 
 /obj/item/clothing/under/vampire/police/fbi/utility
-	name = "FBI fatigues"
+	name = "\improper FBI fatigues"
 	icon_state = "fbiutil"
 
 /obj/item/clothing/under/vampire/police/fbi/pants
-	name = "FBI fatigue pants"
+	name = "\improper FBI fatigue pants"
 	icon_state = "fbipants"
 
 /obj/item/clothing/under/vampire/guard
