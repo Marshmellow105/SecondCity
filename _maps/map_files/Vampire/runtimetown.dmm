@@ -1055,6 +1055,11 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"sE" = (
+/obj/effect/turf_decal/bordur,
+/mob/living/basic/trader/policereq,
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/outside/pacificheights)
 "sR" = (
 /obj/effect/decal/pallet,
 /turf/open/misc/dirt,
@@ -4313,7 +4318,7 @@ lk
 ru
 kb
 NR
-cj
+sE
 ik
 VQ
 ik

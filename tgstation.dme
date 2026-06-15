@@ -7658,6 +7658,8 @@
 #include "modular_darkpack\modules\piano\code\stationary_pianos.dm"
 #include "modular_darkpack\modules\pixel_shift\code\pixel_shift_component.dm"
 #include "modular_darkpack\modules\pixel_shift\code\pixel_shift_keybind.dm"
+#include "modular_darkpack\modules\policevendor\police_trader.dm"
+#include "modular_darkpack\modules\policevendor\police_trader_data.dm"
 #include "modular_darkpack\modules\postal\code\postal.dm"
 #include "modular_darkpack\modules\powers\code\admin_discipline_editor.dm"
 #include "modular_darkpack\modules\powers\code\discipline_actions.dm"
