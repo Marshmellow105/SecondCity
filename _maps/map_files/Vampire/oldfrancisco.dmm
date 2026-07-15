@@ -15517,6 +15517,14 @@
 /obj/structure/vampstatue/angel,
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/interior/church)
+"eKm" = (
+/obj/structure/vampdoor/old{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/door/access/coggie,
+/obj/effect/mapping_helpers/door/lock,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior)
 "eKt" = (
 /obj/structure/sink/directional/south,
 /turf/open/floor/wood/smooth/old,
@@ -29512,6 +29520,14 @@
 /obj/effect/landmark/npcability,
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/financialdistrict)
+"iXU" = (
+/obj/structure/vampdoor/old{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/door/access/coggie,
+/obj/effect/mapping_helpers/door/lock,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/cog/caern)
 "iYc" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/city/toilet,
@@ -32979,7 +32995,9 @@
 /turf/open/water,
 /area/vtm/outside/forest)
 "kbe" = (
-/obj/structure/vampdoor/old,
+/obj/structure/vampdoor/old{
+	dir = 8
+	},
 /obj/effect/mapping_helpers/door/access/coggie,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/turf_decal/weather/dirt{
@@ -48054,6 +48072,14 @@
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower/ventrue)
+"oER" = (
+/obj/structure/vampdoor/old{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/door/access/coggie,
+/obj/effect/mapping_helpers/door/lock,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior)
 "oEV" = (
 /obj/effect/turf_decal/bordur,
 /obj/structure/table/wood,
@@ -52475,6 +52501,14 @@
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/mansion)
+"pSn" = (
+/obj/structure/vampdoor/old{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/door/access/coggie,
+/obj/effect/mapping_helpers/door/lock,
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/cog/caern)
 "pSB" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -86970,7 +87004,7 @@ mIV
 mTj
 mTj
 mTj
-qPN
+eKm
 mTj
 mTj
 mTj
@@ -91096,7 +91130,7 @@ qaF
 qaF
 qaF
 qaF
-lyV
+pSn
 qaF
 qaF
 qaF
@@ -91596,7 +91630,7 @@ mIV
 mIV
 mTj
 mTj
-qPN
+oER
 mTj
 mIV
 dhc
@@ -92381,7 +92415,7 @@ qaF
 qaF
 qaF
 qaF
-lkm
+iXU
 qaF
 qaF
 qaF
