@@ -54,7 +54,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	// Alternative job titles stored in preferences. Assoc list, ie. alt_job_titles["Scientist"] = "Cytologist"
 	var/list/alt_job_titles = list()
 	/// Whether this player is whitelisted to bypass discipline sheet validation limits
-	var/discipline_trusted = FALSE
+	var/discipline_trusted = TRUE // CRIMSON EDIT - Remove Trusted Whitelist
 	// DARKPACK EDIT ADD END
 	// The current window, PREFERENCE_TAB_* in [`code/__DEFINES/preferences.dm`]
 	var/current_window = PREFERENCE_TAB_CHARACTER_PREFERENCES
@@ -132,6 +132,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	randomise = get_default_randomization()
 
 	var/loaded_preferences_successfully = load_preferences()
+	discipline_trusted = TRUE // CRIMSON EDIT - Remove Trusted Whitelist
 	if(loaded_preferences_successfully)
 		if(load_character())
 			return
