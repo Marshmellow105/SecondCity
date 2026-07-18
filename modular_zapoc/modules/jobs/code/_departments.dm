@@ -3,5 +3,5 @@
 	department_bitflags = DEPARTMENT_BITFLAG_GAIA
 	department_head = /datum/job/vampire/ocean_boss
 	department_experience_type = EXP_TYPE_OCEAN
-	display_order = 1
+	display_order = 17
 	ui_color = "#5d8694"
