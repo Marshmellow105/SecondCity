@@ -57,6 +57,16 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/list/job_assigned_profiles
 
 	/// The current window, PREFERENCE_TAB_* in [`code/__DEFINES/preferences.dm`]
+	// DARKPACK EDIT ADD START
+	var/list/preference_storyteller_stats = list()
+	// Associative list of disciplines and their current level. like: list("/datum/discipline/animalism" = 2)
+	var/list/discipline_levels = list()
+	// Alternative job titles stored in preferences. Assoc list, ie. alt_job_titles["Scientist"] = "Cytologist"
+	var/list/alt_job_titles = list()
+	/// Whether this player is whitelisted to bypass discipline sheet validation limits
+	var/discipline_trusted = TRUE // CRIMSON EDIT - Remove Trusted Whitelist
+	// DARKPACK EDIT ADD END
+	// The current window, PREFERENCE_TAB_* in [`code/__DEFINES/preferences.dm`]
 	var/current_window = PREFERENCE_TAB_CHARACTER_PREFERENCES
 
 	var/unlock_content = 0
@@ -134,6 +144,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	randomise = get_default_randomization()
 
 	var/loaded_preferences_successfully = load_preferences()
+	discipline_trusted = TRUE // CRIMSON EDIT - Remove Trusted Whitelist
 	if(loaded_preferences_successfully)
 		if(load_character())
 			return
