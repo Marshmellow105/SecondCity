@@ -435,11 +435,13 @@ GLOBAL_LIST_INIT(unrecommended_builds, list(
 	tgui_say.initialize()
 
 	if(alert_mob_dupe_login && !holder)
+		/* CRIMSON GRID REMOVAL START - Kills Stickybans
 		// Notify admins if the connecting player's CID is configured to be ignored by stickybans
 		if (SSstickyban && (computer_id in SSstickyban.ignored_cids))
 			message_admins("<B>MULTIKEYING: </B></span><span class='notice'>[key_name_admin(src)] Connecting player joined with IGNORED CID [computer_id].")
 			log_admin_private("MULTIKEYING: [key_name(src)] Connecting player joined with IGNORED CID [computer_id].")
 			return
+		*/ // CRIMSON GRID REMOVAL END
 
 		// If the CID is not ignored, notify the player with the pop-up.
 		var/dupe_login_message = "Your ComputerID has already logged in with another key this round, please log out of this one NOW or risk being banned!"
