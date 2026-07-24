@@ -60730,7 +60730,7 @@
 /area/vtm/interior/laundromat)
 "rGp" = (
 /obj/effect/turf_decal/bordur,
-/obj/structure/reagent_dispensers/beerkeg,
+/obj/effect/spawner/random/food_or_drink/keg,
 /turf/open/floor/plating/roofwalk,
 /area/vtm)
 "rGw" = (
