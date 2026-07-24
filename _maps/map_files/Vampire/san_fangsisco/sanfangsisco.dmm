@@ -27264,11 +27264,6 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
-"hYv" = (
-/obj/structure/chair/wood,
-/obj/effect/landmark/start/darkpack/citizen/graveyardkeeper,
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior/graveyard)
 "hYC" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/siding/wideplating/dark{
@@ -75279,10 +75274,6 @@
 /obj/effect/spawner/random/bedsheet/any,
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/police/fed)
-"vYv" = (
-/obj/effect/landmark/start/darkpack/citizen/graveyardkeeper,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/graveyard)
 "vYx" = (
 /obj/structure/curtain/bounty,
 /obj/structure/platform/lowwall/market/window,
@@ -134668,7 +134659,7 @@ fpX
 vTt
 kpT
 feW
-hYv
+xRE
 ffY
 wMq
 kkE
@@ -138284,7 +138275,7 @@ mKL
 vTt
 jqf
 wjm
-vYv
+frW
 rph
 vlA
 aWz
