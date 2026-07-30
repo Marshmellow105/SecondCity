@@ -10407,7 +10407,7 @@
 /obj/structure/table/wood,
 /obj/item/storage/box/deputy,
 /obj/item/camera/detective,
-/obj/item/detective_scanner,
+/obj/item/detective_scanner/darkpack,
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/police)
 "gfl" = (
@@ -13569,6 +13569,11 @@
 /obj/structure/rack,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/supply)
+"hTN" = (
+/obj/structure/table/wood,
+/obj/item/camera/detective,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police/fed)
 "hTQ" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/vampdoor/wood,
@@ -17317,12 +17322,12 @@
 "kbu" = (
 /obj/item/storage/box/deputy,
 /obj/item/camera/detective,
-/obj/item/detective_scanner,
+/obj/item/detective_scanner/darkpack,
 /obj/structure/table,
-/obj/item/detective_scanner,
-/obj/item/detective_scanner,
-/obj/item/detective_scanner,
-/obj/item/detective_scanner,
+/obj/item/detective_scanner/darkpack,
+/obj/item/detective_scanner/darkpack,
+/obj/item/detective_scanner/darkpack,
+/obj/item/detective_scanner/darkpack,
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/police)
 "kbG" = (
@@ -23238,6 +23243,15 @@
 /obj/structure/closet/secure_closet/chemical,
 /turf/open/floor/city/circled/large,
 /area/vtm/interior/clinic)
+"nHE" = (
+/obj/structure/vampdoor/glass,
+/obj/effect/mapping_helpers/door/access/police,
+/obj/effect/mapping_helpers/door/lock,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "nHQ" = (
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/bianchiBank)
@@ -32634,9 +32648,9 @@
 /area/vtm/interior/voivodate/cave)
 "sWp" = (
 /obj/structure/table/wood,
-/obj/item/detective_scanner,
-/obj/item/detective_scanner,
-/obj/item/detective_scanner,
+/obj/item/detective_scanner/darkpack,
+/obj/item/detective_scanner/darkpack,
+/obj/item/detective_scanner/darkpack,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police/fed)
 "sWq" = (
@@ -50182,7 +50196,7 @@ hUM
 hUM
 rhD
 ryJ
-mMM
+hTN
 wnZ
 tOk
 rOF
@@ -60884,7 +60898,7 @@ rfg
 rfg
 rfg
 rfg
-iBu
+nHE
 lVj
 lVj
 tFx
