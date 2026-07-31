@@ -177,3 +177,10 @@
   - rscadd: adds functionality for clearing masquerade breaches upon the death of
       any mob/living, admins can also use the 'AdjustMasquerade' proc to restore people's
       breaches now as it wasnt working before
+2026-07-31:
+  FalloutFalcon:
+  - config: Config to delay round if no admins are connected
+  - rscadd: Gardening crate comes with a portaseeder and a spade
+  - map: Adds charcoal pens to the caern
+  - map: Adds a slot machine to the gas station
+  - map: Prince office artifact spawn will only have vampire artifacts
