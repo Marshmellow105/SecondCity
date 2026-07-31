@@ -7337,7 +7337,6 @@
 #include "modular_darkpack\modules\decor\code\stick.dm"
 #include "modular_darkpack\modules\decor\code\swaying.dm"
 #include "modular_darkpack\modules\decor\code\tables.dm"
-#include "modular_darkpack\modules\decor\code\tables2.dm"
 #include "modular_darkpack\modules\decor\code\torch.dm"
 #include "modular_darkpack\modules\decor\code\trash.dm"
 #include "modular_darkpack\modules\decor\code\vents.dm"
