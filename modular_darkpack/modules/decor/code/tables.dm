@@ -172,6 +172,13 @@
 	if(prob(35))
 		icon_state = "[initial(icon_state)]-[rand(1,2)]"
 
+// Rolling table
+
+/obj/structure/table/rolling/darkpack
+	desc = BRAND_DEPARTMENT_STORE_COMPANY_2 + "brand \"Rolly poly\" rolling table. It can and will move."
+	icon = 'modular_darkpack/modules/decor/icons/standalone_tables.dmi'
+	icon_state = "table_rolling"
+
 // Large tables //
 
 /obj/structure/table/no_smooth/large
@@ -239,6 +246,11 @@
 	name = "console end"
 	desc = "A separate optional add-on for your console. More storage for books you never read!"
 	icon_state = "table_wood_end"
+
+/obj/structure/table/no_smooth/wood/cablereel
+	name = "cable reel"
+	desc = "Once it held copper cable, now it holds all sorts of stuff."
+	icon_state = "cable_reel"
 
 // Wood Large tables //
 
