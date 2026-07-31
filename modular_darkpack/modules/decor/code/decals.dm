@@ -208,4 +208,3 @@
 
 /obj/effect/turf_decal/siding/beige/end
 	icon_state = "siding_plain_end"
-..
