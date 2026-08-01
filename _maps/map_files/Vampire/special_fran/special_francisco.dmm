@@ -169,7 +169,7 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior)
 "agy" = (
-/obj/machinery/photocopier/prebuilt,
+/obj/machinery/photocopier/gratis/prebuilt,
 /obj/machinery/light/directional/west,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/restricted)
@@ -798,7 +798,7 @@
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/police)
 "azv" = (
-/obj/machinery/photocopier/prebuilt,
+/obj/machinery/photocopier/gratis/prebuilt,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/chantry)
 "aAH" = (
@@ -1121,7 +1121,7 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior)
 "aIL" = (
-/obj/machinery/photocopier/prebuilt,
+/obj/machinery/photocopier/gratis/prebuilt,
 /obj/machinery/light/prince/directional/south,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/chantry)
@@ -9027,7 +9027,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
-/obj/machinery/photocopier/prebuilt,
+/obj/machinery/photocopier/gratis/prebuilt,
 /turf/open/floor/city/circled/large,
 /area/vtm/interior/endron_facility/restricted)
 "foV" = (
@@ -13669,7 +13669,7 @@
 /area/vtm/interior/police)
 "hWh" = (
 /obj/structure/coclock,
-/obj/machinery/photocopier/prebuilt,
+/obj/machinery/photocopier/gratis/prebuilt,
 /turf/open/floor/city/factory,
 /area/vtm/interior/radio)
 "hWp" = (
@@ -18215,7 +18215,7 @@
 /area/vtm/interior/sewer)
 "kCn" = (
 /obj/machinery/light/directional/east,
-/obj/machinery/photocopier/prebuilt,
+/obj/machinery/photocopier/gratis/prebuilt,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/endron_facility/restricted)
 "kCO" = (
@@ -25097,7 +25097,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
 "oHg" = (
-/obj/machinery/photocopier/prebuilt,
+/obj/machinery/photocopier/gratis/prebuilt,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/restricted)
 "oHh" = (
@@ -26618,7 +26618,7 @@
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/voivodate)
 "pCo" = (
-/obj/machinery/photocopier/prebuilt,
+/obj/machinery/photocopier/gratis/prebuilt,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/restricted)
 "pCw" = (
@@ -26840,7 +26840,7 @@
 /area/vtm/interior/chantry)
 "pJt" = (
 /obj/effect/turf_decal/siding/white,
-/obj/machinery/photocopier/prebuilt,
+/obj/machinery/photocopier/gratis/prebuilt,
 /turf/open/floor/wood/old,
 /area/vtm/interior/chantry)
 "pKb" = (
@@ -30893,9 +30893,7 @@
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/gang)
 "rTS" = (
-/obj/machinery/photocopier/prebuilt{
-	density = 0
-	},
+/obj/machinery/photocopier/gratis/prebuilt,
 /turf/open/floor/carpet/darkpack/cyan,
 /area/vtm/interior/clinic)
 "rUn" = (
@@ -36033,7 +36031,7 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/restricted)
 "uQV" = (
-/obj/machinery/photocopier/prebuilt,
+/obj/machinery/photocopier/gratis/prebuilt,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "uRs" = (
