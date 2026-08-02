@@ -93,10 +93,10 @@
 	icon_state = "wallpaper-greenfancy_low"
 
 /obj/effect/decal/wallpaper/paper/fancy/stripe
-	icon_state = "wallpaper-stripefancy"
+	icon_state = "wallpaper-stripesfancy"
 
 /obj/effect/decal/wallpaper/paper/fancy/stripe/low
-	icon_state = "wallpaper-stripefancy_low"
+	icon_state = "wallpaper-stripesfancy_low"
 
 /obj/effect/decal/wallpaper/paper/fancy/red
 	icon_state = "wallpaper-redfancy"
