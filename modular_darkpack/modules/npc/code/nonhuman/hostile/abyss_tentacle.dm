@@ -41,14 +41,19 @@ GLOBAL_LIST_EMPTY(global_tentacle_grabs)
 		BB_TARGETING_STRATEGY = /datum/targeting_strategy/basic,
 	)
 	ai_movement = /datum/ai_movement/complete_stop
+	#warn fix
+	/*
 	idle_behavior = /datum/idle_behavior/idle_random_walk
 	planning_subtrees = list(
-		/datum/ai_planning_subtree/tentacle_grab_and_crush,
+		/datum/bt_node/subtree/tentacle_grab_and_crush,
 	)
+	*/
 
-/datum/ai_planning_subtree/tentacle_grab_and_crush
+#warn fix
+	/*
+/datum/bt_node/subtree/tentacle_grab_and_crush
 
-/datum/ai_planning_subtree/tentacle_grab_and_crush/SelectBehaviors(datum/ai_controller/controller, seconds_per_tick)
+/datum/bt_node/subtree/tentacle_grab_and_crush/SelectBehaviors(datum/ai_controller/controller, seconds_per_tick)
 	var/mob/living/basic/abyss_tentacle/tentacle = controller.pawn
 	if(!istype(tentacle))
 		return
@@ -71,7 +76,7 @@ GLOBAL_LIST_EMPTY(global_tentacle_grabs)
 	return
 
 
-/datum/ai_planning_subtree/tentacle_grab_and_crush/proc/find_valid_grab_target(mob/living/basic/abyss_tentacle/tentacle)
+/datum/bt_node/subtree/tentacle_grab_and_crush/proc/find_valid_grab_target(mob/living/basic/abyss_tentacle/tentacle)
 	for(var/mob/living/potential_target in oview(2, tentacle))
 		//dont attack our owner, dead things, other tentacles, things being grabbed by tentacles, or things recently released
 		if(potential_target == tentacle.owner)
@@ -124,6 +129,7 @@ GLOBAL_LIST_EMPTY(global_tentacle_grabs)
 	playsound(tentacle, 'sound/mobs/non-humanoids/venus_trap/venus_trap_hurt.ogg', 50, FALSE)
 
 	return AI_BEHAVIOR_DELAY | AI_BEHAVIOR_SUCCEEDED
+*/
 
 /mob/living/basic/abyss_tentacle/Initialize(mapload, mob/living/summoner)
 	. = ..()

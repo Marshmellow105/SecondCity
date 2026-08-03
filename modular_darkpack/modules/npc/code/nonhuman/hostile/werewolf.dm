@@ -49,10 +49,14 @@
 	)
 
 	ai_movement = /datum/ai_movement/basic_avoidance
+
+#warn fix
+/*
 	idle_behavior = /datum/idle_behavior/idle_random_walk
 	planning_subtrees = list(
-		/datum/ai_planning_subtree/escape_captivity,
-		/datum/ai_planning_subtree/target_retaliate,
-		/datum/ai_planning_subtree/simple_find_target,
-		/datum/ai_planning_subtree/basic_melee_attack_subtree,
+		/datum/bt_node/subtree/escape_captivity,
+		/datum/bt_node/subtree/target_retaliate,
+		/datum/bt_node/subtree/simple_find_target,
+		/datum/bt_node/subtree/basic_melee_attack_subtree,
 	)
+*/

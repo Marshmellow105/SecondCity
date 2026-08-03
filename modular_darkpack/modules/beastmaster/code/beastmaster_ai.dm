@@ -1,4 +1,6 @@
 /datum/ai_controller/basic_controller/beastmaster_summon
+		#warn fix
+		/*
 	blackboard = list(
 		BB_TARGETING_STRATEGY = /datum/targeting_strategy/basic/beastmaster_enemies,
 		BB_PET_TARGETING_STRATEGY = /datum/targeting_strategy/basic/beastmaster_enemies,
@@ -7,9 +9,9 @@
 	)
 	ai_movement = /datum/ai_movement/basic_avoidance
 	planning_subtrees = list(
-		/datum/ai_planning_subtree/basic_melee_attack_subtree,
-		/datum/ai_planning_subtree/target_retaliate,
-		/datum/ai_planning_subtree/pet_planning,
+		/datum/bt_node/subtree/basic_melee_attack_subtree,
+		/datum/bt_node/subtree/target_retaliate,
+		/datum/bt_node/subtree/pet_planning,
 	)
 
 /datum/targeting_strategy/basic/beastmaster_enemies
@@ -78,3 +80,4 @@
 			return TRUE
 
 	return FALSE
+*/
