@@ -135,10 +135,9 @@
 	can_flip = FALSE
 
 /obj/structure/table/no_smooth
-	name = "Very Uncool Table"
-	desc = "This will make coders scream."
+	abstract_type = /obj/structure/table/no_smooth
 	icon = 'modular_darkpack/modules/decor/icons/standalone_tables.dmi'
-	icon_state = "table_wood_stand"
+	base_icon_state = "table_wood_stand"
 	smoothing_flags = NONE
 	smoothing_groups = null
 	canSmoothWith = null
