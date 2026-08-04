@@ -39,12 +39,15 @@
 /mob/living/basic/corvid/Initialize(mapload)
 	. = ..()
 	add_verb(src, /mob/living/proc/toggle_resting)
-	var/datum/action/innate/togglecorvidflight/toggleflight = new()
-	toggleflight.Grant(src)
-	AddElement(/datum/element/ai_retaliate)
+	GRANT_ACTION(/datum/action/innate/togglecorvidflight)
+	AddElement(/datum/element/ai_retaliate) // Birds dont forget
 	AddElement(/datum/element/pet_bonus, "caw")
 	AddElement(/datum/element/footstep, FOOTSTEP_MOB_CLAW)
 	update_appearance(UPDATE_ICON)
+
+	// For bird crime (theft).
+	ai_controller.set_blackboard_key(BB_HOARD_LOCATION, get_turf(src))
+	AddElement(/datum/element/dextrous, can_throw = TRUE, hands_count = 1)
 
 /mob/living/basic/corvid/update_icon_state()
 	. = ..()
@@ -97,6 +100,58 @@
 
 	corvid.update_icon(UPDATE_ICON)
 
+
+/// Master proc which will determine the intent of OUR attacks on an object and summon the relevant procs accordingly.
+/// This is pretty much meant for players, AI will use the task-specific procs instead.
+/mob/living/basic/corvid/early_melee_attack(atom/target, list/modifiers, ignore_cooldown)
+	. = ..()
+	if(.)
+		return
+
+	if(iscarbon(target) && steal_from_mob(target))
+		return BASIC_MOB_END_ATTACK_CHAIN_COOLDOWN
+
+/// Picks up an item from the ground and puts it in our claws. Returns TRUE if we picked it up, FALSE otherwise.
+/mob/living/basic/corvid/put_in_hand_check(obj/item/item_to_pick_up)
+	if(item_to_pick_up.w_class > WEIGHT_CLASS_SMALL)
+		balloon_alert(src, "too big to pick up!")
+		return FALSE
+
+	return ..()
+
+/mob/living/basic/corvid/put_in_hand(obj/item/target, hand_index, forced = FALSE, ignore_anim = TRUE, visuals_only = FALSE)
+	if(..())
+		visible_message(
+			span_notice("[src] grabs [target]!"),
+			span_notice("You grab [target]!"),
+			span_hear("You hear the sounds of wings flapping furiously."),
+		)
+	return TRUE
+
+/// Looks for an item that we can snatch and puts it in our claws. Returns TRUE if we picked it up, FALSE otherwise.
+/mob/living/basic/corvid/proc/steal_from_mob(mob/living/carbon/victim)
+	if(!isnull(get_active_held_item()))
+		balloon_alert(src, "already holding something!")
+		return FALSE
+
+	for(var/obj/item/stealable in victim.held_items)
+		if(stealable.w_class > WEIGHT_CLASS_SMALL)
+			continue
+
+		if(!victim.temporarilyRemoveItemFromInventory(stealable))
+			continue
+
+		dropItemToGround(stealable)
+		visible_message(
+			span_notice("[src] wrestles [stealable] out of [victim]'s hand!"),
+			span_notice("You wrestles [stealable] out of [victim]'s hand!"),
+			span_hear("You hear the sounds of wings flapping furiously."),
+		)
+		return TRUE
+
+	return FALSE
+
+
 /datum/emote/corvid
 	mob_type_allowed_typecache = /mob/living/basic/corvid
 	mob_type_blacklist_typecache = list()
@@ -117,6 +172,7 @@
 	name = "raven"
 	desc = "Unlike a crow, it has a wedge shaped tail."
 	verb_say = "gronks"
+	verb_exclaim = "gronks"
 	speak_emote = list("gronks")
 
 /mob/living/basic/corvid/raven/Initialize(mapload)

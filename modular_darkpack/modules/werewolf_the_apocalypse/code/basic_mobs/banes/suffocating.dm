@@ -4,31 +4,10 @@
 	maxHealth = 50
 	health = 50
 
-	ai_controller = /datum/ai_controller/basic_controller/suffocating_bane
-
 	mob_size = MOB_SIZE_SMALL
 
-/datum/ai_controller/basic_controller/suffocating_bane
-	blackboard = list(
-		BB_TARGETING_STRATEGY = /datum/targeting_strategy/basic,
-	)
-
-	ai_movement = /datum/ai_movement/basic_avoidance
-
-#warn fix
-/*
-	idle_behavior = /datum/idle_behavior/idle_random_walk
-
-	planning_subtrees = list(
-		/datum/bt_node/subtree/escape_captivity,
-		/datum/bt_node/subtree/simple_find_target,
-		/datum/bt_node/subtree/attack_obstacle_in_path,
-		/datum/bt_node/subtree/basic_melee_attack_subtree,
-		/datum/bt_node/subtree/random_speech/suffocating_bane
-	)
-
-
-/datum/bt_node/subtree/random_speech/suffocating_bane
+/* Cant be asked to setup a ai controller for 1 random speech.
+/datum/bt_node/ai_behavior/random_speech/suffocating_bane
 	speech_chance = 15
 	speak = list("gasps")
 	sound = list(

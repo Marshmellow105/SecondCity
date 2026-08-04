@@ -1,28 +1,25 @@
 /datum/ai_controller/basic_controller/corvid
+	behavior_tree_json = "modular_darkpack/modules/werewolf_the_apocalypse/code/basic_mobs/corvid/corvid.bt.json"
 	blackboard = list(
-		BB_TARGETING_STRATEGY = /datum/targeting_strategy/basic,
+		BB_TARGETING_STRATEGY = /datum/targeting_strategy/basic/allow_items,
+		BB_HOARD_LOCATION_RANGE = 12,
 	)
 
-	ai_traits = PASSIVE_AI_FLAGS
 	ai_movement = /datum/ai_movement/basic_avoidance
 
-#warn fix
-/*
-	idle_behavior = /datum/idle_behavior/idle_random_walk
 
-	planning_subtrees = list(
-		/datum/bt_node/subtree/find_nearest_thing_which_attacked_me_to_flee,
-		/datum/bt_node/subtree/flee_target,
-		/datum/bt_node/subtree/random_speech/corvid,
-		/datum/bt_node/subtree/find_and_hunt_target/find_shiney,
-	)
-
-/datum/bt_node/subtree/random_speech/corvid
+/datum/bt_node/ai_behavior/random_speech/corvid
 	speech_chance = 5
 	speak = list("Caw!")
 	sound = list('modular_darkpack/modules/werewolf_the_apocalypse/sounds/emotes/caw.ogg')
 	emote_hear = list("Caws.")
 
+
+/// Use spawnpoint as nest, carry loot home, then go steal more.
+/datum/bt_node/subtree/corvid_hoard
+	behavior_tree_json = "modular_darkpack/modules/werewolf_the_apocalypse/code/basic_mobs/corvid/corvid_hoard.bt.json"
+
+/*
 /datum/bt_node/subtree/find_and_hunt_target/find_shiney
 	target_key = BB_LOW_PRIORITY_HUNTING_TARGET
 	hunting_behavior = /datum/ai_behavior/hunt_target/find_shiney

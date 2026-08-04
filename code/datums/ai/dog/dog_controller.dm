@@ -5,7 +5,6 @@
 		BB_PET_TARGETING_STRATEGY = /datum/targeting_strategy/basic/not_friends,
 	)
 	ai_movement = /datum/ai_movement/basic_avoidance
-	#warn readd /datum/bt_node/subtree/find_and_hunt_target/find_dog_food, // DARKPACK EDIT ADD - NPC
 	behavior_tree_json = "modular_darkpack/master_files/code/datums/ai/dog/dog.bt.json" // DARKPACK EDIT CHANGE - (Find dog food.)
 
 /**

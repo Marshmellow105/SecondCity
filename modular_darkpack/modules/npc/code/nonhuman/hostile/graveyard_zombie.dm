@@ -76,25 +76,24 @@
 	icon_dead = "zombieup_dead"
 
 
-#warn fix
-	/*
 // need a custom targeting strategy so they don't kill other zombies
 /datum/targeting_strategy/basic/zombie_darkpack
 
-/datum/targeting_strategy/basic/zombie_darkpack/can_attack(mob/living/basic/basic_mob, atom/target, vision_range)
-	if(istype(target, /mob/living/basic/zombie/darkpack))
+/datum/targeting_strategy/basic/zombie_darkpack/is_valid_target(mob/living/living_mob, atom/the_target, vision_range, datum/ai_controller/controller = null)
+	if(istype(the_target, /mob/living/basic/zombie/darkpack))
 		return FALSE
 
 	// don't break down the fence - just try to break the gate
-	if(istype(target, /obj/structure/vampfence/rich))
+	if(istype(the_target, /obj/structure/vampfence/rich))
 		return FALSE
 
-	if(istype(target, /obj/structure/vampgate))
+	if(istype(the_target, /obj/structure/vampgate))
 		return TRUE
 
 	// use the parent class for everything else
 	return ..()
 
+/*
 // planning subtree specifically for finding and targeting vampire gates
 /datum/bt_node/subtree/find_and_attack_vampgate
 	var/scan_range = 9
@@ -134,20 +133,10 @@
 // AI controller for darkpack zombies
 /datum/ai_controller/basic_controller/zombie/darkpack
 	blackboard = list(
-		#warn fix
-		// BB_TARGETING_STRATEGY = /datum/targeting_strategy/basic/zombie_darkpack,
+		BB_TARGETING_STRATEGY = /datum/targeting_strategy/basic/zombie_darkpack,
 		BB_TARGET_MINIMUM_STAT = DEAD,
 		BB_VISION_RANGE = 9,
 	)
 	ai_movement = /datum/ai_movement/basic_avoidance
-	#warn fix
-	/*
-	idle_behavior = /datum/idle_behavior/idle_random_walk
-	planning_subtrees = list(
-		/datum/bt_node/subtree/target_retaliate,
-		/datum/bt_node/subtree/find_and_attack_vampgate,
-		/datum/bt_node/subtree/simple_find_target,
-		/datum/bt_node/subtree/basic_melee_attack_subtree,
-	)
-	*/
 
+	behavior_tree_json = "code/datums/ai/basic_mobs/simple_hostile.bt.json"

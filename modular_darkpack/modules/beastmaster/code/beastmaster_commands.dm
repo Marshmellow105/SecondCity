@@ -87,8 +87,7 @@
 			return
 
 	// attack the target
-	#warn fix
-	// controller.queue_behavior(attack_behaviour, BB_CURRENT_TARGET, targeting_strategy_key)
+	controller.set_behavior_tree_override(SUBPLAN_ID_PET_COMMAND, attack_subtree)
 
 /datum/pet_command/attack/beastmaster/proc/on_enemy_death(mob/living/dead_enemy)
 	SIGNAL_HANDLER
@@ -119,10 +118,7 @@
 			parent.ai_controller.set_blackboard_key(BB_CURRENT_PET_TARGET, new_target)
 			parent.ai_controller.set_blackboard_key(BB_CURRENT_TARGET, new_target)
 			parent.ai_controller.cancel_current_plan()
-			#warn fix
-			/*
-			parent.ai_controller.able_to_plan = TRUE
-			*/
+
 		else
 			// no more enemies, clear and return to previous behavior
 			parent.ai_controller.clear_blackboard_key(BB_CURRENT_PET_TARGET)
@@ -229,5 +225,3 @@
 
 /datum/pet_command/befriend_target/execute_action(datum/ai_controller/controller)
 	controller.clear_blackboard_key(BB_ACTIVE_PET_COMMAND)
-	#warn fix
-	// return SUBTREE_RETURN_FINISH_PLANNING
