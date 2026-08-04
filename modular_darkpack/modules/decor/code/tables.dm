@@ -165,12 +165,13 @@
 	name = "metal table"
 	desc = "A table, masterfully designed with high-tech to become... round."
 	icon_state = "table_metal_round"
+	base_icon_state = "table_metal_round"
 	max_integrity = 225
 
 /obj/structure/table/no_smooth/metal/Initialize(mapload)
 	. = ..()
 	if(prob(35))
-		icon_state = "[initial(icon_state)]-[rand(1,2)]"
+		icon_state = "[base_icon_state]-[rand(1,2)]"
 
 // Rolling table
 
