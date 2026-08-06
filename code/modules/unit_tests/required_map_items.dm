@@ -32,7 +32,6 @@
 	expected_types += /obj/machinery/computer/communications
 	expected_types += /obj/machinery/drone_dispenser
 	expected_types += /obj/item/piggy_bank/vault
-	*/ // DARKPACK EDIT REMOVAL END
 
 	// each map should probably have all of them
 	expected_types += /obj/item/storage/photo_album/bar
@@ -47,6 +46,7 @@
 	expected_types += /obj/item/storage/photo_album/hos
 	expected_types += /obj/item/storage/photo_album/qm
 	expected_types += /obj/item/storage/photo_album/rd
+	*/ // DARKPACK EDIT REMOVAL END
 
 /// Types that must never be mapped in.
 /// Anything listed here is expected to be spawned by code instead.
