@@ -148,7 +148,7 @@
 	desc = "A compact wood desk, used by a wide variety of business-inclined individuals."
 	icon = 'modular_darkpack/modules/decor/icons/modular_tables.dmi'
 	icon_state = "desk_wood_mid"
-
+/
 /obj/structure/table/no_smooth/modular_desk/left
 	icon_state = "desk_wood_left"
 
