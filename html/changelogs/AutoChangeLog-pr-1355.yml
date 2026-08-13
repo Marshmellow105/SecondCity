@@ -1,6 +1,0 @@
-author: "cornercube"
-delete-after: True
-changes:
-  - rscadd: "consistency in naming convention"
-  - bugfix: "deagle .50AE crate"
-  - rscadd: "obtainable mac-10"
