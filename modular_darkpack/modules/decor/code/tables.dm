@@ -148,6 +148,9 @@
 	desc = "A compact wood desk, used by a wide variety of business-inclined individuals."
 	icon = 'modular_darkpack/modules/decor/icons/modular_tables.dmi'
 	icon_state = "desk_wood_mid"
+	frame = /obj/structure/table_frame/wood
+	framestack = /obj/item/stack/sheet/mineral/wood
+	buildstack = /obj/item/stack/sheet/mineral/wood
 
 /obj/structure/table/no_smooth/modular_desk/left
 	icon_state = "desk_wood_left"
@@ -166,6 +169,9 @@
 	icon_state = "table_metal_round"
 	base_icon_state = "table_metal_round"
 	max_integrity = 225
+	frame = /obj/structure/table_frame
+	framestack = /obj/item/stack/rods
+	buildstack = /obj/item/stack/sheet/iron
 
 /obj/structure/table/no_smooth/metal/Initialize(mapload)
 	. = ..()
@@ -208,6 +214,9 @@
 	desc = "A solid, wide metal table. Nothing about it stands out in particular."
 	icon_state = "table_metal_wide"
 	max_integrity = 300
+	frame = /obj/structure/table_frame
+	framestack = /obj/item/stack/rods
+	buildstack = /obj/item/stack/sheet/iron
 
 /obj/structure/table/no_smooth/large/metal/desk
 	name = "metal desk"
@@ -226,6 +235,9 @@
 	desc = "A simple round wooden table. You wish you could make something this nice."
 	icon_state = "table_wood_round"
 	max_integrity = 150
+	frame = /obj/structure/table_frame/wood
+	framestack = /obj/item/stack/sheet/mineral/wood
+	buildstack = /obj/item/stack/sheet/mineral/wood
 
 /obj/structure/table/no_smooth/wood/square
 	name = "wood table"
@@ -259,6 +271,9 @@
 	desc = "A large oval shaped wood table. Perfect for displaying the family photos you don't have."
 	icon_state = "table_wood_wide_oval"
 	max_integrity = 200
+	frame = /obj/structure/table_frame/wood
+	framestack = /obj/item/stack/sheet/mineral/wood
+	buildstack = /obj/item/stack/sheet/mineral/wood
 
 /obj/structure/table/no_smooth/large/wood/square
 	desc = "A large rectangular wood table. Very sturdy."
@@ -289,6 +304,9 @@
 	desc = "Shoot the dice with your friends. Preferably not literally."
 	icon_state = "dice_dirty"
 	max_integrity = 150
+	frame = /obj/structure/table_frame/wood
+	framestack = /obj/item/stack/sheet/mineral/wood
+	buildstack = /obj/item/stack/tile/carpet/red
 
 /obj/structure/table/no_smooth/dice/pristine
 	icon_state = "dice_clean"
@@ -301,3 +319,6 @@
 	name = "cards table"
 	desc = "Very classy. Reminds you of that time in Las Vegas..."
 	icon_state = "table_cards"
+	frame = /obj/structure/table_frame/wood
+	framestack = /obj/item/stack/sheet/mineral/wood
+	buildstack = /obj/item/stack/tile/carpet/purple
