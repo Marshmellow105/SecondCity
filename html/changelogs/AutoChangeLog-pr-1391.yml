@@ -1,0 +1,4 @@
+author: "Uristthedorf"
+delete-after: True
+changes:
+  - bugfix: "\"The skin of the adder\" no longer causes masquerade breach on cast."
