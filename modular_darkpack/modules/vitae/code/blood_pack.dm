@@ -49,14 +49,16 @@
 	custom_price = 5
 
 /obj/item/reagent_containers/blood/ab_plus
-	blood_type = BLOOD_TYPE_AB_PLUS
+	blood_type = /datum/blood_type/human/ab_plus
 
 /obj/item/reagent_containers/blood/ab_minus
-	blood_type = BLOOD_TYPE_AB_MINUS
+	blood_type = /datum/blood_type/human/ab_minus
+
 
 /obj/item/reagent_containers/blood/vitae
 	name = "\improper vampire vitae pack (full)"
-	blood_type = BLOOD_TYPE_KINDRED
+	blood_type = /datum/blood_type/kindred
+
 
 /////////////////////////////////////////////////////////////////
 
@@ -72,7 +74,7 @@
 		list("donor" = null,
 			"viruses" = null,
 			"blood_DNA" = null,
-			"blood_type" = random_human_blood_type_name(),
+			"blood_type" = random_human_blood_type(),
 			"resistances" = null,
 			"trace_chem" = null))
 	update_appearance()
@@ -88,7 +90,7 @@
 		list("donor" = null,
 			"viruses" = null,
 			"blood_DNA" = null,
-			"blood_type" = random_human_blood_type_name(),
+			"blood_type" = random_human_blood_type(),
 			"resistances" = null,
 			"trace_chem" = null))
 	update_appearance()
@@ -105,7 +107,7 @@
 		list("donor" = null,
 			"viruses" = null,
 			"blood_DNA" = null,
-			"blood_type" = random_human_blood_type_name(),
+			"blood_type" = random_human_blood_type(),
 			"resistances" = null,
 			"trace_chem" = null))
 	update_appearance()
@@ -121,7 +123,7 @@
 		list("donor" = null,
 			"viruses" = null,
 			"blood_DNA" = null,
-			"blood_type" = random_human_blood_type_name(),
+			"blood_type" = random_human_blood_type(),
 			"resistances" = null,
 			"trace_chem" = null))
 	update_appearance()
