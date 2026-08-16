@@ -34,7 +34,7 @@
 
 /obj/item/reagent_containers/blood/random/Initialize(mapload, vol)
 	icon_state = "bloodpack"
-	blood_type = random_human_blood_type() // DARKPACK EDIT CHANGE - ORIGINAL: blood_type = pick(get_roundstart_blood_types())
+	blood_type = pick_weight(GLOB.human_blood_types) // DARKPACK EDIT CHANGE - ORIGINAL: blood_type = pick(get_roundstart_blood_types())
 	return ..()
 
 /obj/item/reagent_containers/blood/a_plus

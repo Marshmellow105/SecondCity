@@ -9,17 +9,7 @@
 /// Returns one of the human blood types at random, weighted by their rarity
 /proc/random_human_blood_type()
 	RETURN_TYPE(/datum/blood_type)
-	return get_blood_type(pick_weight(
-		list(
-			/datum/blood_type/human/o_minus = 4,
-			/datum/blood_type/human/o_plus = 36,
-			/datum/blood_type/human/a_minus = 3,
-			/datum/blood_type/human/a_plus = 28,
-			/datum/blood_type/human/b_minus = 1,
-			/datum/blood_type/human/b_plus = 20,
-			/datum/blood_type/human/ab_minus = 1,
-			/datum/blood_type/human/ab_plus = 5,
-		)))
+	return get_blood_type(pick_weight(GLOB.human_blood_types)) // DARKPACK EDIT CHANGE
 
 /proc/get_roundstart_blood_types()
 	var/static/list/cached_blood_types
