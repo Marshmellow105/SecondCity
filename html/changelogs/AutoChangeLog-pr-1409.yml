@@ -1,4 +1,0 @@
-author: "SabbyKat"
-delete-after: True
-changes:
-  - bugfix: "fixed Blood Form on-exit head sprite bug."

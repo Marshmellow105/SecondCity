@@ -197,3 +197,8 @@
 2026-08-19:
   chazzyjazzy:
   - rscdel: removed /tg/ brainwashing
+2026-08-20:
+  SabbyKat:
+  - bugfix: fixed Blood Form on-exit head sprite bug.
+  breadcrombs:
+  - balance: npc vendor .45 acp ammo box price has been reduced from 2100 to 700

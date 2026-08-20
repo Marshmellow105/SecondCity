@@ -1,4 +1,0 @@
-author: "breadcrombs"
-delete-after: True
-changes:
-  - balance: "npc vendor .45 acp ammo box price has been reduced from 2100 to 700"
