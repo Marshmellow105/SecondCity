@@ -679,6 +679,7 @@
 /obj/structure/filingcabinet{
 	pixel_x = -6
 	},
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/financialdistrict)
 "ayw" = (
@@ -2961,6 +2962,7 @@
 /obj/structure/railing/corner/end/flip{
 	dir = 4
 	},
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/city/factory,
 /area/vtm)
 "ccS" = (
@@ -3429,6 +3431,11 @@
 /obj/structure/steps/directional/west,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/baywalk)
+"ctg" = (
+/obj/effect/turf_decal/trimline/dark_green/line,
+/obj/machinery/light/directional/north,
+/turf/open/floor/city/plating,
+/area/vtm/outside/financialdistrict)
 "ctF" = (
 /obj/structure/arc/add{
 	dir = 4
@@ -5145,6 +5152,9 @@
 /obj/effect/turf_decal/trimline/dark_green/line{
 	dir = 4
 	},
+/obj/machinery/light/directional/west{
+	pixel_y = 16
+	},
 /turf/open/floor/city/plating,
 /area/vtm)
 "dDU" = (
@@ -5656,6 +5666,15 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/city/bacotell,
 /area/vtm)
+"dUe" = (
+/obj/effect/turf_decal/trimline/dark_green/line{
+	dir = 8
+	},
+/obj/machinery/light/directional/east{
+	pixel_y = 16
+	},
+/turf/open/floor/city/plating,
+/area/vtm/outside/financialdistrict)
 "dUw" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 8
@@ -6723,6 +6742,7 @@
 	dir = 1
 	},
 /obj/structure/hedge,
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/financialdistrict)
 "eFu" = (
@@ -7529,6 +7549,7 @@
 /obj/item/folder{
 	pixel_y = 3
 	},
+/obj/machinery/light/directional/south,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/financialdistrict)
 "ffT" = (
@@ -12784,14 +12805,6 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/millennium_tower)
-"iPe" = (
-/obj/effect/decal/carpet{
-	icon_state = "greencarpet";
-	pixel_y = 8;
-	pixel_x = -16
-	},
-/turf/open/floor/wood/smooth/old,
-/area/vtm)
 "iPn" = (
 /obj/structure/vampdoor/woodglass{
 	dir = 4
@@ -13051,6 +13064,12 @@
 	dir = 8
 	},
 /turf/open/floor/plating/sidewalk/poor,
+/area/vtm)
+"iWx" = (
+/obj/machinery/light/directional/west{
+	pixel_y = 16
+	},
+/turf/open/floor/city/factory,
 /area/vtm)
 "iXl" = (
 /obj/effect/decal/wallpaper/stone/low{
@@ -15790,6 +15809,10 @@
 /obj/structure/hedge,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower/f4)
+"kFz" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/wood/smooth/old,
+/area/vtm)
 "kGc" = (
 /obj/effect/turf_decal/bordur{
 	dir = 10
@@ -16228,6 +16251,15 @@
 	},
 /turf/open/misc/grass/nosmooth,
 /area/vtm)
+"kWT" = (
+/obj/effect/turf_decal/trimline/dark_green/line{
+	dir = 4
+	},
+/obj/machinery/light/directional/west{
+	pixel_y = 16
+	},
+/turf/open/floor/city/plating,
+/area/vtm/outside/financialdistrict)
 "kXi" = (
 /obj/structure/chair/stool/bar/darkpack/red,
 /turf/open/floor/plating/sidewalkalt,
@@ -17998,6 +18030,7 @@
 /obj/effect/turf_decal/siding/wood/dark/corner{
 	dir = 1
 	},
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/financialdistrict)
 "mjp" = (
@@ -26643,6 +26676,10 @@
 /obj/effect/mine/stick/four,
 /turf/open/floor/stone,
 /area/vtm)
+"rvz" = (
+/obj/machinery/light/directional/north,
+/turf/open/openspace,
+/area/vtm)
 "rvB" = (
 /obj/structure/hedge,
 /obj/effect/turf_decal/siding/grey/end{
@@ -27504,6 +27541,11 @@
 /obj/structure/sink/basin/directional/south,
 /obj/structure/platform/lowwall/old,
 /turf/open/floor/city/bacotell,
+/area/vtm)
+"rXQ" = (
+/obj/structure/hedge,
+/obj/machinery/light/directional/north,
+/turf/open/floor/wood/smooth/old,
 /area/vtm)
 "rXY" = (
 /obj/effect/turf_decal/bordur{
@@ -29195,6 +29237,11 @@
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm)
+"tfg" = (
+/obj/effect/turf_decal/trimline/dark_green/line,
+/obj/machinery/light/directional/north,
+/turf/open/floor/city/plating,
+/area/vtm)
 "tfj" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -29250,6 +29297,11 @@
 "tfH" = (
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm)
+"tfW" = (
+/obj/effect/turf_decal/siding/wood/dark/corner,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/outside/financialdistrict)
 "tfX" = (
 /obj/effect/turf_decal/bordur{
 	dir = 9
@@ -29560,6 +29612,12 @@
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm)
+"tra" = (
+/obj/machinery/light/directional/east{
+	pixel_y = 16
+	},
+/turf/open/floor/city/plating,
+/area/vtm/outside/financialdistrict)
 "trX" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 10
@@ -29998,6 +30056,7 @@
 	dir = 2;
 	pixel_y = 7
 	},
+/obj/machinery/light/directional/north,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/financialdistrict)
 "tFW" = (
@@ -31761,6 +31820,11 @@
 	},
 /turf/open/floor/plating/roofwalk,
 /area/vtm)
+"uGR" = (
+/obj/structure/table,
+/obj/machinery/light/directional/south,
+/turf/open/floor/city/factory,
+/area/vtm)
 "uGV" = (
 /obj/structure/vampipe{
 	icon_state = "piping2"
@@ -32821,6 +32885,11 @@
 	dir = 6
 	},
 /turf/open/floor/plating/roofwalk,
+/area/vtm)
+"vjE" = (
+/obj/structure/aquarium/prefilled,
+/obj/machinery/light/directional/south,
+/turf/open/floor/wood/smooth/old,
 /area/vtm)
 "vjI" = (
 /obj/effect/turf_decal/bordur{
@@ -35105,10 +35174,6 @@
 	plane = -3.9;
 	density = 0
 	},
-/turf/open/floor/wood/smooth/old,
-/area/vtm)
-"wMp" = (
-/obj/structure/table/no_smooth/large/metal,
 /turf/open/floor/wood/smooth/old,
 /area/vtm)
 "wME" = (
@@ -67424,10 +67489,10 @@ iCz
 thc
 uUd
 bmy
-lur
+kWT
 rUO
 kya
-pnB
+tfW
 heZ
 heZ
 odm
@@ -68193,7 +68258,7 @@ hnQ
 hnQ
 hnQ
 eXv
-fuR
+ctg
 xKZ
 vLU
 hnQ
@@ -69275,7 +69340,7 @@ dKS
 dKS
 eXv
 pXX
-qkv
+dUe
 sDj
 qed
 tRl
@@ -69887,7 +69952,7 @@ erm
 sJm
 bzO
 dKS
-dKS
+tra
 dKS
 wev
 bYg
@@ -91147,7 +91212,7 @@ tbB
 wDG
 wDG
 wDG
-xgw
+uGR
 hHd
 nCi
 pet
@@ -91445,7 +91510,7 @@ ttI
 ttI
 hHd
 hHd
-ttI
+rvz
 ttI
 xJI
 mZo
@@ -91602,7 +91667,7 @@ hHd
 hHd
 hHd
 ntF
-mWs
+tfg
 aHH
 wSZ
 hHd
@@ -91753,7 +91818,7 @@ ttI
 ttI
 ntF
 sbH
-wDG
+iWx
 wDG
 ntF
 mWs
@@ -91762,7 +91827,7 @@ olv
 kLC
 bQd
 fEb
-wMp
+iEk
 ouL
 hHd
 pNX
@@ -91916,7 +91981,7 @@ iVS
 pRm
 bQd
 fEb
-iPe
+iEk
 ouL
 hHd
 osp
@@ -92071,7 +92136,7 @@ fip
 bQd
 bQd
 bQd
-bQd
+kFz
 hHd
 vjI
 jYO
@@ -92676,7 +92741,7 @@ ttI
 ttI
 ttI
 hoD
-vAY
+rXQ
 pyt
 fKL
 paP
@@ -92839,9 +92904,9 @@ iLs
 dZh
 hHd
 hHd
-hHd
-hHd
-hHd
+qRi
+qRi
+qRi
 hHd
 kNv
 ove
@@ -93145,7 +93210,7 @@ uUI
 iLs
 iLs
 dZh
-xNV
+vjE
 hHd
 ttI
 ttI
