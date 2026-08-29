@@ -656,7 +656,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 4
 	},
-/obj/structure/lamppost/one{
+/obj/machinery/light/floor/lamppost/one{
 	dir = 4;
 	pixel_x = 9
 	},
@@ -4572,7 +4572,7 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/baywalk)
 "cRH" = (
-/obj/structure/lamppost/sidewalk/chinese{
+/obj/machinery/light/floor/lamppost/sidewalk/chinese{
 	dir = 1
 	},
 /obj/structure/sign/city/chinese/alt2/directional/east,
@@ -6179,7 +6179,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 4
 	},
-/obj/structure/lamppost/one{
+/obj/machinery/light/floor/lamppost/one{
 	dir = 4;
 	pixel_x = 9
 	},
@@ -8683,7 +8683,7 @@
 /turf/open/floor/city/bacotell,
 /area/vtm)
 "frh" = (
-/obj/structure/lamppost/sidewalk{
+/obj/machinery/light/floor/lamppost/sidewalk{
 	pixel_x = -9
 	},
 /obj/effect/decal/cleanable/litter,
@@ -10311,7 +10311,7 @@
 /turf/open/floor/city/bacotell,
 /area/vtm)
 "gpk" = (
-/obj/structure/lamppost/sidewalk{
+/obj/machinery/light/floor/lamppost/sidewalk{
 	pixel_x = 9
 	},
 /obj/effect/decal/cleanable/litter,
@@ -11354,7 +11354,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 8
 	},
-/obj/structure/lamppost/one{
+/obj/machinery/light/floor/lamppost/one{
 	dir = 8;
 	pixel_x = -10
 	},
@@ -12144,7 +12144,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 8
 	},
-/obj/structure/lamppost/one{
+/obj/machinery/light/floor/lamppost/one{
 	dir = 8;
 	pixel_x = -10
 	},
@@ -14911,7 +14911,7 @@
 /turf/closed/wall/vampwall/rich,
 /area/vtm/interior/millennium_tower)
 "jlX" = (
-/obj/structure/lamppost/sidewalk{
+/obj/machinery/light/floor/lamppost/sidewalk{
 	pixel_x = -9
 	},
 /turf/open/floor/plating/sidewalkalt,
@@ -15592,7 +15592,7 @@
 /obj/effect/turf_decal/bordur/corner{
 	dir = 1
 	},
-/obj/structure/lamppost/three{
+/obj/machinery/light/floor/lamppost/three{
 	dir = 1
 	},
 /turf/open/floor/plating/sidewalk,
@@ -17117,7 +17117,7 @@
 /turf/closed/wall/vampwall/rich,
 /area/vtm/outside/financialdistrict)
 "kyA" = (
-/obj/structure/lamppost/sidewalk{
+/obj/machinery/light/floor/lamppost/sidewalk{
 	pixel_x = 9
 	},
 /turf/open/floor/plating/sidewalkalt,
@@ -18602,7 +18602,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 8
 	},
-/obj/structure/lamppost/one{
+/obj/machinery/light/floor/lamppost/one{
 	dir = 8;
 	pixel_x = -10
 	},
@@ -20829,7 +20829,7 @@
 /obj/effect/turf_decal/bordur/corner{
 	dir = 1
 	},
-/obj/structure/lamppost/one{
+/obj/machinery/light/floor/lamppost/one{
 	dir = 1
 	},
 /obj/structure/railing{
@@ -21220,7 +21220,7 @@
 /turf/open/floor/city/clinic,
 /area/vtm/interior/clinic)
 "mSJ" = (
-/obj/structure/lamppost/sidewalk/chinese{
+/obj/machinery/light/floor/lamppost/sidewalk/chinese{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/litter,
@@ -23550,7 +23550,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 8
 	},
-/obj/structure/lamppost/one{
+/obj/machinery/light/floor/lamppost/one{
 	dir = 8;
 	pixel_x = -10
 	},
@@ -28328,7 +28328,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm)
 "qLF" = (
-/obj/structure/lamppost/four,
+/obj/machinery/light/floor/lamppost/four,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/baywalk)
 "qMj" = (
@@ -29887,7 +29887,7 @@
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 8
 	},
-/obj/structure/lamppost/sidewalk/chinese{
+/obj/machinery/light/floor/lamppost/sidewalk/chinese{
 	dir = 4
 	},
 /obj/structure/trad{
@@ -29964,7 +29964,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 8
 	},
-/obj/structure/lamppost/one{
+/obj/machinery/light/floor/lamppost/one{
 	dir = 8;
 	pixel_x = -10
 	},
@@ -32084,7 +32084,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/library)
 "tcv" = (
-/obj/structure/lamppost/sidewalk/chinese,
+/obj/machinery/light/floor/lamppost/sidewalk/chinese,
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/chinatown)
@@ -32573,7 +32573,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/millennium_tower/f3)
 "tqZ" = (
-/obj/structure/lamppost/sidewalk{
+/obj/machinery/light/floor/lamppost/sidewalk{
 	pixel_x = -9
 	},
 /obj/effect/decal/cleanable/litter,
@@ -35708,7 +35708,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 8
 	},
-/obj/structure/lamppost/one{
+/obj/machinery/light/floor/lamppost/one{
 	dir = 8;
 	pixel_x = -10
 	},
@@ -35738,7 +35738,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 8
 	},
-/obj/structure/lamppost/one{
+/obj/machinery/light/floor/lamppost/one{
 	dir = 8;
 	pixel_x = -10
 	},
@@ -35995,7 +35995,7 @@
 /area/vtm/outside/supply)
 "vfA" = (
 /obj/structure/barrels/rand/plural,
-/obj/structure/lamppost/one{
+/obj/machinery/light/floor/lamppost/one{
 	dir = 4
 	},
 /turf/open/misc/dirt,
@@ -36405,7 +36405,7 @@
 /obj/effect/turf_decal/bordur/corner{
 	dir = 4
 	},
-/obj/structure/lamppost/one,
+/obj/machinery/light/floor/lamppost/one,
 /obj/structure/railing{
 	dir = 6
 	},
@@ -37671,7 +37671,7 @@
 /area/vtm)
 "wfI" = (
 /obj/effect/turf_decal/bordur/corner,
-/obj/structure/lamppost/one{
+/obj/machinery/light/floor/lamppost/one{
 	dir = 8;
 	pixel_x = -10
 	},
@@ -38101,7 +38101,7 @@
 /turf/open/water,
 /area/vtm)
 "wsR" = (
-/obj/structure/lamppost/sidewalk/chinese{
+/obj/machinery/light/floor/lamppost/sidewalk/chinese{
 	dir = 1
 	},
 /turf/open/floor/plating/sidewalkalt,
@@ -38137,7 +38137,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 4
 	},
-/obj/structure/lamppost/one{
+/obj/machinery/light/floor/lamppost/one{
 	dir = 4;
 	pixel_x = 9
 	},
