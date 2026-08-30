@@ -3542,6 +3542,12 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/museum)
+"ckK" = (
+/obj/effect/turf_decal/bordur/end{
+	dir = 1
+	},
+/turf/open/floor/plating/sidewalk,
+/area/vtm)
 "ckN" = (
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
@@ -8404,6 +8410,15 @@
 /obj/effect/decal/cleanable/trash/big,
 /turf/open/misc/dirt,
 /area/vtm)
+"fdI" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/obj/effect/turf_decal/bordur/end{
+	dir = 4
+	},
+/turf/open/floor/plating/concrete,
+/area/vtm)
 "fdL" = (
 /obj/structure/platform/lowwall/market/window/reinforced,
 /obj/effect/decal/wallpaper/trim,
@@ -10516,6 +10531,15 @@
 	},
 /turf/open/water/bloodwave,
 /area/vtm/interior/chantry/basement)
+"gqS" = (
+/obj/effect/turf_decal/bordur{
+	dir = 4
+	},
+/obj/effect/turf_decal/bordur{
+	dir = 8
+	},
+/turf/open/floor/plating/sidewalk,
+/area/vtm)
 "gra" = (
 /obj/effect/turf_decal/siding/grey/inner_corner,
 /turf/open/water/bloodwave,
@@ -13058,6 +13082,15 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/city/plating,
 /area/vtm/interior/clinic)
+"iaW" = (
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm)
 "iaX" = (
 /obj/structure/railing/corner/end/flip{
 	dir = 8
@@ -15988,6 +16021,16 @@
 /obj/effect/turf_decal/siding/grey/inner_corner,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/rough,
+/area/vtm)
+"jJC" = (
+/obj/effect/decal/wallpaper/stone/low{
+	pixel_y = 24
+	},
+/obj/effect/decal/shadow,
+/obj/structure/railing/corner/end/flip{
+	dir = 8
+	},
+/turf/open/floor/plating/asphalt,
 /area/vtm)
 "jJD" = (
 /obj/structure/rack/tall/wood_shelf/alt{
@@ -20444,6 +20487,13 @@
 	},
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/bianchiBank)
+"mqh" = (
+/obj/effect/decal/wallpaper/stone/low{
+	pixel_y = 24
+	},
+/obj/effect/decal/shadow,
+/turf/open/floor/plating/asphalt,
+/area/vtm)
 "mqW" = (
 /obj/effect/turf_decal/siding/beige{
 	dir = 8
@@ -20905,6 +20955,17 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/millennium_tower/f4)
+"mDS" = (
+/obj/machinery/light/warm/directional/north,
+/obj/effect/decal/wallpaper/stone/low/tilt,
+/obj/effect/decal/wallpaper/stone/low/tilt{
+	dir = 8
+	},
+/obj/structure/railing,
+/turf/open/floor/iron/stairs{
+	dir = 4
+	},
+/area/vtm)
 "mEj" = (
 /obj/structure/hedge,
 /obj/machinery/light/warm/directional/east{
@@ -22078,6 +22139,15 @@
 	},
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/clinic)
+"ngG" = (
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 8
+	},
+/obj/structure/vampdoor/woodglass{
+	dir = 4
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm)
 "ngN" = (
 /obj/structure/platform/lowwall/rich/old,
 /obj/item/flashlight/flare/candle/infinite{
@@ -22341,6 +22411,11 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/baywalk)
+"noA" = (
+/obj/structure/platform/lowwall/brick,
+/obj/structure/table/no_smooth/modular_desk,
+/turf/open/floor/plating/rough,
+/area/vtm)
 "npk" = (
 /obj/structure/chair/wood/darkpack/red{
 	dir = 4
@@ -24917,6 +24992,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/city/factory,
 /area/vtm)
+"oAz" = (
+/obj/structure/platform/lowwall/brick/window,
+/turf/open/floor/plating/rough,
+/area/vtm)
 "oAE" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -26852,6 +26931,13 @@
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/access/hunter,
 /turf/open/floor/stone,
+/area/vtm)
+"pBL" = (
+/obj/effect/turf_decal/bordur/corner,
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/floor/plating/concrete,
 /area/vtm)
 "pBN" = (
 /obj/effect/turf_decal/darkpack/rough/corner,
@@ -29865,6 +29951,15 @@
 /obj/structure/closet,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f3)
+"rvO" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/obj/effect/turf_decal/bordur/end{
+	dir = 8
+	},
+/turf/open/floor/plating/concrete,
+/area/vtm)
 "rwd" = (
 /obj/machinery/vending/games{
 	pixel_y = 24;
@@ -30653,6 +30748,13 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/outside/baywalk)
+"rUe" = (
+/obj/effect/decal/wallpaper/stone/low/tilt{
+	dir = 4
+	},
+/obj/effect/decal/shadow,
+/turf/open/floor/plating/asphalt,
+/area/vtm)
 "rUn" = (
 /obj/effect/decal/shadow,
 /turf/open/floor/iron/solarpanel,
@@ -31315,6 +31417,13 @@
 	},
 /turf/open/floor/city/bacotell,
 /area/vtm/outside/financialdistrict)
+"slf" = (
+/obj/effect/turf_decal/bordur/corner{
+	dir = 4
+	},
+/obj/structure/railing,
+/turf/open/floor/plating/concrete,
+/area/vtm)
 "slN" = (
 /obj/structure/closet,
 /obj/item/storage/box/evidence,
@@ -32248,6 +32357,16 @@
 /obj/effect/decal/fakelattice,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/clinic/haven)
+"sRS" = (
+/obj/effect/turf_decal/bordur{
+	dir = 4
+	},
+/obj/effect/turf_decal/bordur{
+	dir = 8
+	},
+/obj/structure/fence/door,
+/turf/open/floor/plating/sidewalk,
+/area/vtm)
 "sSa" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/smooth/old,
@@ -32845,12 +32964,28 @@
 	},
 /turf/open/openspace,
 /area/vtm)
+"tif" = (
+/obj/effect/turf_decal/bordur/corner{
+	dir = 8
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating/sidewalk,
+/area/vtm)
 "tik" = (
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
 /obj/machinery/light/broken/directional/north,
 /obj/item/storage/box/methdealer,
 /obj/item/gas_can/rand,
 /turf/open/floor/city/bacotell,
+/area/vtm)
+"tis" = (
+/obj/effect/turf_decal/bordur{
+	dir = 5
+	},
+/obj/effect/turf_decal/bordur{
+	dir = 9
+	},
+/turf/open/floor/plating/sidewalk,
 /area/vtm)
 "tiv" = (
 /obj/structure/sink/directional/west,
@@ -33792,6 +33927,16 @@
 /area/vtm)
 "tJs" = (
 /obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/concrete,
+/area/vtm)
+"tJv" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/obj/effect/turf_decal/bordur,
+/obj/effect/turf_decal/bordur{
+	dir = 1
+	},
 /turf/open/floor/plating/concrete,
 /area/vtm)
 "tJC" = (
@@ -39295,6 +39440,12 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/library)
+"wMk" = (
+/obj/structure/table/no_smooth/large/wood/desk{
+	dir = 4
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm)
 "wME" = (
 /obj/effect/turf_decal/siding/wood/dark/corner{
 	dir = 4
@@ -41511,6 +41662,11 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/littleitaly)
+"ygh" = (
+/obj/effect/turf_decal/siding/wood/dark,
+/obj/structure/vampdoor/wood,
+/turf/open/floor/wood/smooth/old,
+/area/vtm)
 "ygn" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 8
@@ -65565,13 +65721,13 @@ wYu
 oEs
 ksM
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+pBL
+mqh
+cOx
+wtr
+wtr
+wtr
+rvO
 hWB
 hWB
 hWB
@@ -65719,13 +65875,13 @@ jRB
 iLs
 dZh
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+rHP
+mqh
+cOx
+nDg
+nDg
+nDg
+tJv
 hWB
 hWB
 hWB
@@ -65871,15 +66027,15 @@ fRH
 fRH
 uwO
 iLs
-iHh
-fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+dZh
+ygh
+rHP
+mqh
+cOx
+cOx
+cOx
+cOx
+tJv
 hWB
 hWB
 hWB
@@ -66027,13 +66183,13 @@ jRB
 iLs
 dZh
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+slf
+mqh
+cOx
+nDg
+nDg
+nDg
+tJv
 hWB
 hWB
 hWB
@@ -66179,15 +66335,15 @@ neh
 oME
 jRB
 iLs
-dZh
+iHh
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+mDS
+rUe
+cOx
+cOx
+cOx
+cOx
+tJv
 hWB
 hWB
 hWB
@@ -66335,13 +66491,13 @@ jRB
 iLs
 dZh
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+jJC
+cOx
+cOx
+nDg
+nDg
+nDg
+tJv
 hWB
 hWB
 hWB
@@ -66489,13 +66645,13 @@ jRB
 iLs
 dZh
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+mqh
+cOx
+cOx
+cOx
+cOx
+cOx
+tJv
 hWB
 hWB
 hWB
@@ -66643,13 +66799,13 @@ jRB
 iLs
 dZh
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+mqh
+cOx
+cOx
+nDg
+nDg
+nDg
+tJv
 hWB
 hWB
 hWB
@@ -66793,17 +66949,17 @@ oWr
 bCS
 bQd
 bQd
-lTn
-gsJ
-cnE
+jRB
+iLs
+dZh
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+mqh
+cOx
+cOx
+cOx
+cOx
+cOx
+tJv
 hWB
 hWB
 hWB
@@ -66947,17 +67103,17 @@ fRH
 fRH
 ddc
 aWt
-aWt
-aWt
-ksM
+iaW
+iUv
+bvc
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+mqh
+cOx
+cOx
+nDg
+nDg
+nDg
+tJv
 hWB
 hWB
 hWB
@@ -67105,13 +67261,13 @@ iLs
 iLs
 lBR
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+mqh
+cOx
+cOx
+cOx
+cOx
+cOx
+fdI
 hWB
 hWB
 hWB
@@ -67259,15 +67415,15 @@ iLs
 iLs
 kCH
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+mqh
+cOx
+cOx
+nDg
+nDg
+nDg
+fRH
+tif
+hUx
 hWB
 hWB
 hWB
@@ -67413,15 +67569,15 @@ iLs
 bPe
 mJW
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+mqh
+cOx
+cOx
+ckK
+gqS
+gqS
+sRS
+tis
+omx
 hWB
 hWB
 hWB
@@ -67567,15 +67723,15 @@ iLs
 brk
 cDa
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+mqh
+cOx
+cOx
+fRH
+ngG
+fRH
+fRH
+ffa
+omx
 hWB
 hWB
 hWB
@@ -67721,15 +67877,15 @@ iLs
 iLs
 but
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+mqh
+cOx
+cOx
+oAz
+bQd
+bQd
+fRH
+ffa
+omx
 hWB
 hWB
 hWB
@@ -67875,15 +68031,15 @@ brk
 iGM
 kCH
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+mqh
+cOx
+cOx
+noA
+bQd
+bUD
+fRH
+ffa
+omx
 hWB
 hWB
 hWB
@@ -68029,15 +68185,15 @@ mca
 yfx
 lvN
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+mqh
+cOx
+cOx
+oAz
+bQd
+wMk
+fRH
+ffa
+omx
 hWB
 hWB
 hWB
@@ -68183,15 +68339,15 @@ fRH
 fRH
 fRH
 fRH
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+rUe
+cOx
+cOx
+fRH
+oAz
+oAz
+fRH
+ffa
+omx
 hWB
 hWB
 hWB
@@ -68336,16 +68492,16 @@ piy
 piy
 piy
 piy
+hUx
+kXH
+cOx
+aPl
+hvm
 piy
 piy
 piy
-piy
-piy
-piy
-piy
-piy
-piy
-piy
+inw
+hfb
 piy
 piy
 piy
@@ -68490,11 +68646,11 @@ vqE
 vqE
 vqE
 vqE
-vqE
-vqE
-vqE
-vqE
-vqE
+gEd
+wfp
+wfp
+wfp
+lCJ
 vqE
 vqE
 vqE
@@ -145071,7 +145227,7 @@ gAd
 (64,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -145225,7 +145381,7 @@ gAd
 (65,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -145379,7 +145535,7 @@ gAd
 (66,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -145533,7 +145689,7 @@ gAd
 (67,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -145687,7 +145843,7 @@ gAd
 (68,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -145841,7 +145997,7 @@ gAd
 (69,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -145995,7 +146151,7 @@ gAd
 (70,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -146149,7 +146305,7 @@ gAd
 (71,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -146303,7 +146459,7 @@ gAd
 (72,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -146457,7 +146613,7 @@ gAd
 (73,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -146611,7 +146767,7 @@ gAd
 (74,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -146765,7 +146921,7 @@ gAd
 (75,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -146919,7 +147075,7 @@ gAd
 (76,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -147073,7 +147229,7 @@ gAd
 (77,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -147227,7 +147383,7 @@ gAd
 (78,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -147381,7 +147537,7 @@ gAd
 (79,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -147535,7 +147691,7 @@ gAd
 (80,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -147689,7 +147845,7 @@ gAd
 (81,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -147843,7 +147999,7 @@ gAd
 (82,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -147997,7 +148153,7 @@ gAd
 (83,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -148151,7 +148307,7 @@ gAd
 (84,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -148305,7 +148461,7 @@ gAd
 (85,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -148459,7 +148615,7 @@ gAd
 (86,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -148613,7 +148769,7 @@ gAd
 (87,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -148767,7 +148923,7 @@ gAd
 (88,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -148921,7 +149077,7 @@ gAd
 (89,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -149075,7 +149231,7 @@ gAd
 (90,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -149229,7 +149385,7 @@ gAd
 (91,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -149383,7 +149539,7 @@ gAd
 (92,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -149537,7 +149693,7 @@ gAd
 (93,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -149691,7 +149847,7 @@ gAd
 (94,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -149845,7 +150001,7 @@ gAd
 (95,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -149999,7 +150155,7 @@ gAd
 (96,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -150153,7 +150309,7 @@ gAd
 (97,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -150307,7 +150463,7 @@ gAd
 (98,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -150461,7 +150617,7 @@ gAd
 (99,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -150615,7 +150771,7 @@ gAd
 (100,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -150769,7 +150925,7 @@ gAd
 (101,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -150923,7 +151079,7 @@ gAd
 (102,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -151077,7 +151233,7 @@ gAd
 (103,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -151231,7 +151387,7 @@ gAd
 (104,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -151385,7 +151541,7 @@ gAd
 (105,1,5) = {"
 gAd
 ueZ
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -151540,7 +151696,7 @@ gAd
 gAd
 ueZ
 kpY
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -151694,7 +151850,7 @@ gAd
 gAd
 ueZ
 kpY
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -151848,7 +152004,7 @@ gAd
 gAd
 ueZ
 kpY
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -152002,7 +152158,7 @@ gAd
 gAd
 ueZ
 kpY
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -152156,7 +152312,7 @@ gAd
 gAd
 ueZ
 kpY
-ttI
+ctH
 ttI
 ttI
 ttI
@@ -152310,7 +152466,7 @@ gAd
 gAd
 ueZ
 kpY
-ttI
+ctH
 ttI
 ttI
 ttI
