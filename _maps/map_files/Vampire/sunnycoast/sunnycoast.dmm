@@ -37276,6 +37276,15 @@
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower/f3)
+"vkw" = (
+/obj/effect/turf_decal/bordur{
+	dir = 1
+	},
+/obj/machinery/light/floor/lamppost/one{
+	dir = 1
+	},
+/turf/open/floor/plating/sidewalk/old,
+/area/vtm/outside/chinatown)
 "vkK" = (
 /obj/effect/turf_decal/siding/wood/light/corner{
 	dir = 8
@@ -41188,6 +41197,11 @@
 "xDt" = (
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood/rough,
+/area/vtm)
+"xDx" = (
+/obj/effect/turf_decal/bordur,
+/obj/machinery/light/floor/lamppost/one,
+/turf/open/floor/plating/sidewalk,
 /area/vtm)
 "xDT" = (
 /obj/effect/turf_decal/siding/grey/inner_corner{
@@ -66699,7 +66713,7 @@ omx
 cOx
 wdi
 cOx
-cAo
+vkw
 jNK
 mYk
 rDA
@@ -68081,7 +68095,7 @@ hWB
 hWB
 hWB
 ffa
-omx
+xDx
 cOx
 wdi
 cOx
