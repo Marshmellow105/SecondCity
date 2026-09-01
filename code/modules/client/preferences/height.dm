@@ -1,3 +1,4 @@
+/* // DARKPACK EDIT REMOVAL - (Removed in favor of `modular_darkpack/modules/preferences/height_preference.dm`)
 #define DEFAULT_HEIGHT "Average"
 
 /datum/preference/choiced/mob_height
@@ -33,3 +34,4 @@
 	return DEFAULT_HEIGHT
 
 #undef DEFAULT_HEIGHT
+*/
