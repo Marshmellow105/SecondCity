@@ -78,7 +78,7 @@
 #define SKIP_FANTASY_ON_SPAWN (1<<17)
 /// If an item has had its /datum/element/weapon_description initialized or not.
 #define WEAPON_DESCRIPTION_INITIALIZED (1<<18)
-#define ACTIVE_WORLD_ICON (1<<19) // DARKPACK EDIT ADD - World Icons
+#define ACTIVE_ONFLOOR_ICON (1<<19) // DARKPACK EDIT ADD - ONFLOOR_ICONS
 
 // Flags for the clothing_flags var on /obj/item/clothing
 
