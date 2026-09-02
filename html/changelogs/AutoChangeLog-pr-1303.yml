@@ -1,0 +1,5 @@
+author: "FalloutFalcon"
+delete-after: True
+changes:
+  - rscadd: "Adds much more verbose whitelist (not for entry) code"
+  - code_imp: "Cleans up alot of exp time lock numbers."
