@@ -4944,6 +4944,9 @@
 	pixel_y = 5;
 	pixel_x = -10
 	},
+/obj/machinery/light/small/red/directional/west{
+	pixel_y = 16
+	},
 /turf/open/floor/plating/concrete,
 /area/vtm)
 "cNX" = (
@@ -5082,7 +5085,7 @@
 "cQW" = (
 /obj/structure/flora/tree/vamp,
 /turf/open/misc/grass,
-/area/vtm)
+/area/vtm/outside/park)
 "cRi" = (
 /obj/effect/decal/cleanable/trash,
 /obj/structure/closet/crate/dumpster,
@@ -5697,7 +5700,7 @@
 "diB" = (
 /obj/item/reagent_containers/cup/glass/bottle/wine,
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "diH" = (
 /obj/structure/chair/comfy/darkpack/dark{
 	dir = 8
@@ -6604,7 +6607,10 @@
 /obj/item/stack/medical/wrap/sticky_tape/duct{
 	pixel_y = 6
 	},
-/turf/open/floor/city/clinic,
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 8
+	},
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/hardware_store)
 "dJc" = (
 /obj/effect/turf_decal/asphaltline/alt{
@@ -6785,7 +6791,7 @@
 	},
 /obj/effect/spawner/random/flora/flowers,
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "dMZ" = (
 /turf/open/floor/city/plating,
 /area/vtm/interior/shop/gunshop)
@@ -7214,7 +7220,7 @@
 "eay" = (
 /obj/structure/flora/darkpack_flower/marigold,
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "eaL" = (
 /obj/structure/hedge,
 /obj/structure/flora/bush/flowers_br/style_random,
@@ -7876,7 +7882,10 @@
 /obj/structure/retail/general{
 	dir = 4
 	},
-/turf/open/floor/city/clinic,
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 8
+	},
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/hardware_store)
 "esq" = (
 /obj/effect/turf_decal/bordur{
@@ -10301,7 +10310,7 @@
 "fEX" = (
 /obj/structure/flora/bush/redflower/style_random,
 /turf/open/misc/grass/random/grass,
-/area/vtm)
+/area/vtm/outside/park)
 "fFD" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -11902,7 +11911,7 @@
 /area/vtm/interior/wyrm_corrupted)
 "gzR" = (
 /turf/open/misc/grass/random/grass,
-/area/vtm)
+/area/vtm/outside/park)
 "gzV" = (
 /obj/structure/hedge,
 /obj/effect/turf_decal/siding/grey/end{
@@ -12361,7 +12370,7 @@
 	dir = 1
 	},
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "gLE" = (
 /obj/structure/railing{
 	dir = 8
@@ -12404,7 +12413,7 @@
 	dir = 4
 	},
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "gNo" = (
 /obj/structure/chair/sofa/city_bench/metal/left{
 	dir = 1
@@ -13414,7 +13423,7 @@
 /area/vtm/outside/pacificheights)
 "hwV" = (
 /turf/open/misc/grass/random/rocks,
-/area/vtm)
+/area/vtm/outside/park)
 "hxa" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -14091,10 +14100,10 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm)
 "hUG" = (
-/obj/machinery/light/small/directional/east{
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/red/directional/east{
 	pixel_y = 16
 	},
-/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/smooth/old,
 /area/vtm)
 "hUM" = (
@@ -15171,7 +15180,7 @@
 /area/vtm)
 "iBl" = (
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "iBv" = (
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /obj/effect/mapping_helpers/door/lock,
@@ -15668,7 +15677,7 @@
 "iPI" = (
 /obj/item/storage/basket,
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "iQm" = (
 /turf/closed/wall/vampwall/brick,
 /area/vtm/outside/baywalk)
@@ -16218,7 +16227,7 @@
 	pixel_y = 30
 	},
 /obj/effect/turf_decal/siding/beige,
-/turf/open/floor/city/gummaguts,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/hardware_store)
 "jcx" = (
 /obj/effect/turf_decal/bordur{
@@ -16505,7 +16514,7 @@
 /obj/structure/platform/lowwall/market,
 /obj/structure/table/countertop/teal,
 /obj/structure/retail/hardware_store,
-/turf/open/floor/city/clinic,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/hardware_store)
 "jjq" = (
 /obj/effect/decal/cleanable/litter,
@@ -19217,7 +19226,10 @@
 /area/vtm)
 "kDN" = (
 /obj/machinery/light/directional/north,
-/turf/open/floor/city/clinic,
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 8
+	},
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/hardware_store)
 "kDO" = (
 /obj/structure/table/wood,
@@ -20586,7 +20598,7 @@
 	dir = 8
 	},
 /obj/effect/mapping_helpers/mob_buckler,
-/turf/open/floor/city/clinic,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/hardware_store)
 "lpE" = (
 /obj/structure/table/no_smooth/modular_desk/left{
@@ -20792,7 +20804,7 @@
 	dir = 6
 	},
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "lvU" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -21591,7 +21603,7 @@
 	pixel_y = 4
 	},
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "lRY" = (
 /obj/machinery/vending/cola/starkist{
 	pixel_y = 24;
@@ -21679,7 +21691,7 @@
 "lVD" = (
 /obj/structure/bricks,
 /obj/effect/turf_decal/siding/beige,
-/turf/open/floor/city/gummaguts,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/hardware_store)
 "lVE" = (
 /obj/effect/turf_decal/asphaltline/alt{
@@ -22347,7 +22359,7 @@
 "moS" = (
 /obj/structure/flora/darkpack_flower/paintbrush,
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "mpg" = (
 /obj/effect/turf_decal/siding/grey{
 	dir = 1
@@ -23299,7 +23311,7 @@
 "mLr" = (
 /obj/structure/fluff/beach_umbrella/syndi,
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "mLt" = (
 /obj/structure/chair/wood/darkpack{
 	dir = 4
@@ -27056,7 +27068,7 @@
 /obj/effect/spawner/random/flora/grass,
 /obj/structure/railing,
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "oxM" = (
 /obj/fusebox/transformer{
 	plane = -3.9
@@ -27652,7 +27664,10 @@
 /obj/structure/table/countertop/teal,
 /obj/structure/platform/lowwall/market,
 /obj/machinery/light/directional/south,
-/turf/open/floor/city/clinic,
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 8
+	},
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/hardware_store)
 "oKb" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -27956,7 +27971,7 @@
 	},
 /obj/effect/spawner/random/flora/grass,
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "oUl" = (
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 1
@@ -28395,7 +28410,7 @@
 "pcV" = (
 /obj/effect/spawner/random/flora/flowers,
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "pdg" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -31042,7 +31057,7 @@
 /area/vtm/interior/clinic)
 "qAu" = (
 /turf/open/misc/grass/random/bushes,
-/area/vtm)
+/area/vtm/outside/park)
 "qAy" = (
 /obj/structure/table/wood,
 /obj/structure/fluff/tv{
@@ -32317,7 +32332,7 @@
 	dir = 5
 	},
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "rqI" = (
 /obj/structure/chair/comfy/darkpack/dark,
 /turf/open/floor/carpet/darkpack/blackgold,
@@ -32583,7 +32598,7 @@
 	pixel_y = 7
 	},
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "rxi" = (
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm)
@@ -32973,7 +32988,7 @@
 /obj/effect/spawner/random/flora/grass,
 /obj/structure/railing,
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "rIj" = (
 /obj/effect/turf_decal/bordur/corner,
 /obj/effect/turf_decal/bordur{
@@ -33645,6 +33660,9 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/chantry/basement)
+"rZO" = (
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/shop/hardware_store)
 "rZU" = (
 /obj/effect/decal/fakelattice{
 	density = 0
@@ -33921,7 +33939,7 @@
 "shp" = (
 /obj/structure/flora/bush/redflower/style_random,
 /turf/open/misc/grass/random/bushes,
-/area/vtm)
+/area/vtm/outside/park)
 "shs" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
@@ -34542,7 +34560,7 @@
 /turf/open/water/vamp_sewer/border,
 /area/vtm)
 "syl" = (
-/obj/effect/spawner/random/structure/shipping_container,
+/obj/effect/spawner/random/structure/shipping_container/darkpack,
 /turf/open/floor/plating/rough,
 /area/vtm/outside/supply)
 "syE" = (
@@ -34960,7 +34978,7 @@
 "sMg" = (
 /obj/machinery/light/floor/lamppost/sidewalk,
 /turf/open/misc/grass,
-/area/vtm)
+/area/vtm/outside/park)
 "sMm" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 4
@@ -35260,7 +35278,7 @@
 "sUk" = (
 /obj/effect/spawner/random/structure/billboard/darkpack,
 /turf/open/misc/grass/random/grass,
-/area/vtm)
+/area/vtm/outside/park)
 "sUn" = (
 /turf/open/floor/iron/stairs/right{
 	dir = 1
@@ -36186,7 +36204,7 @@
 /obj/effect/spawner/random/flora/grass,
 /obj/structure/railing/corner,
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "trX" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 10
@@ -39254,7 +39272,7 @@
 "uSZ" = (
 /obj/effect/spawner/random/flora/grass,
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "uTe" = (
 /obj/effect/decal/wallpaper/absorbingfoam,
 /turf/closed/wall/vampwall/painted,
@@ -40594,7 +40612,7 @@
 	pixel_x = 10
 	},
 /obj/effect/turf_decal/siding/beige,
-/turf/open/floor/city/gummaguts,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/hardware_store)
 "vBv" = (
 /obj/item/kirbyplants/darkpack/random{
@@ -41561,7 +41579,7 @@
 	pixel_y = -16
 	},
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "wcV" = (
 /obj/machinery/light/red/directional/south,
 /turf/open/floor/plating/rough,
@@ -43322,7 +43340,7 @@
 	dir = 4
 	},
 /turf/open/misc/grass/nosmooth,
-/area/vtm)
+/area/vtm/outside/park)
 "xfm" = (
 /obj/structure/table/countertop/green,
 /obj/item/kirbyplants/darkpack/random{
@@ -45219,7 +45237,7 @@
 	dir = 8
 	},
 /turf/open/misc/dirt,
-/area/vtm)
+/area/vtm/outside/park)
 "yiT" = (
 /obj/effect/mapping_helpers/broken_floor,
 /obj/structure/bonfire/prelit/fire_barrel,
@@ -74155,10 +74173,10 @@ nqr
 dMk
 nrF
 jcu
-xoP
+rZO
 jjn
 lpv
-xoP
+rZO
 mpI
 bSj
 gvN
@@ -74309,10 +74327,10 @@ nqr
 dMk
 tMg
 vBn
-xoP
-xoP
-xoP
-xoP
+rZO
+rZO
+rZO
+rZO
 uQH
 puK
 tVH
@@ -74463,10 +74481,10 @@ nqr
 dMk
 tMg
 lVD
-xoP
-xoP
-xoP
-xoP
+rZO
+rZO
+rZO
+rZO
 mpI
 kjB
 iPh
@@ -86211,10 +86229,10 @@ piy
 piy
 piy
 piy
-piy
-piy
-piy
-piy
+fFD
+fFD
+fFD
+fFD
 fFD
 fFD
 fFD
@@ -86365,10 +86383,10 @@ vqE
 vqE
 vqE
 vqE
-vqE
-vqE
-vqE
-vqE
+hfo
+hfo
+hfo
+hfo
 hfo
 hfo
 hfo
