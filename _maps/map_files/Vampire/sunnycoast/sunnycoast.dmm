@@ -2257,15 +2257,14 @@
 /turf/open/floor/city/clinic,
 /area/vtm)
 "bjR" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
 /obj/effect/turf_decal/darkpack/rough/corner{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/trash,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 1
+	},
 /turf/open/floor/plating/asphalt,
 /area/vtm)
 "bjX" = (
@@ -4760,10 +4759,6 @@
 /turf/open/floor/plating/stone,
 /area/vtm/interior/millennium_tower)
 "cIA" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = -15
-	},
 /obj/darkpack_car/police{
 	dir = 4
 	},
@@ -5305,9 +5300,6 @@
 /turf/open/floor/plating/rough,
 /area/vtm)
 "cWZ" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	pixel_x = -14
-	},
 /obj/darkpack_car/retro/rand/camarilla{
 	dir = 1
 	},
@@ -5378,9 +5370,8 @@
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/shop/bacotell)
 "cZs" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 1
 	},
 /turf/open/floor/plating/rough,
 /area/vtm)
@@ -6613,10 +6604,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/hardware_store)
 "dJc" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = -15
-	},
+/obj/effect/turf_decal/asphaltline/alt/offset,
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/financialdistrict)
 "dJz" = (
@@ -11467,13 +11455,10 @@
 /turf/open/misc/grass/nosmooth,
 /area/vtm)
 "gmj" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = -15
-	},
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 1
 	},
+/obj/effect/turf_decal/asphaltline/alt/offset,
 /turf/open/floor/plating/asphalt,
 /area/vtm)
 "gmp" = (
@@ -12455,14 +12440,6 @@
 /obj/item/gun/ballistic/automatic/darkpack/ar15,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower/f3)
-"gOK" = (
-/obj/effect/turf_decal/asphaltline,
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm)
 "gOX" = (
 /obj/effect/turf_decal/siding/grey/inner_corner{
 	dir = 4
@@ -14236,13 +14213,6 @@
 "hYY" = (
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/supply)
-"hZb" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = -15
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm)
 "hZo" = (
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/sidewalk,
@@ -15079,9 +15049,6 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm)
 "iyM" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	pixel_x = -14
-	},
 /obj/darkpack_car/rand{
 	dir = 1
 	},
@@ -15439,9 +15406,8 @@
 	},
 /area/vtm/interior/millennium_tower)
 "iJi" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 1
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/baywalk)
@@ -15786,9 +15752,6 @@
 /turf/open/misc/dirt/rails,
 /area/vtm/outside/pacificheights/industrial)
 "iSt" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	pixel_x = -14
-	},
 /obj/darkpack_car/rand/camarilla{
 	dir = 2
 	},
@@ -16388,12 +16351,11 @@
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/chantry/basement)
 "jgV" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
 /obj/effect/turf_decal/darkpack/rough,
 /obj/structure/tire,
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 1
+	},
 /turf/open/floor/plating/asphalt,
 /area/vtm)
 "jhy" = (
@@ -16425,15 +16387,6 @@
 /obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/wood/smooth/old,
 /area/vtm)
-"jie" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
-/obj/effect/turf_decal/asphalt,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating/asphalt,
-/area/vtm/outside/financialdistrict)
 "jii" = (
 /obj/structure/railing/wooden_fence{
 	dir = 10
@@ -16962,14 +16915,6 @@
 /obj/structure/platform/lowwall/rich,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/millennium_tower)
-"jvs" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
-/obj/effect/decal/cleanable/blood/oil,
-/turf/open/floor/plating/asphalt,
-/area/vtm)
 "jvx" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/flora/rock/stalagmite,
@@ -19880,16 +19825,6 @@
 	},
 /turf/open/floor/iron/dark/smooth_edge,
 /area/vtm/interior/endron_facility/restricted)
-"kWd" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	pixel_x = -14
-	},
-/obj/effect/decal/wallpaper/stone/low{
-	pixel_y = 24
-	},
-/obj/effect/decal/shadow,
-/turf/open/floor/plating/asphalt,
-/area/vtm/interior/millennium_tower)
 "kWl" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/city/factory,
@@ -21693,15 +21628,6 @@
 /obj/effect/turf_decal/siding/beige,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/hardware_store)
-"lVE" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	pixel_x = -14
-	},
-/obj/darkpack_car/retro/rand{
-	dir = 2
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm/outside/baywalk)
 "lWc" = (
 /obj/structure/filingcabinet/chestdrawer{
 	pixel_y = 15
@@ -22072,14 +21998,13 @@
 	},
 /area/vtm)
 "mix" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
 /obj/effect/turf_decal/darkpack/rough/corner{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 1
+	},
 /turf/open/floor/plating/asphalt,
 /area/vtm)
 "miB" = (
@@ -22089,11 +22014,10 @@
 	},
 /area/vtm)
 "mjj" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
 /obj/effect/turf_decal/darkpack/rough/corner,
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 1
+	},
 /turf/open/floor/plating/asphalt,
 /area/vtm)
 "mjn" = (
@@ -23615,10 +23539,6 @@
 /turf/open/water,
 /area/vtm)
 "mRl" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
 /obj/machinery/light/warm/directional/north,
 /turf/open/floor/plating/asphalt,
 /area/vtm)
@@ -24194,13 +24114,13 @@
 /turf/open/floor/plating/rough,
 /area/vtm)
 "ngZ" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	pixel_x = 15
-	},
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
 	},
 /obj/effect/decal/shadow,
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 4
+	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/millennium_tower)
 "nhc" = (
@@ -24286,11 +24206,10 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/millennium_tower)
 "njN" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 1
+	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/financialdistrict)
 "njP" = (
@@ -24326,9 +24245,8 @@
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 8
 	},
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 1
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm)
@@ -24730,16 +24648,6 @@
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm)
-"ntA" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
-/obj/effect/turf_decal/darkpack/dirt{
-	dir = 4
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm)
 "ntM" = (
 /obj/effect/turf_decal/bordur/corner,
 /obj/structure/railing{
@@ -25024,16 +24932,6 @@
 "nAF" = (
 /turf/closed/wall/vampwall/brick_old,
 /area/vtm/outside/baywalk)
-"nAL" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = -15
-	},
-/obj/darkpack_car/retro/rand{
-	dir = 4
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm/outside/baywalk)
 "nAT" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 4
@@ -25126,8 +25024,8 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/clinic)
 "nDg" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	pixel_x = 15
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 4
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm)
@@ -28017,12 +27915,11 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm)
 "oUR" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
 /obj/effect/turf_decal/darkpack/rough,
 /obj/effect/decal/cleanable/trash/big,
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 1
+	},
 /turf/open/floor/plating/asphalt,
 /area/vtm)
 "oUX" = (
@@ -29668,13 +29565,10 @@
 /turf/open/floor/plating/rough,
 /area/vtm)
 "pLM" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = -15
-	},
 /obj/darkpack_car/retro/rand{
 	dir = 4
 	},
+/obj/effect/turf_decal/asphaltline/alt/offset,
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/financialdistrict)
 "pLT" = (
@@ -30667,10 +30561,6 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm)
 "qoH" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = -15
-	},
 /obj/darkpack_car/police/unmarked{
 	dir = 4
 	},
@@ -31545,12 +31435,11 @@
 /turf/open/misc/dirt,
 /area/vtm)
 "qRo" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
 /obj/effect/decal/cleanable/trash,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 1
+	},
 /turf/open/floor/plating/rough,
 /area/vtm)
 "qRA" = (
@@ -33118,12 +33007,6 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/baywalk)
-"rKN" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	pixel_x = -14
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm/outside/baywalk)
 "rMc" = (
 /obj/structure/platform/lowwall/rich/window/reinforced,
 /obj/effect/decal/wallpaper/stone/low,
@@ -33984,9 +33867,8 @@
 /turf/open/floor/city/circled/large,
 /area/vtm/interior/shop/bubway)
 "sip" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 1
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/financialdistrict)
@@ -34125,11 +34007,10 @@
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 4
 	},
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 1
+	},
 /turf/open/floor/plating/asphalt,
 /area/vtm)
 "slN" = (
@@ -35637,8 +35518,8 @@
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/shop/gummaguts)
 "tdZ" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	pixel_x = 15
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 4
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/millennium_tower)
@@ -37384,9 +37265,6 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/outside/baywalk)
 "tUe" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	pixel_x = -14
-	},
 /obj/darkpack_car/retro/rand{
 	dir = 2
 	},
@@ -38207,12 +38085,6 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop/red_dragon)
-"usv" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	pixel_x = -14
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm/interior/millennium_tower)
 "usP" = (
 /obj/structure/bookcase/random/adult,
 /turf/open/floor/wood/smooth/old,
@@ -39261,14 +39133,6 @@
 	},
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/restricted)
-"uSr" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = -15
-	},
-/obj/darkpack_car/rand,
-/turf/open/floor/plating/asphalt,
-/area/vtm/outside/financialdistrict)
 "uSZ" = (
 /obj/effect/spawner/random/flora/grass,
 /turf/open/misc/grass/nosmooth,
@@ -40050,16 +39914,6 @@
 /obj/effect/spawner/random/trash/mess,
 /turf/open/misc/dirt,
 /area/vtm)
-"vlT" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
-/obj/effect/turf_decal/darkpack/dirt{
-	dir = 8
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm)
 "vlU" = (
 /obj/effect/turf_decal/weather/snow,
 /obj/structure/closet/crate/freezer/organ,
@@ -40527,8 +40381,8 @@
 /turf/open/floor/city/bacotell,
 /area/vtm)
 "vzN" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	pixel_x = 15
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 4
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/baywalk)
@@ -40859,10 +40713,6 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/millennium_tower)
 "vHm" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = -15
-	},
 /obj/darkpack_car/police,
 /turf/open/floor/plating/asphalt,
 /area/vtm)
@@ -40884,13 +40734,6 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/financialdistrict)
-"vHI" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = -15
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm/outside/baywalk)
 "vIb" = (
 /obj/structure/chair/plastic/darkpack{
 	dir = 8
@@ -41653,9 +41496,6 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/endron_facility)
 "wgb" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	pixel_x = -14
-	},
 /obj/darkpack_car/limousine/camarilla{
 	dir = 1
 	},
@@ -42078,12 +41918,6 @@
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/chinatown)
-"wtr" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	pixel_x = -14
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm)
 "wtF" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
@@ -43183,13 +43017,6 @@
 /obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
-"xcd" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm)
 "xcF" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -43481,6 +43308,12 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/baywalk)
+"xhU" = (
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 8
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm)
 "xiu" = (
 /obj/structure/chair/sofa/corner/brown{
 	color = "#525252";
@@ -43614,10 +43447,7 @@
 /turf/open/floor/city/circled/large,
 /area/vtm)
 "xmB" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = -15
-	},
+/obj/effect/turf_decal/asphaltline/alt/offset,
 /turf/open/floor/plating/rough,
 /area/vtm)
 "xmK" = (
@@ -44696,10 +44526,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/darkpack/rough/corner,
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = -15
-	},
+/obj/effect/turf_decal/asphaltline/alt/offset,
 /turf/open/floor/plating/asphalt,
 /area/vtm)
 "xTU" = (
@@ -59086,14 +58913,14 @@ oUX
 hMq
 hMq
 baD
-kWd
+kJL
 cWZ
-usv
 wus
 wus
-usv
+wus
+wus
 iSt
-usv
+wus
 dXi
 rWj
 jon
@@ -59394,14 +59221,14 @@ kyG
 bWM
 hMq
 baD
-kWd
-usv
-usv
+kJL
 wus
 wus
-usv
+wus
+wus
+wus
 wgb
-usv
+wus
 yjH
 uiM
 jqj
@@ -59548,14 +59375,14 @@ dCZ
 iKE
 hMq
 baD
-ngZ
-tdZ
-tdZ
+kJL
 wus
 wus
-tdZ
-tdZ
-tdZ
+wus
+wus
+wus
+wus
+wus
 yjH
 lfn
 jqj
@@ -69146,10 +68973,10 @@ ueZ
 omx
 fRH
 fce
-xcd
-hZb
-xcd
-hZb
+cOx
+cOx
+cOx
+cOx
 fRH
 fRH
 ttI
@@ -69162,9 +68989,9 @@ fRH
 pBL
 mqh
 cOx
-wtr
-wtr
-wtr
+cOx
+cOx
+cOx
 rvO
 lnU
 rsp
@@ -69300,9 +69127,9 @@ qCe
 omx
 awY
 kuN
-xcd
+cOx
 cIA
-xcd
+cOx
 qoH
 fRH
 fRH
@@ -69454,10 +69281,10 @@ gLr
 gEd
 fRH
 qoh
-xcd
-hZb
-xcd
-hZb
+cOx
+cOx
+cOx
+cOx
 fRH
 fRH
 fRH
@@ -70069,10 +69896,10 @@ cOx
 hvm
 hUx
 fRH
-xcd
-hZb
-xcd
-hZb
+cOx
+cOx
+cOx
+cOx
 qpI
 fRH
 fRH
@@ -70223,9 +70050,9 @@ cOx
 ffa
 omx
 fRH
-xcd
+cOx
 vHm
-jvs
+ujy
 vHm
 oVa
 mcD
@@ -70378,9 +70205,9 @@ ffa
 omx
 fRH
 mRl
-hZb
-xcd
-hZb
+cOx
+cOx
+cOx
 qXf
 qLv
 oWr
@@ -70856,9 +70683,9 @@ fRH
 mqh
 cOx
 cOx
-nDg
-nDg
-nDg
+cOx
+cOx
+cOx
 fRH
 tif
 hUx
@@ -72128,14 +71955,14 @@ fRC
 bjX
 qmn
 qmn
-vlT
+qmn
 ion
 aUf
 vTr
 hWB
 euj
 cOx
-xcd
+cOx
 cOx
 cOx
 cOx
@@ -72282,14 +72109,14 @@ fRC
 fRC
 cOx
 cOx
-xcd
+cOx
 sVh
 hWB
 vTr
 hWB
 euj
 cOx
-xcd
+cOx
 cOx
 cOx
 cOx
@@ -72436,14 +72263,14 @@ aVP
 aVP
 rqp
 rqp
-gOK
+rqp
 eiN
 hWB
 vTr
 hWB
 fRR
 rqp
-gOK
+rqp
 rqp
 rqp
 rqp
@@ -72590,14 +72417,14 @@ fRC
 fRC
 cOx
 cOx
-xcd
+cOx
 sVh
 hWB
 vTr
 hWB
 euj
 cOx
-xcd
+cOx
 cOx
 cOx
 cOx
@@ -72744,14 +72571,14 @@ fRC
 aBZ
 ikF
 ikF
-ntA
+ikF
 pQE
 poZ
 vTr
 hWB
 euj
 cOx
-xcd
+cOx
 cOx
 cOx
 cOx
@@ -73499,9 +73326,9 @@ jQf
 jQf
 nch
 edg
-rKN
-lVE
-rKN
+edg
+fUh
+edg
 eTg
 hZo
 nAF
@@ -74577,9 +74404,9 @@ xIn
 cxZ
 pBN
 edg
-vzN
-vzN
-vzN
+edg
+edg
+edg
 eTg
 hZo
 nAF
@@ -74713,10 +74540,10 @@ uLH
 eTg
 uoe
 nCn
-iJi
+edg
 edg
 iJi
-vHI
+edg
 aSD
 nCn
 edg
@@ -74867,10 +74694,10 @@ fFD
 tfX
 ltz
 leQ
-iJi
+edg
 ifb
 iJi
-vHI
+edg
 eTg
 hZo
 edg
@@ -75021,10 +74848,10 @@ hfo
 cEP
 hfo
 noa
-iJi
+edg
 edg
 iJi
-vHI
+edg
 eTg
 hZo
 edg
@@ -76867,12 +76694,12 @@ kXa
 inS
 eTg
 hZo
-iJi
+edg
 edg
 iJi
 edg
 iJi
-vHI
+edg
 eTg
 hZo
 edg
@@ -77021,12 +76848,12 @@ fFD
 fFD
 tfX
 hZo
-iJi
+edg
 edg
 iJi
 ifb
 iJi
-vHI
+edg
 eTg
 hZo
 edg
@@ -77175,12 +77002,12 @@ foO
 hfo
 hfo
 eiB
-iJi
+edg
 edg
 iJi
 edg
 iJi
-vHI
+edg
 fyX
 noa
 edg
@@ -77326,9 +77153,9 @@ hfo
 hfo
 fzP
 hZo
-rKN
-lVE
-rKN
+edg
+fUh
+edg
 edg
 edg
 edg
@@ -77480,9 +77307,9 @@ xYv
 xYv
 eTg
 hZo
-edg
-edg
-edg
+vzN
+vzN
+vzN
 edg
 edg
 edg
@@ -77634,9 +77461,9 @@ qnM
 xYv
 eTg
 hZo
-rKN
+edg
 iyM
-rKN
+edg
 edg
 edg
 edg
@@ -77788,9 +77615,9 @@ ygz
 xYv
 eTg
 hZo
-vzN
-vzN
-vzN
+edg
+edg
+edg
 edg
 edg
 edg
@@ -77945,12 +77772,12 @@ uoe
 fFD
 fFD
 nCn
-iJi
+edg
 edg
 iJi
 edg
 iJi
-vHI
+edg
 aMh
 fFD
 fFD
@@ -78039,7 +77866,7 @@ lik
 sip
 lik
 sip
-dJc
+lik
 kkc
 dMk
 cOx
@@ -78099,12 +77926,12 @@ hfo
 hfo
 fzP
 hZo
-iJi
+edg
 edg
 iJi
 ifb
 iJi
-vHI
+edg
 eTg
 ltz
 mTf
@@ -78193,7 +78020,7 @@ jAy
 sip
 xtv
 sip
-dJc
+lik
 kkc
 nnF
 cOx
@@ -78253,12 +78080,12 @@ xYv
 xYv
 eTg
 hZo
-iJi
+edg
 edg
 iJi
 edg
 iJi
-vHI
+edg
 eTg
 ltz
 mRr
@@ -78347,7 +78174,7 @@ lik
 sip
 lik
 sip
-dJc
+lik
 kMl
 dMk
 cOx
@@ -79271,7 +79098,7 @@ lik
 sip
 lik
 sip
-dJc
+lik
 ayw
 dMk
 cOx
@@ -79425,7 +79252,7 @@ lik
 sip
 xtv
 sip
-uSr
+jAy
 kkc
 dMk
 cOx
@@ -79579,7 +79406,7 @@ lik
 sip
 lik
 sip
-dJc
+lik
 kkc
 dMk
 cOx
@@ -79924,10 +79751,10 @@ wdi
 cOx
 eTg
 hZo
-iJi
+edg
 edg
 iJi
-vHI
+edg
 ikj
 pum
 shf
@@ -80078,10 +79905,10 @@ wdi
 cOx
 eTg
 hZo
-iJi
+edg
 gYT
 iJi
-nAL
+ifb
 ikj
 pum
 fLa
@@ -80232,10 +80059,10 @@ wdi
 cOx
 eTg
 hZo
-iJi
+edg
 edg
 iJi
-vHI
+edg
 ikj
 pum
 fLa
@@ -81156,10 +80983,10 @@ wdi
 cOx
 eTg
 hZo
-iJi
+edg
 edg
 iJi
-vHI
+edg
 ikj
 uRj
 pVE
@@ -81310,10 +81137,10 @@ wdi
 cOx
 eTg
 hZo
-iJi
+edg
 edg
 iJi
-nAL
+ifb
 ikj
 uRj
 lnk
@@ -81464,10 +81291,10 @@ wdi
 cOx
 eTg
 hZo
-iJi
+edg
 edg
 iJi
-vHI
+edg
 ikj
 uRj
 hMn
@@ -82949,7 +82776,7 @@ wdi
 cOx
 fYC
 sOz
-sip
+lik
 lik
 sip
 dJc
@@ -83103,7 +82930,7 @@ wdi
 cOx
 nqr
 dMk
-jie
+stv
 lik
 sip
 pLM
@@ -83257,7 +83084,7 @@ wdi
 cOx
 nqr
 dMk
-njN
+xSJ
 lik
 njN
 dJc
@@ -84064,9 +83891,9 @@ frU
 sxx
 cOx
 cOx
-wtr
+cOx
 tUe
-wtr
+cOx
 lfj
 qhs
 fPD
@@ -84526,9 +84353,9 @@ cbL
 sxx
 cOx
 cOx
-nDg
-nDg
-nDg
+cOx
+cOx
+cOx
 tvq
 qhs
 fPD
@@ -84680,9 +84507,9 @@ cbL
 sxx
 cOx
 cOx
-cOx
-cOx
-cOx
+xhU
+xhU
+xhU
 qvZ
 qhs
 fPD
@@ -84834,9 +84661,9 @@ cbL
 sxx
 cOx
 cOx
-nDg
-nDg
-nDg
+cOx
+cOx
+cOx
 vVc
 qhs
 fPD
