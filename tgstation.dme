@@ -8152,7 +8152,6 @@
 #include "modular_darkpack\modules\umbra\code\minesweeper.dm"
 #include "modular_darkpack\modules\umbra\code\parallax.dm"
 #include "modular_darkpack\modules\umbra\code\umbra.dm"
-#include "modular_darkpack\modules\sunnycoast\mall_areas.dm"
 #include "modular_darkpack\modules\umbra\code\umbra_globals.dm"
 #include "modular_darkpack\modules\unit_tests\_darkpack_unit_tests.dm"
 #include "modular_darkpack\modules\vampire_the_masquerade\code\blood_power.dm"

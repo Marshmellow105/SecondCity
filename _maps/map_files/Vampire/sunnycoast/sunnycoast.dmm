@@ -1224,7 +1224,7 @@
 /mob/living/carbon/human/npc/shop,
 /obj/effect/mapping_helpers/mob_buckler,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "aIh" = (
 /obj/structure/table/wood,
 /obj/item/storage/ashtray{
@@ -1620,7 +1620,7 @@
 	pixel_y = 5
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "aTP" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/city/industrial/large,
@@ -3435,7 +3435,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "bVe" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 8
@@ -5799,7 +5799,7 @@
 /obj/structure/bedsheetbin/basket,
 /obj/structure/sign/flag/china/directional/north,
 /turf/open/floor/city/circled/large,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "dmT" = (
 /obj/structure/vampdoor/wood,
 /obj/effect/mapping_helpers/door/access/chantry,
@@ -6715,6 +6715,10 @@
 /obj/effect/turf_decal/trimline/dark_red/line,
 /turf/open/floor/city/gummaguts,
 /area/vtm/interior/shop/bacotell)
+"dLG" = (
+/obj/structure/platform/lowwall/city/window,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/laundromat)
 "dLK" = (
 /obj/structure/closet/crate/bin,
 /obj/effect/spawner/random/maintenance/dumpster,
@@ -7299,7 +7303,6 @@
 /area/vtm)
 "ecV" = (
 /obj/structure/table/no_smooth/large/wood/desk,
-/obj/item/clothing/head/vampire/pentex_whitehardhat,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/endron_facility/restricted)
 "edd" = (
@@ -11431,7 +11434,7 @@
 	pixel_x = 5
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "glD" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 1
@@ -11677,6 +11680,10 @@
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm)
+"grA" = (
+/obj/effect/decal/wallpaper/stone/low,
+/turf/closed/wall/vampwall/city,
+/area/vtm/interior/laundromat)
 "grK" = (
 /obj/effect/decal/cleanable/gasoline,
 /obj/effect/decal/wallpaper/papers/random{
@@ -12833,7 +12840,7 @@
 	density = 0
 	},
 /turf/open/floor/city/circled/large,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "hgR" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/darkpack/dirt{
@@ -12852,7 +12859,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/city/circled/large,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "hhy" = (
 /obj/structure/chair/comfy/darkpack/red,
 /turf/open/floor/carpet/darkpack,
@@ -13025,7 +13032,7 @@
 "hoi" = (
 /obj/effect/decal/wallpaper/paper,
 /turf/closed/wall/vampwall/city,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "hoj" = (
 /obj/structure/vampipe{
 	icon_state = "piping35"
@@ -14053,7 +14060,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/autoname,
 /turf/open/floor/plating/sidewalkalt,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "hTy" = (
 /obj/structure/roofstuff/vent_end{
 	dir = 8
@@ -14555,7 +14562,7 @@
 /area/vtm/interior/clinic/haven)
 "ijj" = (
 /turf/open/floor/city/circled/large,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "ijs" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 1
@@ -17816,9 +17823,6 @@
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/wood/smooth/old,
 /area/vtm)
-"jTg" = (
-/turf/open/floor/city/plating,
-/area/vtm/interior/millennium_tower/ventrue)
 "jTj" = (
 /mob/living/carbon/human/npc/guard,
 /turf/open/floor/city/plating,
@@ -18776,7 +18780,7 @@
 	density = 0
 	},
 /turf/open/floor/city/circled/large,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "kwh" = (
 /obj/effect/decal/shadow,
 /turf/open/water/beach/vamp/deep,
@@ -20900,7 +20904,7 @@
 "lBm" = (
 /obj/structure/sink/directional/east,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "lBI" = (
 /obj/effect/turf_decal/darkpack/cave/corner{
 	dir = 8
@@ -22203,8 +22207,6 @@
 /obj/item/clothing/under/vampire/pentex_janitor,
 /obj/item/clothing/suit/vampire/pentex_labcoat_alt,
 /obj/item/clothing/suit/vampire/pentex_labcoat,
-/obj/item/clothing/head/vampire/pentex_whitehardhat,
-/obj/item/clothing/head/vampire/pentex_yellowhardhat,
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
 	},
@@ -22940,7 +22942,7 @@
 	dir = 1
 	},
 /turf/open/floor/city/plating,
-/area/vtm/interior/millennium_tower/ventrue)
+/area/vtm/interior/millennium_tower/f4)
 "mGE" = (
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 1
@@ -25578,7 +25580,7 @@
 	pixel_y = -12
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "nPF" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -26735,8 +26737,6 @@
 /obj/item/clothing/under/vampire/pentex_janitor,
 /obj/item/clothing/suit/vampire/pentex_labcoat_alt,
 /obj/item/clothing/suit/vampire/pentex_labcoat,
-/obj/item/clothing/head/vampire/pentex_whitehardhat,
-/obj/item/clothing/head/vampire/pentex_yellowhardhat,
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
 	},
@@ -26851,6 +26851,9 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm)
+"ouN" = (
+/turf/closed/wall/vampwall/brick_old,
+/area/vtm/interior/laundromat)
 "ouW" = (
 /obj/structure/table/wood,
 /obj/item/clothing/head/helmet/space/pirate/tophat{
@@ -27540,8 +27543,6 @@
 /obj/item/clothing/under/vampire/pentex_janitor,
 /obj/item/clothing/suit/vampire/pentex_labcoat_alt,
 /obj/item/clothing/suit/vampire/pentex_labcoat,
-/obj/item/clothing/head/vampire/pentex_whitehardhat,
-/obj/item/clothing/head/vampire/pentex_yellowhardhat,
 /obj/item/card/pentex,
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
@@ -31445,7 +31446,7 @@
 "qRA" = (
 /obj/structure/table/wood/fancy/red,
 /turf/open/floor/city/plating,
-/area/vtm/interior/millennium_tower/ventrue)
+/area/vtm/interior/millennium_tower/f4)
 "qRC" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 4
@@ -32274,6 +32275,9 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm)
+"rrE" = (
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/laundromat)
 "rrG" = (
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/machinery/photocopier/gratis/prebuilt,
@@ -33192,7 +33196,7 @@
 /obj/machinery/washing_machine,
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "rRn" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -36590,7 +36594,7 @@
 /obj/structure/platform/lowwall/city/window,
 /obj/effect/decal/wallpaper/paper/low,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "tGB" = (
 /obj/effect/turf_decal/bordur/corner,
 /obj/structure/railing{
@@ -36914,7 +36918,7 @@
 "tMH" = (
 /obj/machinery/washing_machine,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "tMN" = (
 /obj/structure/chair/comfy/darkpack/dark,
 /turf/open/floor/carpet/darkpack/blackgold,
@@ -37095,7 +37099,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "tPY" = (
 /obj/machinery/photocopier/gratis/prebuilt,
 /obj/effect/turf_decal/siding/wood/dark/corner{
@@ -37648,7 +37652,7 @@
 	pixel_y = 4
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "ugd" = (
 /obj/structure/table,
 /obj/vampire_computer/box{
@@ -38580,8 +38584,6 @@
 /obj/item/clothing/under/vampire/pentex_janitor,
 /obj/item/clothing/suit/vampire/pentex_labcoat_alt,
 /obj/item/clothing/suit/vampire/pentex_labcoat,
-/obj/item/clothing/head/vampire/pentex_whitehardhat,
-/obj/item/clothing/head/vampire/pentex_yellowhardhat,
 /obj/item/smartphone,
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
@@ -40069,8 +40071,6 @@
 /obj/item/clothing/under/vampire/pentex_janitor,
 /obj/item/clothing/suit/vampire/pentex_labcoat_alt,
 /obj/item/clothing/suit/vampire/pentex_labcoat,
-/obj/item/clothing/head/vampire/pentex_whitehardhat,
-/obj/item/clothing/head/vampire/pentex_yellowhardhat,
 /obj/item/card/pentex,
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
@@ -43089,7 +43089,7 @@
 	},
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/city/circled/large,
-/area/vtm/outside/chinatown)
+/area/vtm/interior/laundromat)
 "xdv" = (
 /obj/effect/turf_decal/bordur,
 /obj/effect/turf_decal/bordur{
@@ -45077,6 +45077,9 @@
 /obj/structure/stairs/north,
 /turf/open/floor/plating/sidewalk,
 /area/vtm)
+"yjh" = (
+/turf/closed/wall/vampwall/city,
+/area/vtm/interior/laundromat)
 "yjA" = (
 /obj/effect/turf_decal/siding/grey/inner_corner{
 	dir = 4
@@ -68801,15 +68804,15 @@ fwY
 fwY
 fwY
 fwY
-fwY
-fwY
-fwY
-fwY
-fwY
-fwY
-fwY
-fwY
-fwY
+ouN
+ouN
+ouN
+ouN
+ouN
+ouN
+ouN
+ouN
+ouN
 fwY
 mrW
 vCM
@@ -68960,9 +68963,9 @@ dmz
 hhj
 ijj
 bUT
-sKl
+rrE
 lBm
-sKl
+rrE
 hTr
 bRt
 fwY
@@ -69115,9 +69118,9 @@ ijj
 ijj
 hoi
 nPx
-sKl
-sKl
-pTy
+rrE
+rrE
+grA
 arM
 mrW
 cOx
@@ -69268,10 +69271,10 @@ kvZ
 ijj
 ijj
 tPQ
-sKl
-sKl
+rrE
+rrE
 rRe
-pTy
+grA
 cAo
 jNK
 cOx
@@ -69423,9 +69426,9 @@ ijj
 ijj
 ufZ
 aIe
-sKl
+rrE
 tMH
-pTy
+grA
 tvf
 jNK
 cOx
@@ -69576,10 +69579,10 @@ hgi
 ijj
 ijj
 aTN
-sKl
-sKl
+rrE
+rrE
 glq
-pTy
+grA
 cAo
 jNK
 cOx
@@ -69725,15 +69728,15 @@ vvN
 hVn
 hVn
 jFR
-mrW
+yjh
 hoi
 xdo
-mrW
-mrW
-dkG
-dkG
-mrW
-pTy
+yjh
+yjh
+dLG
+dLG
+yjh
+grA
 tvf
 jNK
 cOx
@@ -151780,7 +151783,7 @@ xLB
 xLB
 xLB
 xLB
-jTg
+xLB
 jff
 gUx
 sDX
