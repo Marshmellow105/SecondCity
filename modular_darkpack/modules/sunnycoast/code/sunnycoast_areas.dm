@@ -4,7 +4,7 @@
 	name = "Exterior"
 	outdoors = TRUE
 	icon_state = "outside"
-	icon = 'modular_darkpack/modules/sunnycoast/icons/areas.dmi'
+	icon = 'modular_darkpack/modules/areas/icons/areas.dmi'
 
 /area/vtm/sunnycoast/interior
 	name = "Interior"
@@ -17,14 +17,17 @@
 /area/vtm/sunnycoast/marina
 	name = "Marina District"
 	icon_state = "marina"
+	icon = 'modular_darkpack/modules/sunnycoast/icons/areas.dmi'
 
 /area/vtm/sunnycoast/heritage
 	name = "Heritage District"
 	icon_state = "heritage"
+	icon = 'modular_darkpack/modules/sunnycoast/icons/areas.dmi'
 
 /area/vtm/sunnycoast/commerce
 	name = "Commerce District"
 	icon_state = "commerce"
+	icon = 'modular_darkpack/modules/sunnycoast/icons/areas.dmi'
 
 // SHOPS
 
@@ -49,22 +52,22 @@
 /area/vtm/sunnycoast/motel
 	name = "Coastside Motel - Courtyard"
 	outdoors = TRUE
-	icon_state = "motel"
+	icon_state = "hotel"
 
 /area/vtm/sunnycoast/motel/interior
 	name = "Coastside Motel"
-	icon_state = "motel"
+	icon_state = "hotel"
 	ambience_index = AMBIENCE_OFFICE
 	outdoors = FALSE
 
 /area/vtm/sunnycoast/anarchmotel
 	name = "Old Marina Motel - Courtyard"
 	outdoors = TRUE
-	icon_state = "motel"
+	icon_state = "hotel"
 
 /area/vtm/sunnycoast/anarchmotel/interior
 	name = "Old Marina Motel"
-	icon_state = "motel"
+	icon_state = "hotel"
 	ambience_index = AMBIENCE_OFFICE
 	music_index = MUSIC_BAR
 	outdoors = FALSE
