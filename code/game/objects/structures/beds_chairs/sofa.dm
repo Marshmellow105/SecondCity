@@ -16,7 +16,7 @@ path/corner/color_name {\
 /obj/structure/chair/sofa
 	name = "old ratty sofa"
 	icon_state = "error"
-	icon = 'icons/obj/chairs_wide.dmi'
+	icon = 'modular_darkpack/modules/chairs/icons/longsofa.dmi' // DARKPACK EDIT CHANGE - Long Sofa Resprite
 	buildstackamount = 1
 	item_chair = null
 	fishing_modifier = -6
