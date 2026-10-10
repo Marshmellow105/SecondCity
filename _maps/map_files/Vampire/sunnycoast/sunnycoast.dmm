@@ -946,6 +946,12 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/endron_facility)
+"ayo" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "ayw" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -1421,6 +1427,12 @@
 /obj/effect/mapping_helpers/door/bash_difficulty/eight,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/citymaint)
+"aJd" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 10
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "aJD" = (
 /obj/effect/turf_decal/bordur{
 	dir = 6
@@ -2890,6 +2902,11 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/sunnycoast/street/secondst)
+"bxF" = (
+/obj/structure/table/modern,
+/obj/item/stack/arcadeticket,
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "bxH" = (
 /obj/item/flashlight/flare/candle/infinite,
 /obj/item/flashlight/flare/candle/infinite{
@@ -3427,6 +3444,11 @@
 /obj/structure/fountain,
 /turf/open/water/beach,
 /area/vtm/sunnycoast/commerce)
+"bNj" = (
+/obj/structure/sink/directional/south,
+/obj/structure/mirror/directional/north,
+/turf/open/floor/city/plating,
+/area/vtm/sunnycoast/marina)
 "bNm" = (
 /obj/structure/platform/lowwall/painted,
 /obj/effect/decal/wallpaper/blue/low,
@@ -3900,6 +3922,11 @@
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/interior/shop/pizza)
+"cac" = (
+/obj/effect/turf_decal/bordur/corner,
+/obj/machinery/vending/cola/pwr_game,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/sunnycoast/marina)
 "cau" = (
 /obj/structure/hedge,
 /obj/effect/turf_decal/siding/wood/dark/corner{
@@ -4950,6 +4977,19 @@
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/vjanitor/junkyard/tunnels)
+"cAV" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 10
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/structure/table/modern,
+/obj/item/cardboard_cutout/xenomorph{
+	pixel_y = 8
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "cAZ" = (
 /obj/structure/vampdoor/wood,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
@@ -5642,6 +5682,12 @@
 	},
 /turf/open/floor/plating/roofwalk,
 /area/vtm/interior/vjanitor/junkyard)
+"cSc" = (
+/obj/structure/chair/office/darkpack/black{
+	dir = 4
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "cSi" = (
 /obj/effect/turf_decal/bordur/end,
 /turf/open/floor/plating/sidewalk/poor,
@@ -6839,6 +6885,14 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
+"dzg" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 10
+	},
+/obj/effect/spawner/random/maintenance/dumpster,
+/obj/structure/closet/crate/bin,
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "dzn" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 5
@@ -6856,6 +6910,9 @@
 	broken = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/wallpaper/papers/random{
+	pixel_y = 27
+	},
 /turf/open/floor/city/bacotell,
 /area/vtm/sunnycoast/anarchmotel/interior)
 "dzq" = (
@@ -6870,6 +6927,16 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/asphalt,
 /area/vtm/sunnycoast/anarchmotel)
+"dzB" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 9
+	},
+/obj/machinery/light/blacklight/directional/north,
+/obj/effect/decal/wallpaper/papers/random{
+	pixel_y = 27
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "dzU" = (
 /obj/effect/turf_decal/siding/wood/dark,
 /turf/open/floor/wood/smooth/old,
@@ -7410,6 +7477,18 @@
 /obj/item/food/garlicbread,
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/shop/pizza)
+"dLN" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/obj/structure/table/modern,
+/obj/item/toy/balloon_animal/xeno,
+/obj/effect/decal/wallpaper/papers/random{
+	pixel_y = 27
+	},
+/obj/structure/sign/poster/city/dmc/directional/north,
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "dLR" = (
 /obj/structure/platform/lowwall/brick,
 /obj/structure/table/no_smooth/modular_desk,
@@ -7743,6 +7822,10 @@
 /obj/effect/mapping_helpers/door/access/church,
 /turf/open/floor/city/factory,
 /area/vtm/interior/church/staff)
+"dTP" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "dUc" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/city/bacotell,
@@ -9865,6 +9948,18 @@
 	},
 /turf/open/water/beach,
 /area/vtm/sunnycoast/commerce)
+"eUg" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/structure/vampdoor/old{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/door/unlock,
+/obj/effect/mapping_helpers/door/lock_difficulty/two,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
+/turf/open/floor/city/plating,
+/area/vtm/sunnycoast/marina)
 "eUo" = (
 /obj/effect/decal/carpet{
 	icon_state = "rug_blue";
@@ -10467,6 +10562,16 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop/flower_shop)
+"fjM" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/obj/machinery/vending/cola/starkist{
+	pixel_y = 24;
+	density = 0
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "fjU" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -11213,6 +11318,19 @@
 /obj/item/storage/box/ingredients/random,
 /turf/open/floor/city/industrial,
 /area/vtm/sunnycoast/heritage/italy/apartment)
+"fDE" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 5
+	},
+/obj/effect/spawner/random/entertainment/arcade{
+	dir = 8
+	},
+/obj/effect/decal/wallpaper/papers/random{
+	pixel_y = 27
+	},
+/obj/structure/sign/poster/city/gravitykills/directional/north,
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "fDI" = (
 /obj/effect/turf_decal/siding/grey,
 /turf/open/floor/plating/rough,
@@ -13944,6 +14062,12 @@
 /obj/structure/railing,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/sunnycoast/marina)
+"hdU" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "heB" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -14847,6 +14971,11 @@
 	},
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/sunnycoast/heritage/italy)
+"hCw" = (
+/obj/effect/turf_decal/bordur,
+/obj/structure/fluff/bollard/dual/grey/directional/south,
+/turf/open/floor/plating/sidewalk/rich,
+/area/vtm/sunnycoast/commerce)
 "hCA" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -15395,6 +15524,14 @@
 /obj/machinery/light/dim/directional/south,
 /turf/open/floor/plating/rough,
 /area/vtm/outside/supply)
+"hUm" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/obj/structure/sign/poster/city/diemydarling/directional/north,
+/obj/effect/decal/cleanable/litter,
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "hUo" = (
 /obj/structure/fluff/sat_dish,
 /obj/effect/turf_decal/bordur/corner{
@@ -15487,6 +15624,7 @@
 /obj/item/fish/darkpack/crab,
 /obj/item/fish/darkpack/tuna,
 /obj/item/fish/darkpack/tuna,
+/obj/structure/closet/crate/freezer/food,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/red_dragon)
 "hWV" = (
@@ -17710,6 +17848,12 @@
 /obj/effect/decal/wallpaper/stone/low,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/costume_store)
+"jcR" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "jcZ" = (
 /obj/machinery/light/red/directional/south,
 /obj/machinery/camera/autoname/directional/south{
@@ -19560,6 +19704,13 @@
 	},
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/shop/bacotell)
+"jWj" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/obj/structure/sign/poster/city/genitorturers/directional/north,
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "jWv" = (
 /obj/structure/platform/lowwall/rich,
 /obj/machinery/light/directional/north,
@@ -19943,6 +20094,13 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
+"kiu" = (
+/obj/structure/vampdoor/old,
+/obj/effect/mapping_helpers/door/unlock,
+/obj/effect/mapping_helpers/door/lock_difficulty/two,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
+/turf/open/floor/city/plating,
+/area/vtm/sunnycoast/marina)
 "kiH" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 8
@@ -20557,6 +20715,10 @@
 "kxz" = (
 /turf/open/floor/city/gummaguts,
 /area/vtm/interior/clinic/haven)
+"kxC" = (
+/obj/effect/decal/wallpaper/grey/low,
+/turf/closed/wall/vampwall/bar,
+/area/vtm/sunnycoast/marina)
 "kxJ" = (
 /obj/structure/platform/lowwall/rich/old,
 /obj/effect/decal/cleanable/cobweb{
@@ -21862,6 +22024,12 @@
 /obj/effect/decal/kopatich,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/pawnshop)
+"lao" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "lap" = (
 /obj/structure/vampipe{
 	icon_state = "piping31"
@@ -21996,6 +22164,17 @@
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/supply)
+"ldJ" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 6
+	},
+/obj/machinery/light/blacklight/directional/south,
+/obj/structure/table/modern,
+/obj/structure/showcase/mecha/ripley{
+	pixel_y = 8
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "ldO" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -23107,6 +23286,11 @@
 	},
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/shop/smoke_shop)
+"lGP" = (
+/obj/effect/turf_decal/bordur,
+/obj/machinery/vending/snack/blue,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/sunnycoast/marina)
 "lGX" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/plating/concrete,
@@ -24143,6 +24327,15 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/bianchiBank)
+"mkW" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/obj/effect/decal/wallpaper/papers/random{
+	pixel_y = 27
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "mlf" = (
 /obj/structure/platform/lowwall/rich/window,
 /turf/open/floor/plating/rough,
@@ -24219,6 +24412,18 @@
 /obj/effect/turf_decal/bordur,
 /obj/structure/railing/corner,
 /turf/open/floor/plating/sidewalk,
+/area/vtm/sunnycoast/marina)
+"mmD" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/spawner/random/entertainment/arcade{
+	dir = 4
+	},
+/turf/open/floor/eighties,
 /area/vtm/sunnycoast/marina)
 "mmG" = (
 /obj/structure/table/no_smooth/modular_desk{
@@ -25592,6 +25797,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/blue,
 /area/vtm/sunnycoast/marina)
+"mPG" = (
+/obj/structure/table/modern,
+/obj/item/toy/figure/wizard,
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "mPR" = (
 /obj/structure/bodycontainer/morgue{
 	dir = 1
@@ -26613,6 +26823,11 @@
 /obj/machinery/light/floor/lamppost/one,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/sunnycoast/commerce)
+"nnI" = (
+/obj/effect/turf_decal/bordur/corner,
+/obj/structure/fluff/bollard/dual/grey/directional/south,
+/turf/open/floor/plating/sidewalk/rich,
+/area/vtm/sunnycoast/commerce)
 "nnM" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
@@ -26644,6 +26859,19 @@
 "noy" = (
 /turf/open/openspace,
 /area/vtm/sunnycoast/street/secondst)
+"noR" = (
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/siding/grey{
+	dir = 1
+	},
+/obj/structure/vampdoor/woodglass,
+/obj/effect/mapping_helpers/door/unlock,
+/obj/effect/mapping_helpers/door/lock_difficulty/four,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
+/obj/effect/mapping_helpers/door/autoname,
+/obj/effect/mapping_helpers/door/access/npc,
+/turf/open/floor/city/plating,
+/area/vtm/sunnycoast/marina)
 "npk" = (
 /obj/structure/chair/wood/darkpack/red{
 	dir = 4
@@ -28804,6 +29032,12 @@
 	},
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/sewer)
+"ogR" = (
+/obj/machinery/light/small/dim/directional/east{
+	pixel_y = 16
+	},
+/turf/open/floor/city/plating,
+/area/vtm/sunnycoast/marina)
 "ohj" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/wood/smooth/old,
@@ -31109,6 +31343,9 @@
 	},
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
+"pir" = (
+/turf/closed/wall/vampwall/bar,
+/area/vtm/sunnycoast/marina)
 "piy" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -32130,6 +32367,17 @@
 /obj/structure/fluff/bollard/dual/grey/directional/south,
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/sunnycoast/heritage/italy)
+"pIy" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 5
+	},
+/obj/structure/table/modern,
+/obj/structure/showcase/wizard{
+	pixel_y = 8
+	},
+/obj/structure/marker_beacon/purple,
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "pIU" = (
 /turf/open/floor/iron/stairs/black/medium{
 	dir = 1
@@ -32935,6 +33183,13 @@
 	},
 /turf/open/floor/iron/stairs/left,
 /area/vtm/sunnycoast/commerce)
+"qdY" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/obj/effect/spawner/random/entertainment/arcade{
+	dir = 1
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "qeb" = (
 /obj/effect/turf_decal/bordur{
 	dir = 10
@@ -33917,6 +34172,9 @@
 /area/vtm/interior/clinic)
 "qDu" = (
 /obj/machinery/oven/range,
+/obj/effect/decal/wallpaper/papers/random{
+	pixel_y = 27
+	},
 /turf/open/floor/city/bacotell,
 /area/vtm/sunnycoast/anarchmotel/interior)
 "qDw" = (
@@ -34488,6 +34746,14 @@
 	dir = 6
 	},
 /turf/open/floor/plating/roofwalk,
+/area/vtm/sunnycoast/marina)
+"qUD" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/obj/effect/spawner/random/entertainment/arcade,
+/obj/structure/sign/poster/city/blade/directional/north,
+/turf/open/floor/eighties,
 /area/vtm/sunnycoast/marina)
 "qUJ" = (
 /obj/structure/table/countertop,
@@ -36680,6 +36946,10 @@
 /obj/effect/decal/wallpaper/paper/low,
 /turf/closed/wall/vampwall/city,
 /area/vtm/sunnycoast/anarchmotel/interior)
+"saE" = (
+/obj/effect/spawner/random/trash/cigbutt,
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "sba" = (
 /obj/effect/turf_decal/weather/snow,
 /obj/effect/turf_decal/weather/snow/corner{
@@ -37977,7 +38247,7 @@
 /area/vtm/sunnycoast/commerce)
 "sHJ" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/roadsign,
+/obj/structure/roadsign/stop,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/sunnycoast/anarchmotel)
 "sIb" = (
@@ -39335,6 +39605,12 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm)
+"tqK" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "tqM" = (
 /turf/open/water/vamp_sewer,
 /area/vtm/interior/sewer)
@@ -40832,6 +41108,11 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/library)
+"uaP" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/obj/effect/spawner/random/trash/mess,
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "ubl" = (
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/roofwalk,
@@ -41001,6 +41282,19 @@
 "ueZ" = (
 /turf/closed/wall/vampwall/brick_old,
 /area/vtm)
+"ufe" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 6
+	},
+/obj/structure/table/modern,
+/obj/structure/showcase/mecha/marauder{
+	desc = "A stand with an empty old Evil Corporation combat mech bolted to it. It is described as the premier unit used to defend corporate interests and employees.";
+	pixel_y = 8
+	},
+/obj/structure/marker_beacon/violet,
+/obj/machinery/light/blacklight/directional/south,
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "ufg" = (
 /obj/structure/table/wood,
 /obj/structure/platform/lowwall/rich/old,
@@ -41129,6 +41423,15 @@
 	},
 /turf/open/floor/eighties,
 /area/vtm/interior/clinic/haven)
+"uhl" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 4
+	},
+/obj/effect/spawner/random/entertainment/arcade{
+	dir = 8
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "uhn" = (
 /obj/structure/chair/office/darkpack/red{
 	dir = 1
@@ -44948,6 +45251,19 @@
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/vjanitor/junkyard/tunnels)
+"vVx" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 9
+	},
+/obj/structure/table/modern,
+/obj/item/circuitboard/computer/arcade/battle,
+/obj/item/screwdriver,
+/obj/machinery/light/blacklight/directional/north,
+/obj/effect/decal/wallpaper/papers/random{
+	pixel_y = 27
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "vVH" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/city/church,
@@ -45690,6 +46006,14 @@
 "wrc" = (
 /turf/closed/wall/vampwall/brick_old,
 /area/vtm/sunnycoast/anarchmotel/interior)
+"wrj" = (
+/obj/machinery/light/small/dim/directional/south,
+/obj/structure/toilet{
+	dir = 1
+	},
+/obj/effect/spawner/random/trash/mess,
+/turf/open/floor/city/plating,
+/area/vtm/sunnycoast/marina)
 "wrl" = (
 /obj/structure/food_cart,
 /turf/open/misc/beach/vamp,
@@ -46103,6 +46427,9 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/endron_facility)
+"wCS" = (
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "wCT" = (
 /obj/machinery/sprinkler,
 /turf/open/floor/wood/smooth/old,
@@ -46457,6 +46784,19 @@
 	},
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/chantry/basement)
+"wOB" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/grey,
+/obj/structure/vampdoor/old,
+/obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/lock_difficulty/four,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
+/obj/effect/mapping_helpers/door/autoname,
+/obj/effect/mapping_helpers/door/access/npc,
+/turf/open/floor/city/plating,
+/area/vtm/sunnycoast/marina)
 "wOJ" = (
 /obj/effect/turf_decal/bordur,
 /obj/structure/vampdoor/old,
@@ -46975,6 +47315,13 @@
 "xcl" = (
 /obj/effect/decal/cleanable/trash/big,
 /turf/open/floor/plating/sidewalk,
+/area/vtm/sunnycoast/marina)
+"xcu" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 8
+	},
+/obj/structure/fake_stairs/directional/north,
+/turf/open/floor/eighties,
 /area/vtm/sunnycoast/marina)
 "xcF" = (
 /obj/effect/turf_decal/bordur{
@@ -47495,6 +47842,16 @@
 /obj/effect/decal/rugs,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/millennium_tower/f2)
+"xnO" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/obj/machinery/vending/games{
+	pixel_y = 24;
+	density = 0
+	},
+/turf/open/floor/eighties,
+/area/vtm/sunnycoast/marina)
 "xnR" = (
 /obj/structure/platform/lowwall/old/window,
 /turf/open/floor/plating/concrete,
@@ -76921,7 +77278,7 @@ iXY
 xvO
 iXY
 iXY
-xQz
+ghw
 hsl
 hsl
 hsl
@@ -86936,7 +87293,7 @@ hwU
 ihY
 hwU
 fYC
-sBs
+nnI
 pwz
 pwz
 sip
@@ -87090,7 +87447,7 @@ hwU
 ihY
 hwU
 nqr
-dMk
+hCw
 stv
 pwz
 sip
@@ -87244,7 +87601,7 @@ hwU
 rik
 hwU
 nqr
-dMk
+hCw
 xSJ
 pwz
 njN
@@ -87607,15 +87964,15 @@ hNZ
 brr
 hNZ
 eTg
-hZo
-gcs
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
+uoe
+cac
+kxC
+vVx
+pir
+xcu
+hdU
+dzg
+pir
 aSD
 tfX
 hZo
@@ -87761,15 +88118,15 @@ vhB
 brr
 hNZ
 eTg
-hZo
-qwx
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
+ltz
+lGP
+kxC
+hUm
+cSc
+tqK
+wCS
+dTP
+wOB
 eTg
 ltz
 hZo
@@ -87915,15 +88272,15 @@ hNZ
 brr
 ijY
 eTg
+ltz
 hZo
-xtT
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
+kxC
+dLN
+mPG
+bxF
+wCS
+dTP
+pir
 eTg
 foO
 dGA
@@ -88069,15 +88426,15 @@ hNZ
 brr
 hNZ
 eTg
+ltz
 hZo
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
+noR
+jcR
+wCS
+wCS
+wCS
+uaP
+pir
 eTg
 hZo
 iVa
@@ -88223,15 +88580,15 @@ hNZ
 brr
 hNZ
 eTg
-hZo
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
+foO
+hzV
+kxC
+mkW
+wCS
+wCS
+wCS
+qdY
+pir
 eTg
 hZo
 lgu
@@ -88379,13 +88736,13 @@ hNZ
 eTg
 hZo
 gcs
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
+kxC
+qUD
+saE
+wCS
+wCS
+qdY
+pir
 eTg
 hZo
 lgu
@@ -88533,13 +88890,13 @@ hNZ
 eTg
 hZo
 qwx
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
+kxC
+pIy
+uhl
+uhl
+uhl
+ufe
+pir
 eTg
 hZo
 lgu
@@ -88687,13 +89044,13 @@ tcH
 oEZ
 jUb
 xtT
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
-jQf
+pir
+pir
+pir
+pir
+pir
+pir
+pir
 oEZ
 jUb
 lgu
@@ -111018,13 +111375,13 @@ rdq
 upD
 upD
 upD
+kxC
+dzB
+aJd
 upD
 upD
-upD
-upD
-upD
-upD
-upD
+pir
+pir
 upD
 upD
 upD
@@ -111172,13 +111529,13 @@ rdq
 upD
 upD
 upD
-upD
-upD
-upD
-upD
-upD
-upD
-upD
+kxC
+fjM
+ayo
+mmD
+mmD
+cAV
+pir
 upD
 upD
 upD
@@ -111326,13 +111683,13 @@ rdq
 upD
 upD
 upD
-upD
-upD
-upD
-upD
-upD
-upD
-upD
+kxC
+xnO
+wCS
+wCS
+wCS
+qdY
+pir
 upD
 upD
 upD
@@ -111480,13 +111837,13 @@ rdq
 upD
 upD
 upD
-upD
-upD
-upD
-upD
-upD
-upD
-upD
+kxC
+jWj
+wCS
+wCS
+wCS
+qdY
+pir
 upD
 upD
 iVa
@@ -111634,13 +111991,13 @@ rdq
 upD
 upD
 upD
-upD
-upD
-upD
-upD
-upD
-upD
-upD
+kxC
+fDE
+lao
+uhl
+uhl
+ldJ
+pir
 upD
 upD
 iVa
@@ -111788,13 +112145,13 @@ rdq
 upD
 upD
 upD
-upD
-upD
-upD
-upD
-upD
-upD
-upD
+pir
+kxC
+eUg
+pir
+pir
+pir
+pir
 upD
 upD
 iVa
@@ -111942,13 +112299,13 @@ rdq
 upD
 upD
 upD
-upD
-upD
-upD
-upD
-upD
-upD
-upD
+pir
+bNj
+ogR
+kiu
+wrj
+pir
+pir
 upD
 upD
 iVa
@@ -112096,13 +112453,13 @@ rdq
 upD
 upD
 upD
-upD
-upD
-upD
-upD
-upD
-upD
-upD
+pir
+pir
+pir
+pir
+pir
+pir
+pir
 upD
 upD
 iVa
@@ -134427,13 +134784,13 @@ rdq
 upD
 upD
 upD
-upD
-upD
-upD
-upD
-upD
-upD
-upD
+tTV
+mQc
+mQc
+mQc
+mQc
+mQc
+toJ
 upD
 upD
 upD
@@ -134581,13 +134938,13 @@ rdq
 upD
 upD
 upD
-upD
-upD
-upD
-upD
-upD
-upD
-upD
+jWI
+ahh
+ahh
+ahh
+ahh
+ahh
+jPs
 upD
 upD
 upD
@@ -134735,13 +135092,13 @@ rdq
 upD
 upD
 upD
-upD
-upD
-upD
-upD
-upD
-upD
-upD
+jWI
+ahh
+ahh
+ahh
+ahh
+ahh
+jPs
 upD
 upD
 upD
@@ -134889,13 +135246,13 @@ rdq
 upD
 upD
 upD
-upD
-upD
-upD
-upD
-upD
-upD
-upD
+jWI
+ahh
+ahh
+ahh
+ahh
+ahh
+jPs
 upD
 upD
 mrn
@@ -135043,13 +135400,13 @@ rdq
 upD
 upD
 upD
-upD
-upD
-upD
-upD
-upD
-upD
-upD
+jWI
+ahh
+ahh
+ahh
+ahh
+ahh
+jPs
 upD
 upD
 tCD
@@ -135197,13 +135554,13 @@ rdq
 upD
 upD
 upD
-upD
-upD
-upD
-upD
-upD
-upD
-upD
+jWI
+ahh
+ahh
+ahh
+ahh
+ahh
+jPs
 upD
 upD
 tCD
@@ -135351,13 +135708,13 @@ rdq
 upD
 upD
 upD
-upD
-upD
-upD
-upD
-upD
-upD
-upD
+jWI
+ahh
+ahh
+ahh
+ahh
+ahh
+jPs
 upD
 upD
 tCD
@@ -135505,13 +135862,13 @@ rdq
 upD
 upD
 upD
-upD
-upD
-upD
-upD
-upD
-upD
-upD
+xpK
+lEz
+lEz
+lEz
+lEz
+lEz
+gUj
 upD
 upD
 sBh
