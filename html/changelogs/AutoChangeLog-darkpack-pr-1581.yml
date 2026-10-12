@@ -1,0 +1,4 @@
+author: "breadcrombs"
+delete-after: True
+changes:
+  - balance: "Cauldron of Blood now when used on a mortal deals more damage per roll"
