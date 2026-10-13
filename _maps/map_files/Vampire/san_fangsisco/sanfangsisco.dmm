@@ -12910,23 +12910,6 @@
 	},
 /turf/open/floor/plating/canal,
 /area/vtm/interior/endron_facility/plant)
-"dcH" = (
-/obj/structure/table/wood,
-/obj/item/storage/fancy/cigarettes/cigpack_robust{
-	pixel_x = -9;
-	pixel_y = 7
-	},
-/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
-	pixel_x = 10;
-	pixel_y = 10
-	},
-/obj/item/storage/ashtray{
-	pixel_x = 0;
-	pixel_y = 2
-	},
-/obj/item/lighter,
-/turf/open/floor/plating/rough,
-/area/vtm/interior)
 "dcJ" = (
 /obj/structure/toilet,
 /obj/machinery/light/small/pink/directional/north,
@@ -25097,6 +25080,11 @@
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f2)
+"gbT" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/carpet,
+/turf/open/floor/plating/rough,
+/area/vtm/interior)
 "gbV" = (
 /obj/effect/turf_decal/bordur{
 	dir = 9
@@ -39774,22 +39762,6 @@
 /obj/machinery/sprinkler/area_managed,
 /turf/open/floor/city/plating,
 /area/vtm/interior/millennium_tower/f4)
-"jNf" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/cup/glass/bottle/vodka{
-	pixel_x = 1;
-	pixel_y = 21
-	},
-/obj/item/storage/fancy/cigarettes/cigpack_robust{
-	pixel_x = -9;
-	pixel_y = 7
-	},
-/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
-	pixel_x = 10;
-	pixel_y = 10
-	},
-/turf/open/floor/plating/rough,
-/area/vtm/interior)
 "jNl" = (
 /mob/living/basic/goose,
 /turf/open/water/beach/vamp/deep,
@@ -50754,14 +50726,6 @@
 /obj/item/toy/crayon/spraycan,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/financialdistrict)
-"mAC" = (
-/obj/structure/chair/plastic/darkpack{
-	dir = 4
-	},
-/obj/effect/landmark/start/darkpack/triad/red_pole,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating/rough,
-/area/vtm/interior)
 "mAD" = (
 /obj/effect/turf_decal/bordur{
 	dir = 10
@@ -142063,12 +142027,12 @@ dvN
 dvN
 dvN
 mTj
+mTj
 lmq
 wjF
 lMe
 lMe
 jHj
-lMe
 lMe
 lMe
 lMe
@@ -142320,15 +142284,15 @@ dvN
 dvN
 dvN
 mTj
+mTj
 lmq
-nvg
+pDF
 lMe
 lMe
 lMe
 lMe
-axX
-axX
-axX
+lMe
+lMe
 lMe
 lMe
 lMe
@@ -142577,16 +142541,16 @@ dvN
 dvN
 dvN
 mTj
+mTj
 lmq
-lMe
-lMe
-lMe
-lMe
-lMe
-boZ
-ioW
-chD
-lMe
+aHk
+vgf
+vgf
+vgf
+mFC
+axX
+axX
+axX
 lMe
 lMe
 wjF
@@ -142834,16 +142798,16 @@ dvN
 dvN
 dvN
 mTj
+mTj
 lmq
-aHk
-vgf
-vgf
-vgf
-mFC
-nxN
-nxN
-nxN
-lMe
+mmP
+ubF
+mxV
+lzt
+gbT
+boZ
+ioW
+chD
 lMe
 lMe
 lMe
@@ -143091,16 +143055,16 @@ dvN
 dvN
 dvN
 mTj
+mTj
 lmq
-mmP
-ubF
-mxV
-lzt
-wjF
 lMe
+jgf
+jgf
+jgf
 lMe
-lMe
-lMe
+nxN
+nxN
+nxN
 lMe
 lMe
 jcc
@@ -143348,15 +143312,15 @@ dvN
 dvN
 dvN
 mTj
+mTj
 lmq
+nvg
 lMe
-jgf
-jgf
-jgf
+mFC
 lMe
-axX
-mAC
-axX
+lMe
+lMe
+lMe
 lMe
 lMe
 lMe
@@ -143605,15 +143569,15 @@ dvN
 dvN
 dvN
 mTj
+mTj
 lmq
-lMe
-lMe
-lMe
-lMe
 wjF
-jNf
-dcH
-chD
+wjF
+lMe
+akY
+lMe
+lMe
+vXK
 lMe
 lMe
 joZ
@@ -143862,16 +143826,16 @@ dvN
 dvN
 dvN
 mTj
-lmq
-nvg
-lMe
-mFC
-lMe
-lMe
-nxN
-nxN
-nxN
-lMe
+mTj
+jcc
+jcc
+jcc
+jcc
+jcc
+jcc
+jcc
+jcc
+jcc
 wjF
 lMe
 jcc
@@ -144119,16 +144083,16 @@ dvN
 dvN
 dvN
 mTj
-lmq
-wjF
-wjF
-lMe
-akY
-lMe
-lMe
-vXK
-lMe
-lMe
+mTj
+mTj
+mTj
+mTj
+mTj
+mTj
+mTj
+mTj
+mTj
+jcc
 hjd
 lMe
 jcc
@@ -144377,14 +144341,14 @@ dvN
 dvN
 mTj
 mTj
-jcc
-jcc
-jcc
-jcc
-jcc
-jcc
-jcc
-jcc
+mTj
+mTj
+mTj
+mTj
+mTj
+mTj
+mTj
+mTj
 jcc
 rdL
 jcc
