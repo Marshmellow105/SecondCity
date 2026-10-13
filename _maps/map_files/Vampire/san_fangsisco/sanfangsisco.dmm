@@ -39366,8 +39366,8 @@
 	lock_id = "triad"
 	},
 /obj/effect/mapping_helpers/door/access/triad,
-/obj/effect/mapping_helpers/door/bash_difficulty/ten,
-/obj/effect/mapping_helpers/door/lock_difficulty/six,
+/obj/effect/mapping_helpers/door/lock_difficulty/nine,
+/obj/effect/mapping_helpers/door/bash_difficulty/nine,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior)
 "jIl" = (
@@ -61532,8 +61532,8 @@
 	pixel_x = 0
 	},
 /obj/effect/mapping_helpers/door/access/triad,
-/obj/effect/mapping_helpers/door/bash_difficulty/eight,
-/obj/effect/mapping_helpers/door/lock_difficulty/seven,
+/obj/effect/mapping_helpers/door/bash_difficulty/ten,
+/obj/effect/mapping_helpers/door/lock_difficulty/ten,
 /turf/open/floor/plating/rough,
 /area/vtm/interior)
 "piX" = (
@@ -64107,6 +64107,15 @@
 	},
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior/police/upstairs)
+"pQj" = (
+/obj/structure/vampdoor/old{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/door/access/triad,
+/obj/effect/mapping_helpers/door/lock_difficulty/ten,
+/obj/effect/mapping_helpers/door/bash_difficulty/ten,
+/turf/open/floor/plating/rough,
+/area/vtm/interior)
 "pQl" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -80295,9 +80304,9 @@
 /obj/structure/vampdoor/prison{
 	dir = 8
 	},
-/obj/effect/mapping_helpers/door/lock_difficulty/six,
 /obj/effect/mapping_helpers/door/access/triad,
-/obj/effect/mapping_helpers/door/bash_difficulty/ten,
+/obj/effect/mapping_helpers/door/lock_difficulty/nine,
+/obj/effect/mapping_helpers/door/bash_difficulty/nine,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior)
 "tMA" = (
@@ -141773,7 +141782,7 @@ mTj
 mTj
 jcc
 jcc
-won
+pQj
 jcc
 jcc
 jcc
