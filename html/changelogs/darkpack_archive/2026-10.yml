@@ -92,3 +92,11 @@
 2026-10-13:
   SabbyKat:
   - balance: Enchanting Voice now impacts Pres 1 Awe difficulty
+2026-10-16:
+  DemoCrack:
+  - bugfix: Fixed Valeren 4 not applying damage reduction and halo.
+  - bugfix: Fixed Valeren 5 permanently applying +5 Dexterity, Melee, and Brawl.
+  FalloutFalcon:
+  - rscadd: Adds spooky month, from the start of October to the end of Halloween.
+  - rscadd: Adds types for spawning jack-o-lanterns when its spooky month.
+  - rscadd: Adds police tape for marking off crime scenes.
