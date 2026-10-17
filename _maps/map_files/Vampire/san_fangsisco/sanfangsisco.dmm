@@ -45378,6 +45378,10 @@
 /obj/structure/trafficlight,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/financialdistrict)
+"lgE" = (
+/obj/machinery/light/small/pink/directional/east,
+/turf/open/floor/plating/roofwalk,
+/area/vtm)
 "lgJ" = (
 /obj/effect/decal/cleanable/cardboard,
 /obj/structure/barrels/rand,
@@ -55912,11 +55916,6 @@
 	},
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/interior/tzimisce_sanctum)
-"nMp" = (
-/obj/machinery/hydroponics/simple/plastic,
-/obj/machinery/hydroponics/simple/plastic,
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior/laundromat)
 "nMq" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/plating/rough/cave,
@@ -281894,7 +281893,7 @@ lTQ
 bzQ
 lTQ
 lTQ
-lTQ
+lgE
 lTQ
 fRq
 ctC
@@ -282924,7 +282923,7 @@ rfe
 xlr
 rfe
 rfe
-nMp
+xlr
 lym
 ntq
 gkx
