@@ -5,12 +5,16 @@
 	outdoors = TRUE
 	icon_state = "sewer"
 	icon = 'modular_darkpack/modules/areas/icons/areas.dmi'
+	zone_type = ZONE_MASQUERADE
 
 /area/vtm/sunnycoast/interior
 	name = "Interior"
 	icon_state = "interior"
 	ambience_index = AMBIENCE_OFFICE
 	outdoors = FALSE
+	sound_environment = SOUND_ENVIRONMENT_ROOM
+	ambient_buzz = 'modular_darkpack/modules/ambience/sounds/interior_generic.ogg'
+	ambient_buzz_vol = 30
 
 // DISTRICTS
 
@@ -71,6 +75,10 @@
 	name = "Italian Deli"
 	icon_state = "shop"
 
+/area/vtm/interior/shop/gasstation/endron
+	name = "Endroil Gas Station"
+	music_index = MUSIC_ENDRON
+
 // MOTELS
 
 /area/vtm/sunnycoast/motel
@@ -101,19 +109,22 @@
 /area/vtm/interior/apartment/fifthave
 	name = "5th Avenue Apartments"
 
+/area/vtm/interior/apartment/penthouse
+	name = "Millenium Apartments - Landlord's Club Penthouse"
+
 // MISC
 
-/area/vtm/interior/carwash
+/area/vtm/sunnycoast/interior/carwash
 	name = "Car Wash"
 
-/area/vtm/interior/citymaint
+/area/vtm/sunnycoast/interior/citymaint
 	name = "City Maintenance Office"
 
-/area/vtm/interior/citymaint/yard
+/area/vtm/sunnycoast/interior/citymaint/yard
 	name = "City Maintenance Yard"
 	outdoors = TRUE
 
-/area/vtm/interior/carwash
+/area/vtm/sunnycoast/interior/carwash
 	name = "Car Wash"
 
 /area/vtm/interior/vjanitor/junkyard
@@ -122,6 +133,22 @@
 
 /area/vtm/interior/vjanitor/junkyard/tunnels
 	name = "Junkyard Tunnels"
+	zone_type = ZONE_NO_MASQUERADE
+
+/area/vtm/sunnycoast/interior/arcade
+	name = "Arcade"
+
+/area/vtm/sunnycoast/interior/selfstorage
+	name = "Self Storage Units"
+
+/area/vtm/sunnycoast/interior/selfstorage/yard
+	name = "Self Storage Yard"
+
+/area/vtm/sunnycoast/interior/gym
+	name = "Gym"
+
+/area/vtm/sunnycoast/interior/blackmarket
+	name = "Chinatown Underground Market"
 
 // STREETS
 
@@ -132,6 +159,9 @@
 
 /area/vtm/sunnycoast/street/firstave
 	name = "1st Avenue - Main"
+
+/area/vtm/sunnycoast/street/firstave/outskirts
+	name = "1st Avenue - City Outskirts"
 
 /area/vtm/sunnycoast/street/thirdave
 	name = "3rd Avenue"
@@ -156,3 +186,100 @@
 
 /area/vtm/sunnycoast/street/tenthst
 	name = "10th Street"
+
+// TUNNELS
+
+/area/vtm/sunnycoast/interior/tunnel
+	name = "Tunnel"
+	ambience_index = AMBIENCE_CITY
+
+/area/vtm/sunnycoast/interior/tunnel/firstave
+	name = "1st Avenue - Northside Tunnel"
+
+/area/vtm/sunnycoast/interior/tunnel/firstave/south
+	name = "1st Avenue - Southside Tunnel"
+
+/area/vtm/sunnycoast/interior/tunnel/firstave/outskirts
+	name = "1st Avenue - City Outskirts Tunnel"
+
+/area/vtm/sunnycoast/interior/tunnel/railway
+	name = "Railway Tunnel"
+
+/area/vtm/sunnycoast/interior/tunnel/sixthst
+	name = "6th Street Tunnel"
+
+/area/vtm/sunnycoast/interior/tunnel/eighthst
+	name = "8th Street Tunnel"
+
+// THE FOREST STUFF
+
+/area/vtm/planetgeneration/sunnycoast
+	name = "Pacific Heights Forest"
+
+/area/vtm/sunnycoast/forest
+	name = "Pacific Heights Forest"
+	outdoors = TRUE
+	icon_state = "park"
+	ambience_index = AMBIENCE_NATURE
+	music_index = MUSIC_FOREST
+	zone_type = ZONE_NO_MASQUERADE
+
+/area/vtm/sunnycoast/interior/ranger
+	name = "NPS Ranger Station"
+	music_index = MUSIC_FOREST
+
+/area/vtm/sunnycoast/interior/cabin
+	name = "Rental Cabin"
+	music_index = MUSIC_FOREST
+
+/area/vtm/sunnycoast/interior/cave
+	name = "Pacific Heights Forest - Caves"
+	music_index = MUSIC_FOREST
+	sound_environment = SOUND_ENVIRONMENT_CAVE
+
+/area/vtm/sunnycoast/interior/cave/mineshaft
+	name = "Pacific Heights Forest - Condemned Mineshafts"
+	music_index = MUSIC_CAERN
+	ambience_index = AMBIENCE_NATURE
+	sound_environment = SOUND_ENVIRONMENT_CAVE
+
+// TZIM MANSION BUT LESS BREACHY AND WITH A COURTYARD SUBTYPE
+
+/area/vtm/sunnycoast/interior/oldmansion
+	name = "Heritage Listed Mansion"
+	icon_state = "old_clan_tzimisce"
+	ambience_index = AMBIENCE_OFFICE
+	music_index = MUSIC_SAFE
+
+/area/vtm/sunnycoast/interior/oldmansion/courtyard
+	name = "Heritage Listed Mansion - Courtyard"
+	outdoors = TRUE
+
+// THE CLUB I HAVENT RENAMED BECAUSE I NEED TO SPRITE A NEW SIGN
+
+/area/vtm/sunnycoast/interior/nightclub
+	name = "DORA Nightclub"
+	icon_state = "strip"
+	fire_controled = TRUE
+	domain = TRUE
+	musictracks = list('modular_darkpack/modules/ambience/sounds/music/strip_club.ogg')
+
+/area/vtm/sunnycoast/interior/nightclub/vip
+	name = "DORA Nightclub - Elysium Tier VIP Area"
+
+/area/vtm/sunnycoast/interior/nightclub/staff
+	name = "DORA Nightclub - Staff Area"
+
+// PARKING GARAGE
+
+/area/vtm/sunnycoast/interior/parking
+	name = "Parking Garage - Level 0"
+
+/area/vtm/sunnycoast/interior/parking/one
+	name = "Parking Garage - Level 1"
+
+/area/vtm/sunnycoast/interior/parking/two
+	name = "Parking Garage - Level 2"
+
+/area/vtm/sunnycoast/interior/parking/three
+	name = "Parking Garage - Level 3"
