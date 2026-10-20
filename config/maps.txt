@@ -57,6 +57,10 @@ endmap
 
 map westfieldmall
     votable
+endmap
+
+map sunnycoast
+    votable
     default
 endmap
 

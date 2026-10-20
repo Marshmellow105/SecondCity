@@ -223,7 +223,8 @@
 /obj/structure/fluff/sat_dish,
 /turf/open/floor/plating/sidewalk/poor{
 	color = "#bfbfbf"
-	})
+	},
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "aeW" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 5
@@ -364,7 +365,8 @@
 /area/vtm/interior/apartment)
 "ahH" = (
 /obj/effect/decal/shadow,
-/turf/open/floor/iron/solarpanel)
+/turf/open/floor/iron/solarpanel,
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "ahM" = (
 /obj/structure/roofstuff/alt1,
 /obj/effect/turf_decal/bordur/corner,
@@ -5417,6 +5419,9 @@
 /obj/machinery/light/red/directional/south,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/bianchiBank)
+"cbJ" = (
+/turf/open/openspace,
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "cbL" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -5553,7 +5558,8 @@
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/sidewalk/poor{
 	color = "#bfbfbf"
-	})
+	},
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "ceY" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /mob/living/carbon/human/npc/hobo,
@@ -7556,7 +7562,8 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "cSy" = (
-/turf/open/floor/plating/sidewalk/poor)
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "cSL" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 8
@@ -9776,7 +9783,8 @@
 /obj/effect/turf_decal/bordur/end{
 	dir = 1
 	},
-/turf/open/floor/plating/roofwalk)
+/turf/open/floor/plating/roofwalk,
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "dKk" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -14772,7 +14780,8 @@
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/sidewalk/poor{
 	color = "#bfbfbf"
-	})
+	},
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "fxM" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/landmark/start/darkpack/society_of_leopold/condittieri,
@@ -15186,7 +15195,8 @@
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/sidewalk/poor{
 	color = "#bfbfbf"
-	})
+	},
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "fEn" = (
 /turf/open/floor/city/factory,
 /area/vtm/interior/millennium_tower)
@@ -15747,7 +15757,8 @@
 /area/vtm/sunnycoast/motel/interior)
 "fPB" = (
 /obj/effect/turf_decal/bordur,
-/turf/open/floor/plating/sidewalk/poor)
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "fPD" = (
 /turf/open/water/beach,
 /area/vtm/sunnycoast/motel)
@@ -16325,7 +16336,8 @@
 /obj/effect/turf_decal/bordur/corner,
 /turf/open/floor/plating/sidewalk/poor{
 	color = "#bfbfbf"
-	})
+	},
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "gaJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/start/darkpack/anarch/sweeper,
@@ -18021,7 +18033,8 @@
 "gJJ" = (
 /obj/structure/roofstuff/alt2,
 /obj/effect/turf_decal/bordur/end,
-/turf/open/floor/plating/roofwalk)
+/turf/open/floor/plating/roofwalk,
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "gJQ" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -18032,7 +18045,8 @@
 /obj/effect/decal/shadow,
 /turf/open/floor/plating/sidewalk/poor{
 	color = "#bfbfbf"
-	})
+	},
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "gJY" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -21288,7 +21302,8 @@
 /obj/effect/turf_decal/bordur{
 	dir = 8
 	},
-/turf/open/floor/plating/sidewalk/poor)
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "igg" = (
 /obj/effect/turf_decal/siding/wood/dark/corner{
 	dir = 1
@@ -24045,7 +24060,8 @@
 /obj/effect/decal/shadow,
 /turf/open/floor/plating/sidewalk/poor{
 	color = "#bfbfbf"
-	})
+	},
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "jhW" = (
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/stone,
@@ -26785,7 +26801,8 @@
 /area/vtm/interior/millennium_tower)
 "kgH" = (
 /obj/effect/turf_decal/bordur/corner,
-/turf/open/floor/plating/sidewalk/poor)
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "kgK" = (
 /obj/effect/step_trigger/thrower{
 	direction = 4
@@ -28825,7 +28842,8 @@
 	},
 /turf/open/floor/plating/sidewalk/poor{
 	color = "#bfbfbf"
-	})
+	},
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "kSv" = (
 /obj/effect/turf_decal/darkpack/cave/corner{
 	dir = 4
@@ -32593,7 +32611,8 @@
 /obj/effect/turf_decal/bordur/corner{
 	dir = 8
 	},
-/turf/open/floor/plating/sidewalk/poor)
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "moQ" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 4
@@ -32818,7 +32837,8 @@
 /obj/effect/turf_decal/bordur{
 	dir = 4
 	},
-/turf/open/floor/plating/sidewalk/poor)
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "mtr" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
@@ -34414,7 +34434,8 @@
 	pixel_y = 24
 	},
 /obj/effect/decal/shadow,
-/turf/open/floor/plating/sidewalk/poor)
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "mUd" = (
 /obj/structure/arc/add{
 	dir = 4
@@ -34932,7 +34953,8 @@
 "ney" = (
 /turf/open/floor/plating/sidewalk/poor{
 	color = "#bfbfbf"
-	})
+	},
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "neI" = (
 /obj/effect/decal/pallet,
 /obj/machinery/light/small/directional/west{
@@ -36270,7 +36292,8 @@
 	},
 /turf/open/floor/plating/sidewalk/poor{
 	color = "#bfbfbf"
-	})
+	},
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "nAs" = (
 /obj/fusebox,
 /turf/open/floor/plating/rough,
@@ -37649,8 +37672,6 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/sunnycoast/interior/cabin)
-"nWo" = (
-/turf/open/openspace)
 "nWA" = (
 /obj/effect/landmark/start/darkpack/supply/tech,
 /turf/open/floor/plating/rough,
@@ -38990,7 +39011,8 @@
 /obj/effect/turf_decal/bordur{
 	dir = 1
 	},
-/turf/open/floor/plating/sidewalk/poor)
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "otQ" = (
 /obj/structure/toilet{
 	dir = 8;
@@ -40755,7 +40777,8 @@
 /turf/open/floor/carpet/darkpack/hotel,
 /area/vtm/interior/apartment)
 "pbp" = (
-/turf/open/floor/iron/solarpanel)
+/turf/open/floor/iron/solarpanel,
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "pbu" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 1
@@ -49572,7 +49595,8 @@
 /obj/effect/decal/shadow,
 /turf/open/floor/plating/sidewalk/poor{
 	color = "#bfbfbf"
-	})
+	},
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "spt" = (
 /obj/effect/decal/shadow,
 /obj/effect/turf_decal/bordur,
@@ -53554,7 +53578,8 @@
 /obj/effect/turf_decal/bordur/corner{
 	dir = 4
 	},
-/turf/open/floor/plating/sidewalk/poor)
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "tLq" = (
 /obj/structure/closet,
 /obj/machinery/light/small/directional/south,
@@ -62344,7 +62369,8 @@
 /obj/effect/turf_decal/bordur/corner{
 	dir = 1
 	},
-/turf/open/floor/plating/sidewalk/poor)
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "wXj" = (
 /obj/structure/chair/comfy/darkpack/red,
 /turf/open/floor/carpet/darkpack,
@@ -62774,7 +62800,8 @@
 	},
 /turf/open/floor/plating/sidewalk/poor{
 	color = "#bfbfbf"
-	})
+	},
+/area/vtm/sunnycoast/interior/citymaint/yard)
 "xeP" = (
 /obj/structure/chair/plastic/darkpack{
 	dir = 1
@@ -121291,15 +121318,15 @@ pnq
 pnq
 pnq
 pnq
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
 oMq
 oMq
 noy
@@ -121445,15 +121472,15 @@ pnq
 pnq
 pnq
 pnq
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
 oMq
 oMq
 noy
@@ -121599,15 +121626,15 @@ pnq
 pnq
 pnq
 pnq
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
 oMq
 oMq
 noy
@@ -121753,15 +121780,15 @@ pnq
 pnq
 pnq
 pnq
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
 oMq
 oMq
 noy
@@ -121907,15 +121934,15 @@ pnq
 pnq
 pnq
 pnq
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
 oMq
 oMq
 noy
@@ -122061,15 +122088,15 @@ pnq
 pnq
 pnq
 pnq
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
+oMq
+oMq
+oMq
+oMq
+oMq
+oMq
+oMq
+oMq
+oMq
 oMq
 oMq
 noy
@@ -122215,15 +122242,15 @@ pnq
 pnq
 pnq
 pnq
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
-ttI
+oMq
+oMq
+oMq
+oMq
+oMq
+oMq
+oMq
+oMq
+oMq
 oMq
 oMq
 noy
@@ -144700,15 +144727,15 @@ pnq
 pnq
 pnq
 pnq
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
 oMq
 oMq
 noy
@@ -144854,15 +144881,15 @@ pnq
 pnq
 pnq
 pnq
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
 oMq
 oMq
 noy
@@ -145008,15 +145035,15 @@ pnq
 pnq
 pnq
 pnq
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
 oMq
 oMq
 noy
@@ -145162,15 +145189,15 @@ pnq
 pnq
 pnq
 pnq
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
 oMq
 oMq
 noy
@@ -145316,15 +145343,15 @@ pnq
 pnq
 pnq
 pnq
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
-nWo
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
+cbJ
 oMq
 oMq
 noy
