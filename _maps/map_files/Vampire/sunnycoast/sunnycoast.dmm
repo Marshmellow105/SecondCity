@@ -622,8 +622,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/antique)
 "anl" = (
-/turf/closed/wall/vampwall/dirtywood,
-/area/vtm/planetgeneration/sunnycoast)
+/turf/closed/wall/vampwall/dirtywood)
 "ann" = (
 /obj/effect/turf_decal/siding/wood/dark/corner{
 	dir = 8
@@ -1176,6 +1175,10 @@
 	dir = 1
 	},
 /obj/structure/vampdoor/old,
+/obj/effect/mapping_helpers/door/access/police,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/mapping_helpers/door/bash_difficulty/eight,
+/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police)
 "axf" = (
@@ -2837,18 +2840,6 @@
 /obj/structure/hedge,
 /turf/open/floor/iron/dark,
 /area/vtm/interior/endron_facility/restricted)
-"bbW" = (
-/obj/effect/turf_decal/siding/wood/dark{
-	dir = 4
-	},
-/obj/structure/vampdoor/old{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/door/bash_difficulty/eight,
-/obj/effect/mapping_helpers/door/lock_difficulty/eight,
-/obj/effect/mapping_helpers/door/lock,
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior/police)
 "bcb" = (
 /turf/closed/wall/space,
 /area/vtm/outside/supply)
@@ -5090,7 +5081,10 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/sunnycoast/anarchmotel)
 "bVg" = (
-/turf/closed/indestructible/the_matrix,
+/obj/transfer_point_vamp{
+	id = "tunnel1"
+	},
+/turf/open/floor/plating/asphalt,
 /area/vtm/sunnycoast/interior/tunnel/firstave)
 "bVh" = (
 /obj/structure/table,
@@ -7493,7 +7487,8 @@
 /area/vtm/sunnycoast/interior/citymaint/yard)
 "cRH" = (
 /obj/machinery/light/floor/lamppost/sidewalk/chinese{
-	dir = 1
+	dir = 1;
+	density = 0
 	},
 /obj/structure/sign/city/chinese/alt2/directional/east,
 /obj/effect/decal/cleanable/litter,
@@ -7733,6 +7728,12 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/sunnycoast/marina)
+"cVz" = (
+/obj/transfer_point_vamp{
+	id = "tunnel3"
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm/sunnycoast/interior/tunnel/firstave)
 "cVD" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -11880,6 +11881,10 @@
 /area/vtm/sunnycoast/marina)
 "ewO" = (
 /obj/structure/vampdoor/woodglass,
+/obj/effect/mapping_helpers/door/access/police,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/mapping_helpers/door/bash_difficulty/eight,
+/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "ewQ" = (
@@ -14746,6 +14751,16 @@
 /obj/effect/landmark/start/darkpack/hecata/nonni,
 /turf/open/floor/city/factory,
 /area/vtm/interior/bianchiBank)
+"fwi" = (
+/obj/effect/turf_decal/siding/grey{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/grey,
+/obj/machinery/door/airlock/elevator/multi_tile{
+	transport_linked_id = "SFPD"
+	},
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/police)
 "fwM" = (
 /obj/effect/turf_decal/bordur/end,
 /obj/structure/roofstuff/alt2,
@@ -14956,6 +14971,7 @@
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/access/cleaning,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /obj/structure/vampipe{
 	icon_state = "piping32"
 	},
@@ -17502,15 +17518,6 @@
 "gAd" = (
 /turf/cordon/secret,
 /area/misc/cordon)
-"gAe" = (
-/obj/effect/turf_decal/bordur{
-	dir = 8
-	},
-/obj/structure/railing/corner/end{
-	dir = 8
-	},
-/turf/open/floor/plating/sidewalk,
-/area/vtm/sunnycoast/marina)
 "gAg" = (
 /obj/structure/chair/office/darkpack/green{
 	dir = 1
@@ -18551,6 +18558,7 @@
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/access/cleaning,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
 "gWY" = (
@@ -21537,9 +21545,6 @@
 /area/vtm/sunnycoast/street/eighthst)
 "ikj" = (
 /obj/structure/platform/lowwall/market,
-/obj/structure/railing{
-	dir = 1
-	},
 /obj/structure/table,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/sunnycoast/marina)
@@ -31997,6 +32002,10 @@
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
 	},
+/obj/effect/mapping_helpers/door/access/police,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/mapping_helpers/door/bash_difficulty/eight,
+/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "mcE" = (
@@ -32960,6 +32969,7 @@
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/access/cleaning,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /obj/structure/vampipe{
 	icon_state = "piping35"
 	},
@@ -33704,6 +33714,12 @@
 /obj/effect/turf_decal/asphalt,
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/supply)
+"mIN" = (
+/obj/transfer_point_vamp{
+	id = "tunnel4"
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm/sunnycoast/interior/tunnel/firstave)
 "mIR" = (
 /obj/structure/chair/comfy/darkpack/red{
 	dir = 8
@@ -34352,7 +34368,7 @@
 /area/vtm/sunnycoast/interior/gym)
 "mSJ" = (
 /obj/machinery/light/floor/lamppost/sidewalk/chinese{
-	dir = 4
+	density = 0
 	},
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/plating/sidewalkalt,
@@ -35073,6 +35089,10 @@
 /obj/structure/vampdoor/woodglass{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/door/access/police,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/mapping_helpers/door/bash_difficulty/eight,
+/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "ngM" = (
@@ -36231,7 +36251,9 @@
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/sunnycoast/heritage/italy)
 "nzx" = (
-/obj/structure/bookcase/random/nonfiction,
+/obj/structure/bookcase/random/nonfiction{
+	density = 0
+	},
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
 	},
@@ -37266,7 +37288,7 @@
 /area/vtm/sunnycoast/street/seventhave)
 "nPM" = (
 /turf/open/genturf,
-/area/vtm/planetgeneration/sunnycoast)
+/area/vtm/planetgeneration/woodland/sunnycoast)
 "nPQ" = (
 /turf/open/floor/carpet/darkpack/hotel,
 /area/vtm/sunnycoast/anarchmotel/interior)
@@ -39187,6 +39209,7 @@
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/access/cleaning,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /obj/structure/vampipe{
 	icon_state = "piping32"
 	},
@@ -39858,6 +39881,10 @@
 /obj/structure/vampdoor/woodglass{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/door/access/police,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/mapping_helpers/door/bash_difficulty/eight,
+/obj/effect/mapping_helpers/door/unlock,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "oIR" = (
@@ -40068,6 +40095,10 @@
 /area/vtm/interior/millennium_tower/f3)
 "oME" = (
 /obj/structure/vampdoor/wood,
+/obj/effect/mapping_helpers/door/access/police,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/mapping_helpers/door/bash_difficulty/eight,
+/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "oMG" = (
@@ -41202,6 +41233,7 @@
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/access/cleaning,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /obj/structure/vampipe{
 	icon_state = "piping35"
 	},
@@ -42302,6 +42334,15 @@
 /obj/effect/landmark/start/darkpack/primogen/malkavian,
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/millennium_tower/f2)
+"pAP" = (
+/obj/effect/turf_decal/asphaltline/alt/offset{
+	dir = 4
+	},
+/obj/darkpack_car/police/unmarked{
+	dir = 1
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm/sunnycoast/marina)
 "pBm" = (
 /obj/structure/sink/directional/south,
 /obj/structure/mirror/directional/north,
@@ -42419,6 +42460,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /obj/effect/mapping_helpers/door/bash_difficulty/eight,
 /obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/access/police_secure,
 /turf/open/floor/city/factory,
 /area/vtm/interior/police)
 "pCJ" = (
@@ -44125,6 +44167,12 @@
 /obj/effect/mapping_helpers/door/access/strip,
 /turf/open/floor/city/plating_mono,
 /area/vtm/sunnycoast/interior/nightclub)
+"qlu" = (
+/obj/transfer_point_vamp{
+	id = "tunnel5"
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm/sunnycoast/interior/tunnel/firstave)
 "qlB" = (
 /obj/structure/platform/lowwall/rich/window,
 /turf/open/floor/city/plating,
@@ -47192,10 +47240,6 @@
 "rxi" = (
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/sunnycoast/heritage)
-"rxm" = (
-/obj/effect/decal/graffiti/large,
-/turf/open/openspace,
-/area/vtm/sunnycoast/anarchmotel/interior)
 "rxw" = (
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/sunnycoast/heritage)
@@ -48010,7 +48054,7 @@
 	dir = 8
 	},
 /obj/machinery/light/floor/lamppost/sidewalk/chinese{
-	dir = 4
+	density = 0
 	},
 /obj/structure/trad{
 	pixel_y = 24
@@ -48369,6 +48413,10 @@
 "rUg" = (
 /turf/closed/wall/vampwall/dirtywood,
 /area/vtm/sunnycoast/interior/cave/mineshaft)
+"rUm" = (
+/obj/effect/decal/graffiti/large,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/sunnycoast/anarchmotel/interior)
 "rUn" = (
 /obj/effect/decal/shadow,
 /turf/open/floor/iron/solarpanel,
@@ -51556,7 +51604,9 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/library)
 "tcv" = (
-/obj/machinery/light/floor/lamppost/sidewalk/chinese,
+/obj/machinery/light/floor/lamppost/sidewalk/chinese{
+	density = 0
+	},
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/sunnycoast/heritage/china)
@@ -55688,6 +55738,12 @@
 	},
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/wyrm_corrupted)
+"uzH" = (
+/obj/transfer_point_vamp{
+	id = "tunnel2"
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm/sunnycoast/interior/tunnel/firstave)
 "uzJ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/graffiti/large,
@@ -58123,6 +58179,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /obj/effect/mapping_helpers/door/bash_difficulty/eight,
 /obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/access/police_captain,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "vpJ" = (
@@ -60930,20 +60987,6 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
-"wsi" = (
-/obj/structure/rack/clothing/rand{
-	dir = 4;
-	pixel_y = 20;
-	density = 0
-	},
-/obj/item/clothing/neck/cloak/wolf_coat{
-	pixel_y = 19
-	},
-/obj/item/clothing/neck/cloak/wolf_coat{
-	pixel_y = 19
-	},
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior/shop/camping_store)
 "wsk" = (
 /obj/effect/turf_decal/darkpack/dirt/corner{
 	dir = 8
@@ -60983,7 +61026,8 @@
 /area/vtm)
 "wsR" = (
 /obj/machinery/light/floor/lamppost/sidewalk/chinese{
-	dir = 1
+	dir = 1;
+	density = 0
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/sunnycoast/heritage/china)
@@ -65571,6 +65615,10 @@
 "ygh" = (
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/structure/vampdoor/wood,
+/obj/effect/mapping_helpers/door/access/police,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/mapping_helpers/door/bash_difficulty/eight,
+/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "ygn" = (
@@ -66282,10 +66330,10 @@ grd
 dFC
 ehU
 bZz
-wRb
+fRH
 dpQ
 qvO
-xJI
+fwi
 xro
 oEs
 ogk
@@ -66436,7 +66484,7 @@ uNd
 rFg
 rFg
 jcn
-wRb
+fRH
 phV
 qvO
 xJI
@@ -68609,7 +68657,7 @@ uzO
 rcv
 xdi
 ckz
-ckz
+rUm
 ckz
 pvp
 pZf
@@ -89694,7 +89742,7 @@ fRH
 fRH
 rjb
 rjb
-xJI
+fwi
 xro
 jwx
 ogk
@@ -89857,7 +89905,7 @@ rbN
 mqh
 top
 eae
-vzN
+pAP
 vzN
 tJv
 kAG
@@ -92019,7 +92067,7 @@ fRH
 qvT
 bWK
 pZf
-rxm
+mYb
 mYb
 lCJ
 xQG
@@ -92572,7 +92620,7 @@ tbC
 tbC
 yhr
 vqE
-egk
+vqE
 egk
 vqE
 gEd
@@ -92817,7 +92865,7 @@ gAd
 "}
 (24,1,2) = {"
 gAd
-bVg
+uzH
 suj
 suj
 fHi
@@ -92971,7 +93019,7 @@ gAd
 "}
 (25,1,2) = {"
 gAd
-bVg
+cVz
 uZc
 uZc
 hAq
@@ -93125,7 +93173,7 @@ gAd
 "}
 (26,1,2) = {"
 gAd
-bVg
+mIN
 tyi
 suj
 fHi
@@ -93279,7 +93327,7 @@ gAd
 "}
 (27,1,2) = {"
 gAd
-bVg
+qlu
 hlY
 aBZ
 ikF
@@ -94767,7 +94815,7 @@ ijY
 eTg
 hZo
 jhy
-wsi
+aqR
 vSf
 vSf
 pkU
@@ -102316,7 +102364,7 @@ fFD
 fFD
 fFD
 fFD
-gAe
+fFD
 fFD
 fFD
 cmC
@@ -113103,7 +113151,7 @@ xAD
 fRH
 rjb
 rjb
-xJI
+fwi
 xro
 oEs
 ogk
@@ -114416,7 +114464,7 @@ xtp
 xtp
 dUp
 hnk
-uHj
+qGl
 rFJ
 pbn
 gaM
@@ -114434,7 +114482,7 @@ kky
 gaM
 czG
 rFJ
-uHj
+qGl
 omR
 omR
 omR
@@ -114570,7 +114618,7 @@ ccn
 ccn
 mof
 hnk
-uHj
+qGl
 rFJ
 mzJ
 dVF
@@ -114588,7 +114636,7 @@ dVF
 dVF
 xVM
 rFJ
-uHj
+qGl
 omR
 omR
 omR
@@ -114946,7 +114994,7 @@ fRH
 fRH
 fRH
 fRH
-bbW
+owS
 fRH
 fRH
 fRH
@@ -137825,7 +137873,7 @@ oMq
 oMq
 oMq
 oMq
-uHj
+qGl
 rFJ
 pbn
 gaM
@@ -137843,7 +137891,7 @@ kky
 gaM
 czG
 rFJ
-uHj
+qGl
 omR
 omR
 omR
@@ -137979,7 +138027,7 @@ oMq
 oMq
 oMq
 oMq
-uHj
+qGl
 rFJ
 mzJ
 dVF
@@ -137997,7 +138045,7 @@ dVF
 dVF
 xVM
 rFJ
-uHj
+qGl
 omR
 omR
 omR
@@ -160575,7 +160623,7 @@ gws
 gws
 suj
 tyi
-bVg
+uzH
 gAd
 "}
 (8,1,5) = {"
@@ -160729,7 +160777,7 @@ boq
 boq
 cDp
 cDp
-bVg
+cVz
 gAd
 "}
 (9,1,5) = {"
@@ -160883,7 +160931,7 @@ lvh
 gws
 suj
 suj
-bVg
+mIN
 gAd
 "}
 (10,1,5) = {"
@@ -161037,7 +161085,7 @@ lTe
 dhS
 ckV
 bnE
-bVg
+qlu
 gAd
 "}
 (11,1,5) = {"

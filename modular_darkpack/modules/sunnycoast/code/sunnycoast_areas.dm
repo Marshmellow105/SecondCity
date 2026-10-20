@@ -213,7 +213,7 @@
 
 // THE FOREST STUFF
 
-/area/vtm/planetgeneration/sunnycoast
+/area/vtm/planetgeneration/woodland/sunnycoast
 	name = "Pacific Heights Forest"
 
 /area/vtm/sunnycoast/forest
