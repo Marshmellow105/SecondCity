@@ -31,14 +31,8 @@
 /area/vtm/sunnycoast/heritage/italy
 	name = "Heritage District - Little Italy"
 
-/area/vtm/sunnycoast/heritage/italy/apartment
-	name = "Heritage District - Little Italy Apartments"
-
 /area/vtm/sunnycoast/heritage/china
 	name = "Heritage District - Chinatown"
-
-/area/vtm/sunnycoast/heritage/china/apartment
-	name = "Heritage District - Chinatown Apartments"
 
 /area/vtm/sunnycoast/commerce
 	name = "Commerce District"
@@ -112,6 +106,12 @@
 /area/vtm/interior/apartment/penthouse
 	name = "Millenium Apartments - Landlord's Club Penthouse"
 
+/area/vtm/interior/apartment/italy
+	name = "Heritage District - Little Italy Apartments"
+
+/area/vtm/interior/apartment/china
+	name = "Heritage District - Chinatown Apartments"
+
 // MISC
 
 /area/vtm/sunnycoast/interior/carwash
@@ -149,6 +149,9 @@
 
 /area/vtm/sunnycoast/interior/blackmarket
 	name = "Chinatown Underground Market"
+
+/area/vtm/sunnycoast/interior/rednews
+	name = "Red News Office"
 
 // STREETS
 

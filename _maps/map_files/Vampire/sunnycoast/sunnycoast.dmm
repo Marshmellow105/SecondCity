@@ -180,7 +180,7 @@
 	},
 /obj/effect/decal/cleanable/ash,
 /turf/open/floor/city/gummaguts,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "adK" = (
 /obj/effect/turf_decal/darkpack/rough/corner{
 	dir = 1
@@ -411,7 +411,7 @@
 	pixel_y = 15
 	},
 /turf/open/floor/plating/rough,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "ais" = (
 /obj/structure/dresser,
 /turf/open/floor/wood/smooth/old,
@@ -1219,7 +1219,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "awR" = (
 /obj/effect/turf_decal/siding/wood/dark,
 /turf/open/floor/wood/smooth/old,
@@ -1388,7 +1388,7 @@
 "aAi" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "aAB" = (
 /obj/structure/flora/rock/darkpack_big{
 	density = 0
@@ -1581,7 +1581,7 @@
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/structure/noticeboard/directional/north,
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "aDQ" = (
 /obj/structure/vampipe{
 	icon_state = "piping3"
@@ -1799,7 +1799,7 @@
 /area/vtm/interior/supply)
 "aHH" = (
 /turf/open/floor/city/plating_mono,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "aHJ" = (
 /obj/structure/rack/clothing/rand{
 	dir = 4;
@@ -1830,7 +1830,7 @@
 /area/vtm/sunnycoast/heritage)
 "aHW" = (
 /turf/open/floor/carpet/darkpack/bluesilver,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "aHZ" = (
 /obj/structure/chair/sofa/middle/brown{
 	color = "#6d281e";
@@ -2475,7 +2475,7 @@
 /obj/effect/decal/wallpaper/stone/low,
 /obj/structure/platform/lowwall/brick/window,
 /turf/open/floor/plating/rough,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "aSH" = (
 /turf/open/water/beach/vamp/deep,
 /area/vtm/sunnycoast/marina)
@@ -2698,7 +2698,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "aWx" = (
 /obj/effect/turf_decal/siding/beige,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3088,7 +3088,7 @@
 	name = "video camera"
 	},
 /turf/open/floor/wood/smooth,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "bet" = (
 /obj/effect/turf_decal/asphaltline/alt,
 /obj/effect/turf_decal/asphaltline,
@@ -3260,7 +3260,7 @@
 	color = "#6d281e"
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "bhd" = (
 /obj/structure/roofstuff/alt1,
 /turf/open/floor/plating/sidewalkalt,
@@ -3357,7 +3357,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "biE" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 1
@@ -3573,7 +3573,7 @@
 "bnu" = (
 /obj/structure/chair/stool/bar/darkpack/green,
 /turf/open/floor/wood/herring,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "bnB" = (
 /obj/item/flashlight/flare/candle/infinite,
 /obj/effect/decal/cleanable/cobweb/cobweb2{
@@ -4240,7 +4240,7 @@
 /obj/structure/bed,
 /obj/effect/spawner/random/bedsheet/any,
 /turf/open/floor/carpet/green,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "bAY" = (
 /obj/structure/table/no_smooth/modular_desk/right,
 /obj/item/folder/yellow{
@@ -4275,7 +4275,7 @@
 	dir = 4
 	},
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "bBD" = (
 /obj/effect/turf_decal/stripes/asteroid/line,
 /obj/effect/turf_decal/stripes/asteroid/line{
@@ -4356,7 +4356,7 @@
 "bCU" = (
 /obj/effect/decal/cleanable/ash,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "bDk" = (
 /obj/item/plate/small{
 	pixel_y = 4
@@ -4479,7 +4479,7 @@
 "bFC" = (
 /obj/effect/decal/carpet,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "bFU" = (
 /obj/item/stack/dollar/rand,
 /obj/effect/decal/cleanable/dirt,
@@ -4549,7 +4549,7 @@
 "bHn" = (
 /obj/effect/decal/wallpaper/blue,
 /turf/closed/wall/vampwall/painted,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "bHO" = (
 /obj/effect/turf_decal/siding/grey,
 /obj/structure/railing/corner{
@@ -4568,7 +4568,7 @@
 "bIn" = (
 /obj/machinery/oven/range,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "bIv" = (
 /obj/structure/platform/lowwall/rich/old,
 /obj/structure/hedge{
@@ -4589,7 +4589,7 @@
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/sunnycoast/heritage/china)
 "bIM" = (
-/obj/structure/closet/secure_closet/freezer/fridge/all_access,
+/obj/structure/closet/secure_closet/freezer/empty,
 /obj/item/reagent_containers/cup/soda_cans/grey_bull,
 /obj/item/reagent_containers/cup/soda_cans/grey_bull,
 /obj/effect/decal/wallpaper/papers/random{
@@ -4834,7 +4834,7 @@
 	pixel_x = 10
 	},
 /turf/open/floor/wood/herring,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "bNr" = (
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 10
@@ -5083,7 +5083,7 @@
 	},
 /obj/effect/decal/wallpaper/paper/stripe/low,
 /turf/open/floor/plating/rough,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "bRF" = (
 /obj/effect/decal/wallpaper/stone/low/tilt{
 	dir = 8
@@ -5111,7 +5111,7 @@
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/structure/methlab,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "bSa" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 8
@@ -5180,7 +5180,7 @@
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "bTA" = (
 /obj/effect/turf_decal/weather/snow,
 /turf/open/floor/iron/freezer,
@@ -5224,7 +5224,7 @@
 	density = 0
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "bTW" = (
 /obj/structure/chair/plastic/darkpack,
 /obj/effect/turf_decal/bordur{
@@ -5611,7 +5611,7 @@
 /obj/item/clothing/suit/armor/vest/press,
 /obj/item/clothing/head/helmet/press,
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "cbC" = (
 /obj/structure/roadsign/speedlimit,
 /turf/open/floor/plating/rough,
@@ -5762,7 +5762,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plating/rough,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "ceU" = (
 /obj/effect/decal/shadow,
 /obj/effect/turf_decal/bordur,
@@ -6048,7 +6048,7 @@
 /obj/effect/decal/rugs,
 /obj/effect/decal/shadow,
 /turf/open/floor/city/plating_mono,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "ckH" = (
 /obj/structure/vampdoor/wood,
 /obj/effect/mapping_helpers/door/access/kiasyd,
@@ -6124,7 +6124,7 @@
 "clX" = (
 /obj/structure/table/no_smooth/modular_desk,
 /turf/open/floor/carpet/darkpack/bluesilver,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "cma" = (
 /turf/open/floor/plating/stone,
 /area/vtm/outside/pacificheights/forest)
@@ -6275,7 +6275,7 @@
 	pixel_y = 9
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "coH" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 4
@@ -6451,7 +6451,7 @@
 /obj/structure/vampdoor/wood,
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /turf/open/floor/wood/herring,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "csA" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -6543,7 +6543,7 @@
 /obj/structure/broken_flooring/plating,
 /obj/structure/mirror/broken/directional/north,
 /turf/open/floor/city/gummaguts,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "cuo" = (
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /obj/effect/mapping_helpers/door/access/chantry,
@@ -6597,7 +6597,7 @@
 /turf/open/floor/plating/concrete{
 	icon_state = "canal_concrete"
 	},
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "cvC" = (
 /obj/structure/closet/crate/freezer/food,
 /turf/open/misc/dirt,
@@ -6659,7 +6659,7 @@
 	pixel_y = 15
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "cwe" = (
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
@@ -6804,7 +6804,7 @@
 "czk" = (
 /obj/effect/turf_decal/siding/wood/dark,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "czm" = (
 /obj/structure/arc/add{
 	dir = 8
@@ -7117,7 +7117,7 @@
 /obj/item/clothing/under/vampire/fancy_red,
 /obj/item/clothing/shoes/vampire,
 /turf/open/floor/carpet/green,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "cEz" = (
 /obj/effect/turf_decal/trimline/dark_green/corner{
 	dir = 8
@@ -7356,7 +7356,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "cJh" = (
 /obj/effect/decal/shadow,
 /turf/open/floor/iron/solarpanel,
@@ -7406,7 +7406,7 @@
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "cKg" = (
 /obj/structure/bath,
 /obj/item/reagent_containers/cup/glass/baggie/meth,
@@ -8808,7 +8808,7 @@
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "dkX" = (
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/wood/smooth/old,
@@ -8829,7 +8829,7 @@
 "dlJ" = (
 /obj/effect/decal/wallpaper/stone/low,
 /turf/closed/wall/vampwall/market,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "dmf" = (
 /obj/machinery/light/red/directional/east{
 	pixel_y = 16
@@ -9036,7 +9036,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "dqD" = (
 /obj/effect/step_trigger/thrower{
 	direction = 1
@@ -9314,7 +9314,7 @@
 	},
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "dvF" = (
 /obj/structure/vampstatue,
 /turf/open/floor/plating/granite/black,
@@ -9427,7 +9427,7 @@
 	pixel_x = 7
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "dxv" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/city/bacotell,
@@ -10006,7 +10006,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/green,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "dIV" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 8
@@ -10992,7 +10992,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "dZM" = (
 /obj/structure/fence{
 	dir = 4
@@ -11002,7 +11002,7 @@
 /area/vtm/outside/pacificheights/industrial)
 "dZQ" = (
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "dZV" = (
 /obj/structure/flora/bush/fullgrass/style_random,
 /obj/effect/mine/stick,
@@ -11193,7 +11193,7 @@
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "edq" = (
 /obj/effect/turf_decal/siding/grey/inner_corner{
 	dir = 1
@@ -11326,7 +11326,7 @@
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
 /obj/item/storage/box/ingredients/random,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "egK" = (
 /obj/structure/platform/lowwall/brick/window/reinforced,
 /turf/open/floor/plating/granite/black,
@@ -11359,7 +11359,7 @@
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/city/plating_mono,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "ehv" = (
 /obj/effect/turf_decal/asphaltline/alt/offset{
 	dir = 4
@@ -11602,7 +11602,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "eks" = (
 /obj/structure/chair/office/darkpack/red{
 	dir = 1
@@ -12213,7 +12213,7 @@
 	pixel_y = 5
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "evW" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 4
@@ -12832,7 +12832,7 @@
 /obj/structure/chair/office/darkpack/blue,
 /obj/effect/landmark/start/darkpack/citizen/red_news,
 /turf/open/floor/carpet/darkpack/bluesilver,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "eGU" = (
 /obj/structure/vampfence/rich{
 	dir = 4;
@@ -12931,14 +12931,14 @@
 /area/vtm/interior/sewer)
 "eIz" = (
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "eIH" = (
 /obj/structure/bed,
 /obj/effect/spawner/random/bedsheet/any{
 	dir = 1
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "eIP" = (
 /obj/effect/turf_decal/darkpack/rough/corner,
 /obj/effect/turf_decal/darkpack/rough/corner{
@@ -13382,7 +13382,7 @@
 	},
 /obj/structure/coclock,
 /turf/open/floor/carpet/green,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "eQb" = (
 /obj/effect/turf_decal/darkpack/rough/corner,
 /obj/effect/turf_decal/darkpack/dirt/corner{
@@ -14469,11 +14469,11 @@
 	pixel_x = -11
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "fkp" = (
 /obj/structure/table/countertop/yellow,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "fks" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -14897,7 +14897,7 @@
 /obj/structure/table/countertop/red,
 /obj/structure/sink/basin/directional/north,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "frU" = (
 /obj/effect/turf_decal/bordur{
 	dir = 5
@@ -14953,7 +14953,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "fsN" = (
 /obj/effect/decal/kopatich,
 /turf/open/floor/wood/smooth/old,
@@ -15158,7 +15158,7 @@
 	},
 /obj/structure/platform/lowwall/brick/window,
 /turf/open/floor/plating/rough,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "fvX" = (
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
@@ -15537,7 +15537,7 @@
 /obj/item/food/grown/tomato,
 /obj/item/storage/box/ingredients/random,
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "fDv" = (
 /obj/structure/chair/plastic/darkpack{
 	dir = 1
@@ -15913,7 +15913,7 @@
 /area/vtm/sunnycoast/anarchmotel)
 "fJE" = (
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "fJK" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/city/plating_mono,
@@ -16603,7 +16603,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "fWn" = (
 /obj/vampgrave{
 	max_zombies_per_grave = 0
@@ -17238,7 +17238,7 @@
 	pixel_x = 9
 	},
 /turf/open/floor/carpet/green,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "gkA" = (
 /obj/structure/curtain/cloth/fancy{
 	pixel_y = 8
@@ -17683,7 +17683,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "gsU" = (
 /obj/structure/platform/lowwall/city/window,
 /obj/structure/curtain/bounty{
@@ -17691,7 +17691,7 @@
 	},
 /obj/effect/decal/wallpaper/paper/low,
 /turf/open/floor/plating/rough,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "gsV" = (
 /obj/structure/closet/cabinet,
 /obj/machinery/light/small/directional/north,
@@ -18376,7 +18376,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/green,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "gGQ" = (
 /obj/machinery/hydroponics/simple/wooden,
 /obj/structure/spacevine{
@@ -18411,7 +18411,7 @@
 /obj/structure/table/wood,
 /obj/structure/sink/basin/directional/east,
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "gHF" = (
 /obj/effect/turf_decal/siding/beige{
 	dir = 8
@@ -18960,7 +18960,7 @@
 	},
 /obj/effect/landmark/start/darkpack/citizen/red_news,
 /turf/open/floor/city/plating_mono,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "gUj" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 4
@@ -19177,7 +19177,7 @@
 /obj/structure/table/wood,
 /obj/machinery/microwave,
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "hah" = (
 /obj/machinery/light/small/directional/west{
 	pixel_y = 16
@@ -19417,7 +19417,7 @@
 	pixel_x = -5
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "hgf" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -19836,7 +19836,7 @@
 "hpQ" = (
 /obj/effect/decal/wallpaper/paint/green,
 /turf/closed/wall/vampwall/painted,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "hqc" = (
 /obj/effect/turf_decal/darkpack/rough,
 /turf/open/misc/dirt,
@@ -19881,7 +19881,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "hqH" = (
 /obj/effect/turf_decal/darkpack/rough/corner{
 	dir = 1
@@ -20157,7 +20157,7 @@
 /obj/machinery/light/small/directional/south,
 /obj/structure/bookcase/random/nonfiction,
 /turf/open/floor/wood/herring,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "hvb" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
@@ -20980,7 +20980,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/wood/smooth,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "hMB" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 8
@@ -21262,7 +21262,7 @@
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
 /obj/item/storage/box/methdealer,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "hSg" = (
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/city/clinic,
@@ -21690,7 +21690,7 @@
 /obj/structure/chair/office/darkpack/blue,
 /obj/effect/landmark/start/darkpack/citizen/red_news,
 /turf/open/floor/wood/smooth,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "ibo" = (
 /turf/closed/wall/vampwall/market,
 /area/vtm/interior/shop/hardware_store)
@@ -21707,7 +21707,7 @@
 	},
 /obj/structure/platform/lowwall/painted/window,
 /turf/open/floor/plating/rough,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "ibO" = (
 /obj/structure/roofstuff/vent/autotiling,
 /turf/open/floor/plating/roofwalk,
@@ -21741,7 +21741,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "idh" = (
 /obj/structure/fence{
 	dir = 4
@@ -22373,7 +22373,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "ipc" = (
 /obj/effect/turf_decal/darkpack/dirt/corner{
 	dir = 4
@@ -22413,7 +22413,7 @@
 /obj/effect/decal/cleanable/gasoline,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "iqw" = (
 /obj/structure/chair/office/darkpack/black,
 /mob/living/carbon/human/npc/walkby/club,
@@ -22531,7 +22531,7 @@
 	pixel_x = -5
 	},
 /turf/open/floor/carpet/darkpack/bluesilver,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "irE" = (
 /obj/machinery/computer/security/telescreen/entertainment/directional/north,
 /turf/open/floor/plating/concrete,
@@ -23058,7 +23058,7 @@
 	pixel_x = 7
 	},
 /turf/open/floor/city/plating_mono,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "iDi" = (
 /obj/machinery/light/directional/east{
 	pixel_y = 16
@@ -23152,7 +23152,7 @@
 /obj/effect/spawner/random/bedsheet/any,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/carpet/green,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "iEX" = (
 /obj/machinery/light/small/directional/north,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -23202,7 +23202,7 @@
 	},
 /obj/structure/hedge,
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "iGG" = (
 /obj/effect/decal/cleanable/trash/big,
 /turf/open/floor/plating/concrete,
@@ -23269,7 +23269,7 @@
 	broken = 1
 	},
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "iIf" = (
 /turf/closed/wall/vampwall/brick_old,
 /area/vtm/outside/supply)
@@ -23549,7 +23549,7 @@
 "iMU" = (
 /obj/effect/decal/rugs,
 /turf/open/floor/city/plating_mono,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "iNa" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood/smooth/old,
@@ -23972,7 +23972,7 @@
 	pixel_x = -7
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "iTP" = (
 /obj/effect/turf_decal/bordur/corner,
 /obj/structure/railing,
@@ -24043,7 +24043,7 @@
 /area/vtm/sunnycoast/interior/parking/three)
 "iVo" = (
 /turf/open/floor/wood/herring,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "iVB" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 4
@@ -24181,7 +24181,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/herring,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "iXM" = (
 /obj/structure/flora/bush/reed/style_random,
 /turf/open/water/beach/vamp,
@@ -24216,7 +24216,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "iYY" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/concrete,
@@ -24728,7 +24728,7 @@
 "jic" = (
 /obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "jid" = (
 /turf/closed/wall/vampwall/city,
 /area/vtm/interior/shop/antique)
@@ -25511,7 +25511,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/six,
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "jud" = (
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
@@ -25899,6 +25899,12 @@
 "jAp" = (
 /turf/closed/wall/vampwall/brick_old,
 /area/vtm/interior/shop/red_dragon)
+"jAs" = (
+/mob/living/carbon/human/npc/police/static{
+	dir = 4
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm/sunnycoast/interior/parking/three)
 "jAy" = (
 /obj/darkpack_car/rand,
 /obj/effect/turf_decal/asphalt,
@@ -25912,7 +25918,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "jAO" = (
 /obj/structure/fireplace,
 /turf/open/floor/wood/smooth/old,
@@ -26597,7 +26603,7 @@
 /obj/structure/bed,
 /obj/effect/spawner/random/bedsheet/any,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "jNJ" = (
 /turf/open/water,
 /area/vtm)
@@ -26849,7 +26855,7 @@
 "jRB" = (
 /obj/effect/turf_decal/siding/wood/dark,
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "jRH" = (
 /obj/structure/railing/wooden_fence,
 /turf/open/floor/plating/sidewalkalt,
@@ -27158,7 +27164,7 @@
 /obj/structure/table/countertop/black,
 /obj/structure/sink/basin/directional/north,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "jXI" = (
 /obj/structure/coclock,
 /obj/machinery/camera/autoname/directional/north{
@@ -27741,7 +27747,7 @@
 	pixel_x = -12
 	},
 /turf/open/floor/city/plating_mono,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "kjB" = (
 /obj/effect/decal/wallpaper/stone/low/tilt{
 	dir = 8
@@ -28032,7 +28038,7 @@
 /obj/structure/table/countertop/black,
 /obj/machinery/microwave,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "koh" = (
 /obj/structure/chair/comfy/darkpack/dark{
 	dir = 4
@@ -28151,7 +28157,7 @@
 /obj/effect/decal/cleanable/ash,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "kqN" = (
 /obj/effect/turf_decal/trimline/dark_green/line,
 /turf/open/floor/city/plating,
@@ -28223,7 +28229,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/city/plating_mono,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "ksF" = (
 /obj/effect/turf_decal/siding/grey/inner_corner{
 	dir = 8
@@ -28236,7 +28242,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "ksS" = (
 /obj/effect/turf_decal/bordur,
 /obj/effect/turf_decal/bordur{
@@ -28744,7 +28750,7 @@
 /obj/structure/table,
 /obj/effect/decal/rugs,
 /turf/open/floor/city/plating_mono,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "kBV" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
@@ -29335,7 +29341,7 @@
 "kMu" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "kMG" = (
 /obj/effect/decal/painting/second{
 	pixel_y = 32
@@ -29733,7 +29739,7 @@
 /obj/effect/decal/cleanable/gasoline,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "kTB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/darkpack/sand{
@@ -30195,7 +30201,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plating/rough,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "lbo" = (
 /obj/effect/turf_decal/bordur,
 /obj/effect/turf_decal/bordur{
@@ -30329,7 +30335,7 @@
 /obj/structure/table/wood,
 /obj/structure/sink/basin/directional/east,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "ldq" = (
 /obj/structure/bath,
 /turf/open/floor/city/gummaguts,
@@ -30443,7 +30449,7 @@
 "lfs" = (
 /obj/structure/bookcase/random/nonfiction,
 /turf/open/floor/wood/herring,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "lfy" = (
 /obj/effect/turf_decal/asphalt,
 /turf/open/floor/plating/asphalt,
@@ -30520,7 +30526,7 @@
 "lgL" = (
 /obj/structure/sink/directional/west,
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "lhb" = (
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 4
@@ -30552,7 +30558,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "lhI" = (
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
@@ -31386,7 +31392,7 @@
 	pixel_x = -10
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "lyp" = (
 /obj/structure/pallets/rand,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -32126,7 +32132,7 @@
 /obj/structure/table/countertop/red,
 /obj/machinery/microwave,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "lMK" = (
 /turf/open/floor/iron/dark/small,
 /area/vtm/interior/endron_facility/restricted)
@@ -32406,7 +32412,7 @@
 	},
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "lRA" = (
 /obj/structure/table/wood/bar,
 /obj/item/reagent_containers/cup/glass/baggie/meth/cocaine,
@@ -32931,7 +32937,7 @@
 	density = 0
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "mcn" = (
 /obj/effect/turf_decal/siding/grey{
 	dir = 1
@@ -33079,7 +33085,7 @@
 	dir = 4
 	},
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "meY" = (
 /obj/effect/decal/cleanable/cardboard,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -33718,7 +33724,7 @@
 	pixel_y = 9
 	},
 /turf/open/floor/carpet/green,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "mrB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/trash,
@@ -34272,7 +34278,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/carpet/green,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "mCY" = (
 /obj/effect/decal/pallet,
 /obj/effect/turf_decal/darkpack/rough{
@@ -34304,7 +34310,7 @@
 "mDn" = (
 /obj/effect/decal/wallpaper/paper/darkgreen,
 /turf/closed/wall/vampwall/redbrick,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "mDo" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 1
@@ -34625,7 +34631,7 @@
 /area/vtm/interior/millennium_tower)
 "mHw" = (
 /turf/closed/wall/vampwall/redbrick,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "mHD" = (
 /obj/effect/turf_decal/siding/beige{
 	dir = 8
@@ -34953,7 +34959,7 @@
 	dir = 4
 	},
 /turf/open/floor/circuit,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "mMc" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -35771,7 +35777,7 @@
 /turf/open/floor/plating/concrete{
 	icon_state = "canal_concrete"
 	},
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "nam" = (
 /obj/machinery/light/small/directional/north,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -36093,7 +36099,7 @@
 	},
 /obj/machinery/oven/range,
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "ngE" = (
 /obj/effect/turf_decal/siding/wood/light{
 	dir = 6
@@ -36928,7 +36934,7 @@
 "ntZ" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/carpet/green,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "nug" = (
 /obj/effect/spawner/random/trash/hobo_squat,
 /obj/effect/spawner/random/entertainment/drugs,
@@ -37366,7 +37372,7 @@
 /obj/effect/decal/cleanable/gasoline,
 /obj/structure/table/no_smooth/wood/cablereel,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "nAn" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -37649,7 +37655,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/city/plating_mono,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "nEG" = (
 /obj/structure/table/countertop/bacotell,
 /obj/structure/platform/lowwall/painted,
@@ -38004,7 +38010,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "nLz" = (
 /obj/structure/bath{
 	pixel_y = 17;
@@ -38404,6 +38410,8 @@
 	pixel_y = 24
 	},
 /obj/structure/chair/darkpack/green,
+/mob/living/carbon/human/npc/police/static,
+/obj/effect/mapping_helpers/mob_buckler,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "nQx" = (
@@ -38493,7 +38501,7 @@
 /area/vtm/sunnycoast/marina)
 "nRp" = (
 /turf/closed/wall/vampwall/brick,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "nRq" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
@@ -38571,7 +38579,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "nSu" = (
 /obj/effect/decal/cleanable/trash/big,
 /turf/open/floor/plating/sidewalk/poor,
@@ -39853,7 +39861,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "omu" = (
 /obj/effect/turf_decal/weather/snow,
 /turf/open/floor/iron/freezer,
@@ -39934,7 +39942,7 @@
 	pixel_y = 15
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "onH" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp{
@@ -40166,7 +40174,7 @@
 	pixel_y = 7
 	},
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "otO" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -40506,7 +40514,7 @@
 "oyX" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "ozq" = (
 /obj/structure/chair/plastic/darkpack,
 /turf/open/floor/plating/sidewalk/poor,
@@ -40652,7 +40660,7 @@
 /obj/machinery/griddle,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "oCB" = (
 /obj/structure/hedge{
 	pixel_y = 6
@@ -41167,7 +41175,7 @@
 /obj/structure/platform/lowwall/painted/window/reinforced,
 /obj/effect/decal/wallpaper/blue/low,
 /turf/open/floor/plating/rough,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "oKF" = (
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/vjanitor/junkyard)
@@ -41685,7 +41693,7 @@
 /obj/structure/chair/wood/darkpack,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/wood/herring,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "oVu" = (
 /obj/structure/filingcabinet{
 	pixel_x = -6
@@ -41959,7 +41967,7 @@
 /area/vtm/sunnycoast/anarchmotel/interior)
 "pah" = (
 /turf/open/floor/carpet/green,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "paq" = (
 /obj/effect/turf_decal/bordur/end,
 /obj/structure/flora/grass/short/style_random,
@@ -42514,7 +42522,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood/herring,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "pjA" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
@@ -43214,7 +43222,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/smooth,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "puG" = (
 /obj/structure/platform/lowwall/brick/window,
 /obj/structure/curtain/cloth/fancy{
@@ -43254,7 +43262,7 @@
 /obj/item/clothing/mask/gas/vampire,
 /obj/effect/decal/wallpaper/paper/low,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "pvM" = (
 /obj/structure/roofstuff/alt1,
 /turf/open/floor/plating/roofwalk,
@@ -43305,7 +43313,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "pwz" = (
 /turf/open/floor/plating/asphalt,
 /area/vtm/sunnycoast/commerce)
@@ -43315,7 +43323,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "pwK" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -43461,7 +43469,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "pyN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/trash/mess,
@@ -43473,7 +43481,7 @@
 	},
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "pyS" = (
 /obj/structure/table/wood,
 /obj/structure/trad{
@@ -43560,7 +43568,7 @@
 	},
 /obj/effect/decal/cleanable/ash,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "pAA" = (
 /obj/structure/table/no_smooth/modular_desk/right{
 	dir = 8
@@ -43592,7 +43600,7 @@
 /obj/structure/mirror/directional/north,
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "pBo" = (
 /obj/structure/chair/sofa/right/brown{
 	color = "#3c5a82";
@@ -43757,7 +43765,7 @@
 	},
 /obj/structure/hedge,
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "pDL" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/city/plating,
@@ -44402,7 +44410,7 @@
 	},
 /obj/effect/turf_decal/siding/wood/dark/corner,
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "pPQ" = (
 /obj/structure/hedge,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -44478,7 +44486,7 @@
 /area/vtm/sunnycoast/interior/tunnel/firstave)
 "pRw" = (
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "pRG" = (
 /obj/effect/turf_decal/darkpack/rough/corner{
 	dir = 1
@@ -44637,7 +44645,7 @@
 	},
 /obj/machinery/oven/range,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "pVE" = (
 /obj/structure/stairs/ramp/west,
 /turf/open/floor/plating/sidewalk/poor,
@@ -45338,7 +45346,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/darkpack/bluesilver,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "qjg" = (
 /turf/open/floor/plating/canal,
 /area/vtm/sunnycoast/street/eighthst)
@@ -45884,7 +45892,7 @@
 "quw" = (
 /obj/structure/rack/clothing_hanger,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "quI" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -45900,7 +45908,7 @@
 /area/vtm/sunnycoast/interior/citymaint/yard)
 "qvu" = (
 /turf/closed/wall/vampwall/city,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "qvv" = (
 /obj/structure/platform/lowwall/brick/window,
 /obj/structure/curtain/bounty{
@@ -46154,7 +46162,7 @@
 	dir = 10
 	},
 /turf/open/floor/wood/smooth,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "qzR" = (
 /obj/structure/closet/cabinet,
 /obj/item/gun/ballistic/automatic/darkpack/thompson{
@@ -46245,7 +46253,7 @@
 	},
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/wood/herring,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "qAI" = (
 /obj/structure/platform/lowwall/rich/old,
 /obj/item/clothing/suit/vampire/bogatyr,
@@ -47291,7 +47299,7 @@
 /turf/open/floor/plating/concrete{
 	icon_state = "canal_concrete"
 	},
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "qWR" = (
 /obj/structure/flora/rock/darkpack,
 /obj/structure/glowshroom/single,
@@ -47462,6 +47470,11 @@
 	},
 /turf/open/floor/plating/roofwalk,
 /area/vtm/sunnycoast/heritage/italy)
+"raz" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/carbon/human/npc/shop,
+/turf/open/floor/city/factory,
+/area/vtm/interior/shop/pharmacy)
 "raB" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -48370,7 +48383,7 @@
 	desc = "A memorial plaque referencing journalists that had lost their lives covering conflicts."
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "rtB" = (
 /obj/effect/decal/graffiti/large{
 	pixel_x = 16
@@ -48412,7 +48425,7 @@
 "ruN" = (
 /obj/effect/decal/wallpaper/paper/darkred,
 /turf/closed/wall/vampwall/city,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "ruP" = (
 /obj/structure/extinguisher_cabinet/directional/north,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -49191,7 +49204,7 @@
 "rHE" = (
 /obj/machinery/sprinkler,
 /turf/open/floor/wood/herring,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "rHL" = (
 /obj/structure/chair/plastic/darkpack{
 	dir = 8
@@ -49428,7 +49441,7 @@
 "rMg" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "rMx" = (
 /obj/structure/table/countertop/purple,
 /obj/structure/sink/basin/directional/east,
@@ -50794,7 +50807,7 @@
 	pixel_y = 28
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "skF" = (
 /obj/effect/step_trigger/thrower{
 	direction = 4
@@ -51412,7 +51425,7 @@
 /obj/structure/table/wood,
 /obj/machinery/microwave,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "swf" = (
 /obj/structure/chair/sofa/booth_seat/left{
 	dir = 4
@@ -52661,7 +52674,7 @@
 	dir = 1
 	},
 /turf/open/floor/circuit,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "sTX" = (
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 8
@@ -52717,7 +52730,7 @@
 	},
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "sVh" = (
 /obj/effect/turf_decal/darkpack/rough,
 /turf/open/floor/plating/asphalt,
@@ -52857,7 +52870,7 @@
 "sXp" = (
 /obj/effect/decal/wallpaper/paper,
 /turf/closed/wall/vampwall/city,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "sXD" = (
 /obj/effect/turf_decal/bordur{
 	dir = 5
@@ -53062,7 +53075,9 @@
 	icon_state = "rug_red";
 	pixel_y = -16
 	},
-/obj/effect/landmark/start/darkpack/law_enforcement/officer,
+/mob/living/carbon/human/npc/police/static{
+	dir = 4
+	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "taO" = (
@@ -53552,7 +53567,7 @@
 "tiX" = (
 /obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "tjr" = (
 /obj/structure/platform/lowwall/rich/old,
 /obj/structure/table/wood,
@@ -54346,7 +54361,7 @@
 /area/vtm/sunnycoast/interior/tunnel/firstave)
 "tyn" = (
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "tys" = (
 /obj/structure/hedge,
 /turf/open/floor/city/bacotell,
@@ -54641,7 +54656,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "tDK" = (
 /obj/effect/turf_decal/siding/wood/light/corner{
 	dir = 4
@@ -54961,7 +54976,7 @@
 "tIp" = (
 /obj/effect/decal/wallpaper/paper/stripe,
 /turf/closed/wall/vampwall/city,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "tIq" = (
 /obj/structure/flora/rock/darkpack,
 /obj/structure/spacevine{
@@ -55531,7 +55546,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "tQl" = (
 /obj/effect/decal/wallpaper/absorbingfoam,
 /turf/closed/wall/vampwall/redbrick,
@@ -55585,7 +55600,7 @@
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /turf/open/floor/wood/smooth/old,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "tRl" = (
 /obj/structure/table/no_smooth/modular_desk/right{
 	dir = 8
@@ -56054,7 +56069,7 @@
 "ubv" = (
 /obj/structure/table/countertop/red,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "ubw" = (
 /obj/structure/table/no_smooth/modular_desk/left{
 	dir = 4
@@ -56298,7 +56313,7 @@
 /obj/machinery/light/small/directional/south,
 /obj/item/storage/box/ingredients/random,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "ufL" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 4
@@ -56816,7 +56831,7 @@
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
 /obj/item/storage/box/ingredients/random,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "uqh" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -56904,7 +56919,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "urE" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 4
@@ -57258,7 +57273,7 @@
 	},
 /obj/structure/table/wood,
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "uxx" = (
 /obj/effect/turf_decal/siding/beige{
 	dir = 4
@@ -57449,7 +57464,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "uBi" = (
 /obj/structure/pallets/rand,
 /turf/open/floor/plating/concrete,
@@ -58290,7 +58305,7 @@
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "uOb" = (
 /obj/structure/table/wood,
 /obj/vampire_computer{
@@ -58485,7 +58500,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "uRP" = (
 /obj/effect/decal/wallpaper/blue,
 /turf/closed/wall/vampwall/bar,
@@ -58527,7 +58542,7 @@
 "uTe" = (
 /obj/effect/decal/wallpaper/absorbingfoam,
 /turf/closed/wall/vampwall/painted,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "uTu" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 8
@@ -59275,7 +59290,7 @@
 /turf/open/floor/plating/concrete{
 	icon_state = "canal_concrete"
 	},
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "vgy" = (
 /obj/structure/table/countertop/red,
 /obj/machinery/light/small/red/directional/west{
@@ -59392,7 +59407,7 @@
 "vhX" = (
 /obj/effect/spawner/random/bedsheet,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "vie" = (
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/structure/chair/wood/darkpack{
@@ -59978,7 +59993,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/smooth,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "vrM" = (
 /obj/structure/dresser{
 	pixel_y = 21;
@@ -60339,7 +60354,7 @@
 /obj/structure/table/countertop/yellow,
 /obj/structure/sink/basin/directional/east,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "vzE" = (
 /obj/effect/decal/wallpaper/red/low,
 /turf/closed/wall/vampwall/brick,
@@ -61008,7 +61023,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "vLI" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /obj/structure/table/countertop/fastfood/addon1,
@@ -61713,7 +61728,7 @@
 "waO" = (
 /obj/machinery/griddle,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "waS" = (
 /obj/machinery/light/red/directional/north,
 /turf/open/floor/city/plating_mono,
@@ -62057,7 +62072,7 @@
 	pixel_y = 27
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "wgw" = (
 /obj/effect/decal/wallpaper/padded,
 /turf/closed/wall/vampwall/painted,
@@ -62596,7 +62611,7 @@
 /area/vtm/sunnycoast/commerce)
 "wqn" = (
 /turf/closed/wall/vampwall/brick_old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "wqo" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 4
@@ -62789,7 +62804,7 @@
 /area/vtm/outside/supply)
 "wul" = (
 /turf/closed/wall/vampwall/painted,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "wun" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -62932,7 +62947,7 @@
 "wxQ" = (
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "wya" = (
 /obj/structure/platform/lowwall/rich/window/reinforced,
 /obj/effect/decal/wallpaper/red/low,
@@ -63060,7 +63075,7 @@
 	},
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "wAN" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/trash,
@@ -63204,7 +63219,7 @@
 "wCh" = (
 /obj/machinery/griddle,
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "wCi" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/grass{
@@ -63250,7 +63265,7 @@
 "wCT" = (
 /obj/machinery/sprinkler,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "wCW" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 8
@@ -63435,7 +63450,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "wGb" = (
 /obj/effect/turf_decal/bordur,
 /obj/structure/railing,
@@ -63601,7 +63616,7 @@
 /obj/machinery/shower/directional/south,
 /obj/structure/fluff/grate/drain/rusty,
 /turf/open/floor/city/industrial/large,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "wLh" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
@@ -63889,7 +63904,7 @@
 	dir = 1
 	},
 /turf/open/floor/circuit,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "wQR" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -63996,7 +64011,7 @@
 "wTs" = (
 /obj/effect/decal/wallpaper/paper/green,
 /turf/closed/wall/vampwall/redbrick,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "wTG" = (
 /obj/effect/decal/fakelattice{
 	density = 0
@@ -64123,6 +64138,11 @@
 /obj/structure/marker_beacon/olive,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/supply)
+"wVt" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/carbon/human/npc/bouncer/elysium/stripclub,
+/turf/open/floor/city/plating_mono,
+/area/vtm/sunnycoast/interior/nightclub)
 "wVz" = (
 /obj/effect/decal/coastline{
 	dir = 6
@@ -64407,7 +64427,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "xbk" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -64879,7 +64899,7 @@
 "xiE" = (
 /obj/effect/decal/wallpaper/stone/low,
 /turf/closed/wall/vampwall/redbrick,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "xiG" = (
 /obj/structure/chair/sofa/city_bench/metal/left{
 	dir = 1
@@ -64969,7 +64989,7 @@
 	dir = 8
 	},
 /turf/open/floor/circuit,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "xkc" = (
 /turf/open/floor/plating/rough,
 /area/vtm/sunnycoast/anarchmotel/interior)
@@ -65130,7 +65150,7 @@
 	},
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "xnw" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -65611,7 +65631,7 @@
 	pixel_x = -7
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "xxW" = (
 /obj/darkpack_car/rand{
 	dir = 4
@@ -65796,7 +65816,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/city/industrial,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "xBu" = (
 /obj/effect/turf_decal/stripes/asteroid/line,
 /obj/effect/turf_decal/stripes/asteroid/line{
@@ -66563,7 +66583,7 @@
 /obj/effect/mapping_helpers/door/access/claimable,
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "xOE" = (
 /obj/effect/decal/painting{
 	pixel_y = 32
@@ -66664,7 +66684,7 @@
 	},
 /obj/structure/noticeboard/directional/north,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "xQY" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
@@ -66854,7 +66874,7 @@
 	dir = 4
 	},
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "xVD" = (
 /obj/effect/turf_decal/darkpack/cave/corner{
 	dir = 1
@@ -66908,7 +66928,7 @@
 	pixel_y = 7
 	},
 /turf/open/floor/city/plating_mono,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "xWl" = (
 /obj/effect/turf_decal/bordur/corner,
 /turf/open/floor/iron/stairs/black/medium{
@@ -67204,7 +67224,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/sunnycoast/heritage/italy/apartment)
+/area/vtm/interior/apartment/italy)
 "ybZ" = (
 /obj/structure/table/countertop/red,
 /obj/machinery/microwave,
@@ -67460,7 +67480,7 @@
 	dir = 8
 	},
 /turf/open/floor/city/bacotell,
-/area/vtm/sunnycoast/heritage/china/apartment)
+/area/vtm/interior/apartment/china)
 "ygp" = (
 /obj/structure/hedge,
 /obj/structure/flora/bush/flowers_yw/style_random,
@@ -67481,7 +67501,7 @@
 	pixel_y = 5
 	},
 /turf/open/floor/city/plating_mono,
-/area/vtm)
+/area/vtm/sunnycoast/interior/rednews)
 "ygz" = (
 /obj/structure/table/countertop/bacotell,
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
@@ -80031,7 +80051,7 @@ tIh
 aNb
 dyv
 cfK
-eKO
+wVt
 eHL
 eHL
 xlS
@@ -121465,7 +121485,7 @@ upD
 bSd
 sXI
 bdj
-sXI
+raz
 uDS
 bSd
 hkV
@@ -146182,7 +146202,7 @@ auD
 tEZ
 vis
 bNU
-lgf
+jAs
 cNl
 oMq
 oMq
