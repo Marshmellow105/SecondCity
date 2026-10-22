@@ -127,11 +127,11 @@
 /area/vtm/sunnycoast/interior/carwash
 	name = "Car Wash"
 
-/area/vtm/interior/vjanitor/junkyard
+/area/vtm/sunnycoast/junkyard
 	name = "Junkyard"
 	outdoors = TRUE
 
-/area/vtm/interior/vjanitor/junkyard/tunnels
+/area/vtm/sunnycoast/interior/tunnels
 	name = "Junkyard Tunnels"
 	zone_type = ZONE_NO_MASQUERADE
 

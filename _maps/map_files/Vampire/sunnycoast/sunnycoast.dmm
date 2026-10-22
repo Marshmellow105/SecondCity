@@ -48,7 +48,7 @@
 	},
 /obj/effect/spawner/random/trash/grime,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "abD" = (
 /obj/structure/reagent_dispensers/water_cooler{
 	pixel_y = 23;
@@ -99,7 +99,7 @@
 /obj/effect/decal/shadow,
 /obj/effect/spawner/random/trash/box,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "ack" = (
 /obj/effect/turf_decal/darkpack/rough,
 /obj/effect/decal/cleanable/trash,
@@ -541,7 +541,7 @@
 /obj/effect/spawner/random/trash/garbage,
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "akr" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -803,9 +803,9 @@
 /obj/structure/table,
 /obj/item/clothing/under/rank/medical/coroner,
 /obj/item/clothing/under/rank/medical/scrubs/coroner,
-/obj/item/clothing/suit/toggle/labcoat/coroner,
 /obj/item/clothing/gloves/latex/coroner,
 /obj/item/clothing/head/beret/black,
+/obj/item/clothing/suit/vampire/labcoat,
 /turf/open/floor/city/plating,
 /area/vtm/interior/clinic)
 "apw" = (
@@ -873,7 +873,7 @@
 "aqJ" = (
 /obj/effect/decal/cleanable/trash,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "aqM" = (
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 9
@@ -1437,7 +1437,7 @@
 	pixel_y = 26
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "aAT" = (
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 10
@@ -1494,7 +1494,7 @@
 	},
 /obj/darkpack_car/rand,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "aBs" = (
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 1
@@ -2103,7 +2103,7 @@
 /obj/effect/spawner/random/trash/deluxe_garbage,
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "aLw" = (
 /obj/effect/decal/wallpaper/red/low,
 /turf/closed/wall/vampwall/old,
@@ -2886,7 +2886,7 @@
 	},
 /obj/structure/fluff/sat_dish,
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "aYa" = (
 /obj/machinery/light/blacklight/directional/south,
 /turf/open/floor/wood/smooth/old,
@@ -3120,7 +3120,7 @@
 	pixel_y = 26
 	},
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "bcZ" = (
 /obj/effect/turf_decal/siding/grey,
 /obj/structure/chair/wood/darkpack/red{
@@ -3229,8 +3229,7 @@
 "bff" = (
 /obj/structure/bookcase/random/kindred{
 	pixel_y = 20;
-	density = 0;
-	plane = -3.9
+	density = 0
 	},
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
@@ -3328,7 +3327,7 @@
 /area/vtm/interior/police)
 "bgL" = (
 /turf/open/floor/glass,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "bgO" = (
 /obj/structure/spacevine{
 	can_spread = 0;
@@ -4002,7 +4001,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/random/trash/grime,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "bvc" = (
 /obj/effect/turf_decal/siding/wood/dark/corner{
 	dir = 4
@@ -4392,7 +4391,7 @@
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 1
 	},
-/obj/machinery/door/poddoor/shutters/preopen{
+/obj/machinery/door/poddoor/shutters{
 	transport_linked_id = "ParkingElevator";
 	elevator_mode = 1
 	},
@@ -4590,6 +4589,10 @@
 /obj/effect/spawner/random/food_or_drink/seed,
 /obj/effect/spawner/random/food_or_drink/seed,
 /obj/effect/spawner/random/food_or_drink/seed_flowers,
+/obj/item/flashlight/lantern/on{
+	pixel_x = -7;
+	pixel_y = 7
+	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/sunnycoast/interior/cave/mineshaft)
 "bFA" = (
@@ -4637,7 +4640,9 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/sunnycoast/street/firstave)
 "bGu" = (
-/obj/structure/bookcase/random/kindred,
+/obj/structure/bookcase/random/kindred{
+	plane = -4.1
+	},
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/chantry/basement)
 "bGD" = (
@@ -4939,7 +4944,7 @@
 /area/vtm/sunnycoast/marina)
 "bNi" = (
 /obj/structure/fountain,
-/turf/open/water/beach,
+/turf/open/floor/stone,
 /area/vtm/sunnycoast/commerce)
 "bNj" = (
 /obj/structure/sink/directional/south,
@@ -5062,7 +5067,7 @@
 	pixel_y = 26
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "bOD" = (
 /mob/living/basic/pet/dog/wolf/red,
 /turf/open/misc/dirt/rails,
@@ -5450,7 +5455,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "bVJ" = (
 /obj/structure/chair/darkpack/green{
 	dir = 8
@@ -5579,7 +5584,7 @@
 	},
 /obj/structure/barrels/rand/plural,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "bXF" = (
 /obj/effect/turf_decal/bordur,
 /obj/effect/turf_decal/bordur{
@@ -6144,7 +6149,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "cjV" = (
 /obj/effect/turf_decal/bordur,
 /obj/effect/decal/cleanable/trash,
@@ -6438,7 +6443,7 @@
 	},
 /obj/effect/spawner/random/trash/rat,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "coI" = (
 /obj/effect/decal/wallpaper/stone/low/tilt{
 	dir = 8
@@ -6885,7 +6890,7 @@
 	},
 /obj/effect/decal/cleanable/trash,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "cxk" = (
 /turf/open/floor/plating/rough,
 /area/vtm/sunnycoast/interior/oldmansion/courtyard)
@@ -7108,7 +7113,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "cAV" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 10
@@ -7124,9 +7129,9 @@
 /area/vtm/sunnycoast/interior/arcade)
 "cAZ" = (
 /obj/structure/vampdoor/wood,
-/obj/effect/mapping_helpers/door/lock_difficulty/four,
-/obj/effect/mapping_helpers/door/bash_difficulty/five,
-/obj/effect/mapping_helpers/door/unlock,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/mapping_helpers/door/bash_difficulty/eight,
+/obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/access/pentex,
 /obj/effect/turf_decal/siding/grey,
 /obj/effect/vip_barrier/endron/endron_backdoor,
@@ -7461,7 +7466,7 @@
 "cHB" = (
 /obj/effect/landmark/start/darkpack/citizen/janitor,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "cHM" = (
 /obj/structure/table/countertop/green,
 /obj/effect/turf_decal/siding/dark_green{
@@ -7762,6 +7767,13 @@
 /obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/misc/grass/nosmooth,
 /area/vtm/sunnycoast/street/firstave/outskirts)
+"cNJ" = (
+/obj/effect/decal/cleanable/confetti,
+/obj/effect/turf_decal/darkpack/rough{
+	dir = 9
+	},
+/turf/open/floor/eighties,
+/area/vtm/interior/clinic/haven)
 "cNX" = (
 /obj/effect/decal/wallpaper/stone,
 /turf/closed/wall/vampwall/city,
@@ -7992,7 +8004,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/roofwalk,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "cSc" = (
 /obj/structure/chair/office/darkpack/black{
 	dir = 4
@@ -8039,7 +8051,7 @@
 	},
 /obj/effect/spawner/random/trash/grime,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "cSW" = (
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
@@ -8261,7 +8273,7 @@
 /obj/structure/fluff/drake_statue/falling{
 	pixel_y = 8
 	},
-/obj/effect/realistic_fog/dense/extreme,
+/obj/effect/realistic_fog/dense/strong,
 /turf/open/floor/plating/rough,
 /area/vtm/sunnycoast/interior/oldmansion/courtyard)
 "cWA" = (
@@ -8414,6 +8426,10 @@
 /obj/structure/platform/lowwall/wood,
 /obj/structure/table/wood,
 /obj/item/gun/ballistic/shotgun/vampire/sawnoff,
+/obj/item/flashlight/lantern/on{
+	pixel_x = -7;
+	pixel_y = 7
+	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/sunnycoast/interior/cave/mineshaft)
 "cZF" = (
@@ -8641,7 +8657,7 @@
 "dcM" = (
 /obj/effect/spawner/random/trash/mess,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "dcU" = (
 /obj/effect/decal/fakelattice{
 	density = 0
@@ -8691,7 +8707,7 @@
 "ddF" = (
 /obj/structure/trashbag,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "ddK" = (
 /obj/structure/chair/sofa/left/brown{
 	color = "#3c5a82";
@@ -8890,8 +8906,7 @@
 "dhW" = (
 /obj/structure/bookcase/random/nonfiction{
 	pixel_y = 20;
-	density = 0;
-	plane = -3.9
+	density = 0
 	},
 /obj/effect/decal/cleanable/litter,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -9401,7 +9416,7 @@
 "dtb" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "dte" = (
 /obj/structure/hedge,
 /obj/effect/turf_decal/siding/grey/inner_corner,
@@ -9454,7 +9469,7 @@
 /obj/effect/spawner/random/trash/grime,
 /obj/effect/spawner/random/trash/mess,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "duq" = (
 /obj/structure/tzijelly,
 /obj/effect/realistic_fog,
@@ -9930,6 +9945,9 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/chantry/basement)
 "dCZ" = (
+/obj/effect/turf_decal/darkpack/rough{
+	dir = 6
+	},
 /turf/open/floor/eighties,
 /area/vtm/interior/clinic/haven)
 "dDa" = (
@@ -10061,7 +10079,7 @@
 	dir = 8
 	},
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "dFO" = (
 /obj/structure/sign/city/store/reddragon/directional/north{
 	pixel_y = 37
@@ -10174,7 +10192,7 @@
 /obj/effect/turf_decal/darkpack/dirt/corner,
 /obj/structure/barrels/rand/plural,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "dGX" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 8
@@ -10196,7 +10214,7 @@
 /obj/effect/decal/shadow,
 /obj/structure/tire,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "dHv" = (
 /obj/structure/platform/lowwall/city/window,
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
@@ -10363,7 +10381,7 @@
 /obj/structure/closet/crate/dumpster,
 /obj/effect/spawner/random/maintenance/dumpster,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "dKP" = (
 /obj/effect/turf_decal/darkpack/dirt/corner{
 	dir = 1
@@ -10590,10 +10608,6 @@
 /obj/structure/tire/big,
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/sewer)
-"dNK" = (
-/obj/machinery/door/poddoor/shutters,
-/turf/open/floor/plating/asphalt,
-/area/vtm/interior/clinic)
 "dNO" = (
 /obj/effect/turf_decal/bordur/end{
 	dir = 4
@@ -10975,7 +10989,7 @@
 	dir = 4
 	},
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "dVb" = (
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/restricted)
@@ -11125,7 +11139,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/trash/grime,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "dXJ" = (
 /obj/structure/glowshroom/single,
 /turf/open/misc/grass/random/grass,
@@ -11143,8 +11157,7 @@
 	},
 /obj/structure/bookcase/random/nonfiction{
 	pixel_y = 20;
-	density = 0;
-	plane = -3.9
+	density = 0
 	},
 /obj/structure/table/wood,
 /obj/structure/platform/lowwall/rich/old,
@@ -11522,17 +11535,6 @@
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/millennium_tower/f3)
-"efJ" = (
-/obj/structure/bookcase/random/kindred{
-	pixel_y = 20;
-	density = 0;
-	plane = -3.9
-	},
-/obj/effect/turf_decal/siding/wood/dark{
-	dir = 8
-	},
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior/chantry/basement)
 "efP" = (
 /obj/structure/table,
 /obj/structure/reagent_dispensers/wall/peppertank{
@@ -11588,7 +11590,7 @@
 	pixel_y = 26
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "egP" = (
 /obj/effect/turf_decal/darkpack/cave/corner,
 /obj/effect/turf_decal/darkpack/cave{
@@ -11722,7 +11724,6 @@
 /obj/item/clothing/head/soft/paramedic,
 /obj/item/clothing/under/rank/medical/paramedic,
 /obj/item/clothing/suit/toggle/labcoat/paramedic,
-/obj/item/clothing/under/rank/medical/paramedic/skirt,
 /obj/item/defibrillator/compact,
 /obj/item/stock_parts/power_store/cell/high,
 /obj/item/storage/medkit/darkpack/advanced,
@@ -12173,7 +12174,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "eqQ" = (
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/fusebox,
@@ -12534,7 +12535,7 @@
 	},
 /obj/effect/spawner/random/trash/mess,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "exf" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/landmark/start/darkpack/society_of_leopold/novice,
@@ -12813,7 +12814,7 @@
 	},
 /obj/effect/spawner/random/trash/mess,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "eBv" = (
 /obj/structure/table/countertop/bubway,
 /obj/effect/turf_decal/siding/white{
@@ -12886,7 +12887,7 @@
 "eCS" = (
 /obj/structure/flora/rock/darkpack,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "eDn" = (
 /obj/effect/decal/cleanable/trash/big,
 /turf/open/floor/wood/smooth/old,
@@ -13113,7 +13114,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "eGT" = (
 /obj/structure/chair/office/darkpack/blue,
 /obj/effect/landmark/start/darkpack/citizen/red_news,
@@ -13960,7 +13961,7 @@
 /obj/effect/decal/cleanable/trash,
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "eVp" = (
 /obj/effect/decal/wallpaper/stripes,
 /turf/closed/wall/vampwall/metal,
@@ -14403,7 +14404,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "fdk" = (
 /obj/effect/turf_decal/siding/wood/dark/corner{
 	dir = 8
@@ -14425,7 +14426,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/trash/big,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "fdI" = (
 /obj/structure/fence{
 	dir = 4
@@ -14493,7 +14494,7 @@
 	},
 /obj/structure/flora/rock/darkpack,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "feD" = (
 /obj/structure/chair/office/darkpack/green,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -15458,7 +15459,7 @@
 	pixel_y = 26
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "fvR" = (
 /obj/effect/turf_decal/darkpack/rough/corner{
 	dir = 1
@@ -15757,11 +15758,6 @@
 /obj/machinery/fax/auto_name,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/clinic)
-"fAL" = (
-/obj/effect/decal/wallpaper/paper/darkgreen,
-/obj/effect/decal/wallpaper/paper/fancy,
-/turf/closed/wall/vampwall/redbrick,
-/area/vtm/interior/bianchiBank)
 "fAQ" = (
 /obj/structure/chair/plastic/darkpack{
 	dir = 4
@@ -16377,7 +16373,7 @@
 	},
 /obj/effect/spawner/random/trash/rat,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "fLB" = (
 /obj/effect/turf_decal/stock{
 	dir = 1
@@ -16460,7 +16456,7 @@
 "fNn" = (
 /obj/effect/spawner/random/trash/grime,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "fNp" = (
 /obj/structure/vampipe{
 	icon_state = "piping7"
@@ -16776,7 +16772,7 @@
 "fSu" = (
 /obj/effect/spawner/random/trash/grime,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "fSK" = (
 /obj/structure/sign/city/chinese/alt5/directional/east,
 /turf/open/openspace,
@@ -17025,7 +17021,7 @@
 	},
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "fXK" = (
 /obj/structure/platform/lowwall/rich/old,
 /obj/item/wirecutters/pliers,
@@ -17047,7 +17043,7 @@
 	dir = 6
 	},
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "fYC" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 8
@@ -17079,7 +17075,7 @@
 "fZm" = (
 /obj/effect/spawner/random/trash/rat,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "fZp" = (
 /obj/effect/turf_decal/asphalt,
 /obj/effect/turf_decal/darkpack/dirt{
@@ -17216,7 +17212,7 @@
 	},
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "gbh" = (
 /obj/structure/barrels/rand/plural,
 /turf/open/floor/plating/sidewalk/poor,
@@ -18118,14 +18114,14 @@
 	dir = 10
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "gug" = (
 /obj/effect/turf_decal/bordur,
 /obj/effect/turf_decal/bordur{
 	dir = 5
 	},
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "guj" = (
 /turf/closed/wall/vampwall/brick_old,
 /area/vtm/sunnycoast/interior/parking)
@@ -18155,7 +18151,7 @@
 "gvy" = (
 /obj/effect/spawner/random/trash/grime,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "gvN" = (
 /turf/open/floor/stone,
 /area/vtm/sunnycoast/commerce)
@@ -19172,7 +19168,7 @@
 	density = 0;
 	color = "#BBBBBB"
 	},
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "gPk" = (
 /obj/effect/turf_decal/siding/beige,
 /obj/structure/chair/plastic/darkpack{
@@ -19540,7 +19536,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "gZn" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 4
@@ -19591,6 +19587,10 @@
 	},
 /turf/open/floor/city/gummaguts,
 /area/vtm/interior/apartment)
+"hai" = (
+/mob/living/carbon/human/npc/shop,
+/turf/open/floor/city/gummaguts,
+/area/vtm/interior/shop/bacotell)
 "hak" = (
 /obj/structure/closet,
 /obj/item/storage/box/evidence,
@@ -19670,7 +19670,7 @@
 /area/vtm/sunnycoast/marina)
 "hcT" = (
 /turf/open/floor/plating/rough,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "hcU" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -19849,7 +19849,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "hhj" = (
 /obj/structure/closet/crate/trashcart/laundry,
 /obj/item/clothing/suit/costume/wellworn_shirt/wornout/graphic,
@@ -20025,7 +20025,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "hlL" = (
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 1
@@ -20241,7 +20241,7 @@
 "hqc" = (
 /obj/effect/turf_decal/darkpack/rough,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "hql" = (
 /obj/structure/filingcabinet{
 	pixel_x = 7
@@ -20495,7 +20495,7 @@
 /area/vtm/sunnycoast/commerce)
 "huj" = (
 /obj/effect/turf_decal/darkpack/dirt,
-/obj/item/flashlight/lantern/on,
+/obj/structure/bonfire/torch,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/sunnycoast/interior/cave/mineshaft)
 "hul" = (
@@ -21112,8 +21112,7 @@
 "hFn" = (
 /obj/structure/bookcase/random/nonfiction{
 	pixel_y = 20;
-	density = 0;
-	plane = -3.9
+	density = 0
 	},
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -21125,7 +21124,7 @@
 	},
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "hFq" = (
 /obj/structure/chair/sofa/city_bench/metal/right,
 /turf/open/floor/stone,
@@ -21159,7 +21158,7 @@
 "hFX" = (
 /obj/effect/decal/cleanable/trash/big,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "hGe" = (
 /obj/effect/turf_decal/box/white/corners{
 	dir = 4
@@ -21193,7 +21192,7 @@
 	dir = 6
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "hGq" = (
 /obj/effect/turf_decal/stock,
 /turf/open/floor/plating/asphalt,
@@ -21211,7 +21210,7 @@
 /obj/effect/decal/cleanable/litter,
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "hGN" = (
 /obj/effect/turf_decal/siding/beige{
 	dir = 8
@@ -21767,6 +21766,15 @@
 /obj/machinery/light/dim/directional/south,
 /turf/open/floor/plating/rough,
 /area/vtm/outside/supply)
+"hUb" = (
+/obj/structure/transport/linear/public{
+	icon_state = "regular_hull"
+	},
+/obj/effect/landmark/transport/transport_id{
+	specific_transport_id = "ParkingElevator"
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/sunnycoast/interior/parking)
 "hUm" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 1
@@ -21965,7 +21973,7 @@
 	},
 /obj/effect/spawner/random/trash/mess,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "hXQ" = (
 /obj/structure/table/no_smooth/modular_desk,
 /obj/vampire_computer/box{
@@ -22136,7 +22144,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "ibK" = (
 /obj/structure/curtain/bounty{
 	pixel_y = 8
@@ -22349,7 +22357,7 @@
 	pixel_y = 26
 	},
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "igE" = (
 /obj/effect/turf_decal/darkpack/rough/corner,
 /obj/effect/decal/wallpaper/stone/low/tilt{
@@ -22844,7 +22852,7 @@
 "ipU" = (
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "iqk" = (
 /obj/effect/decal/cleanable/gasoline,
 /obj/effect/mapping_helpers/broken_floor,
@@ -23000,7 +23008,7 @@
 	},
 /obj/effect/spawner/random/trash/mess,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "isk" = (
 /obj/effect/decal/shadow,
 /turf/open/floor/iron/solarpanel,
@@ -23115,7 +23123,7 @@
 /obj/effect/decal/cleanable/trash/books,
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "iuj" = (
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/sidewalk/poor,
@@ -23723,7 +23731,7 @@
 	pixel_y = 26
 	},
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "iHN" = (
 /obj/structure/table/countertop/yellow,
 /obj/machinery/microwave{
@@ -24593,14 +24601,6 @@
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/city/factory,
 /area/vtm/sunnycoast/interior/nightclub)
-"iWj" = (
-/obj/structure/bookcase/random/nonfiction{
-	pixel_y = 20;
-	density = 0;
-	plane = -3.9
-	},
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior/library)
 "iWl" = (
 /turf/open/openspace,
 /area/vtm/sunnycoast/interior/parking/two)
@@ -24672,7 +24672,7 @@
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/spawner/random/trash/rat,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "iXY" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -25685,7 +25685,7 @@
 	pixel_y = 26
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "jpl" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
@@ -26105,7 +26105,7 @@
 	dir = 10
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "jvz" = (
 /turf/open/floor/carpet/darkpack/bluegold,
 /area/vtm/sunnycoast/interior/oldmansion)
@@ -26839,6 +26839,12 @@
 "jID" = (
 /turf/open/floor/plating/canal,
 /area/vtm/sunnycoast/street/firstave)
+"jIR" = (
+/obj/effect/turf_decal/darkpack/rough{
+	dir = 5
+	},
+/turf/open/floor/eighties,
+/area/vtm/interior/clinic/haven)
 "jIS" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
@@ -26877,7 +26883,7 @@
 "jJB" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "jJC" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
@@ -26951,7 +26957,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "jKV" = (
 /obj/structure/roofstuff/vent_end{
 	dir = 8
@@ -27091,7 +27097,7 @@
 /obj/effect/decal/cleanable/trash/books,
 /obj/effect/spawner/random/trash/rat,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "jNj" = (
 /obj/machinery/light/small/dim/directional/west{
 	pixel_y = 16
@@ -27343,7 +27349,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "jRx" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
@@ -27991,7 +27997,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "kdu" = (
 /obj/effect/turf_decal/siding/wood/dark/corner,
 /obj/structure/steps/directional/north,
@@ -28032,7 +28038,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "kfe" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/security{
@@ -28047,6 +28053,13 @@
 	},
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/bianchiBank)
+"kfi" = (
+/obj/effect/decal/cleanable/confetti,
+/obj/effect/turf_decal/darkpack/rough{
+	dir = 10
+	},
+/turf/open/floor/eighties,
+/area/vtm/interior/clinic/haven)
 "kft" = (
 /obj/structure/table/countertop/red,
 /obj/structure/sink/basin/directional/west,
@@ -28379,7 +28392,7 @@
 "kkI" = (
 /obj/structure/flora/rock/stalagmite,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "kkU" = (
 /obj/structure/table/wood,
 /obj/structure/platform/lowwall/rich,
@@ -28762,7 +28775,7 @@
 /obj/effect/spawner/random/maintenance/dumpster,
 /obj/effect/spawner/random/maintenance/dumpster,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "ksu" = (
 /obj/machinery/light/cold/dim/directional/west{
 	pixel_y = 16
@@ -29267,7 +29280,7 @@
 /obj/structure/flora/rock/darkpack,
 /obj/effect/turf_decal/darkpack/dirt/corner,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "kBB" = (
 /obj/effect/decal/carpet{
 	icon_state = "rug_rubber";
@@ -29510,7 +29523,7 @@
 "kEg" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "kEy" = (
 /obj/effect/turf_decal/siding/grey{
 	dir = 1
@@ -29801,7 +29814,7 @@
 	},
 /obj/effect/spawner/random/trash/grime,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "kKG" = (
 /obj/effect/spawner/random/trash/box,
 /turf/open/floor/plating/sidewalkalt,
@@ -29864,7 +29877,6 @@
 "kMh" = (
 /obj/structure/lattice/pentex,
 /obj/structure/secure_safe/directional/north,
-/obj/item/gun/ballistic/revolver/golden,
 /obj/item/reagent_containers/cup/glass/flask/gold,
 /obj/item/clothing/gloves/boxing/golden,
 /obj/item/reagent_containers/cup/glass/trophy/gold_cup,
@@ -30412,7 +30424,7 @@
 /obj/effect/decal/shadow,
 /obj/structure/trashbag,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "kVm" = (
 /obj/item/gun/ballistic/automatic/pistol/darkpack/m1911,
 /obj/item/gun/ballistic/automatic/pistol/darkpack/m1911,
@@ -30985,7 +30997,7 @@
 	},
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "leD" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 8
@@ -31340,7 +31352,7 @@
 "llJ" = (
 /obj/structure/flora/rock/darkpack,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "lmh" = (
 /obj/structure/chair/sofa/booth_seat/right,
 /obj/effect/landmark/start/darkpack/citizen/citizen,
@@ -31606,7 +31618,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "lry" = (
 /obj/machinery/light/small/directional/west{
 	pixel_y = 16
@@ -32115,7 +32127,7 @@
 	},
 /obj/effect/decal/cleanable/trash/big,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "lBm" = (
 /obj/structure/sink/directional/east,
 /turf/open/floor/wood/smooth/old,
@@ -32209,7 +32221,7 @@
 	density = 0;
 	opacity = 0
 	},
-/obj/effect/mapping_helpers/door/access/clerk,
+/obj/effect/mapping_helpers/door/access/prince,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/ten,
 /obj/effect/mapping_helpers/door/bash_difficulty/ten,
@@ -32262,7 +32274,7 @@
 	pixel_y = 26
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "lCT" = (
 /obj/structure/chair/pew/right{
 	dir = 8
@@ -32363,7 +32375,7 @@
 /obj/effect/spawner/random/trash/garbage,
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "lEV" = (
 /obj/structure/table/wood,
 /turf/open/floor/plating/sidewalkalt,
@@ -32858,7 +32870,7 @@
 	pixel_y = -8
 	},
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "lOr" = (
 /obj/structure/rack/food/rand{
 	dir = 4;
@@ -32936,7 +32948,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "lPH" = (
 /obj/structure/chair/stool/bar/darkpack/red,
 /obj/effect/landmark/start/darkpack/citizen/citizen,
@@ -32995,7 +33007,7 @@
 "lRt" = (
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "lRu" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -33470,7 +33482,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "mbr" = (
 /obj/machinery/hydroponics/simple/wooden,
 /turf/open/misc/dirt,
@@ -33715,7 +33727,7 @@
 /obj/effect/decal/cleanable/trash,
 /obj/effect/spawner/random/trash/grime,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "mfI" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -34086,7 +34098,7 @@
 	pixel_y = 26
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "mnc" = (
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/endron_facility)
@@ -34525,7 +34537,9 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/endron_facility)
 "muB" = (
-/obj/structure/bookcase/random/kindred,
+/obj/structure/bookcase/random/kindred{
+	plane = -4.1
+	},
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 8
 	},
@@ -34643,6 +34657,9 @@
 /area/vtm/interior/clinic)
 "mwe" = (
 /obj/effect/spawner/random/trash/grime,
+/obj/effect/turf_decal/darkpack/rough{
+	dir = 8
+	},
 /turf/open/floor/eighties,
 /area/vtm/interior/clinic/haven)
 "mwf" = (
@@ -35696,7 +35713,7 @@
 /obj/structure/vampdoor/woodglass{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/door/access/clerk,
+/obj/effect/mapping_helpers/door/access/prince,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /obj/effect/mapping_helpers/door/bash_difficulty/eight,
@@ -36608,7 +36625,7 @@
 /obj/effect/decal/shadow,
 /obj/effect/spawner/random/trash/grime,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "nch" = (
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 1
@@ -36971,8 +36988,7 @@
 "njr" = (
 /obj/structure/bookcase/random/nonfiction{
 	pixel_y = 20;
-	density = 0;
-	plane = -3.9
+	density = 0
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/smooth/old,
@@ -37217,7 +37233,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "nno" = (
 /obj/structure/table/countertop/red,
 /obj/machinery/reagentgrinder/kitchen,
@@ -37364,6 +37380,13 @@
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/museum)
+"nqn" = (
+/obj/effect/decal/cleanable/confetti,
+/obj/effect/turf_decal/darkpack/rough{
+	dir = 4
+	},
+/turf/open/floor/eighties,
+/area/vtm/interior/clinic/haven)
 "nqp" = (
 /obj/darkpack_car/retro/rand{
 	dir = 2
@@ -37420,7 +37443,7 @@
 	density = 0;
 	opacity = 0
 	},
-/obj/effect/mapping_helpers/door/access/clerk,
+/obj/effect/mapping_helpers/door/access/prince,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/ten,
 /obj/effect/mapping_helpers/door/bash_difficulty/ten,
@@ -37443,7 +37466,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "nrF" = (
 /obj/effect/decal/wallpaper/paint/blue/low,
 /turf/closed/wall/vampwall/market,
@@ -38073,7 +38096,7 @@
 	},
 /obj/effect/decal/shadow,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "nAe" = (
 /obj/effect/turf_decal/bordur/corner,
 /turf/open/floor/plating/roofwalk,
@@ -38512,7 +38535,7 @@
 	},
 /obj/structure/tire,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "nHn" = (
 /obj/structure/chair/office/darkpack/green{
 	dir = 8
@@ -38568,7 +38591,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "nId" = (
 /turf/open/floor/city/church,
 /area/vtm/interior/church/staff)
@@ -38961,7 +38984,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "nNP" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -39662,7 +39685,7 @@
 	},
 /obj/effect/spawner/random/trash/rat,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "nYR" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 8
@@ -39770,7 +39793,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "oaa" = (
 /obj/structure/toilet{
 	dir = 4;
@@ -39985,8 +40008,7 @@
 "odo" = (
 /obj/structure/bookcase/random/nonfiction{
 	pixel_y = 20;
-	density = 0;
-	plane = -3.9
+	density = 0
 	},
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/library)
@@ -40299,7 +40321,7 @@
 	dir = 9
 	},
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "oje" = (
 /obj/structure/table/countertop/green,
 /obj/item/paper_bin{
@@ -40534,7 +40556,7 @@
 	},
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "olH" = (
 /obj/effect/decal/wallpaper/stone/low/tilt{
 	dir = 4
@@ -40761,8 +40783,7 @@
 "oqH" = (
 /obj/structure/bookcase/random/nonfiction{
 	pixel_y = 20;
-	density = 0;
-	plane = -3.9
+	density = 0
 	},
 /obj/effect/decal/cleanable/trash/books,
 /obj/effect/decal/cleanable/cobweb{
@@ -41175,7 +41196,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "oyh" = (
 /obj/structure/chair/pew/right{
 	dir = 8
@@ -41418,7 +41439,7 @@
 	pixel_y = 26
 	},
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "oCV" = (
 /obj/structure/coclock/grandpa,
 /turf/open/floor/wood/smooth/old,
@@ -41430,7 +41451,7 @@
 /obj/effect/decal/shadow,
 /obj/structure/tire/big,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "oDa" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pallets/rand,
@@ -41548,7 +41569,7 @@
 "oEu" = (
 /obj/effect/spawner/random/trash/box,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "oEw" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -41562,7 +41583,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "oEQ" = (
 /obj/structure/vampfence/rich{
 	dir = 4;
@@ -41688,7 +41709,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "oGY" = (
 /obj/structure/closet/cabinet,
 /obj/item/ammo_box/darkpack/c556,
@@ -41923,7 +41944,7 @@
 /area/vtm/sunnycoast/interior/rednews)
 "oKF" = (
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "oKQ" = (
 /obj/structure/table,
 /obj/effect/turf_decal/siding/wood/dark{
@@ -42065,7 +42086,7 @@
 "oMM" = (
 /obj/structure/roofstuff/vent/autotiling,
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "oMQ" = (
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/structure/railing/wooden_fence,
@@ -42457,7 +42478,7 @@
 	pixel_y = 26
 	},
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "oVr" = (
 /obj/structure/chair/wood/darkpack,
 /obj/machinery/light/small/directional/north,
@@ -43198,7 +43219,7 @@
 	},
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "phS" = (
 /turf/closed/wall/vampwall/rock{
 	density = 0;
@@ -43253,7 +43274,7 @@
 /area/vtm/sunnycoast/marina)
 "piT" = (
 /turf/closed/wall/vampwall/rock,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "piV" = (
 /obj/effect/turf_decal/bordur/end{
 	dir = 1
@@ -43508,7 +43529,7 @@
 /area/vtm/interior/millennium_tower)
 "pnf" = (
 /obj/structure/hedge/opaque,
-/obj/effect/realistic_fog/dense/extreme,
+/obj/effect/realistic_fog/dense/strong,
 /turf/open/misc/dirt,
 /area/vtm/sunnycoast/interior/oldmansion/courtyard)
 "pnq" = (
@@ -43658,7 +43679,7 @@
 	dir = 9
 	},
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "ppR" = (
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/sewer)
@@ -43754,7 +43775,7 @@
 "prm" = (
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "prn" = (
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 9
@@ -44316,7 +44337,7 @@
 	dir = 6
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "pzK" = (
 /obj/effect/turf_decal/stripes/asteroid/line,
 /obj/effect/turf_decal/stripes/asteroid/line{
@@ -44560,7 +44581,7 @@
 	},
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "pEi" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -44912,7 +44933,9 @@
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/museum)
 "pKP" = (
-/obj/structure/bookcase/random/nonfiction,
+/obj/structure/bookcase/random/nonfiction{
+	plane = -4.1
+	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/library)
 "pKQ" = (
@@ -45075,7 +45098,7 @@
 /obj/effect/turf_decal/darkpack/dirt/corner,
 /obj/effect/decal/cleanable/trash,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "pNy" = (
 /obj/effect/turf_decal/siding/wood/light{
 	dir = 4
@@ -45245,7 +45268,7 @@
 	pixel_y = 26
 	},
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "pQE" = (
 /obj/effect/turf_decal/darkpack/rough,
 /obj/effect/turf_decal/darkpack/dirt{
@@ -45652,7 +45675,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/barrels/rand/plural,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "pZc" = (
 /obj/structure/chair/stool/bar/darkpack/red,
 /obj/effect/turf_decal/siding/wood/dark{
@@ -46211,7 +46234,7 @@
 "qjK" = (
 /obj/structure/tire,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "qjV" = (
 /obj/effect/turf_decal/siding/wood/dark/corner{
 	dir = 1
@@ -46647,7 +46670,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "qsZ" = (
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 1
@@ -46895,7 +46918,7 @@
 	dir = 6
 	},
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "qxj" = (
 /obj/structure/rack/clothing_hanger/rand,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -46995,7 +47018,7 @@
 /area/vtm/sunnycoast/motel/interior)
 "qzG" = (
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "qzO" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /mob/living/carbon/human/npc/hobo,
@@ -47310,7 +47333,7 @@
 	},
 /obj/effect/decal/shadow,
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "qEY" = (
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 10
@@ -47651,7 +47674,7 @@
 	pixel_y = 26
 	},
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "qKJ" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -47951,7 +47974,7 @@
 /obj/effect/decal/cleanable/trash/big,
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "qRk" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 1
@@ -47998,7 +48021,7 @@
 /obj/effect/decal/cleanable/trash,
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "qSB" = (
 /obj/structure/flora/rock/stalagmite,
 /obj/effect/turf_decal/darkpack/cave{
@@ -48141,8 +48164,7 @@
 "qVS" = (
 /obj/structure/bookcase/random/nonfiction{
 	pixel_y = 20;
-	density = 0;
-	plane = -3.9
+	density = 0
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/sunnycoast/interior/oldmansion)
@@ -48519,8 +48541,7 @@
 "reh" = (
 /obj/structure/bookcase/random/nonfiction{
 	pixel_y = 20;
-	density = 0;
-	plane = -3.9
+	density = 0
 	},
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/effect/decal/cleanable/cobweb{
@@ -49172,7 +49193,7 @@
 "rqX" = (
 /obj/effect/turf_decal/darkpack/dirt,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "rrb" = (
 /obj/effect/decal/cleanable/blood/trail_holder{
 	dir = 9
@@ -49418,7 +49439,7 @@
 /area/vtm/interior/millennium_tower/f2)
 "rvH" = (
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "rvI" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -49459,7 +49480,7 @@
 	},
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "rwg" = (
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 4
@@ -49656,7 +49677,7 @@
 	pixel_y = 26
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "rzE" = (
 /obj/effect/turf_decal/darkpack/rough/corner{
 	dir = 1
@@ -49888,7 +49909,7 @@
 "rEg" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "rEE" = (
 /obj/effect/decal/shadow,
 /obj/effect/decal/wallpaper/stone/low{
@@ -50023,7 +50044,7 @@
 /obj/effect/turf_decal/darkpack/dirt,
 /obj/effect/spawner/random/trash/grime,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "rGa" = (
 /obj/structure/chair/darkpack/green{
 	dir = 1
@@ -50329,7 +50350,7 @@
 "rKU" = (
 /obj/effect/turf_decal/bordur/corner,
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "rLq" = (
 /obj/structure/pallets/rand,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -50625,7 +50646,7 @@
 	dir = 5
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "rSf" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/siding/wood/dark{
@@ -52228,7 +52249,7 @@
 	pixel_y = 26
 	},
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "ssx" = (
 /obj/structure/table/countertop/bubway,
 /obj/item/reagent_containers/condiment/hotsauce{
@@ -52251,7 +52272,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "ssG" = (
 /obj/structure/railing/wooden_fence{
 	dir = 4
@@ -52537,13 +52558,13 @@
 "syX" = (
 /obj/effect/decal/cleanable/litter,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "syY" = (
 /obj/structure/fence/end{
 	dir = 8
 	},
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "sza" = (
 /obj/structure/chair/comfy/darkpack/blue{
 	dir = 8
@@ -52634,7 +52655,7 @@
 	pixel_y = 26
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "sAY" = (
 /obj/effect/turf_decal/bordur,
 /obj/effect/turf_decal/bordur{
@@ -52756,7 +52777,7 @@
 	},
 /obj/effect/spawner/random/trash/rat,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "sCH" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -52802,7 +52823,7 @@
 /obj/structure/vampdoor/wood{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/door/access/clerk,
+/obj/effect/mapping_helpers/door/access/prince,
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /obj/effect/mapping_helpers/door/lock_difficulty/six,
@@ -53225,7 +53246,7 @@
 /obj/effect/decal/cleanable/trash/big,
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "sMx" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/accessory/armband/medblue,
@@ -53253,7 +53274,7 @@
 "sNc" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "sNg" = (
 /obj/effect/decal/wallpaper/paint/red/line,
 /turf/closed/wall/vampwall/painted,
@@ -53394,7 +53415,7 @@
 	},
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "sPW" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 8
@@ -53732,7 +53753,7 @@
 	dir = 9
 	},
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "sVO" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 4
@@ -53743,7 +53764,7 @@
 	pixel_y = 26
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "sVW" = (
 /obj/structure/sink/directional/south,
 /obj/structure/mirror/directional/north,
@@ -53893,7 +53914,7 @@
 "sXQ" = (
 /obj/structure/fence/door,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "sYc" = (
 /turf/open/openspace,
 /area/vtm/interior/millennium_tower/f4)
@@ -53927,7 +53948,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "sYZ" = (
 /obj/structure/chair/sofa/booth_seat/left{
 	dir = 1
@@ -54252,7 +54273,7 @@
 	dir = 4
 	},
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "teF" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
@@ -55187,7 +55208,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/random/trash/mess,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "tvf" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -55460,7 +55481,7 @@
 	},
 /obj/effect/spawner/random/trash/grime,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "tzR" = (
 /obj/effect/landmark/start/darkpack/hecata/famiglia,
 /turf/open/floor/city/church,
@@ -55717,7 +55738,7 @@
 	},
 /obj/structure/roofstuff/vent/autotiling,
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "tER" = (
 /obj/structure/stairs/east,
 /turf/open/floor/concrete/reinforced,
@@ -56117,7 +56138,7 @@
 	},
 /obj/structure/roofstuff/vent/autotiling,
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "tJL" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 5
@@ -56501,7 +56522,7 @@
 	},
 /obj/effect/spawner/random/trash/grime,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "tPF" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
@@ -56562,7 +56583,7 @@
 	},
 /obj/effect/turf_decal/darkpack/dirt,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "tQE" = (
 /obj/effect/landmark/start/darkpack/camarilla/clerk,
 /turf/open/floor/wood/smooth/old,
@@ -56799,7 +56820,7 @@
 /obj/effect/turf_decal/darkpack/dirt,
 /obj/effect/turf_decal/darkpack/dirt/corner,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "tVf" = (
 /obj/structure/closet/crate/freezer/surplus_limbs,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -56863,7 +56884,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "tWx" = (
 /obj/structure/fluff/bollard/dual/directional/east,
 /turf/open/floor/plating/rough,
@@ -56941,7 +56962,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/trash/big,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "tYg" = (
 /obj/structure/platform/lowwall/painted,
 /obj/structure/vampfence/rich{
@@ -56964,7 +56985,7 @@
 /area/vtm/sunnycoast/heritage/italy)
 "tZc" = (
 /turf/open/openspace,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "tZk" = (
 /obj/effect/decal/pallet,
 /obj/effect/turf_decal/darkpack/rough,
@@ -57103,7 +57124,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /obj/effect/mapping_helpers/door/bash_difficulty/eight,
 /obj/effect/mapping_helpers/door/lock,
-/obj/effect/mapping_helpers/door/access/clerk,
+/obj/effect/mapping_helpers/door/access/prince,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/millennium_tower/f3)
 "ubM" = (
@@ -57467,7 +57488,7 @@
 /obj/effect/decal/cleanable/trash/books,
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "uiD" = (
 /obj/structure/vampfence/rich{
 	dir = 4;
@@ -57548,7 +57569,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "ull" = (
 /obj/effect/turf_decal/bordur/end{
 	dir = 8
@@ -58103,7 +58124,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "uul" = (
 /obj/effect/turf_decal/asphaltline/alt/offset{
 	dir = 1
@@ -58258,7 +58279,7 @@
 /obj/structure/roofstuff/alt2,
 /obj/effect/turf_decal/bordur/end,
 /turf/open/floor/plating/roofwalk,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "uwT" = (
 /obj/machinery/light/small/dim/directional/north,
 /obj/structure/bed/maint,
@@ -59089,7 +59110,7 @@
 	dir = 4
 	},
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "uJQ" = (
 /obj/structure/rack/tall/store_shelf_metal,
 /obj/item/reagent_containers/cup/watering_can/metal{
@@ -59389,7 +59410,7 @@
 "uPh" = (
 /obj/structure/roofstuff/vent_end,
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "uPj" = (
 /obj/structure/table/countertop/green,
 /obj/vampire_computer/box{
@@ -59863,14 +59884,6 @@
 "uWd" = (
 /turf/open/floor/city/industrial/large,
 /area/vtm/interior/shop/clothing_store)
-"uWn" = (
-/obj/structure/platform/lowwall/brick/window/reinforced,
-/obj/structure/curtain/bounty{
-	pixel_y = 8
-	},
-/obj/effect/decal/wallpaper/stone/low,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/bianchiBank)
 "uWF" = (
 /obj/machinery/grill/unwrenched,
 /obj/machinery/button/door{
@@ -60095,6 +60108,7 @@
 	pixel_y = 26
 	},
 /obj/effect/turf_decal/darkpack/dirt,
+/obj/structure/bonfire/torch,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/sunnycoast/interior/cave/mineshaft)
 "vbh" = (
@@ -60167,7 +60181,7 @@
 /obj/effect/decal/shadow,
 /obj/effect/spawner/random/trash/mess,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "vcM" = (
 /obj/fake_platform/stone/double,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -60188,7 +60202,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "vdr" = (
 /obj/effect/spawner/random/entertainment/arcade,
 /turf/open/floor/wood/smooth/old,
@@ -60314,7 +60328,7 @@
 	dir = 4
 	},
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "vfD" = (
 /obj/structure/flora/rock/stalagmite,
 /obj/effect/turf_decal/darkpack/dirt,
@@ -60693,7 +60707,7 @@
 	dir = 1
 	},
 /obj/structure/vampdoor/wood,
-/obj/effect/mapping_helpers/door/access/clerk,
+/obj/effect/mapping_helpers/door/access/prince,
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /obj/effect/mapping_helpers/door/lock_difficulty/six,
@@ -60732,7 +60746,7 @@
 "vlQ" = (
 /obj/effect/spawner/random/trash/mess,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "vlU" = (
 /obj/effect/turf_decal/weather/snow,
 /obj/structure/closet/crate/freezer/organ,
@@ -60912,7 +60926,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "vps" = (
 /turf/closed/wall/vampwall/rich,
 /area/vtm/interior/millennium_tower/f4)
@@ -61504,7 +61518,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/trash/hobo_squat,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "vAV" = (
 /obj/structure/railing{
 	dir = 4
@@ -61616,7 +61630,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/flora/rock/stalagmite,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "vCM" = (
 /turf/closed/indestructible/the_matrix,
 /area/vtm/interior/sewer)
@@ -62037,7 +62051,7 @@
 	},
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "vKD" = (
 /obj/effect/turf_decal/asphalt,
 /obj/effect/turf_decal/darkpack/grass/corner,
@@ -62470,14 +62484,14 @@
 	dir = 1
 	},
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "vSf" = (
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/camping_store)
 "vSh" = (
 /obj/effect/spawner/random/trash/rat,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "vSi" = (
 /obj/effect/decal/wallpaper/blue,
 /turf/closed/wall/vampwall/painted,
@@ -62618,7 +62632,7 @@
 	dir = 6
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "vVx" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 9
@@ -62689,7 +62703,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "vWG" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 4
@@ -62880,7 +62894,7 @@
 	},
 /obj/effect/spawner/random/trash/rat,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "wbl" = (
 /obj/darkpack_car/rand{
 	access = "giovanni"
@@ -63258,7 +63272,7 @@
 	pixel_y = 26
 	},
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "whw" = (
 /obj/structure/vampfence/rich{
 	dir = 4;
@@ -63438,7 +63452,7 @@
 /obj/structure/flora/rock/stalagmite,
 /obj/effect/turf_decal/darkpack/dirt,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "wlc" = (
 /obj/effect/turf_decal/darkpack/rough/corner,
 /obj/effect/turf_decal/darkpack/rough/corner{
@@ -63960,7 +63974,7 @@
 /area/vtm/interior/millennium_tower/f3)
 "wva" = (
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "wvf" = (
 /obj/effect/turf_decal/trimline/dark_red/warning,
 /obj/effect/turf_decal/trimline/dark_red/warning{
@@ -64061,7 +64075,7 @@
 	dir = 9
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "wxE" = (
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 4
@@ -64145,7 +64159,7 @@
 	},
 /obj/effect/spawner/random/trash/mess,
 /turf/open/misc/dirt/dark,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "wzI" = (
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 9
@@ -64277,7 +64291,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "wBU" = (
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
@@ -64454,7 +64468,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "wEv" = (
 /obj/effect/turf_decal/siding/grey{
 	dir = 1
@@ -64495,7 +64509,7 @@
 	},
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "wEL" = (
 /obj/structure/table,
 /obj/item/newspaper,
@@ -64798,7 +64812,6 @@
 "wMi" = (
 /obj/structure/bookcase/random/reference{
 	pixel_y = 20;
-	plane = -3.9;
 	density = 0
 	},
 /turf/open/floor/wood/smooth/old,
@@ -65385,13 +65398,15 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/endron_facility/restricted)
 "wXZ" = (
-/obj/structure/bookcase/random/reference,
+/obj/structure/bookcase/random/reference{
+	plane = -4.1
+	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/library)
 "wYf" = (
 /obj/effect/decal/cleanable/trash/books,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "wYu" = (
 /obj/effect/turf_decal/siding/wood/dark/corner,
 /turf/open/floor/wood/smooth/old,
@@ -65945,7 +65960,7 @@
 /obj/effect/decal/cleanable/trash,
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "xhc" = (
 /obj/structure/toilet{
 	dir = 4;
@@ -66168,8 +66183,7 @@
 "xlz" = (
 /obj/structure/bookcase/random/nonfiction{
 	pixel_y = 20;
-	density = 0;
-	plane = -3.9
+	density = 0
 	},
 /obj/machinery/light/small/directional/west{
 	pixel_y = 16
@@ -66334,7 +66348,7 @@
 /obj/effect/turf_decal/darkpack/dirt,
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "xow" = (
 /obj/structure/chair/plastic/darkpack{
 	dir = 1
@@ -66382,7 +66396,7 @@
 "xpo" = (
 /obj/effect/decal/cleanable/trash,
 /turf/open/misc/dirt,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "xpG" = (
 /obj/effect/turf_decal/siding/wood/dark,
 /turf/open/floor/wood/smooth/old,
@@ -66712,7 +66726,7 @@
 /obj/structure/flora/rock/stalagmite,
 /obj/effect/turf_decal/darkpack/dirt/corner,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "xwA" = (
 /obj/effect/decal/carpet{
 	icon_state = "rug_yellow";
@@ -66885,7 +66899,7 @@
 	dir = 9
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "xzt" = (
 /obj/structure/closet/crate/coffin,
 /obj/item/clothing/head/vampire/bogatyr/captain/heavy,
@@ -66967,7 +66981,7 @@
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 1
 	},
-/obj/machinery/door/poddoor/shutters/preopen{
+/obj/machinery/door/poddoor/shutters{
 	transport_linked_id = "ParkingElevator";
 	elevator_mode = 1
 	},
@@ -67340,7 +67354,7 @@
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 1
 	},
-/obj/machinery/door/poddoor/shutters/preopen{
+/obj/machinery/door/poddoor/shutters{
 	transport_linked_id = "ParkingElevator";
 	elevator_mode = 1
 	},
@@ -67692,7 +67706,7 @@
 	},
 /obj/effect/spawner/random/trash/rat,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "xOi" = (
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/plating/rough,
@@ -67997,7 +68011,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/vjanitor/junkyard)
+/area/vtm/sunnycoast/junkyard)
 "xUh" = (
 /obj/structure/flora/rock/pile/darkpack,
 /turf/open/misc/dirt,
@@ -68139,11 +68153,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/millennium_tower/f2)
-"xXe" = (
-/obj/effect/decal/wallpaper/paper/fancy,
-/obj/effect/decal/wallpaper/stone/low,
-/turf/closed/wall/vampwall/redbrick,
-/area/vtm/interior/bianchiBank)
 "xXj" = (
 /obj/effect/spawner/random/trash/graffiti,
 /turf/open/floor/plating/rough/cave,
@@ -68468,12 +68477,12 @@
 /obj/effect/spawner/random/trash/deluxe_garbage,
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "yeg" = (
 /obj/effect/decal/cleanable/trash,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/vjanitor/junkyard/tunnels)
+/area/vtm/sunnycoast/interior/tunnels)
 "yen" = (
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 5
@@ -77002,7 +77011,7 @@ whS
 kuC
 guj
 hbx
-oWI
+hUb
 oWI
 epy
 iMg
@@ -80130,7 +80139,7 @@ mxK
 lQq
 hWG
 muB
-efJ
+wKB
 iOH
 qOg
 sdA
@@ -83029,9 +83038,9 @@ mQX
 siz
 pKN
 nDj
-kyG
+cNJ
 mwe
-kyG
+kfi
 bWM
 hMq
 baD
@@ -83183,8 +83192,8 @@ suz
 uqO
 tau
 kGu
-dCZ
-kyG
+jIR
+nqn
 dCZ
 iKE
 hMq
@@ -97671,7 +97680,7 @@ owJ
 nYL
 sRy
 lTB
-lTB
+hai
 qHU
 wHq
 wHq
@@ -98775,7 +98784,7 @@ pmI
 qNi
 qNi
 mEo
-fAL
+lOV
 kDO
 xnh
 oUn
@@ -103090,7 +103099,7 @@ tDs
 tDs
 tDs
 tDs
-kMn
+tct
 sEU
 kMn
 tDs
@@ -103393,7 +103402,7 @@ oJk
 oJk
 dga
 iYk
-iWj
+tmE
 flV
 aTa
 iYk
@@ -103547,7 +103556,7 @@ gPw
 gPw
 nqm
 iYk
-iWj
+tmE
 vTz
 fCW
 tDs
@@ -103701,7 +103710,7 @@ gPw
 gPw
 umz
 iYk
-iWj
+tmE
 dRV
 ocu
 tDs
@@ -104786,7 +104795,7 @@ dRV
 iYk
 jUY
 pKP
-iWj
+tmE
 wXZ
 wMi
 kMn
@@ -104940,7 +104949,7 @@ moA
 iYk
 tmE
 pKP
-iWj
+tmE
 wXZ
 wMi
 kMn
@@ -106596,7 +106605,7 @@ sip
 dJc
 eAO
 eZj
-dNK
+mCj
 lfy
 wxN
 lLd
@@ -106750,7 +106759,7 @@ sip
 pLM
 mOS
 pwz
-dNK
+mCj
 wxN
 fpI
 dtl
@@ -121572,7 +121581,7 @@ laQ
 laQ
 kOk
 laQ
-xXe
+lOV
 bOr
 laQ
 laQ
@@ -121722,7 +121731,7 @@ pBY
 pBY
 pBY
 pBY
-xXe
+lOV
 upK
 gWw
 gWw
@@ -121876,7 +121885,7 @@ pBY
 pBY
 pBY
 pBY
-uWn
+gct
 xha
 tfH
 mMF
@@ -122030,7 +122039,7 @@ pBY
 pBY
 pBY
 pBY
-uWn
+gct
 xha
 tMN
 mMF
@@ -122184,7 +122193,7 @@ pBY
 pBY
 pBY
 pBY
-xXe
+lOV
 qzR
 btY
 pzn
