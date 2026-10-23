@@ -16106,12 +16106,6 @@
 "fEn" = (
 /turf/open/floor/city/factory,
 /area/vtm/interior/millennium_tower)
-"fEr" = (
-/obj/effect/decal/coastline{
-	dir = 9
-	},
-/turf/open/misc/grass,
-/area/vtm/sunnycoast/forest)
 "fEw" = (
 /obj/effect/spawner/random/flora/flowers,
 /turf/open/misc/grass,
@@ -169146,7 +169140,7 @@ fgk
 yar
 dgL
 yar
-fEr
+nUB
 acq
 acq
 iXM
