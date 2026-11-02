@@ -975,22 +975,18 @@
 	dir = 1
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 8;
 	anchored = 1
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 17;
 	anchored = 1
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 26;
 	anchored = 1
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 34;
 	anchored = 1
 	},
@@ -16042,22 +16038,18 @@
 	dir = 1
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 8;
 	anchored = 1
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 17;
 	anchored = 1
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 26;
 	anchored = 1
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 34;
 	anchored = 1
 	},
@@ -32508,22 +32500,18 @@
 	},
 /obj/effect/turf_decal/siding/grey,
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 8;
 	anchored = 1
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 17;
 	anchored = 1
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 26;
 	anchored = 1
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 34;
 	anchored = 1
 	},
@@ -33549,6 +33537,19 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/sunnycoast/marina)
+"kPa" = (
+/obj/effect/decal/fakelattice{
+	density = 0
+	},
+/obj/structure/vampdoor/oldwood{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/door/access/nosferatu,
+/obj/effect/mapping_helpers/door/lock_difficulty/four,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
+/obj/effect/mapping_helpers/door/lock,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer/nosferatu_bar)
 "kPh" = (
 /obj/structure/chair/stool/bar/darkpack/red,
 /obj/machinery/light/small/directional/east{
@@ -44779,7 +44780,7 @@
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 8
 	},
-/obj/effect/mapping_helpers/door/access/pentex,
+/obj/effect/mapping_helpers/door/access/pentex_leader,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /obj/effect/mapping_helpers/door/bash_difficulty/eight,
@@ -48404,22 +48405,18 @@
 	density = 0
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 8;
 	anchored = 1
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 17;
 	anchored = 1
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 26;
 	anchored = 1
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = 34;
 	anchored = 1
 	},
@@ -83697,7 +83694,7 @@ drF
 ulL
 rpl
 eMp
-byU
+kPa
 eMp
 eMp
 eMp
