@@ -10320,6 +10320,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
+/obj/effect/mapping_helpers/door/access/red_news,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/sunnycoast/interior/rednews)
 "dkX" = (
@@ -13233,6 +13234,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
+/obj/effect/mapping_helpers/door/access/red_news,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/sunnycoast/interior/rednews)
 "edq" = (
@@ -13427,6 +13429,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
+/obj/effect/mapping_helpers/door/access/red_news,
 /turf/open/floor/city/plating_mono,
 /area/vtm/sunnycoast/interior/rednews)
 "ehv" = (
@@ -64818,6 +64821,7 @@
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /obj/effect/mapping_helpers/door/autoname,
+/obj/effect/mapping_helpers/door/access/red_news,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/sunnycoast/interior/rednews)
 "tRl" = (
