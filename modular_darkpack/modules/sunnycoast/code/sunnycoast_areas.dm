@@ -127,6 +127,12 @@
 /area/vtm/sunnycoast/interior/carwash
 	name = "Car Wash"
 
+/area/vtm/sunnycoast/interior/metro
+	name = "Metro Station"
+
+/area/vtm/sunnycoast/interior/gambling
+	name = "Gambling Den"
+
 /area/vtm/sunnycoast/junkyard
 	name = "Junkyard"
 	outdoors = TRUE
