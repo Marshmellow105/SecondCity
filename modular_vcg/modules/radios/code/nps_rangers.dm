@@ -47,3 +47,11 @@
 		"name" = RADIO_CHANNEL_NPS_RANGERS,
 		"color" = RADIO_COLOR_NPS_RANGERS
 	)
+
+/obj/machinery/telecomms/allinone/police/Initialize(mapload) // this is for maps that use seperate radio allinone setups instead of one combined, connects ranger radios to the cop radio setup.
+	. = ..()
+	freq_listening |= FREQ_NPS_RANGERS
+	frequency_infos["[FREQ_NPS_RANGERS]"] = list(
+		"name" = RADIO_CHANNEL_NPS_RANGERS,
+		"color" = RADIO_COLOR_NPS_RANGERS
+	)
