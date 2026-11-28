@@ -32,3 +32,33 @@
 	desc = "A mainframe that allows for the processing of priority radio telecommunications."
 	freq_listening = list(FREQ_POLICE, FREQ_CLINIC, FREQ_MILITARY, FREQ_CAMARILLA, FREQ_ANARCH, FREQ_ENDRON)
 	syndicate = TRUE
+
+/obj/machinery/telecomms/allinone/police
+	name = "Police telecommunications mainframe"
+	desc = "A mainframe that allows for the processing of priority radio telecommunications."
+	freq_listening = list(FREQ_POLICE, FREQ_MILITARY)
+	syndicate = TRUE
+
+/obj/machinery/telecomms/allinone/clinic
+	name = "Clinic telecommunications mainframe"
+	desc = "A mainframe that allows for the processing of priority radio telecommunications."
+	freq_listening = list(FREQ_CLINIC)
+	syndicate = TRUE
+
+/obj/machinery/telecomms/allinone/camarilla
+	name = "Tower telecommunications mainframe"
+	desc = "A mainframe that allows for the processing of priority radio telecommunications."
+	freq_listening = list(FREQ_CAMARILLA)
+	syndicate = TRUE
+
+/obj/machinery/telecomms/allinone/anarch
+	name = "Bar telecommunications mainframe"
+	desc = "A mainframe that allows for the processing of priority radio telecommunications."
+	freq_listening = list(FREQ_ANARCH)
+	syndicate = TRUE
+
+/obj/machinery/telecomms/allinone/endron
+	name = "Endron telecommunications mainframe"
+	desc = "A mainframe that allows for the processing of priority radio telecommunications."
+	freq_listening = list(FREQ_ENDRON)
+	syndicate = TRUE

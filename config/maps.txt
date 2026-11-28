@@ -65,6 +65,7 @@ endmap
 
 map sunnycoast
     votable
+    maxplayers 50
     default
 endmap
 

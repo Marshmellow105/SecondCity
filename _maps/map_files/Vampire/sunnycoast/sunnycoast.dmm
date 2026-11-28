@@ -5709,7 +5709,6 @@
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
 	},
-/obj/machinery/telecomms/bus/darkpack/anarch,
 /obj/structure/vampipe{
 	icon_state = "piping35"
 	},
@@ -9199,7 +9198,6 @@
 /obj/effect/turf_decal/siding/grey/end{
 	dir = 1
 	},
-/obj/machinery/telecomms/processor/darkpack/clinic,
 /turf/open/floor/circuit,
 /area/vtm/interior/sewer/nosferatu_warren)
 "cIK" = (
@@ -13859,7 +13857,6 @@
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
 	},
-/obj/machinery/telecomms/server/presets/police,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/police)
 "dYZ" = (
@@ -20591,8 +20588,8 @@
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
 	},
-/obj/machinery/telecomms/bus/darkpack/police,
 /obj/effect/decal/cleanable/cobweb,
+/obj/machinery/telecomms/allinone/public,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/police)
 "fSR" = (
@@ -23304,11 +23301,6 @@
 	},
 /turf/open/misc/dirt,
 /area/vtm/sunnycoast/interior/oldmansion/courtyard)
-"gKH" = (
-/obj/effect/turf_decal/siding/grey/end,
-/obj/machinery/telecomms/server/presets/camarilla,
-/turf/open/floor/circuit,
-/area/vtm/interior/sewer/nosferatu_warren)
 "gKX" = (
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/plating/rough/cave,
@@ -31381,7 +31373,6 @@
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
 	},
-/obj/machinery/telecomms/processor/darkpack/police,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/police)
 "jkH" = (
@@ -32582,7 +32573,6 @@
 /area/vtm/interior/shop/flower_shop)
 "jzU" = (
 /obj/effect/turf_decal/siding/grey/end,
-/obj/machinery/telecomms/server/presets/clinic,
 /turf/open/floor/circuit,
 /area/vtm/interior/sewer/nosferatu_warren)
 "jzW" = (
@@ -52172,16 +52162,6 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/sunnycoast/heritage/china)
-"pbG" = (
-/obj/effect/turf_decal/siding/grey/end{
-	dir = 1
-	},
-/obj/machinery/telecomms/processor/darkpack/anarch,
-/obj/structure/vampipe{
-	icon_state = "piping35"
-	},
-/turf/open/floor/circuit,
-/area/vtm/interior/sewer/nosferatu_warren)
 "pbH" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/hedge,
@@ -56516,7 +56496,6 @@
 /area/vtm/interior/apartment)
 "qoZ" = (
 /obj/effect/turf_decal/siding/grey/end,
-/obj/machinery/telecomms/server/presets/anarch,
 /obj/structure/vampipe{
 	icon_state = "piping35"
 	},
@@ -58659,7 +58638,6 @@
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
 	},
-/obj/machinery/telecomms/bus/darkpack/clinic,
 /turf/open/floor/circuit,
 /area/vtm/interior/sewer/nosferatu_warren)
 "qYW" = (
@@ -59441,7 +59419,6 @@
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
 	},
-/obj/machinery/telecomms/bus/darkpack/camarilla,
 /obj/structure/vampipe{
 	icon_state = "piping41"
 	},
@@ -77474,7 +77451,6 @@
 /obj/effect/turf_decal/siding/grey/end{
 	dir = 1
 	},
-/obj/machinery/telecomms/processor/darkpack/camarilla,
 /obj/structure/vampipe{
 	icon_state = "piping35"
 	},
@@ -91767,12 +91743,12 @@ jYL
 mZb
 qXu
 hUy
-pbG
+wqT
 bGF
 qoZ
 wqT
 rlq
-gKH
+jzU
 mfn
 gAd
 "}
